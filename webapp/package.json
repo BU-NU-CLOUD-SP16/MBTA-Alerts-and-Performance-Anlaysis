@@ -1,0 +1,26 @@
+{
+  "name": "visualizing-mbta-gtfs-realtime",
+  "version": "1.0.0",
+  "description": "Visualization of the current MBTA locations",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BU-NU-CLOUD-SP16/MBTA-Alerts-and-Performance-Anlaysis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BU-NU-CLOUD-SP16/MBTA-Alerts-and-Performance-Anlaysis/issues"
+  },
+  "homepage": "https://github.com/BU-NU-CLOUD-SP16/MBTA-Alerts-and-Performance-Anlaysis#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-sass": "^2.2.0"
+  }
+}

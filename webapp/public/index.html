@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      html, body { height: 100%; margin: 0; padding: 0; }
+      #map { height: 100%; }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script type="text/javascript">
+
+    function loadJSON(callback) {
+      var xobj = new XMLHttpRequest();
+      xobj.overrideMimeType("application/json");
+      xobj.open('GET', './data/positions.json', true);
+      xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+          callback(xobj.responseText);
+        }
+      };
+      xobj.send(null);
+    }
+
+
+    var map;
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 42.3601, lng:  -71.1},
+        zoom: 13
+      });
+
+      // change this to local eventually
+      map.data.loadGeoJson('https://raw.githubusercontent.com/tillnagel/unfolding/master/data/data/MBTARapidTransitLines.json');
+
+      map.data.setStyle(function(feature) {
+          if (feature.R.LINE) {
+            switch (feature.R.LINE) {
+              case 'GREEN':
+                color = '#357F4C';
+                break;
+              case 'RED':
+                color = '#F03911';
+                break;
+              case 'BLUE':
+                color = '#295CAB';
+                break;
+              case 'ORANGE':
+                color = '#f08f00';
+                break;
+              default:
+                color = 'rgba(255,255,255,0)';
+                break;
+            }
+          }
+          return /** @type {google.maps.Data.StyleOptions} */({
+            fillColor: color,
+            strokeColor: color,
+            strokeWeight: 5
+          });
+        });
+
+        map.data.addListener('click', function(event) {
+          event.feature.setProperty('isColorful', true);
+        });
+
+        map.data.addListener('mouseover', function(event) {
+          map.data.revertStyle();
+          map.data.overrideStyle(event.feature, {strokeWeight: 8});
+        });
+
+        map.data.addListener('mouseout', function(event) {
+          map.data.revertStyle();
+        });
+
+        // load positions from 2/19/16 around 3PM
+        loadJSON(function(response) {
+          // Parse JSON string into object
+            var positions = JSON.parse(response);
+            positions.data.forEach(function(item){
+              var lat = item.position.latitude;
+              var lng = item.position.longitude;
+              var marker = new google.maps.Marker({
+                position: {lat,lng},
+                map: map,
+                title: item.id
+              });
+            })
+         });
+    }
+
+
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRbnwLhy1xtygHEpOL_rehfiBuBFX8vvs&callback=initMap">
+    </script>
+  </body>
+</html>
