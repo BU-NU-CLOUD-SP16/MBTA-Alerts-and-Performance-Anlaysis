@@ -84,11 +84,17 @@ function initMap() {
         };
       var lat = item.stop_lat;
       var lng = item.stop_lon;
+      var infowindow = new google.maps.InfoWindow({
+        content: '<p>Stop: '+item.stop_name+'</p>'
+      });
       var marker = new google.maps.Marker({
         position: {lat,lng},
         map: map,
         title: item.stop_name,
         icon : icon
+      });
+      marker.addListener('click', function() {
+        infowindow.open(map, marker);
       });
     })
 
@@ -107,19 +113,19 @@ function initMap() {
         };
       var lat = item.position.latitude;
       var lng = item.position.longitude;
-	  var contentString = '<p>'+item.route_id+' Line</p>'+'<p>'+item.id+' at stop '+item.stop_id+'</p>';
-	  var infowindow = new google.maps.InfoWindow({
-		content: contentString
-	  });
+  	  var contentString = '<p>'+item.route_id+' Line</p>'+'<p>'+item.id+' at stop '+item.stop_id+'</p>';
+  	  var infowindow = new google.maps.InfoWindow({
+  		  content: contentString
+  	  });
       var marker = new google.maps.Marker({
         position: {lat,lng},
         map: map,
         title: item.id,
         icon : icon
       });
-	  marker.addListener('click', function() {
-		infowindow.open(map, marker);
-	  });
+  	  marker.addListener('click', function() {
+  		  infowindow.open(map, marker);
+  	  });
     })
   });
 }
