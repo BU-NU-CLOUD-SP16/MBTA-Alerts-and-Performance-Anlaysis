@@ -46,11 +46,11 @@ function get_gtfs_realtime(feed) {
         if (entity) {
           switch(feed.name) {
             case "vehicle_positions":
-              if (!parseInt(entity.vehicle.trip.route_id)) {
+              // if (!parseInt(entity.vehicle.trip.route_id)) {
                 var element = feed.clean(entity);
                 data.data.push(element);
                 count++;
-              }
+              // }
               break;
             case "trip_updates":
               if (!parseInt(entity.trip_update.trip.route_id)) {
@@ -62,7 +62,7 @@ function get_gtfs_realtime(feed) {
 
         }
         if (index === array.length - 1) {
-          fs.writeFile(output_file, JSON.stringify(data, null, 4), function(err) {
+          fs.writeFile("hello.json", JSON.stringify(data, null, 4), function(err) {
             if(!err) {
               console.log("JSON saved to " + output_file, count, "entries found.");
             }
@@ -73,6 +73,6 @@ function get_gtfs_realtime(feed) {
   });
 }
 
-// get_gtfs_realtime(feeds.vehicle_positions);
+get_gtfs_realtime(feeds.vehicle_positions);
 // get_gtfs_realtime(feeds.service_alerts);
-get_gtfs_realtime(feeds.trip_updates);
+// get_gtfs_realtime(feeds.trip_updates);

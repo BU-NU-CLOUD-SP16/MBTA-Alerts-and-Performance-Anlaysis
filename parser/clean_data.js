@@ -19,7 +19,8 @@ module.exports = {
     cleaned.current_status = original.vehicle.current_status;
     cleaned.timestamp.low = original.vehicle.timestamp.low;
     cleaned.timestamp.high = original.vehicle.timestamp.high;
-    return cleaned;
+    // return cleaned;
+    return original;
   },
   clean_service_alerts : function(original) {
     return original;

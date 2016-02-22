@@ -1,0 +1,36 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100%;
+    /*position: relative;*/
+}
+#map {
+    height: 100%;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    direction: ltr;
+    overflow: hidden;
+    text-align: center;
+    color: rgb(86, 86, 86);
+    font-family: Roboto, Arial, sans-serif;
+    -webkit-user-select: none;
+    font-size: 11px;
+    padding: 8px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    -webkit-background-clip: padding-box;
+    box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+    border-left-width: 0px;
+    min-width: 39px;
+    background-color: rgb(255, 255, 255);
+    background-clip: padding-box;
+}

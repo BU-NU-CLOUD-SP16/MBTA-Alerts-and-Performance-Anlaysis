@@ -9,6 +9,9 @@ function loadJSON(option, callback) {
     case 'lines' :
       path = './data/mbta_lines.json'
       break;
+    case 'stops' :
+      path = './data/stops.json'
+      break;
     default :
       console.log('no option selected');
       return;
@@ -68,7 +71,28 @@ function initMap() {
       strokeOpacity : 0.5
     });
   });
+  loadJSON('stops', function(response) {
+    var data = JSON.parse(response);
+    data.stops.forEach(function(item){
+      var color = "#333333";
+      var icon = {
+          path: google.maps.SymbolPath.CIRCLE,
+          scale: 4,
+          fillColor: color,
+          fillOpacity: 0.5,
+          strokeOpacity: 0
+        };
+      var lat = item.stop_lat;
+      var lng = item.stop_lon;
+      var marker = new google.maps.Marker({
+        position: {lat,lng},
+        map: map,
+        title: item.stop_name,
+        icon : icon
+      });
+    })
 
+  });
   // load positions from 2/19/16 around 3PM
   loadJSON('positions', function(response) {
     var positions = JSON.parse(response);
