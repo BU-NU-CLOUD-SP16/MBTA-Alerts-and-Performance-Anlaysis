@@ -71,6 +71,11 @@ function initMap() {
       strokeOpacity : 0.5
     });
   });
+  map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(document.getElementById('legend'));
+  var legend = document.getElementById('legend');
+  var div = document.createElement('div');
+  div.innerHTML = '<p><img src="../assets/stop.png"> Train Stop </p>';
+  legend.appendChild(div);
   loadJSON('stops', function(response) {
     var data = JSON.parse(response);
     data.stops.forEach(function(item){

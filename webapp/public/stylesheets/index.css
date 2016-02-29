@@ -13,6 +13,11 @@ body {
     height: 100%;
 }
 
+#legend {
+	background: white;
+	padding: 10px;
+}
+
 .menu {
     position: absolute;
     top: 10px;
