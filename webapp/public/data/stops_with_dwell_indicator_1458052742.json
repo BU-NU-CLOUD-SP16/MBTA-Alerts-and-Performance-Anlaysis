@@ -1,0 +1,1108 @@
+{
+    "stops": {
+        "70061": {
+            "station": {
+                "stop_order": "1",
+                "stop_id": "70061",
+                "stop_name": "Alewife",
+                "parent_station": "place-alfcl",
+                "parent_station_name": "Alewife",
+                "stop_lat": "42.395428",
+                "stop_lon": "-71.142483",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": []
+            },
+            "indicator": null
+        },
+        "70063": {
+            "station": {
+                "stop_order": "10",
+                "stop_id": "70063",
+                "stop_name": "Davis - Inbound",
+                "parent_station": "place-davis",
+                "parent_station_name": "Davis",
+                "stop_lat": "42.39674",
+                "stop_lon": "-71.121815",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457956763",
+                        "dep_dt": "1457956847",
+                        "dwell_time_sec": "84"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957199",
+                        "dep_dt": "1457957287",
+                        "dwell_time_sec": "88"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957359",
+                        "dep_dt": "1457957501",
+                        "dwell_time_sec": "142"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957596",
+                        "dep_dt": "1457957664",
+                        "dwell_time_sec": "68"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957773",
+                        "dep_dt": "1457957835",
+                        "dwell_time_sec": "62"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958083",
+                        "dep_dt": "1457958146",
+                        "dwell_time_sec": "63"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958317",
+                        "dep_dt": "1457958383",
+                        "dwell_time_sec": "66"
+                    }
+                ]
+            },
+            "indicator": 0.3216571069313081
+        },
+        "70065": {
+            "station": {
+                "stop_order": "20",
+                "stop_id": "70065",
+                "stop_name": "Porter - Inbound",
+                "parent_station": "place-portr",
+                "parent_station_name": "Porter",
+                "stop_lat": "42.3884",
+                "stop_lon": "-71.119149",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457956905",
+                        "dep_dt": "1457956977",
+                        "dwell_time_sec": "72"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957347",
+                        "dep_dt": "1457957418",
+                        "dwell_time_sec": "71"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957569",
+                        "dep_dt": "1457957637",
+                        "dwell_time_sec": "68"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957721",
+                        "dep_dt": "1457957785",
+                        "dwell_time_sec": "64"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957906",
+                        "dep_dt": "1457957968",
+                        "dwell_time_sec": "62"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958216",
+                        "dep_dt": "1457958283",
+                        "dwell_time_sec": "67"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958457",
+                        "dep_dt": "1457958522",
+                        "dwell_time_sec": "65"
+                    }
+                ]
+            },
+            "indicator": 0.05045697043155323
+        },
+        "70067": {
+            "station": {
+                "stop_order": "30",
+                "stop_id": "70067",
+                "stop_name": "Harvard - Inbound",
+                "parent_station": "place-harsq",
+                "parent_station_name": "Harvard",
+                "stop_lat": "42.373362",
+                "stop_lon": "-71.118956",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457956879",
+                        "dep_dt": "1457956946",
+                        "dwell_time_sec": "67"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957091",
+                        "dep_dt": "1457957183",
+                        "dwell_time_sec": "92"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957551",
+                        "dep_dt": "1457957668",
+                        "dwell_time_sec": "117"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957783",
+                        "dep_dt": "1457957904",
+                        "dwell_time_sec": "121"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958002",
+                        "dep_dt": "1457958082",
+                        "dwell_time_sec": "80"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958178",
+                        "dep_dt": "1457958282",
+                        "dwell_time_sec": "104"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958396",
+                        "dep_dt": "1457958488",
+                        "dwell_time_sec": "92"
+                    }
+                ]
+            },
+            "indicator": 0.1868436482569765
+        },
+        "70069": {
+            "station": {
+                "stop_order": "40",
+                "stop_id": "70069",
+                "stop_name": "Central - Inbound",
+                "parent_station": "place-cntsq",
+                "parent_station_name": "Central",
+                "stop_lat": "42.365486",
+                "stop_lon": "-71.103802",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457956854",
+                        "dep_dt": "1457956906",
+                        "dwell_time_sec": "52"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957096",
+                        "dep_dt": "1457957153",
+                        "dwell_time_sec": "57"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957340",
+                        "dep_dt": "1457957423",
+                        "dwell_time_sec": "83"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957847",
+                        "dep_dt": "1457957954",
+                        "dwell_time_sec": "107"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958076",
+                        "dep_dt": "1457958176",
+                        "dwell_time_sec": "100"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958239",
+                        "dep_dt": "1457958292",
+                        "dwell_time_sec": "53"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958420",
+                        "dep_dt": "1457958499",
+                        "dwell_time_sec": "79"
+                    }
+                ]
+            },
+            "indicator": 0.2756614455331725
+        },
+        "70071": {
+            "station": {
+                "stop_order": "50",
+                "stop_id": "70071",
+                "stop_name": "Kendall/MIT - Inbound",
+                "parent_station": "place-knncl",
+                "parent_station_name": "Kendall/MIT",
+                "stop_lat": "42.36249079",
+                "stop_lon": "-71.08617653",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457956883",
+                        "dep_dt": "1457956958",
+                        "dwell_time_sec": "75"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957029",
+                        "dep_dt": "1457957078",
+                        "dwell_time_sec": "49"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957251",
+                        "dep_dt": "1457957312",
+                        "dwell_time_sec": "61"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957527",
+                        "dep_dt": "1457957596",
+                        "dwell_time_sec": "69"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958068",
+                        "dep_dt": "1457958167",
+                        "dwell_time_sec": "99"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958274",
+                        "dep_dt": "1457958349",
+                        "dwell_time_sec": "75"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958415",
+                        "dep_dt": "1457958467",
+                        "dwell_time_sec": "52"
+                    }
+                ]
+            },
+            "indicator": 0.22884447047430853
+        },
+        "70073": {
+            "station": {
+                "stop_order": "60",
+                "stop_id": "70073",
+                "stop_name": "Charles/MGH - Inbound",
+                "parent_station": "place-chmnl",
+                "parent_station_name": "Charles/MGH",
+                "stop_lat": "42.361166",
+                "stop_lon": "-71.070628",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957052",
+                        "dep_dt": "1457957129",
+                        "dwell_time_sec": "77"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957200",
+                        "dep_dt": "1457957251",
+                        "dwell_time_sec": "51"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957404",
+                        "dep_dt": "1457957465",
+                        "dwell_time_sec": "61"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957688",
+                        "dep_dt": "1457957757",
+                        "dwell_time_sec": "69"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958272",
+                        "dep_dt": "1457958368",
+                        "dwell_time_sec": "96"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958439",
+                        "dep_dt": "1457958592",
+                        "dwell_time_sec": "153"
+                    }
+                ]
+            },
+            "indicator": 0.39827071547766507
+        },
+        "70075": {
+            "station": {
+                "stop_order": "70",
+                "stop_id": "70075",
+                "stop_name": "Park Street - to Ashmont/Braintree",
+                "parent_station": "place-pktrm",
+                "parent_station_name": "Park Street",
+                "stop_lat": "42.35639457",
+                "stop_lon": "-71.0624242",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457956752",
+                        "dep_dt": "1457956848",
+                        "dwell_time_sec": "96"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957194",
+                        "dep_dt": "1457957298",
+                        "dwell_time_sec": "104"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957392",
+                        "dep_dt": "1457957486",
+                        "dwell_time_sec": "94"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957609",
+                        "dep_dt": "1457957716",
+                        "dwell_time_sec": "107"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957843",
+                        "dep_dt": "1457957934",
+                        "dwell_time_sec": "91"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958438",
+                        "dep_dt": "1457958564",
+                        "dwell_time_sec": "126"
+                    }
+                ]
+            },
+            "indicator": 0.11349953344174873
+        },
+        "70077": {
+            "station": {
+                "stop_order": "80",
+                "stop_id": "70077",
+                "stop_name": "Downtown Crossing - to Ashmont/Braintree",
+                "parent_station": "place-dwnxg",
+                "parent_station_name": "Downtown Crossing",
+                "stop_lat": "42.355518",
+                "stop_lon": "-71.060225",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457956848",
+                        "dep_dt": "1457956940",
+                        "dwell_time_sec": "92"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957316",
+                        "dep_dt": "1457957427",
+                        "dwell_time_sec": "111"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957523",
+                        "dep_dt": "1457957613",
+                        "dwell_time_sec": "90"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957736",
+                        "dep_dt": "1457957829",
+                        "dwell_time_sec": "93"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957952",
+                        "dep_dt": "1457958047",
+                        "dwell_time_sec": "95"
+                    }
+                ]
+            },
+            "indicator": 0.0787280508472411
+        },
+        "70079": {
+            "station": {
+                "stop_order": "90",
+                "stop_id": "70079",
+                "stop_name": "South Station - Outbound",
+                "parent_station": "place-sstat",
+                "parent_station_name": "South Station",
+                "stop_lat": "42.352271",
+                "stop_lon": "-71.055242",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457956953",
+                        "dep_dt": "1457956975",
+                        "dwell_time_sec": "22"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957438",
+                        "dep_dt": "1457957455",
+                        "dwell_time_sec": "17"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957625",
+                        "dep_dt": "1457957642",
+                        "dwell_time_sec": "17"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957841",
+                        "dep_dt": "1457957856",
+                        "dwell_time_sec": "15"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958059",
+                        "dep_dt": "1457958080",
+                        "dwell_time_sec": "21"
+                    }
+                ]
+            },
+            "indicator": 0.14420107784153913
+        },
+        "70081": {
+            "station": {
+                "stop_order": "100",
+                "stop_id": "70081",
+                "stop_name": "Broadway - Outbound",
+                "parent_station": "place-brdwy",
+                "parent_station_name": "Broadway",
+                "stop_lat": "42.342622",
+                "stop_lon": "-71.056967",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457956848",
+                        "dep_dt": "1457956863",
+                        "dwell_time_sec": "15"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957109",
+                        "dep_dt": "1457957131",
+                        "dwell_time_sec": "22"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957616",
+                        "dep_dt": "1457957638",
+                        "dwell_time_sec": "22"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957768",
+                        "dep_dt": "1457957787",
+                        "dwell_time_sec": "19"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958002",
+                        "dep_dt": "1457958022",
+                        "dwell_time_sec": "20"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958221",
+                        "dep_dt": "1457958246",
+                        "dwell_time_sec": "25"
+                    }
+                ]
+            },
+            "indicator": 0.15100955789436352
+        },
+        "70083": {
+            "station": {
+                "stop_order": "110",
+                "stop_id": "70083",
+                "stop_name": "Andrew - Outbound",
+                "parent_station": "place-andrw",
+                "parent_station_name": "Andrew",
+                "stop_lat": "42.330154",
+                "stop_lon": "-71.057655",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457956971",
+                        "dep_dt": "1457957014",
+                        "dwell_time_sec": "43"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957249",
+                        "dep_dt": "1457957327",
+                        "dwell_time_sec": "78"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957770",
+                        "dep_dt": "1457957824",
+                        "dwell_time_sec": "54"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957894",
+                        "dep_dt": "1457957933",
+                        "dwell_time_sec": "39"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958135",
+                        "dep_dt": "1457958189",
+                        "dwell_time_sec": "54"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958371",
+                        "dep_dt": "1457958423",
+                        "dwell_time_sec": "52"
+                    }
+                ]
+            },
+            "indicator": 0.23259742582410495
+        },
+        "70085": {
+            "station": {
+                "stop_order": "130",
+                "stop_id": "70085",
+                "stop_name": "JFK/UMASS Ashmont - Outbound",
+                "parent_station": "place-jfk",
+                "parent_station_name": "JFK/Umass",
+                "stop_lat": "42.320685",
+                "stop_lon": "-71.052391",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457956761",
+                        "dep_dt": "1457956802",
+                        "dwell_time_sec": "41"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957408",
+                        "dep_dt": "1457957470",
+                        "dwell_time_sec": "62"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958033",
+                        "dep_dt": "1457958102",
+                        "dwell_time_sec": "69"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958519",
+                        "dep_dt": "1457958575",
+                        "dwell_time_sec": "56"
+                    }
+                ]
+            },
+            "indicator": 0.1810505915837745
+        },
+        "70087": {
+            "station": {
+                "stop_order": "140",
+                "stop_id": "70087",
+                "stop_name": "Savin Hill - Outbound",
+                "parent_station": "place-shmnl",
+                "parent_station_name": "Savin Hill",
+                "stop_lat": "42.31129",
+                "stop_lon": "-71.053331",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457956880",
+                        "dep_dt": "1457956934",
+                        "dwell_time_sec": "54"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957552",
+                        "dep_dt": "1457957612",
+                        "dwell_time_sec": "60"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958192",
+                        "dep_dt": "1457958247",
+                        "dwell_time_sec": "55"
+                    }
+                ]
+            },
+            "indicator": 0.04659176256811722
+        },
+        "70089": {
+            "station": {
+                "stop_order": "150",
+                "stop_id": "70089",
+                "stop_name": "Fields Corner - Outbound",
+                "parent_station": "place-fldcr",
+                "parent_station_name": "Fields Corner",
+                "stop_lat": "42.300093",
+                "stop_lon": "-71.061667",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457956781",
+                        "dep_dt": "1457956853",
+                        "dwell_time_sec": "72"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957058",
+                        "dep_dt": "1457957122",
+                        "dwell_time_sec": "64"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957743",
+                        "dep_dt": "1457957822",
+                        "dwell_time_sec": "79"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958377",
+                        "dep_dt": "1457958455",
+                        "dwell_time_sec": "78"
+                    }
+                ]
+            },
+            "indicator": 0.08155497027541653
+        },
+        "70091": {
+            "station": {
+                "stop_order": "160",
+                "stop_id": "70091",
+                "stop_name": "Shawmut - Outbound",
+                "parent_station": "place-smmnl",
+                "parent_station_name": "Shawmut",
+                "stop_lat": "42.29312583",
+                "stop_lon": "-71.06573796",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457956922",
+                        "dep_dt": "1457956963",
+                        "dwell_time_sec": "41"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957187",
+                        "dep_dt": "1457957227",
+                        "dwell_time_sec": "40"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957891",
+                        "dep_dt": "1457957954",
+                        "dwell_time_sec": "63"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958525",
+                        "dep_dt": "1457958581",
+                        "dwell_time_sec": "56"
+                    }
+                ]
+            },
+            "indicator": 0.196468827043885
+        },
+        "70093": {
+            "station": {
+                "stop_order": "170",
+                "stop_id": "70093",
+                "stop_name": "Ashmont - Outbound",
+                "parent_station": "place-asmnl",
+                "parent_station_name": "Ashmont",
+                "stop_lat": "42.284652",
+                "stop_lon": "-71.064489",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": []
+            },
+            "indicator": null
+        },
+        "70095": {
+            "station": {
+                "stop_order": "120",
+                "stop_id": "70095",
+                "stop_name": "JFK/UMASS Braintree - Outbound",
+                "parent_station": "place-jfk",
+                "parent_station_name": "JFK/Umass",
+                "stop_lat": "42.320685",
+                "stop_lon": "-71.052391",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957115",
+                        "dep_dt": "1457957176",
+                        "dwell_time_sec": "61"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957921",
+                        "dep_dt": "1457957999",
+                        "dwell_time_sec": "78"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958288",
+                        "dep_dt": "1457958348",
+                        "dwell_time_sec": "60"
+                    }
+                ]
+            },
+            "indicator": 0.12451770546094341
+        },
+        "70097": {
+            "station": {
+                "stop_order": "180",
+                "stop_id": "70097",
+                "stop_name": "North Quincy - Outbound",
+                "parent_station": "place-nqncy",
+                "parent_station_name": "North Quincy",
+                "stop_lat": "42.275275",
+                "stop_lon": "-71.029583",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457956819",
+                        "dep_dt": "1457956882",
+                        "dwell_time_sec": "63"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957133",
+                        "dep_dt": "1457957192",
+                        "dwell_time_sec": "59"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957634",
+                        "dep_dt": "1457957685",
+                        "dwell_time_sec": "51"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958422",
+                        "dep_dt": "1457958510",
+                        "dwell_time_sec": "88"
+                    }
+                ]
+            },
+            "indicator": 0.2119089166134074
+        },
+        "70099": {
+            "station": {
+                "stop_order": "190",
+                "stop_id": "70099",
+                "stop_name": "Wollaston - Outbound",
+                "parent_station": "place-wlsta",
+                "parent_station_name": "Wollaston",
+                "stop_lat": "42.2665139",
+                "stop_lon": "-71.0203369",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457956945",
+                        "dep_dt": "1457956964",
+                        "dwell_time_sec": "19"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957256",
+                        "dep_dt": "1457957277",
+                        "dwell_time_sec": "21"
+                    }
+                ]
+            },
+            "indicator": 0.05
+        },
+        "70101": {
+            "station": {
+                "stop_order": "200",
+                "stop_id": "70101",
+                "stop_name": "Quincy Center - Outbound",
+                "parent_station": "place-qnctr",
+                "parent_station_name": "Quincy Center",
+                "stop_lat": "42.251809",
+                "stop_lon": "-71.005409",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957110",
+                        "dep_dt": "1457957181",
+                        "dwell_time_sec": "71"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957427",
+                        "dep_dt": "1457957474",
+                        "dwell_time_sec": "47"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957912",
+                        "dep_dt": "1457957959",
+                        "dwell_time_sec": "47"
+                    }
+                ]
+            },
+            "indicator": 0.205703790890632
+        },
+        "70103": {
+            "station": {
+                "stop_order": "210",
+                "stop_id": "70103",
+                "stop_name": "Quincy Adams - Outbound",
+                "parent_station": "place-qamnl",
+                "parent_station_name": "Quincy Adams",
+                "stop_lat": "42.233391",
+                "stop_lon": "-71.007153",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": [
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957306",
+                        "dep_dt": "1457957326",
+                        "dwell_time_sec": "20"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457957624",
+                        "dep_dt": "1457957643",
+                        "dwell_time_sec": "19"
+                    },
+                    {
+                        "route_id": "Red",
+                        "direction": "0",
+                        "arr_dt": "1457958123",
+                        "dep_dt": "1457958154",
+                        "dwell_time_sec": "31"
+                    }
+                ]
+            },
+            "indicator": 0.232992949004287
+        },
+        "70105": {
+            "station": {
+                "stop_order": "220",
+                "stop_id": "70105",
+                "stop_name": "Braintree",
+                "parent_station": "place-brntn",
+                "parent_station_name": "Braintree",
+                "stop_lat": "42.2078543",
+                "stop_lon": "-71.0011385",
+                "direction_id": 0,
+                "direction_name": "Southbound"
+            },
+            "json": {
+                "dwell_times": []
+            },
+            "indicator": null
+        }
+    }
+}

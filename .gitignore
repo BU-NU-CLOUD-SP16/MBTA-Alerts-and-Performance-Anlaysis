@@ -1,2 +1,4 @@
 node_modules/
 parser/data/*
+auth/
+webapp/assets/*

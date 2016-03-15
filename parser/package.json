@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/BU-NU-CLOUD-SP16/MBTA-Alerts-and-Performance-Anlaysis#readme",
   "dependencies": {
+    "aws-sdk": "^2.2.37",
     "gtfs-realtime-bindings": "0.0.4",
     "request": "^2.69.0"
   }

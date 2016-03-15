@@ -38,7 +38,7 @@ function get_gtfs_realtime(feed) {
       var y = datetime.getUTCFullYear();
       var min = datetime.getMinutes();
       var hour = datetime.getHours();
-      console.log("min", min, "hour", hour);
+      data.timestamp = datetime.getTime();
       var output_file = "./data/" + feed.name + "_" + m + "_" + d + "_" + y + "_" + hour + "h" + min + "m.json";
       var gtfs_data = GtfsRealtimeBindings.FeedMessage.decode(body);
       var count = 0;
@@ -46,11 +46,11 @@ function get_gtfs_realtime(feed) {
         if (entity) {
           switch(feed.name) {
             case "vehicle_positions":
-              // if (!parseInt(entity.vehicle.trip.route_id)) {
+              if (!parseInt(entity.vehicle.trip.route_id)) {
                 var element = feed.clean(entity);
                 data.data.push(element);
                 count++;
-              // }
+              }
               break;
             case "trip_updates":
               if (!parseInt(entity.trip_update.trip.route_id)) {
@@ -58,11 +58,17 @@ function get_gtfs_realtime(feed) {
                 data.data.push(element);
                 count++;
               }
+            case "service_alerts":
+              // if (!parseInt(entity.trip_update.trip.route_id)) {
+                var element = feed.clean(entity);
+                data.data.push(element);
+                count++;
+              // }
           }
 
         }
         if (index === array.length - 1) {
-          fs.writeFile("hello.json", JSON.stringify(data, null, 4), function(err) {
+          fs.writeFile(output_file, JSON.stringify(data, null, 4), function(err) {
             if(!err) {
               console.log("JSON saved to " + output_file, count, "entries found.");
             }
