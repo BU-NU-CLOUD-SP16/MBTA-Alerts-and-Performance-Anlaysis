@@ -26,6 +26,8 @@ encoded_params = urllib.urlencode(params)
 
 url = api + encoded_params
 
+# reads data from the API endpoint
 # result = urllib2.urlopen(url).read()
+
 print(url)
 
