@@ -10,12 +10,16 @@ body {
     /*position: relative;*/
 }
 #map {
-    height: 100%;
+    height: 95%;
 }
 
 #legend {
 	background: white;
 	padding: 10px;
+}
+
+#form {
+	height: 5%;
 }
 
 .menu {

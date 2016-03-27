@@ -5,8 +5,8 @@ var showStops = false;
 var showPositions = false;
 var showDwells = true;
 var dwells_0830 = true;
-var dwells_1200 = false;
-var dwells_1730 = false;
+var dwells_1200 = true;
+var dwells_1730 = true;
 
 function loadJSON(option, callback) {
   var path;
@@ -98,7 +98,7 @@ function initMap() {
   legend.appendChild(div);
 */
   if(showDwells) {
-    loadJSON('dwells_0830', function(response) {
+    loadJSON('dwells_1200', function(response) {
       var data = JSON.parse(response);
       for (var stop in data.stops) {
           var color = "#333333";
@@ -114,23 +114,27 @@ function initMap() {
             };
           var lat = parseFloat(data.stops[stop].station.stop_lat);
           var lng = parseFloat(data.stops[stop].station.stop_lon);
-		  
-		  var marker = new google.maps.Marker({
-            position: {lat,lng},
-            map: map,
-            title: data.stops[stop].station.stop_name,
-            icon : icon
-          });
-		  var infowindow = new google.maps.InfoWindow({
-		    content: '<p>' + data.stops[stop].indicator + '</p>'
-		  });
+
+		  loadMarker();
+		  function loadMarker() {  
+			var infowindow = new google.maps.InfoWindow({
+				content: '<p>' + data.stops[stop].indicator + '</p>'
+			});
+			  var marker = new google.maps.Marker({
+				position: {lat,lng},
+				map: map,
+				title: data.stops[stop].station.stop_name,
+				icon : icon
+			  });
+			  google.maps.event.addListener(marker, 'click', function() {
+				infowindow.open(map, marker);
+			  });
+		  }
       }
         // var infowindow = new google.maps.InfoWindow({
         //   content: '<p>Stop: '+item.stop_name+'</p>'
         // });
-        // marker.addListener('click', function() {
-        //   infowindow.open(map, marker);
-        // });
+        // 
     })
   }
   if(showStops) {
@@ -157,8 +161,8 @@ function initMap() {
           icon : icon
         });
         marker.addListener('click', function() {
-          infowindow.open(map, marker);
-        });
+		  infowindow.open(map, marker);
+    	});
       })
     });
   }
