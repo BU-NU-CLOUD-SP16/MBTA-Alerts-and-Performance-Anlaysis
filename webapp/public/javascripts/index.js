@@ -106,6 +106,7 @@ function initMap() {
           if (indicator === NaN) indicator = 0.02;
           var icon = {
               path: google.maps.SymbolPath.CIRCLE,
+			  labelContent: indicator,
               scale: indicator * 100,
               fillColor: color,
               fillOpacity: 0.5,
@@ -113,12 +114,16 @@ function initMap() {
             };
           var lat = parseFloat(data.stops[stop].station.stop_lat);
           var lng = parseFloat(data.stops[stop].station.stop_lon);
-          var marker = new google.maps.Marker({
+		  
+		  var marker = new google.maps.Marker({
             position: {lat,lng},
             map: map,
             title: data.stops[stop].station.stop_name,
             icon : icon
           });
+		  var infowindow = new google.maps.InfoWindow({
+		    content: '<p>' + data.stops[stop].indicator + '</p>'
+		  });
       }
         // var infowindow = new google.maps.InfoWindow({
         //   content: '<p>Stop: '+item.stop_name+'</p>'
