@@ -45,9 +45,9 @@ function readStops() {
             // read stops from 3/14/2016, 9:00:00 AM GMT-4:00 DST
             // getDwellTimes(station, 1457958600, getAlertLikelihood);
             // read stops from 3/14/2016, 11:00:00 AM GMT-4:00 DST
-            getDwellTimes(station, 1457971500, getAlertLikelihood);
+            // getDwellTimes(station, 1457971500, getAlertLikelihood);
             // read stops from 3/14/2016, 5:30:00 PM GMT-4:00 DST
-            // getDwellTimes(station, 1457991000, getAlertLikelihood);
+            getDwellTimes(station, 1457991000, getAlertLikelihood);
         // }
     });
     stops["red"][1].stop.forEach(function(station, it) {
@@ -72,7 +72,7 @@ var cleaned = {
 var stops_read = 0;
 var datetime = new Date();
 var now = Math.floor(datetime.getTime()/1000);
-var output_file = "./public/data/stops_with_dwell_indicator_" + now + ".json";
+var output_file = "./public/data/stops_with_headways_indicator_" + now + ".json";
 
 function getAlertLikelihood(data, station, time) {
     data = JSON.parse(data);
@@ -80,14 +80,14 @@ function getAlertLikelihood(data, station, time) {
     var n = 0;
     var summation = 0;
 
-    for(var i = 0; i < data["dwell_times"].length ; i++) {
-        sum += parseInt(data["dwell_times"][i]["dwell_time_sec"]);
+    for(var i = 0; i < data["headways"].length ; i++) {
+        sum += parseInt(data["headways"][i]["dwell_time_sec"]);
         n++;
     }
     var mean = sum / n;
 
-    for(var i = 0; i < data["dwell_times"].length ; i++) {
-        summation += Math.pow(parseInt(data["dwell_times"][i]["dwell_time_sec"]) - mean, 2);
+    for(var i = 0; i < data["headways"].length ; i++) {
+        summation += Math.pow(parseInt(data["headways"][i]["dwell_time_sec"]) - mean, 2);
     }
     var std_dev = Math.sqrt(summation / n);
     var indicator = std_dev / mean;
