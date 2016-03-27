@@ -79,6 +79,6 @@ function get_gtfs_realtime(feed) {
   });
 }
 
-get_gtfs_realtime(feeds.vehicle_positions);
-// get_gtfs_realtime(feeds.service_alerts);
+// get_gtfs_realtime(feeds.vehicle_positions);
+get_gtfs_realtime(feeds.service_alerts);
 // get_gtfs_realtime(feeds.trip_updates);
