@@ -8,6 +8,8 @@ var dwells_0830 = true;
 var dwells_1200 = true;
 var dwells_1730 = true;
 
+var markerList = [];
+
 function loadJSON(option, callback) {
   var path;
   switch(option) {
@@ -120,15 +122,18 @@ function initMap() {
 			var infowindow = new google.maps.InfoWindow({
 				content: '<p>' + data.stops[stop].indicator + '</p>'
 			});
-			  var marker = new google.maps.Marker({
+			var marker = new google.maps.Marker({
 				position: {lat,lng},
 				map: map,
 				title: data.stops[stop].station.stop_name,
+				direction: data.stops[stop].station.direction_name,
 				icon : icon
-			  });
-			  google.maps.event.addListener(marker, 'click', function() {
+			});
+			google.maps.event.addListener(marker, 'click', function() {
 				infowindow.open(map, marker);
-			  });
+			});
+		    markerList.push(marker);
+			console.log(marker.direction);
 		  }
       }
         // var infowindow = new google.maps.InfoWindow({
@@ -198,3 +203,31 @@ function initMap() {
     });
   }
 }
+
+$(document).ready(function() {
+
+	$(':checkbox').change(function() {
+		if (this.checked) {
+			for (var mark in markerList) {
+				if (mark.direction === this.id) {
+					mark.setVisible(true);
+				}
+				console.log(mark.direction);
+			}
+		} else {
+			for (var mark in markerList) {
+				if (mark.direction === this.id) {
+					mark.setVisible(false);
+				}
+			}
+		}
+	});
+	/*
+    $.ajax({
+        url: "http://rest-service.guides.spring.io/greeting"
+    }).then(function(data) {
+       $('.greeting-id').append(data.id);
+       $('.greeting-content').append(data.content);
+    });
+	*/
+});

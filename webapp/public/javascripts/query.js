@@ -1,13 +1,23 @@
+/*
 $(document).ready(function() {
 
 	$(':checkbox').change(function() {
 		if (this.checked) {
-			
+			var x = "";
+			for (mark in markerList) {
+				if (mark.direction === this.id) {
+					mark.setVisible(true);
+				}
+				x += mark.title;
+			}
+			alert(x);
+		} else {
+			for (mark in markerList) {
+				if (mark.direction === this.id) {
+					mark.setVisible(false);
+				}
+			}
 		}
-	});
-	
-	$(function() {
-		$( "#slider" ).slider();
 	});
     $.ajax({
         url: "http://rest-service.guides.spring.io/greeting"
@@ -16,3 +26,4 @@ $(document).ready(function() {
        $('.greeting-content').append(data.content);
     });
 });
+*/
