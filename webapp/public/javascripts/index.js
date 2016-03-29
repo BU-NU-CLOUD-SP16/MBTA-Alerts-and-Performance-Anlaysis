@@ -208,17 +208,18 @@ $(document).ready(function() {
 
 	$(':checkbox').change(function() {
 		if (this.checked) {
-			for (var mark in markerList) {
-				if (mark.direction === this.id) {
-					mark.setVisible(true);
+			for (var i = 0, n = markerList.length; i < n; ++i) {
+				if (markerList[i].direction === this.id) {
+					markerList[i].setVisible(true);
 				}
-				console.log(mark.direction);
+				console.log(markerList[i].direction);
 			}
 		} else {
-			for (var mark in markerList) {
-				if (mark.direction === this.id) {
-					mark.setVisible(false);
+			for (var i = 0, n = markerList.length; i < n; ++i) {
+				if (markerList[i].direction === this.id) {
+					markerList[i].setVisible(false);
 				}
+				console.log(markerList[i].direction);
 			}
 		}
 	});
