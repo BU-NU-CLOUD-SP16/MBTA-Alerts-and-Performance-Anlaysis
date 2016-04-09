@@ -212,14 +212,12 @@ $(document).ready(function() {
 				if (markerList[i].direction === this.id) {
 					markerList[i].setVisible(true);
 				}
-				console.log(markerList[i].direction);
 			}
 		} else {
 			for (var i = 0, n = markerList.length; i < n; ++i) {
 				if (markerList[i].direction === this.id) {
 					markerList[i].setVisible(false);
 				}
-				console.log(markerList[i].direction);
 			}
 		}
 	});
@@ -231,4 +229,13 @@ $(document).ready(function() {
        $('.greeting-content').append(data.content);
     });
 	*/
+	
+	$("#points").slider();
+	$("#span-slider").change(function() {
+		var value = $("#points").val();
+		console.log(value);
+		$("#date").html(value); // Change to date of headway readings
+		// CALL FUNCTION TO READ DATA FROM HEADWAYS AT OTHER DATES HERE
+	});
+	
 });
