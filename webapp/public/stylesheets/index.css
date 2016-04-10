@@ -11,7 +11,11 @@ body {
     /*position: relative;*/
 }
 #map {
-    height: 95%;
+    height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	
 }
 
 #legend {
@@ -20,7 +24,11 @@ body {
 }
 
 #form {
-	height: 5%;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: white;
+	z-index: 10;
 }
 
 .menu {

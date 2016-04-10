@@ -3,8 +3,8 @@
   <head>
 	<title>GTFS-realtime data: MBTA Trains from February 19th @ 3:00PM</title>
     <link rel="stylesheet" href="stylesheets/index.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 	<script src="javascripts/map_styles.js"></script>
     <script src="javascripts/index.js"></script>
 	<script src="javascripts/query.js"></script>
@@ -17,17 +17,16 @@
       <div id="map"></div>
       <!-- <div class="menu">GTFS-realtime data: MBTA Trains from February 19th @ 3:00PM</div> -->
 	  <!-- <div id="legend">Legend</div> -->
-	  <div id="slider"></div>
 	  <form id="form">
 		<fieldset data-role="controlgroup" data-type="horizontal">
 			<input type="checkbox" name="checkbox-inbound" id="Northbound" checked>
-			<label for="checkbox-h-2a">Northbound Stations</label>
+			<label for="checkbox-inbound">Northbound Stations</label>
 			<input type="checkbox" name="checkbox-outbound" id="Southbound" checked>
-			<label for="checkbox-h-2b">Southbound Stations</label>
+			<label for="checkbox-outbound">Southbound Stations</label>
 			<span id="span-slider">
 				<input type="range" name="points" id="points" value="50" min="0" max="100" data-show-value="true">
-				<label for="points" id="date">Time</label>
-			</div>
+				<label for="points" id="date">Time</label>  
+			</span>
 		</fieldset>
 	  </form>
 	</div>

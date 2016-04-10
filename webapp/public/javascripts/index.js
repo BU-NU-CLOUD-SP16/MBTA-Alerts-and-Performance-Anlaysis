@@ -133,7 +133,6 @@ function initMap() {
 				infowindow.open(map, marker);
 			});
 		    markerList.push(marker);
-			console.log(marker.direction);
 		  }
       }
         // var infowindow = new google.maps.InfoWindow({
@@ -230,7 +229,6 @@ $(document).ready(function() {
     });
 	*/
 	
-	$("#points").slider();
 	$("#span-slider").change(function() {
 		var value = $("#points").val();
 		console.log(value);
