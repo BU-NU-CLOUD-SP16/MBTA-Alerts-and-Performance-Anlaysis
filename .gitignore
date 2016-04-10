@@ -2,3 +2,4 @@ node_modules/
 parser/data/*
 auth/
 webapp/assets/*
+parser/api.json
