@@ -2,7 +2,7 @@
 var express = require('express');
 var app = express();
 var http = require('http');
-var port = 8080;
+var port = 80;
 var compression = require("compression");
 
 // API

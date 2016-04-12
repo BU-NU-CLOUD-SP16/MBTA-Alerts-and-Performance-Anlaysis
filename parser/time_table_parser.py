@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import urllib
 import urllib2
 import json
@@ -11,12 +13,12 @@ queryTime = int(time.time())
 dayOfWeek = datetime.datetime.today().weekday() #0 = Monday 6 = Sunday
 
 #load api and key from json file
-with open('../auth/api.json') as data_file:
+with open('/home/ec2-user/MBTA-Alerts-and-Performance-Anlaysis/auth/api.json') as data_file:
     auth = json.load(data_file)
     api_key = str(auth["key"])
     api = str(auth["api"])
 
-con = lite.connect('mbta_subway.db')
+con = lite.connect('/home/ec2-user/MBTA-Alerts-and-Performance-Anlaysis/parser/mbta_subway.db')
 cur = con.cursor() #create cursor in object pointing to mbta_subway
 cur.execute('SELECT StopID from Static')
 all_stops = cur.fetchall() #comes as a list of tuples
@@ -33,7 +35,7 @@ startTime = endTime - 30*60
 
 
 #iterate through all stops and insert headway info into database
-for stop in all_stops[0:5]:
+for stop in all_stops:
     count = 0
     headwaySum = 0
 
@@ -64,6 +66,7 @@ for stop in all_stops[0:5]:
                 count += 1
 
             headwayAvg = headwaySum/count
+            print headwayAvg
             to_insert = (table_time, table_route_id, table_direction, table_stop_id, headwayAvg, dayOfWeek)
             cur.execute('INSERT INTO time_table(time , line , direction , stop_id , headway, dayOfWeek) VALUES (?, ?, ?, ?, ?, ?)', to_insert)      
 
