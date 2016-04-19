@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <link rel="stylesheet" href="stylesheets/index.css">
-  </head>
-  <body>
-    <div class="wrapper">
-      <div id="map"></div>
-      <!-- <div class="menu">GTFS-realtime data: MBTA Trains from February 19th @ 3:00PM</div> -->
-	  <div id="legend">Legend</div>
-	</div>
+</head>
+
+<body>
+    <div class="wrapper container">
+        <div class="header-bar col-md-12 text-center">
+            <p>MBTA Alerts Performance Console</p>
+        </div>
+        <div class="line-selection-container col-md-12">
+            <p>SELECT LINE</p>
+            <button type="button" class="btn btn-danger">Red Line</button>
+            <button type="button" class="btn btn-primary">Blue Line</button>
+            <button type="button" class="btn btn-success">Green Line</button>
+            <button type="button" class="btn btn-warning">Orange Line</button>
+        </div>
+        <div class="col-md-6 col-md-push-6">
+            <p>TESTING WHERE THE LINE VISUALIZATION WILL BE</p>
+        </div>
+        <div id="map" class="col-md-6 col-md-pull-6"></div>
+    </div>
     <script src="javascripts/map_styles.js"></script>
     <script src="javascripts/index.js"></script>
-    <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRbnwLhy1xtygHEpOL_rehfiBuBFX8vvs&callback=initMap">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRbnwLhy1xtygHEpOL_rehfiBuBFX8vvs&callback=initMap">
     </script>
-  </body>
+</body>
+
 </html>
