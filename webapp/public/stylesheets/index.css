@@ -5825,19 +5825,28 @@ body {
   font-size: 16px; }
 
 .header-bar {
-  height: 70px;
-  line-height: 70px;
+  height: 50px;
   width: 100%;
+  line-height: 50px;
   font-size: 1.5em; }
 
 .wrapper {
   height: 100%; }
   .wrapper .line-selection-container {
-    padding: 20px 0; }
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center; }
+  .wrapper .data-container {
+    overflow: scroll;
+    height: 400px; }
+    @media only screen and (min-width: 992px) {
+      .wrapper .data-container {
+        height: 600px;
+        width: 100%; } }
   .wrapper #map {
     height: 300px;
     width: 100%; }
     @media only screen and (min-width: 992px) {
       .wrapper #map {
         width: 50%;
-        height: 400px; } }
+        height: 600px; } }

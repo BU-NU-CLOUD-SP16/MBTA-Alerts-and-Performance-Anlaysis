@@ -17,9 +17,9 @@ body {
 }
 
 .header-bar {
-    height: 70px;
-    line-height: 70px;
+    height: 50px;
     width: 100%;
+    line-height: 50px;
     font-size: 1.5em;
 }
 
@@ -27,6 +27,16 @@ body {
     height: 100%;
     .line-selection-container {
         padding: 20px 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .data-container {
+        overflow: scroll;
+        height: 400px;
+        @media #{$md-min} {
+            height: 600px;
+            width: 100%;
+        }
     }
     #map {
         // when smaller screen
@@ -35,7 +45,7 @@ body {
         @media #{$md-min} {
             // when full screen
             width: 50%;
-            height: 400px;
+            height: 600px;
         }
     }
 }
