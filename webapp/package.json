@@ -19,6 +19,7 @@
   "homepage": "https://github.com/BU-NU-CLOUD-SP16/MBTA-Alerts-and-Performance-Anlaysis#readme",
   "dependencies": {
     "apicache": "0.0.12",
+    "async": "^1.5.2",
     "compression": "^1.6.1",
     "express": "^4.13.4",
     "gulp": "^3.9.1",

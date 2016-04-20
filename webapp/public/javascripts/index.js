@@ -154,34 +154,36 @@ function initMap() {
     }
 }
 
-$(".red-line").on("click", function() {
-  options.line = 'red';
-  initMap(options);
-  load_json('http://localhost:8080/api/mbta/headways/Red', function(response){
-    $(".data-container").html(response);
-  });
-})
+$(document).ready(function(){
+    $(".red-line").on("click", function() {
+      options.line = 'red';
+      initMap(options);
+      load_json('http://localhost:8080/api/mbta/headways/Red', function(response){
+        $(".data-container").html(response);
+      });
+    })
 
-$(".green-line").on("click", function() {
-  options.line = 'green';
-  initMap(options);
-  load_json('http://localhost:8080/api/mbta/headways/Green', function(response){
-    $(".data-container").html(response);
-  });
-})
+    $(".green-line").on("click", function() {
+      options.line = 'green';
+      initMap(options);
+      load_json('http://localhost:8080/api/mbta/headways/Green', function(response){
+        $(".data-container").html(response);
+      });
+    })
 
-$(".blue-line").on("click", function() {
-  options.line = 'blue';
-  initMap(options);
-  load_json('http://localhost:8080/api/mbta/headways/Blue', function(response){
-    $(".data-container").html(response);
-  });
-})
+    $(".blue-line").on("click", function() {
+      options.line = 'blue';
+      initMap(options);
+      load_json('http://localhost:8080/api/mbta/headways/Blue', function(response){
+        $(".data-container").html(response);
+      });
+    })
 
-$(".orange-line").on("click", function() {
-  options.line = 'orange';
-  initMap(options);
-  load_json('http://localhost:8080/api/mbta/headways/Orange', function(response){
-    $(".data-container").html(response);
-  });
-})
+    $(".orange-line").on("click", function() {
+      options.line = 'orange';
+      initMap(options);
+      load_json('http://localhost:8080/api/mbta/headways/Orange', function(response){
+        $(".data-container").html(response);
+      });
+    })
+});
