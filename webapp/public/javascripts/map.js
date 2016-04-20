@@ -33,7 +33,7 @@ function get_color(line) {
             break;
     }
 }
-function initMap() {
+function initMap(options) {
     map = new google.maps.Map(document.getElementById('map'), {
         center: { lat: 42.3601, lng: -71.1 },
         zoom: 11
@@ -62,30 +62,30 @@ function initMap() {
             for (var stop in data) {
                 // filter out all non-stop_id keys
                 if(parseInt(stop) > 0) {
-                    var color = "#333333";
-                    // use z_score value to determine size of the stop displayed
-                    var indicator = parseFloat(data[stop]["z_score"]);
-                    if (indicator === NaN || indicator < 0) indicator = 0;
-                    var icon = {
-                        path: google.maps.SymbolPath.CIRCLE,
-                        labelContent: indicator,
-                        scale: indicator * 10,
-                        fillColor: color,
-                        fillOpacity: 0.5,
-                        strokeOpacity: 0
-                    };
-                    var lat = parseFloat(data[stop]["Latitude"]);
-                    var lng = parseFloat(data[stop]["Longitude"]);
-                    console.log(data[stop]["z_score"]);
-                    console.log(data[stop]["Latitude"]);
-                    console.log(data[stop]["Longitude"]);
-                    console.log(data[stop]["StopName"]);
-                    var marker = new google.maps.Marker({
-                        position: { lat, lng },
-                        map: map,
-                        title: data[stop]["StopName"],
-                        icon: icon
+                    var direction = parseInt(data[stop]["Direction"]);
+                    if (direction == options.direction) {
+                        console.log(data[stop]);
+                        var color = "#333333";
+                        // use z_score value to determine size of the stop displayed
+                        var indicator = parseFloat(data[stop]["z_score"]);
+                        if (indicator === NaN || indicator < 0) indicator = 0;
+                        var icon = {
+                            path: google.maps.SymbolPath.CIRCLE,
+                            labelContent: indicator,
+                            scale: indicator * 10,
+                            fillColor: color,
+                            fillOpacity: 0.5,
+                            strokeOpacity: 0
+                        };
+                        var lat = parseFloat(data[stop]["Latitude"]);
+                        var lng = parseFloat(data[stop]["Longitude"]);
+                        var marker = new google.maps.Marker({
+                            position: { lat, lng },
+                            map: map,
+                            title: data[stop]["StopName"],
+                            icon: icon
                     });
+                    }
                 };
             }
 
