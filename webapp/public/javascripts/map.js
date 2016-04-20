@@ -1,5 +1,38 @@
+"use strict";
+
 var map;
 
+function load_json(path, callback) {
+    var xobj = new XMLHttpRequest();
+    xobj.overrideMimeType("application/json");
+    xobj.open('GET', path, true);
+    xobj.onreadystatechange = function() {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+            callback(xobj.responseText);
+        }
+    };
+    xobj.send(null);
+}
+
+function get_color(line) {
+    switch (line.toLowerCase().slice(0, 3)) {
+        case 'gre':
+            return (options.line == 'Green' ? '#357F4C' : 'rgba(255,255,255,0)');
+            break;
+        case 'red':
+            return (options.line == 'Red' ? '#F03911' : 'rgba(255,255,255,0)');
+            break;
+        case 'blu':
+            return (options.line == 'Blue' ? '#295CAB' : 'rgba(255,255,255,0)');
+            break;
+        case 'ora':
+            return (options.line == 'Orange' ? '#f08f00' : 'rgba(255,255,255,0)');
+            break;
+        default:
+            return 'rgba(255,255,255,0)';
+            break;
+    }
+}
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         center: { lat: 42.3601, lng: -71.1 },
