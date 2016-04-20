@@ -11,6 +11,10 @@ var options = {
 // North-south lines: Direction 1 is north and direction 0 is south.
 // East-west lines: Direction 1 is east and direction 0 is west.
 $(document).ready(function() {
+
+    $('.direction_0').prop('disabled', true);
+    $('.direction_1').prop('disabled', true);
+
     $(".red-line").on("click", function() {
         options.line = 'Red';
         initMap(options);
@@ -72,4 +76,6 @@ function switchBoundText(trainLine) {
             $(".direction_0").text("Direction 0");
 
     }
+    $('.direction_0').prop('disabled', false); // enable both buttons
+    $('.direction_1').prop('disabled', false);
 }
