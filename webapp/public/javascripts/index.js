@@ -29,6 +29,8 @@ $(document).ready(function() {
     load_json("../stops_selected.json", function(response) {
         selected_stops = JSON.parse(response);
     });
+    options.line = 'Red';
+    update();
 
     // click event listeners
     $(".red-line").on("click", function() {
@@ -73,7 +75,7 @@ $(document).ready(function() {
     function update() {
         load_json("http://localhost:8080/api/mbta/headways/" + options.line, function(response) {
             options.data = JSON.parse(response);
-            // $(".data-visualization").html(response);
+            $(".time-container").html("<p>Displaying data from " + (new Date(options.data.time * 1000).toString())+"</p>");
             update_visual(options.line);
             switch_direction_text(options.line);
             initMap(options);
