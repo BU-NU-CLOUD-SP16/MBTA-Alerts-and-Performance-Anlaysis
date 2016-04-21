@@ -31,18 +31,22 @@ endTime = queryTime
 startTime = endTime - 30*60
 
 #create new table
-#'CREATE TABLE time_table(time integer, line text, direction integer, stop_id integer, headway integer);')
+#'CREATE TABLE time_table(time integer, line text, direction integer, stop_id integer, headway integer, dayOfWeek integer, stdDev integer);')
 
-
+progress = 0
 #iterate through all stops and insert headway info into database
 for stop in all_stops:
-    count = 0
+    print(progress)
+    count = 0 #used to find mean and stdDev
     headwaySum = 0
+    headwayDiffSum = 0
+    stdDev = 0
+    headwayList = [] #create list to store each headway in a stop to determine stdDev
 
     params = {
      'api_key' : api_key,
      'format' : 'json',
-     'from_datetime' : startTime,	
+     'from_datetime' : startTime,   
      'to_datetime' : endTime,
      'stop' : stop[0],
     }
@@ -63,12 +67,17 @@ for stop in all_stops:
             table_route_id = str(headways['headways'][0]['route_id'])
             for headway in headways['headways']: #headways_file['headways']: #dive into individual headways
                 headwaySum += int(headway['headway_time_sec']) #headway interval from headway.json
+                headwayList.append(int(headway['headway_time_sec']))
                 count += 1
 
             headwayAvg = headwaySum/count
-            print headwayAvg
-            to_insert = (table_time, table_route_id, table_direction, table_stop_id, headwayAvg, dayOfWeek)
-            cur.execute('INSERT INTO time_table(time , line , direction , stop_id , headway, dayOfWeek) VALUES (?, ?, ?, ?, ?, ?)', to_insert)      
+            for headway in headwayList:
+                headway = (headway - headwayAvg)**2
+                headwayDiffSum += headway
+            stdDev = (headwayDiffSum/count)**(0.5)
+
+            to_insert = (table_time, table_route_id, table_direction, table_stop_id, headwayAvg, dayOfWeek, stdDev)
+            cur.execute('INSERT INTO time_table_new(time , line , direction , stop_id , headway, dayOfWeek, stdDev) VALUES (?, ?, ?, ?, ?, ?, ?)', to_insert)      
 
             con.commit()
 
@@ -80,6 +89,7 @@ for stop in all_stops:
 
             if con:
                 con.close()
+    progress += 1
 
 
 
