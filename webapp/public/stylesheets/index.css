@@ -5819,10 +5819,10 @@ button.close {
 
 html,
 body {
-  height: 100%;
   margin: 0;
   padding: 0;
-  font-size: 16px; }
+  font-size: 16px;
+  padding-bottom: 30px; }
 
 .header-bar {
   height: 50px;
@@ -5837,14 +5837,22 @@ body {
     margin: 0 auto;
     text-align: center; }
   .wrapper .data-container {
-    overflow: scroll;
-    height: 400px; }
-    @media only screen and (min-width: 992px) {
-      .wrapper .data-container {
-        height: 600px;
-        width: 100%; } }
+    height: 475px; }
+    .wrapper .data-container .data-visualization {
+      overflow: scroll;
+      height: 450px; }
+      @media only screen and (min-width: 992px) {
+        .wrapper .data-container .data-visualization {
+          height: 600px;
+          width: 100%; } }
+    .wrapper .data-container svg {
+      margin: 0 auto;
+      display: block; }
+      @media only screen and (min-width: 992px) {
+        .wrapper .data-container svg {
+          padding: 25px 0; } }
   .wrapper #map {
-    height: 300px;
+    height: 450px;
     width: 100%; }
     @media only screen and (min-width: 992px) {
       .wrapper #map {
