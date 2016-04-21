@@ -1,0 +1,140 @@
+{
+	"Green" : [
+		{
+			"name": "North Station",
+			"cords": [3,0],
+			"stops" : [
+				"70206",
+				"70205"
+			]
+		},
+		{	
+			"name": "Park Street",
+			"cords": [3,1],
+			"stops" : [
+				"70198",
+				"70200"
+			]
+		},
+		{	
+			"name": "Copley",
+			"cords": [3,2],
+			"stops" : [
+				"70155",
+				"70154"
+			]
+		},
+		{	
+			"name": "Kenmore",
+			"cords": [3,3],
+			"stops" : [
+				"70151",
+				"70150"
+			]
+		},
+		{	
+			"name": "St. Paul St", 
+			"cords": [0,4],
+			"stops" : [
+				"70141",
+				"70140"
+			]
+		},
+		{	
+			"name": "Harvard Ave",
+			"cords": [0,5],
+			"stops" : [
+				"70131",
+				"70130"
+			]
+		},
+		{	
+			"name": "Washington St",
+			"cords": [0,6],
+			"stops" : [
+				"70121",
+				"70120"
+			]
+		},
+		{	
+			"name": "South St",
+			"cords": [0,7],
+			"stops" : [
+				"70111",
+				"70110"
+			]
+		},
+		{	
+			"name": "Coolidge Corner",
+			"cords": [1,4],
+			"stops" : [
+				"70219",
+				"70220"
+			]
+		},
+		{	
+			"name": "Washington Square",
+			"cords": [1,5],
+			"stops" : [
+				"70229",
+				"70230"
+			]
+		},
+		{	
+			"name": "Englewood Ave",
+			"cords": [1,6],
+			"stops" : [
+				"70235",
+				"70236"
+			]
+		},
+		{	
+			"name": "Brookline Village",
+			"cords": [2,4],
+			"stops" : [
+				"70181",
+				"70180"
+			]
+		},
+		{	
+			"name": "Reservoir",
+			"cords": [2,5],
+			"stops" : [
+				"70175",
+				"70174"
+			]
+		},
+		{	
+			"name": "Newtown Highands",
+			"cords": [2,6],
+			"stops" : [
+				"70169",
+				"70168"
+			]
+		},
+		{	
+			"name": "Woodland",
+			"cords": [2,7],
+			"stops" : [
+				"70163",
+				"70162"
+			]
+		},
+		{	
+			"name": "Northeastern",
+			"cords": [4,3],
+			"stops" : [
+				"70243",
+				"70244"
+			]
+		},
+		{	
+			"name": "Brigham Circle",
+			"cords": [4,4],
+			"stops" : [
+				"70257",
+				"70258"
+			]
+		},
+	]
+}
