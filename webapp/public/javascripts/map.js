@@ -53,7 +53,11 @@ function initMap(options) {
                         map: map,
                         title: data[stop]["StopName"],
                         icon: icon
-                });
+                    });
+                    console.log(stop);
+                    marker.addListener('click', function() {
+                        load_station_details(marker.station);
+                    });
                 }
             };
         }
