@@ -1,2755 +1,2836 @@
 {
-  "blue": [
-    {
-      "direction_id": "0",
-      "direction_name": "Westbound",
-      "stop": [
-        {
-          "stop_order": "1",
-          "stop_id": "70060",
-          "stop_name": "Wonderland",
-          "parent_station": "place-wondl",
-          "parent_station_name": "Wonderland",
-          "stop_lat": "42.41342",
-          "stop_lon": "-70.991648"
-        },
-        {
-          "stop_order": "10",
-          "stop_id": "70057",
-          "stop_name": "Revere Beach - Inbound",
-          "parent_station": "place-rbmnl",
-          "parent_station_name": "Revere Beach",
-          "stop_lat": "42.40784254",
-          "stop_lon": "-70.99253321"
-        },
-        {
-          "stop_order": "20",
-          "stop_id": "70055",
-          "stop_name": "Beachmont - Inbound",
-          "parent_station": "place-bmmnl",
-          "parent_station_name": "Beachmont",
-          "stop_lat": "42.39754234",
-          "stop_lon": "-70.99231944"
-        },
-        {
-          "stop_order": "30",
-          "stop_id": "70053",
-          "stop_name": "Suffolk Downs - Inbound",
-          "parent_station": "place-sdmnl",
-          "parent_station_name": "Suffolk Downs",
-          "stop_lat": "42.39050067",
-          "stop_lon": "-70.99712259"
-        },
-        {
-          "stop_order": "40",
-          "stop_id": "70051",
-          "stop_name": "Orient Heights - Inbound",
-          "parent_station": "place-orhte",
-          "parent_station_name": "Orient Heights",
-          "stop_lat": "42.386867",
-          "stop_lon": "-71.004736"
-        },
-        {
-          "stop_order": "50",
-          "stop_id": "70049",
-          "stop_name": "Wood Island - Inbound",
-          "parent_station": "place-wimnl",
-          "parent_station_name": "Wood Island",
-          "stop_lat": "42.3796403",
-          "stop_lon": "-71.02286539"
-        },
-        {
-          "stop_order": "60",
-          "stop_id": "70047",
-          "stop_name": "Airport - Inbound",
-          "parent_station": "place-aport",
-          "parent_station_name": "Airport",
-          "stop_lat": "42.374262",
-          "stop_lon": "-71.030395"
-        },
-        {
-          "stop_order": "70",
-          "stop_id": "70045",
-          "stop_name": "Maverick - Inbound",
-          "parent_station": "place-mvbcl",
-          "parent_station_name": "Maverick",
-          "stop_lat": "42.36911856",
-          "stop_lon": "-71.03952958"
-        },
-        {
-          "stop_order": "80",
-          "stop_id": "70043",
-          "stop_name": "Aquarium - Inbound",
-          "parent_station": "place-aqucl",
-          "parent_station_name": "Aquarium",
-          "stop_lat": "42.359784",
-          "stop_lon": "-71.051652"
-        },
-        {
-          "stop_order": "90",
-          "stop_id": "70041",
-          "stop_name": "State Street - to Bowdoin",
-          "parent_station": "place-state",
-          "parent_station_name": "State Street",
-          "stop_lat": "42.358978",
-          "stop_lon": "-71.057598"
-        },
-        {
-          "stop_order": "110",
-          "stop_id": "70038",
-          "stop_name": "Bowdoin",
-          "parent_station": "place-bomnl",
-          "parent_station_name": "Bowdoin",
-          "stop_lat": "42.361365",
-          "stop_lon": "-71.062037"
-        }
-      ]
-    },
-    {
-      "direction_id": "1",
-      "direction_name": "Eastbound",
-      "stop": [
-        {
-          "stop_order": "1",
-          "stop_id": "70038",
-          "stop_name": "Bowdoin",
-          "parent_station": "place-bomnl",
-          "parent_station_name": "Bowdoin",
-          "stop_lat": "42.361365",
-          "stop_lon": "-71.062037"
-        },
-        {
-          "stop_order": "20",
-          "stop_id": "70042",
-          "stop_name": "State Street - to Wonderland",
-          "parent_station": "place-state",
-          "parent_station_name": "State Street",
-          "stop_lat": "42.358978",
-          "stop_lon": "-71.057598"
-        },
-        {
-          "stop_order": "30",
-          "stop_id": "70044",
-          "stop_name": "Aquarium - Outbound",
-          "parent_station": "place-aqucl",
-          "parent_station_name": "Aquarium",
-          "stop_lat": "42.359784",
-          "stop_lon": "-71.051652"
-        },
-        {
-          "stop_order": "40",
-          "stop_id": "70046",
-          "stop_name": "Maverick - Outbound",
-          "parent_station": "place-mvbcl",
-          "parent_station_name": "Maverick",
-          "stop_lat": "42.36911856",
-          "stop_lon": "-71.03952958"
-        },
-        {
-          "stop_order": "50",
-          "stop_id": "70048",
-          "stop_name": "Airport - Outbound",
-          "parent_station": "place-aport",
-          "parent_station_name": "Airport",
-          "stop_lat": "42.374262",
-          "stop_lon": "-71.030395"
-        },
-        {
-          "stop_order": "60",
-          "stop_id": "70050",
-          "stop_name": "Wood Island - Outbound",
-          "parent_station": "place-wimnl",
-          "parent_station_name": "Wood Island",
-          "stop_lat": "42.3796403",
-          "stop_lon": "-71.02286539"
-        },
-        {
-          "stop_order": "70",
-          "stop_id": "70052",
-          "stop_name": "Orient Heights - Outbound",
-          "parent_station": "place-orhte",
-          "parent_station_name": "Orient Heights",
-          "stop_lat": "42.386867",
-          "stop_lon": "-71.004736"
-        },
-        {
-          "stop_order": "80",
-          "stop_id": "70054",
-          "stop_name": "Suffolk Downs - Outbound",
-          "parent_station": "place-sdmnl",
-          "parent_station_name": "Suffolk Downs",
-          "stop_lat": "42.39050067",
-          "stop_lon": "-70.99712259"
-        },
-        {
-          "stop_order": "90",
-          "stop_id": "70056",
-          "stop_name": "Beachmont - Outbound",
-          "parent_station": "place-bmmnl",
-          "parent_station_name": "Beachmont",
-          "stop_lat": "42.39754234",
-          "stop_lon": "-70.99231944"
-        },
-        {
-          "stop_order": "100",
-          "stop_id": "70058",
-          "stop_name": "Revere Beach - Outbound",
-          "parent_station": "place-rbmnl",
-          "parent_station_name": "Revere Beach",
-          "stop_lat": "42.40784254",
-          "stop_lon": "-70.99253321"
-        },
-        {
-          "stop_order": "110",
-          "stop_id": "70060",
-          "stop_name": "Wonderland",
-          "parent_station": "place-wondl",
-          "parent_station_name": "Wonderland",
-          "stop_lat": "42.41342",
-          "stop_lon": "-70.991648"
-        }
-      ]
-    }
-  ],
+  "blue":[
+      {  
+         "direction_id":"0",
+         "direction_name":"Westbound",
+         "stop":[  
+            {  
+               "stop_order":"1",
+               "stop_id":"70060",
+               "stop_name":"Wonderland",
+               "parent_station":"place-wondl",
+               "parent_station_name":"Wonderland",
+               "stop_lat":"42.41342",
+               "stop_lon":"-70.991648"
+            },
+            {  
+               "stop_order":"10",
+               "stop_id":"70057",
+               "stop_name":"Revere Beach - Inbound",
+               "parent_station":"place-rbmnl",
+               "parent_station_name":"Revere Beach",
+               "stop_lat":"42.40784254",
+               "stop_lon":"-70.99253321"
+            },
+            {  
+               "stop_order":"20",
+               "stop_id":"70055",
+               "stop_name":"Beachmont - Inbound",
+               "parent_station":"place-bmmnl",
+               "parent_station_name":"Beachmont",
+               "stop_lat":"42.39754234",
+               "stop_lon":"-70.99231944"
+            },
+            {  
+               "stop_order":"30",
+               "stop_id":"70053",
+               "stop_name":"Suffolk Downs - Inbound",
+               "parent_station":"place-sdmnl",
+               "parent_station_name":"Suffolk Downs",
+               "stop_lat":"42.39050067",
+               "stop_lon":"-70.99712259"
+            },
+            {  
+               "stop_order":"40",
+               "stop_id":"70051",
+               "stop_name":"Orient Heights - Inbound",
+               "parent_station":"place-orhte",
+               "parent_station_name":"Orient Heights",
+               "stop_lat":"42.386867",
+               "stop_lon":"-71.004736"
+            },
+            {  
+               "stop_order":"50",
+               "stop_id":"70049",
+               "stop_name":"Wood Island - Inbound",
+               "parent_station":"place-wimnl",
+               "parent_station_name":"Wood Island",
+               "stop_lat":"42.3796403",
+               "stop_lon":"-71.02286539"
+            },
+            {  
+               "stop_order":"60",
+               "stop_id":"70047",
+               "stop_name":"Airport - Inbound",
+               "parent_station":"place-aport",
+               "parent_station_name":"Airport",
+               "stop_lat":"42.374262",
+               "stop_lon":"-71.030395"
+            },
+            {  
+               "stop_order":"70",
+               "stop_id":"70045",
+               "stop_name":"Maverick - Inbound",
+               "parent_station":"place-mvbcl",
+               "parent_station_name":"Maverick",
+               "stop_lat":"42.36911856",
+               "stop_lon":"-71.03952958"
+            },
+            {  
+               "stop_order":"80",
+               "stop_id":"70043",
+               "stop_name":"Aquarium - Inbound",
+               "parent_station":"place-aqucl",
+               "parent_station_name":"Aquarium",
+               "stop_lat":"42.359784",
+               "stop_lon":"-71.051652"
+            },
+            {  
+               "stop_order":"90",
+               "stop_id":"70041",
+               "stop_name":"State Street - to Bowdoin",
+               "parent_station":"place-state",
+               "parent_station_name":"State Street",
+               "stop_lat":"42.358978",
+               "stop_lon":"-71.057598"
+            },
+            {  
+               "stop_order":"100",
+               "stop_id":"70039",
+               "stop_name":"Government Center - to Bowdoin",
+               "parent_station":"place-gover",
+               "parent_station_name":"Government Center",
+               "stop_lat":"42.359705",
+               "stop_lon":"-71.059215"
+            },
+            {  
+               "stop_order":"110",
+               "stop_id":"70038",
+               "stop_name":"Bowdoin",
+               "parent_station":"place-bomnl",
+               "parent_station_name":"Bowdoin",
+               "stop_lat":"42.361365",
+               "stop_lon":"-71.062037"
+            }
+         ]
+      },
+      {  
+         "direction_id":"1",
+         "direction_name":"Eastbound",
+         "stop":[  
+            {  
+               "stop_order":"1",
+               "stop_id":"70038",
+               "stop_name":"Bowdoin",
+               "parent_station":"place-bomnl",
+               "parent_station_name":"Bowdoin",
+               "stop_lat":"42.361365",
+               "stop_lon":"-71.062037"
+            },
+            {  
+               "stop_order":"10",
+               "stop_id":"70040",
+               "stop_name":"Government Center - to Wonderland",
+               "parent_station":"place-gover",
+               "parent_station_name":"Government Center",
+               "stop_lat":"42.359705",
+               "stop_lon":"-71.059215"
+            },
+            {  
+               "stop_order":"20",
+               "stop_id":"70042",
+               "stop_name":"State Street - to Wonderland",
+               "parent_station":"place-state",
+               "parent_station_name":"State Street",
+               "stop_lat":"42.358978",
+               "stop_lon":"-71.057598"
+            },
+            {  
+               "stop_order":"30",
+               "stop_id":"70044",
+               "stop_name":"Aquarium - Outbound",
+               "parent_station":"place-aqucl",
+               "parent_station_name":"Aquarium",
+               "stop_lat":"42.359784",
+               "stop_lon":"-71.051652"
+            },
+            {  
+               "stop_order":"40",
+               "stop_id":"70046",
+               "stop_name":"Maverick - Outbound",
+               "parent_station":"place-mvbcl",
+               "parent_station_name":"Maverick",
+               "stop_lat":"42.36911856",
+               "stop_lon":"-71.03952958"
+            },
+            {  
+               "stop_order":"50",
+               "stop_id":"70048",
+               "stop_name":"Airport - Outbound",
+               "parent_station":"place-aport",
+               "parent_station_name":"Airport",
+               "stop_lat":"42.374262",
+               "stop_lon":"-71.030395"
+            },
+            {  
+               "stop_order":"60",
+               "stop_id":"70050",
+               "stop_name":"Wood Island - Outbound",
+               "parent_station":"place-wimnl",
+               "parent_station_name":"Wood Island",
+               "stop_lat":"42.3796403",
+               "stop_lon":"-71.02286539"
+            },
+            {  
+               "stop_order":"70",
+               "stop_id":"70052",
+               "stop_name":"Orient Heights - Outbound",
+               "parent_station":"place-orhte",
+               "parent_station_name":"Orient Heights",
+               "stop_lat":"42.386867",
+               "stop_lon":"-71.004736"
+            },
+            {  
+               "stop_order":"80",
+               "stop_id":"70054",
+               "stop_name":"Suffolk Downs - Outbound",
+               "parent_station":"place-sdmnl",
+               "parent_station_name":"Suffolk Downs",
+               "stop_lat":"42.39050067",
+               "stop_lon":"-70.99712259"
+            },
+            {  
+               "stop_order":"90",
+               "stop_id":"70056",
+               "stop_name":"Beachmont - Outbound",
+               "parent_station":"place-bmmnl",
+               "parent_station_name":"Beachmont",
+               "stop_lat":"42.39754234",
+               "stop_lon":"-70.99231944"
+            },
+            {  
+               "stop_order":"100",
+               "stop_id":"70058",
+               "stop_name":"Revere Beach - Outbound",
+               "parent_station":"place-rbmnl",
+               "parent_station_name":"Revere Beach",
+               "stop_lat":"42.40784254",
+               "stop_lon":"-70.99253321"
+            },
+            {  
+               "stop_order":"110",
+               "stop_id":"70060",
+               "stop_name":"Wonderland",
+               "parent_station":"place-wondl",
+               "parent_station_name":"Wonderland",
+               "stop_lat":"42.41342",
+               "stop_lon":"-70.991648"
+            }
+         ]
+      }
+   ],
   "red": [
-    {
-      "direction_id": "0",
-      "direction_name": "Southbound",
-      "stop": [
-        {
-          "stop_order": "1",
-          "stop_id": "70061",
-          "stop_name": "Alewife",
-          "parent_station": "place-alfcl",
-          "parent_station_name": "Alewife",
-          "stop_lat": "42.395428",
-          "stop_lon": "-71.142483"
-        },
-        {
-          "stop_order": "10",
-          "stop_id": "70063",
-          "stop_name": "Davis - Inbound",
-          "parent_station": "place-davis",
-          "parent_station_name": "Davis",
-          "stop_lat": "42.39674",
-          "stop_lon": "-71.121815"
-        },
-        {
-          "stop_order": "20",
-          "stop_id": "70065",
-          "stop_name": "Porter - Inbound",
-          "parent_station": "place-portr",
-          "parent_station_name": "Porter",
-          "stop_lat": "42.3884",
-          "stop_lon": "-71.119149"
-        },
-        {
-          "stop_order": "30",
-          "stop_id": "70067",
-          "stop_name": "Harvard - Inbound",
-          "parent_station": "place-harsq",
-          "parent_station_name": "Harvard",
-          "stop_lat": "42.373362",
-          "stop_lon": "-71.118956"
-        },
-        {
-          "stop_order": "40",
-          "stop_id": "70069",
-          "stop_name": "Central - Inbound",
-          "parent_station": "place-cntsq",
-          "parent_station_name": "Central",
-          "stop_lat": "42.365486",
-          "stop_lon": "-71.103802"
-        },
-        {
-          "stop_order": "50",
-          "stop_id": "70071",
-          "stop_name": "Kendall\/MIT - Inbound",
-          "parent_station": "place-knncl",
-          "parent_station_name": "Kendall\/MIT",
-          "stop_lat": "42.36249079",
-          "stop_lon": "-71.08617653"
-        },
-        {
-          "stop_order": "60",
-          "stop_id": "70073",
-          "stop_name": "Charles\/MGH - Inbound",
-          "parent_station": "place-chmnl",
-          "parent_station_name": "Charles\/MGH",
-          "stop_lat": "42.361166",
-          "stop_lon": "-71.070628"
-        },
-        {
-          "stop_order": "70",
-          "stop_id": "70075",
-          "stop_name": "Park Street - to Ashmont\/Braintree",
-          "parent_station": "place-pktrm",
-          "parent_station_name": "Park Street",
-          "stop_lat": "42.35639457",
-          "stop_lon": "-71.0624242"
-        },
-        {
-          "stop_order": "80",
-          "stop_id": "70077",
-          "stop_name": "Downtown Crossing - to Ashmont\/Braintree",
-          "parent_station": "place-dwnxg",
-          "parent_station_name": "Downtown Crossing",
-          "stop_lat": "42.355518",
-          "stop_lon": "-71.060225"
-        },
-        {
-          "stop_order": "90",
-          "stop_id": "70079",
-          "stop_name": "South Station - Outbound",
-          "parent_station": "place-sstat",
-          "parent_station_name": "South Station",
-          "stop_lat": "42.352271",
-          "stop_lon": "-71.055242"
-        },
-        {
-          "stop_order": "100",
-          "stop_id": "70081",
-          "stop_name": "Broadway - Outbound",
-          "parent_station": "place-brdwy",
-          "parent_station_name": "Broadway",
-          "stop_lat": "42.342622",
-          "stop_lon": "-71.056967"
-        },
-        {
-          "stop_order": "110",
-          "stop_id": "70083",
-          "stop_name": "Andrew - Outbound",
-          "parent_station": "place-andrw",
-          "parent_station_name": "Andrew",
-          "stop_lat": "42.330154",
-          "stop_lon": "-71.057655"
-        },
-        {
-          "stop_order": "120",
-          "stop_id": "70095",
-          "stop_name": "JFK\/UMASS Braintree - Outbound",
-          "parent_station": "place-jfk",
-          "parent_station_name": "JFK\/Umass",
-          "stop_lat": "42.320685",
-          "stop_lon": "-71.052391"
-        },
-        {
-          "stop_order": "130",
-          "stop_id": "70085",
-          "stop_name": "JFK\/UMASS Ashmont - Outbound",
-          "parent_station": "place-jfk",
-          "parent_station_name": "JFK\/Umass",
-          "stop_lat": "42.320685",
-          "stop_lon": "-71.052391"
-        },
-        {
-          "stop_order": "140",
-          "stop_id": "70087",
-          "stop_name": "Savin Hill - Outbound",
-          "parent_station": "place-shmnl",
-          "parent_station_name": "Savin Hill",
-          "stop_lat": "42.31129",
-          "stop_lon": "-71.053331"
-        },
-        {
-          "stop_order": "150",
-          "stop_id": "70089",
-          "stop_name": "Fields Corner - Outbound",
-          "parent_station": "place-fldcr",
-          "parent_station_name": "Fields Corner",
-          "stop_lat": "42.300093",
-          "stop_lon": "-71.061667"
-        },
-        {
-          "stop_order": "160",
-          "stop_id": "70091",
-          "stop_name": "Shawmut - Outbound",
-          "parent_station": "place-smmnl",
-          "parent_station_name": "Shawmut",
-          "stop_lat": "42.29312583",
-          "stop_lon": "-71.06573796"
-        },
-        {
-          "stop_order": "170",
-          "stop_id": "70093",
-          "stop_name": "Ashmont - Outbound",
-          "parent_station": "place-asmnl",
-          "parent_station_name": "Ashmont",
-          "stop_lat": "42.284652",
-          "stop_lon": "-71.064489"
-        },
-        {
-          "stop_order": "180",
-          "stop_id": "70097",
-          "stop_name": "North Quincy - Outbound",
-          "parent_station": "place-nqncy",
-          "parent_station_name": "North Quincy",
-          "stop_lat": "42.275275",
-          "stop_lon": "-71.029583"
-        },
-        {
-          "stop_order": "190",
-          "stop_id": "70099",
-          "stop_name": "Wollaston - Outbound",
-          "parent_station": "place-wlsta",
-          "parent_station_name": "Wollaston",
-          "stop_lat": "42.2665139",
-          "stop_lon": "-71.0203369"
-        },
-        {
-          "stop_order": "200",
-          "stop_id": "70101",
-          "stop_name": "Quincy Center - Outbound",
-          "parent_station": "place-qnctr",
-          "parent_station_name": "Quincy Center",
-          "stop_lat": "42.251809",
-          "stop_lon": "-71.005409"
-        },
-        {
-          "stop_order": "210",
-          "stop_id": "70103",
-          "stop_name": "Quincy Adams - Outbound",
-          "parent_station": "place-qamnl",
-          "parent_station_name": "Quincy Adams",
-          "stop_lat": "42.233391",
-          "stop_lon": "-71.007153"
-        },
-        {
-          "stop_order": "220",
-          "stop_id": "70105",
-          "stop_name": "Braintree",
-          "parent_station": "place-brntn",
-          "parent_station_name": "Braintree",
-          "stop_lat": "42.2078543",
-          "stop_lon": "-71.0011385"
-        }
-      ]
-    },
-    {
-      "direction_id": "1",
-      "direction_name": "Northbound",
-      "stop": [
-        {
-          "stop_order": "1",
-          "stop_id": "70105",
-          "stop_name": "Braintree",
-          "parent_station": "place-brntn",
-          "parent_station_name": "Braintree",
-          "stop_lat": "42.2078543",
-          "stop_lon": "-71.0011385"
-        },
-        {
-          "stop_order": "10",
-          "stop_id": "70104",
-          "stop_name": "Quincy Adams - Inbound",
-          "parent_station": "place-qamnl",
-          "parent_station_name": "Quincy Adams",
-          "stop_lat": "42.233391",
-          "stop_lon": "-71.007153"
-        },
-        {
-          "stop_order": "20",
-          "stop_id": "70102",
-          "stop_name": "Quincy Center - Inbound",
-          "parent_station": "place-qnctr",
-          "parent_station_name": "Quincy Center",
-          "stop_lat": "42.251809",
-          "stop_lon": "-71.005409"
-        },
-        {
-          "stop_order": "30",
-          "stop_id": "70100",
-          "stop_name": "Wollaston - Inbound",
-          "parent_station": "place-wlsta",
-          "parent_station_name": "Wollaston",
-          "stop_lat": "42.2665139",
-          "stop_lon": "-71.0203369"
-        },
-        {
-          "stop_order": "40",
-          "stop_id": "70098",
-          "stop_name": "North Quincy - Inbound",
-          "parent_station": "place-nqncy",
-          "parent_station_name": "North Quincy",
-          "stop_lat": "42.275275",
-          "stop_lon": "-71.029583"
-        },
-        {
-          "stop_order": "50",
-          "stop_id": "70094",
-          "stop_name": "Ashmont - Inbound",
-          "parent_station": "place-asmnl",
-          "parent_station_name": "Ashmont",
-          "stop_lat": "42.284652",
-          "stop_lon": "-71.064489"
-        },
-        {
-          "stop_order": "60",
-          "stop_id": "70092",
-          "stop_name": "Shawmut - Inbound",
-          "parent_station": "place-smmnl",
-          "parent_station_name": "Shawmut",
-          "stop_lat": "42.29312583",
-          "stop_lon": "-71.06573796"
-        },
-        {
-          "stop_order": "70",
-          "stop_id": "70090",
-          "stop_name": "Fields Corner - Inbound",
-          "parent_station": "place-fldcr",
-          "parent_station_name": "Fields Corner",
-          "stop_lat": "42.300093",
-          "stop_lon": "-71.061667"
-        },
-        {
-          "stop_order": "80",
-          "stop_id": "70088",
-          "stop_name": "Savin Hill - Inbound",
-          "parent_station": "place-shmnl",
-          "parent_station_name": "Savin Hill",
-          "stop_lat": "42.31129",
-          "stop_lon": "-71.053331"
-        },
-        {
-          "stop_order": "90",
-          "stop_id": "70086",
-          "stop_name": "JFK\/UMASS Ashmont - Inbound",
-          "parent_station": "place-jfk",
-          "parent_station_name": "JFK\/Umass",
-          "stop_lat": "42.320685",
-          "stop_lon": "-71.052391"
-        },
-        {
-          "stop_order": "100",
-          "stop_id": "70096",
-          "stop_name": "JFK\/UMASS Braintree - Inbound",
-          "parent_station": "place-jfk",
-          "parent_station_name": "JFK\/Umass",
-          "stop_lat": "42.320685",
-          "stop_lon": "-71.052391"
-        },
-        {
-          "stop_order": "110",
-          "stop_id": "70084",
-          "stop_name": "Andrew - Inbound",
-          "parent_station": "place-andrw",
-          "parent_station_name": "Andrew",
-          "stop_lat": "42.330154",
-          "stop_lon": "-71.057655"
-        },
-        {
-          "stop_order": "120",
-          "stop_id": "70082",
-          "stop_name": "Broadway - Inbound",
-          "parent_station": "place-brdwy",
-          "parent_station_name": "Broadway",
-          "stop_lat": "42.342622",
-          "stop_lon": "-71.056967"
-        },
-        {
-          "stop_order": "130",
-          "stop_id": "70080",
-          "stop_name": "South Station - Inbound",
-          "parent_station": "place-sstat",
-          "parent_station_name": "South Station",
-          "stop_lat": "42.352271",
-          "stop_lon": "-71.055242"
-        },
-        {
-          "stop_order": "140",
-          "stop_id": "70078",
-          "stop_name": "Downtown Crossing - to Alewife",
-          "parent_station": "place-dwnxg",
-          "parent_station_name": "Downtown Crossing",
-          "stop_lat": "42.355518",
-          "stop_lon": "-71.060225"
-        },
-        {
-          "stop_order": "150",
-          "stop_id": "70076",
-          "stop_name": "Park Street - to Alewife",
-          "parent_station": "place-pktrm",
-          "parent_station_name": "Park Street",
-          "stop_lat": "42.35639457",
-          "stop_lon": "-71.0624242"
-        },
-        {
-          "stop_order": "160",
-          "stop_id": "70074",
-          "stop_name": "Charles\/MGH - Outbound",
-          "parent_station": "place-chmnl",
-          "parent_station_name": "Charles\/MGH",
-          "stop_lat": "42.361166",
-          "stop_lon": "-71.070628"
-        },
-        {
-          "stop_order": "170",
-          "stop_id": "70072",
-          "stop_name": "Kendall\/MIT - Outbound",
-          "parent_station": "place-knncl",
-          "parent_station_name": "Kendall\/MIT",
-          "stop_lat": "42.36249079",
-          "stop_lon": "-71.08617653"
-        },
-        {
-          "stop_order": "180",
-          "stop_id": "70070",
-          "stop_name": "Central - Outbound",
-          "parent_station": "place-cntsq",
-          "parent_station_name": "Central",
-          "stop_lat": "42.365486",
-          "stop_lon": "-71.103802"
-        },
-        {
-          "stop_order": "190",
-          "stop_id": "70068",
-          "stop_name": "Harvard - Outbound",
-          "parent_station": "place-harsq",
-          "parent_station_name": "Harvard",
-          "stop_lat": "42.373362",
-          "stop_lon": "-71.118956"
-        },
-        {
-          "stop_order": "200",
-          "stop_id": "70066",
-          "stop_name": "Porter - Outbound",
-          "parent_station": "place-portr",
-          "parent_station_name": "Porter",
-          "stop_lat": "42.3884",
-          "stop_lon": "-71.119149"
-        },
-        {
-          "stop_order": "210",
-          "stop_id": "70064",
-          "stop_name": "Davis - Outbound",
-          "parent_station": "place-davis",
-          "parent_station_name": "Davis",
-          "stop_lat": "42.39674",
-          "stop_lon": "-71.121815"
-        },
-        {
-          "stop_order": "220",
-          "stop_id": "70061",
-          "stop_name": "Alewife",
-          "parent_station": "place-alfcl",
-          "parent_station_name": "Alewife",
-          "stop_lat": "42.395428",
-          "stop_lon": "-71.142483"
-        }
-      ]
-    }
-  ],
+      {  
+         "direction_id":"0",
+         "direction_name":"Southbound",
+         "stop":[  
+            {  
+               "stop_order":"1",
+               "stop_id":"70061",
+               "stop_name":"Alewife",
+               "parent_station":"place-alfcl",
+               "parent_station_name":"Alewife",
+               "stop_lat":"42.395428",
+               "stop_lon":"-71.142483"
+            },
+            {  
+               "stop_order":"10",
+               "stop_id":"70063",
+               "stop_name":"Davis - Inbound",
+               "parent_station":"place-davis",
+               "parent_station_name":"Davis",
+               "stop_lat":"42.39674",
+               "stop_lon":"-71.121815"
+            },
+            {  
+               "stop_order":"20",
+               "stop_id":"70065",
+               "stop_name":"Porter - Inbound",
+               "parent_station":"place-portr",
+               "parent_station_name":"Porter",
+               "stop_lat":"42.3884",
+               "stop_lon":"-71.119149"
+            },
+            {  
+               "stop_order":"30",
+               "stop_id":"70067",
+               "stop_name":"Harvard - Inbound",
+               "parent_station":"place-harsq",
+               "parent_station_name":"Harvard",
+               "stop_lat":"42.373362",
+               "stop_lon":"-71.118956"
+            },
+            {  
+               "stop_order":"40",
+               "stop_id":"70069",
+               "stop_name":"Central - Inbound",
+               "parent_station":"place-cntsq",
+               "parent_station_name":"Central",
+               "stop_lat":"42.365486",
+               "stop_lon":"-71.103802"
+            },
+            {  
+               "stop_order":"50",
+               "stop_id":"70071",
+               "stop_name":"Kendall/MIT - Inbound",
+               "parent_station":"place-knncl",
+               "parent_station_name":"Kendall/MIT",
+               "stop_lat":"42.36249079",
+               "stop_lon":"-71.08617653"
+            },
+            {  
+               "stop_order":"60",
+               "stop_id":"70073",
+               "stop_name":"Charles/MGH - Inbound",
+               "parent_station":"place-chmnl",
+               "parent_station_name":"Charles/MGH",
+               "stop_lat":"42.361166",
+               "stop_lon":"-71.070628"
+            },
+            {  
+               "stop_order":"70",
+               "stop_id":"70075",
+               "stop_name":"Park Street - to Ashmont/Braintree",
+               "parent_station":"place-pktrm",
+               "parent_station_name":"Park Street",
+               "stop_lat":"42.35639457",
+               "stop_lon":"-71.0624242"
+            },
+            {  
+               "stop_order":"80",
+               "stop_id":"70077",
+               "stop_name":"Downtown Crossing - to Ashmont/Braintree",
+               "parent_station":"place-dwnxg",
+               "parent_station_name":"Downtown Crossing",
+               "stop_lat":"42.355518",
+               "stop_lon":"-71.060225"
+            },
+            {  
+               "stop_order":"90",
+               "stop_id":"70079",
+               "stop_name":"South Station - Outbound",
+               "parent_station":"place-sstat",
+               "parent_station_name":"South Station",
+               "stop_lat":"42.352271",
+               "stop_lon":"-71.055242"
+            },
+            {  
+               "stop_order":"100",
+               "stop_id":"70081",
+               "stop_name":"Broadway - Outbound",
+               "parent_station":"place-brdwy",
+               "parent_station_name":"Broadway",
+               "stop_lat":"42.342622",
+               "stop_lon":"-71.056967"
+            },
+            {  
+               "stop_order":"110",
+               "stop_id":"70083",
+               "stop_name":"Andrew - Outbound",
+               "parent_station":"place-andrw",
+               "parent_station_name":"Andrew",
+               "stop_lat":"42.330154",
+               "stop_lon":"-71.057655"
+            },
+            {  
+               "stop_order":"120",
+               "stop_id":"70095",
+               "stop_name":"JFK/UMASS Braintree - Outbound",
+               "parent_station":"place-jfk",
+               "parent_station_name":"JFK/Umass",
+               "stop_lat":"42.320685",
+               "stop_lon":"-71.052391"
+            },
+            {  
+               "stop_order":"130",
+               "stop_id":"70085",
+               "stop_name":"JFK/UMASS Ashmont - Outbound",
+               "parent_station":"place-jfk",
+               "parent_station_name":"JFK/Umass",
+               "stop_lat":"42.320685",
+               "stop_lon":"-71.052391"
+            },
+            {  
+               "stop_order":"140",
+               "stop_id":"70087",
+               "stop_name":"Savin Hill - Outbound",
+               "parent_station":"place-shmnl",
+               "parent_station_name":"Savin Hill",
+               "stop_lat":"42.31129",
+               "stop_lon":"-71.053331"
+            },
+            {  
+               "stop_order":"150",
+               "stop_id":"70089",
+               "stop_name":"Fields Corner - Outbound",
+               "parent_station":"place-fldcr",
+               "parent_station_name":"Fields Corner",
+               "stop_lat":"42.300093",
+               "stop_lon":"-71.061667"
+            },
+            {  
+               "stop_order":"160",
+               "stop_id":"70091",
+               "stop_name":"Shawmut - Outbound",
+               "parent_station":"place-smmnl",
+               "parent_station_name":"Shawmut",
+               "stop_lat":"42.29312583",
+               "stop_lon":"-71.06573796"
+            },
+            {  
+               "stop_order":"170",
+               "stop_id":"70093",
+               "stop_name":"Ashmont - Outbound",
+               "parent_station":"place-asmnl",
+               "parent_station_name":"Ashmont",
+               "stop_lat":"42.284652",
+               "stop_lon":"-71.064489"
+            },
+            {  
+               "stop_order":"180",
+               "stop_id":"70097",
+               "stop_name":"North Quincy - Outbound",
+               "parent_station":"place-nqncy",
+               "parent_station_name":"North Quincy",
+               "stop_lat":"42.275275",
+               "stop_lon":"-71.029583"
+            },
+            {  
+               "stop_order":"190",
+               "stop_id":"70099",
+               "stop_name":"Wollaston - Outbound",
+               "parent_station":"place-wlsta",
+               "parent_station_name":"Wollaston",
+               "stop_lat":"42.2665139",
+               "stop_lon":"-71.0203369"
+            },
+            {  
+               "stop_order":"200",
+               "stop_id":"70101",
+               "stop_name":"Quincy Center - Outbound",
+               "parent_station":"place-qnctr",
+               "parent_station_name":"Quincy Center",
+               "stop_lat":"42.251809",
+               "stop_lon":"-71.005409"
+            },
+            {  
+               "stop_order":"210",
+               "stop_id":"70103",
+               "stop_name":"Quincy Adams - Outbound",
+               "parent_station":"place-qamnl",
+               "parent_station_name":"Quincy Adams",
+               "stop_lat":"42.233391",
+               "stop_lon":"-71.007153"
+            },
+            {  
+               "stop_order":"220",
+               "stop_id":"70105",
+               "stop_name":"Braintree",
+               "parent_station":"place-brntn",
+               "parent_station_name":"Braintree",
+               "stop_lat":"42.2078543",
+               "stop_lon":"-71.0011385"
+            }
+         ]
+      },
+      {  
+         "direction_id":"1",
+         "direction_name":"Northbound",
+         "stop":[  
+            {  
+               "stop_order":"1",
+               "stop_id":"70105",
+               "stop_name":"Braintree",
+               "parent_station":"place-brntn",
+               "parent_station_name":"Braintree",
+               "stop_lat":"42.2078543",
+               "stop_lon":"-71.0011385"
+            },
+            {  
+               "stop_order":"10",
+               "stop_id":"70104",
+               "stop_name":"Quincy Adams - Inbound",
+               "parent_station":"place-qamnl",
+               "parent_station_name":"Quincy Adams",
+               "stop_lat":"42.233391",
+               "stop_lon":"-71.007153"
+            },
+            {  
+               "stop_order":"20",
+               "stop_id":"70102",
+               "stop_name":"Quincy Center - Inbound",
+               "parent_station":"place-qnctr",
+               "parent_station_name":"Quincy Center",
+               "stop_lat":"42.251809",
+               "stop_lon":"-71.005409"
+            },
+            {  
+               "stop_order":"30",
+               "stop_id":"70100",
+               "stop_name":"Wollaston - Inbound",
+               "parent_station":"place-wlsta",
+               "parent_station_name":"Wollaston",
+               "stop_lat":"42.2665139",
+               "stop_lon":"-71.0203369"
+            },
+            {  
+               "stop_order":"40",
+               "stop_id":"70098",
+               "stop_name":"North Quincy - Inbound",
+               "parent_station":"place-nqncy",
+               "parent_station_name":"North Quincy",
+               "stop_lat":"42.275275",
+               "stop_lon":"-71.029583"
+            },
+            {  
+               "stop_order":"50",
+               "stop_id":"70094",
+               "stop_name":"Ashmont - Inbound",
+               "parent_station":"place-asmnl",
+               "parent_station_name":"Ashmont",
+               "stop_lat":"42.284652",
+               "stop_lon":"-71.064489"
+            },
+            {  
+               "stop_order":"60",
+               "stop_id":"70092",
+               "stop_name":"Shawmut - Inbound",
+               "parent_station":"place-smmnl",
+               "parent_station_name":"Shawmut",
+               "stop_lat":"42.29312583",
+               "stop_lon":"-71.06573796"
+            },
+            {  
+               "stop_order":"70",
+               "stop_id":"70090",
+               "stop_name":"Fields Corner - Inbound",
+               "parent_station":"place-fldcr",
+               "parent_station_name":"Fields Corner",
+               "stop_lat":"42.300093",
+               "stop_lon":"-71.061667"
+            },
+            {  
+               "stop_order":"80",
+               "stop_id":"70088",
+               "stop_name":"Savin Hill - Inbound",
+               "parent_station":"place-shmnl",
+               "parent_station_name":"Savin Hill",
+               "stop_lat":"42.31129",
+               "stop_lon":"-71.053331"
+            },
+            {  
+               "stop_order":"90",
+               "stop_id":"70086",
+               "stop_name":"JFK/UMASS Ashmont - Inbound",
+               "parent_station":"place-jfk",
+               "parent_station_name":"JFK/Umass",
+               "stop_lat":"42.320685",
+               "stop_lon":"-71.052391"
+            },
+            {  
+               "stop_order":"100",
+               "stop_id":"70096",
+               "stop_name":"JFK/UMASS Braintree - Inbound",
+               "parent_station":"place-jfk",
+               "parent_station_name":"JFK/Umass",
+               "stop_lat":"42.320685",
+               "stop_lon":"-71.052391"
+            },
+            {  
+               "stop_order":"110",
+               "stop_id":"70084",
+               "stop_name":"Andrew - Inbound",
+               "parent_station":"place-andrw",
+               "parent_station_name":"Andrew",
+               "stop_lat":"42.330154",
+               "stop_lon":"-71.057655"
+            },
+            {  
+               "stop_order":"120",
+               "stop_id":"70082",
+               "stop_name":"Broadway - Inbound",
+               "parent_station":"place-brdwy",
+               "parent_station_name":"Broadway",
+               "stop_lat":"42.342622",
+               "stop_lon":"-71.056967"
+            },
+            {  
+               "stop_order":"130",
+               "stop_id":"70080",
+               "stop_name":"South Station - Inbound",
+               "parent_station":"place-sstat",
+               "parent_station_name":"South Station",
+               "stop_lat":"42.352271",
+               "stop_lon":"-71.055242"
+            },
+            {  
+               "stop_order":"140",
+               "stop_id":"70078",
+               "stop_name":"Downtown Crossing - to Alewife",
+               "parent_station":"place-dwnxg",
+               "parent_station_name":"Downtown Crossing",
+               "stop_lat":"42.355518",
+               "stop_lon":"-71.060225"
+            },
+            {  
+               "stop_order":"150",
+               "stop_id":"70076",
+               "stop_name":"Park Street - to Alewife",
+               "parent_station":"place-pktrm",
+               "parent_station_name":"Park Street",
+               "stop_lat":"42.35639457",
+               "stop_lon":"-71.0624242"
+            },
+            {  
+               "stop_order":"160",
+               "stop_id":"70074",
+               "stop_name":"Charles/MGH - Outbound",
+               "parent_station":"place-chmnl",
+               "parent_station_name":"Charles/MGH",
+               "stop_lat":"42.361166",
+               "stop_lon":"-71.070628"
+            },
+            {  
+               "stop_order":"170",
+               "stop_id":"70072",
+               "stop_name":"Kendall/MIT - Outbound",
+               "parent_station":"place-knncl",
+               "parent_station_name":"Kendall/MIT",
+               "stop_lat":"42.36249079",
+               "stop_lon":"-71.08617653"
+            },
+            {  
+               "stop_order":"180",
+               "stop_id":"70070",
+               "stop_name":"Central - Outbound",
+               "parent_station":"place-cntsq",
+               "parent_station_name":"Central",
+               "stop_lat":"42.365486",
+               "stop_lon":"-71.103802"
+            },
+            {  
+               "stop_order":"190",
+               "stop_id":"70068",
+               "stop_name":"Harvard - Outbound",
+               "parent_station":"place-harsq",
+               "parent_station_name":"Harvard",
+               "stop_lat":"42.373362",
+               "stop_lon":"-71.118956"
+            },
+            {  
+               "stop_order":"200",
+               "stop_id":"70066",
+               "stop_name":"Porter - Outbound",
+               "parent_station":"place-portr",
+               "parent_station_name":"Porter",
+               "stop_lat":"42.3884",
+               "stop_lon":"-71.119149"
+            },
+            {  
+               "stop_order":"210",
+               "stop_id":"70064",
+               "stop_name":"Davis - Outbound",
+               "parent_station":"place-davis",
+               "parent_station_name":"Davis",
+               "stop_lat":"42.39674",
+               "stop_lon":"-71.121815"
+            },
+            {  
+               "stop_order":"220",
+               "stop_id":"70061",
+               "stop_name":"Alewife",
+               "parent_station":"place-alfcl",
+               "parent_station_name":"Alewife",
+               "stop_lat":"42.395428",
+               "stop_lon":"-71.142483"
+            }
+         ]
+      }
+   ],
   "orange": [
-    {
-      "direction_id": "0",
-      "direction_name": "Southbound",
-      "stop": [
-        {
-          "stop_order": "1",
-          "stop_id": "70036",
-          "stop_name": "Oak Grove",
-          "parent_station": "place-ogmnl",
-          "parent_station_name": "Oak Grove",
-          "stop_lat": "42.43668",
-          "stop_lon": "-71.071097"
-        },
-        {
-          "stop_order": "10",
-          "stop_id": "70034",
-          "stop_name": "Malden - Inbound",
-          "parent_station": "place-mlmnl",
-          "parent_station_name": "Malden Center",
-          "stop_lat": "42.426632",
-          "stop_lon": "-71.07411"
-        },
-        {
-          "stop_order": "20",
-          "stop_id": "70032",
-          "stop_name": "Wellington - Inbound",
-          "parent_station": "place-welln",
-          "parent_station_name": "Wellington",
-          "stop_lat": "42.40237",
-          "stop_lon": "-71.077082"
-        },
-        {
-          "stop_order": "30",
-          "stop_id": "70278",
-          "stop_name": "Assembly - Inbound",
-          "parent_station": "place-astao",
-          "parent_station_name": "Assembly",
-          "stop_lat": "42.392811",
-          "stop_lon": "-71.077257"
-        },
-        {
-          "stop_order": "40",
-          "stop_id": "70030",
-          "stop_name": "Sullivan Square - Inbound",
-          "parent_station": "place-sull",
-          "parent_station_name": "Sullivan Square",
-          "stop_lat": "42.383975",
-          "stop_lon": "-71.076994"
-        },
-        {
-          "stop_order": "50",
-          "stop_id": "70028",
-          "stop_name": "Community College - Inbound",
-          "parent_station": "place-ccmnl",
-          "parent_station_name": "Community College",
-          "stop_lat": "42.373622",
-          "stop_lon": "-71.069533"
-        },
-        {
-          "stop_order": "60",
-          "stop_id": "70026",
-          "stop_name": "North Station - Orange Line Inbound",
-          "parent_station": "place-north",
-          "parent_station_name": "North Station",
-          "stop_lat": "42.365577",
-          "stop_lon": "-71.06129"
-        },
-        {
-          "stop_order": "70",
-          "stop_id": "70024",
-          "stop_name": "Haymarket - Orange Line Inbound",
-          "parent_station": "place-haecl",
-          "parent_station_name": "Haymarket",
-          "stop_lat": "42.363021",
-          "stop_lon": "-71.05829"
-        },
-        {
-          "stop_order": "80",
-          "stop_id": "70022",
-          "stop_name": "State Street - to Forest Hills",
-          "parent_station": "place-state",
-          "parent_station_name": "State Street",
-          "stop_lat": "42.358978",
-          "stop_lon": "-71.057598"
-        },
-        {
-          "stop_order": "90",
-          "stop_id": "70020",
-          "stop_name": "Downtown Crossing - to Forest Hills",
-          "parent_station": "place-dwnxg",
-          "parent_station_name": "Downtown Crossing",
-          "stop_lat": "42.355518",
-          "stop_lon": "-71.060225"
-        },
-        {
-          "stop_order": "100",
-          "stop_id": "70018",
-          "stop_name": "Chinatown - Outbound",
-          "parent_station": "place-chncl",
-          "parent_station_name": "Chinatown",
-          "stop_lat": "42.352547",
-          "stop_lon": "-71.062752"
-        },
-        {
-          "stop_order": "110",
-          "stop_id": "70016",
-          "stop_name": "Tufts Medical Center - Outbound",
-          "parent_station": "place-tumnl",
-          "parent_station_name": "Tufts Medical Center",
-          "stop_lat": "42.349662",
-          "stop_lon": "-71.063917"
-        },
-        {
-          "stop_order": "120",
-          "stop_id": "70014",
-          "stop_name": "Back Bay - Outbound",
-          "parent_station": "place-bbsta",
-          "parent_station_name": "Back Bay",
-          "stop_lat": "42.34735",
-          "stop_lon": "-71.075727"
-        },
-        {
-          "stop_order": "130",
-          "stop_id": "70012",
-          "stop_name": "Massachusetts Avenue - Outbound",
-          "parent_station": "place-masta",
-          "parent_station_name": "Massachusetts Ave.",
-          "stop_lat": "42.341512",
-          "stop_lon": "-71.083423"
-        },
-        {
-          "stop_order": "140",
-          "stop_id": "70010",
-          "stop_name": "Ruggles - Outbound",
-          "parent_station": "place-rugg",
-          "parent_station_name": "Ruggles",
-          "stop_lat": "42.336377",
-          "stop_lon": "-71.088961"
-        },
-        {
-          "stop_order": "150",
-          "stop_id": "70008",
-          "stop_name": "Roxbury Crossing - Outbound",
-          "parent_station": "place-rcmnl",
-          "parent_station_name": "Roxbury Crossing",
-          "stop_lat": "42.331397",
-          "stop_lon": "-71.095451"
-        },
-        {
-          "stop_order": "160",
-          "stop_id": "70006",
-          "stop_name": "Jackson Square - Outbound",
-          "parent_station": "place-jaksn",
-          "parent_station_name": "Jackson Square",
-          "stop_lat": "42.323132",
-          "stop_lon": "-71.099592"
-        },
-        {
-          "stop_order": "170",
-          "stop_id": "70004",
-          "stop_name": "Stony Brook - Outbound",
-          "parent_station": "place-sbmnl",
-          "parent_station_name": "Stony Brook",
-          "stop_lat": "42.317062",
-          "stop_lon": "-71.104248"
-        },
-        {
-          "stop_order": "180",
-          "stop_id": "70002",
-          "stop_name": "Green Street - Outbound",
-          "parent_station": "place-grnst",
-          "parent_station_name": "Green Street",
-          "stop_lat": "42.310525",
-          "stop_lon": "-71.107414"
-        },
-        {
-          "stop_order": "190",
-          "stop_id": "70001",
-          "stop_name": "Forest Hills Orange Line",
-          "parent_station": "place-forhl",
-          "parent_station_name": "Forest Hills",
-          "stop_lat": "42.300523",
-          "stop_lon": "-71.113686"
-        }
-      ]
-    },
-    {
-      "direction_id": "1",
-      "direction_name": "Northbound",
-      "stop": [
-        {
-          "stop_order": "1",
-          "stop_id": "70001",
-          "stop_name": "Forest Hills Orange Line",
-          "parent_station": "place-forhl",
-          "parent_station_name": "Forest Hills",
-          "stop_lat": "42.300523",
-          "stop_lon": "-71.113686"
-        },
-        {
-          "stop_order": "10",
-          "stop_id": "70003",
-          "stop_name": "Green Street - Inbound",
-          "parent_station": "place-grnst",
-          "parent_station_name": "Green Street",
-          "stop_lat": "42.310525",
-          "stop_lon": "-71.107414"
-        },
-        {
-          "stop_order": "20",
-          "stop_id": "70005",
-          "stop_name": "Stony Brook - Inbound",
-          "parent_station": "place-sbmnl",
-          "parent_station_name": "Stony Brook",
-          "stop_lat": "42.317062",
-          "stop_lon": "-71.104248"
-        },
-        {
-          "stop_order": "30",
-          "stop_id": "70007",
-          "stop_name": "Jackson Square - Inbound",
-          "parent_station": "place-jaksn",
-          "parent_station_name": "Jackson Square",
-          "stop_lat": "42.323132",
-          "stop_lon": "-71.099592"
-        },
-        {
-          "stop_order": "40",
-          "stop_id": "70009",
-          "stop_name": "Roxbury Crossing - Inbound",
-          "parent_station": "place-rcmnl",
-          "parent_station_name": "Roxbury Crossing",
-          "stop_lat": "42.331397",
-          "stop_lon": "-71.095451"
-        },
-        {
-          "stop_order": "50",
-          "stop_id": "70011",
-          "stop_name": "Ruggles - Inbound",
-          "parent_station": "place-rugg",
-          "parent_station_name": "Ruggles",
-          "stop_lat": "42.336377",
-          "stop_lon": "-71.088961"
-        },
-        {
-          "stop_order": "60",
-          "stop_id": "70013",
-          "stop_name": "Massachusetts Avenue - Inbound",
-          "parent_station": "place-masta",
-          "parent_station_name": "Massachusetts Ave.",
-          "stop_lat": "42.341512",
-          "stop_lon": "-71.083423"
-        },
-        {
-          "stop_order": "70",
-          "stop_id": "70015",
-          "stop_name": "Back Bay - Inbound",
-          "parent_station": "place-bbsta",
-          "parent_station_name": "Back Bay",
-          "stop_lat": "42.34735",
-          "stop_lon": "-71.075727"
-        },
-        {
-          "stop_order": "80",
-          "stop_id": "70017",
-          "stop_name": "Tufts Medical Center - Inbound",
-          "parent_station": "place-tumnl",
-          "parent_station_name": "Tufts Medical Center",
-          "stop_lat": "42.349662",
-          "stop_lon": "-71.063917"
-        },
-        {
-          "stop_order": "90",
-          "stop_id": "70019",
-          "stop_name": "Chinatown - Inbound",
-          "parent_station": "place-chncl",
-          "parent_station_name": "Chinatown",
-          "stop_lat": "42.352547",
-          "stop_lon": "-71.062752"
-        },
-        {
-          "stop_order": "100",
-          "stop_id": "70021",
-          "stop_name": "Downtown Crossing - to Oak Grove",
-          "parent_station": "place-dwnxg",
-          "parent_station_name": "Downtown Crossing",
-          "stop_lat": "42.355518",
-          "stop_lon": "-71.060225"
-        },
-        {
-          "stop_order": "110",
-          "stop_id": "70023",
-          "stop_name": "State Street - to Oak Grove",
-          "parent_station": "place-state",
-          "parent_station_name": "State Street",
-          "stop_lat": "42.358978",
-          "stop_lon": "-71.057598"
-        },
-        {
-          "stop_order": "120",
-          "stop_id": "70025",
-          "stop_name": "Haymarket - Orange Line Outbound",
-          "parent_station": "place-haecl",
-          "parent_station_name": "Haymarket",
-          "stop_lat": "42.363021",
-          "stop_lon": "-71.05829"
-        },
-        {
-          "stop_order": "130",
-          "stop_id": "70027",
-          "stop_name": "North Station - Orange Line Outbound",
-          "parent_station": "place-north",
-          "parent_station_name": "North Station",
-          "stop_lat": "42.365577",
-          "stop_lon": "-71.06129"
-        },
-        {
-          "stop_order": "140",
-          "stop_id": "70029",
-          "stop_name": "Community College - Outbound",
-          "parent_station": "place-ccmnl",
-          "parent_station_name": "Community College",
-          "stop_lat": "42.373622",
-          "stop_lon": "-71.069533"
-        },
-        {
-          "stop_order": "150",
-          "stop_id": "70031",
-          "stop_name": "Sullivan Square - Outbound",
-          "parent_station": "place-sull",
-          "parent_station_name": "Sullivan Square",
-          "stop_lat": "42.383975",
-          "stop_lon": "-71.076994"
-        },
-        {
-          "stop_order": "160",
-          "stop_id": "70279",
-          "stop_name": "Assembly - Outbound",
-          "parent_station": "place-astao",
-          "parent_station_name": "Assembly",
-          "stop_lat": "42.392811",
-          "stop_lon": "-71.077257"
-        },
-        {
-          "stop_order": "170",
-          "stop_id": "70033",
-          "stop_name": "Wellington - Outbound",
-          "parent_station": "place-welln",
-          "parent_station_name": "Wellington",
-          "stop_lat": "42.40237",
-          "stop_lon": "-71.077082"
-        },
-        {
-          "stop_order": "180",
-          "stop_id": "70035",
-          "stop_name": "Malden - Outbound",
-          "parent_station": "place-mlmnl",
-          "parent_station_name": "Malden Center",
-          "stop_lat": "42.426632",
-          "stop_lon": "-71.07411"
-        },
-        {
-          "stop_order": "190",
-          "stop_id": "70036",
-          "stop_name": "Oak Grove",
-          "parent_station": "place-ogmnl",
-          "parent_station_name": "Oak Grove",
-          "stop_lat": "42.43668",
-          "stop_lon": "-71.071097"
-        }
-      ]
-    }
-  ],
+      {  
+         "direction_id":"0",
+         "direction_name":"Southbound",
+         "stop":[  
+            {  
+               "stop_order":"1",
+               "stop_id":"70036",
+               "stop_name":"Oak Grove",
+               "parent_station":"place-ogmnl",
+               "parent_station_name":"Oak Grove",
+               "stop_lat":"42.43668",
+               "stop_lon":"-71.071097"
+            },
+            {  
+               "stop_order":"10",
+               "stop_id":"70034",
+               "stop_name":"Malden - Inbound",
+               "parent_station":"place-mlmnl",
+               "parent_station_name":"Malden Center",
+               "stop_lat":"42.426632",
+               "stop_lon":"-71.07411"
+            },
+            {  
+               "stop_order":"20",
+               "stop_id":"70032",
+               "stop_name":"Wellington - Inbound",
+               "parent_station":"place-welln",
+               "parent_station_name":"Wellington",
+               "stop_lat":"42.40237",
+               "stop_lon":"-71.077082"
+            },
+            {  
+               "stop_order":"30",
+               "stop_id":"70278",
+               "stop_name":"Assembly - Inbound",
+               "parent_station":"place-astao",
+               "parent_station_name":"Assembly",
+               "stop_lat":"42.392811",
+               "stop_lon":"-71.077257"
+            },
+            {  
+               "stop_order":"40",
+               "stop_id":"70030",
+               "stop_name":"Sullivan Square - Inbound",
+               "parent_station":"place-sull",
+               "parent_station_name":"Sullivan Square",
+               "stop_lat":"42.383975",
+               "stop_lon":"-71.076994"
+            },
+            {  
+               "stop_order":"50",
+               "stop_id":"70028",
+               "stop_name":"Community College - Inbound",
+               "parent_station":"place-ccmnl",
+               "parent_station_name":"Community College",
+               "stop_lat":"42.373622",
+               "stop_lon":"-71.069533"
+            },
+            {  
+               "stop_order":"60",
+               "stop_id":"70026",
+               "stop_name":"North Station - Orange Line Inbound",
+               "parent_station":"place-north",
+               "parent_station_name":"North Station",
+               "stop_lat":"42.365577",
+               "stop_lon":"-71.06129"
+            },
+            {  
+               "stop_order":"70",
+               "stop_id":"70024",
+               "stop_name":"Haymarket - Orange Line Inbound",
+               "parent_station":"place-haecl",
+               "parent_station_name":"Haymarket",
+               "stop_lat":"42.363021",
+               "stop_lon":"-71.05829"
+            },
+            {  
+               "stop_order":"80",
+               "stop_id":"70022",
+               "stop_name":"State Street - to Forest Hills",
+               "parent_station":"place-state",
+               "parent_station_name":"State Street",
+               "stop_lat":"42.358978",
+               "stop_lon":"-71.057598"
+            },
+            {  
+               "stop_order":"90",
+               "stop_id":"70020",
+               "stop_name":"Downtown Crossing - to Forest Hills",
+               "parent_station":"place-dwnxg",
+               "parent_station_name":"Downtown Crossing",
+               "stop_lat":"42.355518",
+               "stop_lon":"-71.060225"
+            },
+            {  
+               "stop_order":"100",
+               "stop_id":"70018",
+               "stop_name":"Chinatown - Outbound",
+               "parent_station":"place-chncl",
+               "parent_station_name":"Chinatown",
+               "stop_lat":"42.352547",
+               "stop_lon":"-71.062752"
+            },
+            {  
+               "stop_order":"110",
+               "stop_id":"70016",
+               "stop_name":"Tufts Medical Center - Outbound",
+               "parent_station":"place-tumnl",
+               "parent_station_name":"Tufts Medical Center",
+               "stop_lat":"42.349662",
+               "stop_lon":"-71.063917"
+            },
+            {  
+               "stop_order":"120",
+               "stop_id":"70014",
+               "stop_name":"Back Bay - Outbound",
+               "parent_station":"place-bbsta",
+               "parent_station_name":"Back Bay",
+               "stop_lat":"42.34735",
+               "stop_lon":"-71.075727"
+            },
+            {  
+               "stop_order":"130",
+               "stop_id":"70012",
+               "stop_name":"Massachusetts Avenue - Outbound",
+               "parent_station":"place-masta",
+               "parent_station_name":"Massachusetts Ave.",
+               "stop_lat":"42.341512",
+               "stop_lon":"-71.083423"
+            },
+            {  
+               "stop_order":"140",
+               "stop_id":"70010",
+               "stop_name":"Ruggles - Outbound",
+               "parent_station":"place-rugg",
+               "parent_station_name":"Ruggles",
+               "stop_lat":"42.336377",
+               "stop_lon":"-71.088961"
+            },
+            {  
+               "stop_order":"150",
+               "stop_id":"70008",
+               "stop_name":"Roxbury Crossing - Outbound",
+               "parent_station":"place-rcmnl",
+               "parent_station_name":"Roxbury Crossing",
+               "stop_lat":"42.331397",
+               "stop_lon":"-71.095451"
+            },
+            {  
+               "stop_order":"160",
+               "stop_id":"70006",
+               "stop_name":"Jackson Square - Outbound",
+               "parent_station":"place-jaksn",
+               "parent_station_name":"Jackson Square",
+               "stop_lat":"42.323132",
+               "stop_lon":"-71.099592"
+            },
+            {  
+               "stop_order":"170",
+               "stop_id":"70004",
+               "stop_name":"Stony Brook - Outbound",
+               "parent_station":"place-sbmnl",
+               "parent_station_name":"Stony Brook",
+               "stop_lat":"42.317062",
+               "stop_lon":"-71.104248"
+            },
+            {  
+               "stop_order":"180",
+               "stop_id":"70002",
+               "stop_name":"Green Street - Outbound",
+               "parent_station":"place-grnst",
+               "parent_station_name":"Green Street",
+               "stop_lat":"42.310525",
+               "stop_lon":"-71.107414"
+            },
+            {  
+               "stop_order":"190",
+               "stop_id":"70001",
+               "stop_name":"Forest Hills Orange Line",
+               "parent_station":"place-forhl",
+               "parent_station_name":"Forest Hills",
+               "stop_lat":"42.300523",
+               "stop_lon":"-71.113686"
+            }
+         ]
+      },
+      {  
+         "direction_id":"1",
+         "direction_name":"Northbound",
+         "stop":[  
+            {  
+               "stop_order":"1",
+               "stop_id":"70001",
+               "stop_name":"Forest Hills Orange Line",
+               "parent_station":"place-forhl",
+               "parent_station_name":"Forest Hills",
+               "stop_lat":"42.300523",
+               "stop_lon":"-71.113686"
+            },
+            {  
+               "stop_order":"10",
+               "stop_id":"70003",
+               "stop_name":"Green Street - Inbound",
+               "parent_station":"place-grnst",
+               "parent_station_name":"Green Street",
+               "stop_lat":"42.310525",
+               "stop_lon":"-71.107414"
+            },
+            {  
+               "stop_order":"20",
+               "stop_id":"70005",
+               "stop_name":"Stony Brook - Inbound",
+               "parent_station":"place-sbmnl",
+               "parent_station_name":"Stony Brook",
+               "stop_lat":"42.317062",
+               "stop_lon":"-71.104248"
+            },
+            {  
+               "stop_order":"30",
+               "stop_id":"70007",
+               "stop_name":"Jackson Square - Inbound",
+               "parent_station":"place-jaksn",
+               "parent_station_name":"Jackson Square",
+               "stop_lat":"42.323132",
+               "stop_lon":"-71.099592"
+            },
+            {  
+               "stop_order":"40",
+               "stop_id":"70009",
+               "stop_name":"Roxbury Crossing - Inbound",
+               "parent_station":"place-rcmnl",
+               "parent_station_name":"Roxbury Crossing",
+               "stop_lat":"42.331397",
+               "stop_lon":"-71.095451"
+            },
+            {  
+               "stop_order":"50",
+               "stop_id":"70011",
+               "stop_name":"Ruggles - Inbound",
+               "parent_station":"place-rugg",
+               "parent_station_name":"Ruggles",
+               "stop_lat":"42.336377",
+               "stop_lon":"-71.088961"
+            },
+            {  
+               "stop_order":"60",
+               "stop_id":"70013",
+               "stop_name":"Massachusetts Avenue - Inbound",
+               "parent_station":"place-masta",
+               "parent_station_name":"Massachusetts Ave.",
+               "stop_lat":"42.341512",
+               "stop_lon":"-71.083423"
+            },
+            {  
+               "stop_order":"70",
+               "stop_id":"70015",
+               "stop_name":"Back Bay - Inbound",
+               "parent_station":"place-bbsta",
+               "parent_station_name":"Back Bay",
+               "stop_lat":"42.34735",
+               "stop_lon":"-71.075727"
+            },
+            {  
+               "stop_order":"80",
+               "stop_id":"70017",
+               "stop_name":"Tufts Medical Center - Inbound",
+               "parent_station":"place-tumnl",
+               "parent_station_name":"Tufts Medical Center",
+               "stop_lat":"42.349662",
+               "stop_lon":"-71.063917"
+            },
+            {  
+               "stop_order":"90",
+               "stop_id":"70019",
+               "stop_name":"Chinatown - Inbound",
+               "parent_station":"place-chncl",
+               "parent_station_name":"Chinatown",
+               "stop_lat":"42.352547",
+               "stop_lon":"-71.062752"
+            },
+            {  
+               "stop_order":"100",
+               "stop_id":"70021",
+               "stop_name":"Downtown Crossing - to Oak Grove",
+               "parent_station":"place-dwnxg",
+               "parent_station_name":"Downtown Crossing",
+               "stop_lat":"42.355518",
+               "stop_lon":"-71.060225"
+            },
+            {  
+               "stop_order":"110",
+               "stop_id":"70023",
+               "stop_name":"State Street - to Oak Grove",
+               "parent_station":"place-state",
+               "parent_station_name":"State Street",
+               "stop_lat":"42.358978",
+               "stop_lon":"-71.057598"
+            },
+            {  
+               "stop_order":"120",
+               "stop_id":"70025",
+               "stop_name":"Haymarket - Orange Line Outbound",
+               "parent_station":"place-haecl",
+               "parent_station_name":"Haymarket",
+               "stop_lat":"42.363021",
+               "stop_lon":"-71.05829"
+            },
+            {  
+               "stop_order":"130",
+               "stop_id":"70027",
+               "stop_name":"North Station - Orange Line Outbound",
+               "parent_station":"place-north",
+               "parent_station_name":"North Station",
+               "stop_lat":"42.365577",
+               "stop_lon":"-71.06129"
+            },
+            {  
+               "stop_order":"140",
+               "stop_id":"70029",
+               "stop_name":"Community College - Outbound",
+               "parent_station":"place-ccmnl",
+               "parent_station_name":"Community College",
+               "stop_lat":"42.373622",
+               "stop_lon":"-71.069533"
+            },
+            {  
+               "stop_order":"150",
+               "stop_id":"70031",
+               "stop_name":"Sullivan Square - Outbound",
+               "parent_station":"place-sull",
+               "parent_station_name":"Sullivan Square",
+               "stop_lat":"42.383975",
+               "stop_lon":"-71.076994"
+            },
+            {  
+               "stop_order":"160",
+               "stop_id":"70279",
+               "stop_name":"Assembly - Outbound",
+               "parent_station":"place-astao",
+               "parent_station_name":"Assembly",
+               "stop_lat":"42.392811",
+               "stop_lon":"-71.077257"
+            },
+            {  
+               "stop_order":"170",
+               "stop_id":"70033",
+               "stop_name":"Wellington - Outbound",
+               "parent_station":"place-welln",
+               "parent_station_name":"Wellington",
+               "stop_lat":"42.40237",
+               "stop_lon":"-71.077082"
+            },
+            {  
+               "stop_order":"180",
+               "stop_id":"70035",
+               "stop_name":"Malden - Outbound",
+               "parent_station":"place-mlmnl",
+               "parent_station_name":"Malden Center",
+               "stop_lat":"42.426632",
+               "stop_lon":"-71.07411"
+            },
+            {  
+               "stop_order":"190",
+               "stop_id":"70036",
+               "stop_name":"Oak Grove",
+               "parent_station":"place-ogmnl",
+               "parent_station_name":"Oak Grove",
+               "stop_lat":"42.43668",
+               "stop_lon":"-71.071097"
+            }
+         ]
+      }
+   ],
   "green-e": [
-    {
-      "direction_id": "0",
-      "direction_name": "Westbound",
-      "stop": [
-        {
-          "stop_order": "1",
-          "stop_id": "70210",
-          "stop_name": "Lechmere - Inbound",
-          "parent_station": "place-lech",
-          "parent_station_name": "Lechmere",
-          "stop_lat": "42.370772",
-          "stop_lon": "-71.076536"
-        },
-        {
-          "stop_order": "10",
-          "stop_id": "70208",
-          "stop_name": "Science Park - Inbound",
-          "parent_station": "place-spmnl",
-          "parent_station_name": "Science Park",
-          "stop_lat": "42.366664",
-          "stop_lon": "-71.067666"
-        },
-        {
-          "stop_order": "20",
-          "stop_id": "70206",
-          "stop_name": "North Station - Green Line Inbound",
-          "parent_station": "place-north",
-          "parent_station_name": "North Station",
-          "stop_lat": "42.365577",
-          "stop_lon": "-71.06129"
-        },
-        {
-          "stop_order": "30",
-          "stop_id": "70204",
-          "stop_name": "Haymarket - Green Line Inbound",
-          "parent_station": "place-haecl",
-          "parent_station_name": "Haymarket",
-          "stop_lat": "42.363021",
-          "stop_lon": "-71.05829"
-        },
-        {
-          "stop_order": "80",
-          "stop_id": "70199",
-          "stop_name": "Park Street - Green Line - E Branch Berth",
-          "parent_station": "place-pktrm",
-          "parent_station_name": "Park Street",
-          "stop_lat": "42.35639457",
-          "stop_lon": "-71.0624242"
-        },
-        {
-          "stop_order": "90",
-          "stop_id": "70159",
-          "stop_name": "Boylston - Outbound",
-          "parent_station": "place-boyls",
-          "parent_station_name": "Boylston",
-          "stop_lat": "42.35302",
-          "stop_lon": "-71.06459"
-        },
-        {
-          "stop_order": "100",
-          "stop_id": "70157",
-          "stop_name": "Arlington - Outbound",
-          "parent_station": "place-armnl",
-          "parent_station_name": "Arlington",
-          "stop_lat": "42.351902",
-          "stop_lon": "-71.070893"
-        },
-        {
-          "stop_order": "110",
-          "stop_id": "70155",
-          "stop_name": "Copley - Outbound",
-          "parent_station": "place-coecl",
-          "parent_station_name": "Copley",
-          "stop_lat": "42.349974",
-          "stop_lon": "-71.077447"
-        },
-        {
-          "stop_order": "580",
-          "stop_id": "70239",
-          "stop_name": "Prudential - Outbound",
-          "parent_station": "place-prmnl",
-          "parent_station_name": "Prudential",
-          "stop_lat": "42.34557",
-          "stop_lon": "-71.081696"
-        },
-        {
-          "stop_order": "590",
-          "stop_id": "70241",
-          "stop_name": "Symphony - Outbound",
-          "parent_station": "place-symcl",
-          "parent_station_name": "Symphony",
-          "stop_lat": "42.342687",
-          "stop_lon": "-71.085056"
-        },
-        {
-          "stop_order": "600",
-          "stop_id": "70243",
-          "stop_name": "Northeastern - Outbound",
-          "parent_station": "place-nuniv",
-          "parent_station_name": "Northeastern University",
-          "stop_lat": "42.340401",
-          "stop_lon": "-71.088806"
-        },
-        {
-          "stop_order": "610",
-          "stop_id": "70245",
-          "stop_name": "Museum of Fine Arts - Outbound",
-          "parent_station": "place-mfa",
-          "parent_station_name": "Museum of Fine Arts",
-          "stop_lat": "42.337711",
-          "stop_lon": "-71.095512"
-        },
-        {
-          "stop_order": "620",
-          "stop_id": "70247",
-          "stop_name": "Longwood Medical Area - Outbound",
-          "parent_station": "place-lngmd",
-          "parent_station_name": "Longwood Medical Area",
-          "stop_lat": "42.33596",
-          "stop_lon": "-71.100052"
-        },
-        {
-          "stop_order": "630",
-          "stop_id": "70249",
-          "stop_name": "Brigham Circle - Outbound",
-          "parent_station": "place-brmnl",
-          "parent_station_name": "Brigham Circle",
-          "stop_lat": "42.334229",
-          "stop_lon": "-71.104609"
-        },
-        {
-          "stop_order": "640",
-          "stop_id": "70251",
-          "stop_name": "Fenwood Road - Outbound",
-          "parent_station": "place-fenwd",
-          "parent_station_name": "Fenwood Road",
-          "stop_lat": "42.333706",
-          "stop_lon": "-71.105728"
-        },
-        {
-          "stop_order": "650",
-          "stop_id": "70253",
-          "stop_name": "Mission Park - Outbound",
-          "parent_station": "place-mispk",
-          "parent_station_name": "Mission Park",
-          "stop_lat": "42.333195",
-          "stop_lon": "-71.109756"
-        },
-        {
-          "stop_order": "660",
-          "stop_id": "70255",
-          "stop_name": "Riverway - Outbound",
-          "parent_station": "place-rvrwy",
-          "parent_station_name": "Riverway",
-          "stop_lat": "42.331684",
-          "stop_lon": "-71.111931"
-        },
-        {
-          "stop_order": "670",
-          "stop_id": "70257",
-          "stop_name": "Back of the Hill - Outbound",
-          "parent_station": "place-bckhl",
-          "parent_station_name": "Back of the Hill",
-          "stop_lat": "42.330139",
-          "stop_lon": "-71.111313"
-        },
-        {
-          "stop_order": "680",
-          "stop_id": "70259",
-          "stop_name": "Heath Street - Outbound",
-          "parent_station": "place-hsmnl",
-          "parent_station_name": "Heath Street",
-          "stop_lat": "42.328681",
-          "stop_lon": "-71.110559"
-        },
-        {
-          "stop_order": "680",
-          "stop_id": "70260",
-          "stop_name": "Heath Street - Inbound",
-          "parent_station": "place-hsmnl",
-          "parent_station_name": "Heath Street",
-          "stop_lat": "42.328681",
-          "stop_lon": "-71.110559"
-        }
-      ]
-    },
-    {
-      "direction_id": "1",
-      "direction_name": "Eastbound",
-      "stop": [
-        {
-          "stop_order": "440",
-          "stop_id": "70260",
-          "stop_name": "Heath Street - Inbound",
-          "parent_station": "place-hsmnl",
-          "parent_station_name": "Heath Street",
-          "stop_lat": "42.328681",
-          "stop_lon": "-71.110559"
-        },
-        {
-          "stop_order": "450",
-          "stop_id": "70258",
-          "stop_name": "Back of the Hill - Inbound",
-          "parent_station": "place-bckhl",
-          "parent_station_name": "Back of the Hill",
-          "stop_lat": "42.330139",
-          "stop_lon": "-71.111313"
-        },
-        {
-          "stop_order": "460",
-          "stop_id": "70256",
-          "stop_name": "Riverway - Inbound",
-          "parent_station": "place-rvrwy",
-          "parent_station_name": "Riverway",
-          "stop_lat": "42.331684",
-          "stop_lon": "-71.111931"
-        },
-        {
-          "stop_order": "470",
-          "stop_id": "70254",
-          "stop_name": "Mission Park - Inbound",
-          "parent_station": "place-mispk",
-          "parent_station_name": "Mission Park",
-          "stop_lat": "42.333195",
-          "stop_lon": "-71.109756"
-        },
-        {
-          "stop_order": "480",
-          "stop_id": "70252",
-          "stop_name": "Fenwood Road - Inbound",
-          "parent_station": "place-fenwd",
-          "parent_station_name": "Fenwood Road",
-          "stop_lat": "42.333706",
-          "stop_lon": "-71.105728"
-        },
-        {
-          "stop_order": "490",
-          "stop_id": "70250",
-          "stop_name": "Brigham Circle - Inbound",
-          "parent_station": "place-brmnl",
-          "parent_station_name": "Brigham Circle",
-          "stop_lat": "42.334229",
-          "stop_lon": "-71.104609"
-        },
-        {
-          "stop_order": "500",
-          "stop_id": "70248",
-          "stop_name": "Longwood Medical Area - Inbound",
-          "parent_station": "place-lngmd",
-          "parent_station_name": "Longwood Medical Area",
-          "stop_lat": "42.33596",
-          "stop_lon": "-71.100052"
-        },
-        {
-          "stop_order": "510",
-          "stop_id": "70246",
-          "stop_name": "Museum of Fine Arts - Inbound",
-          "parent_station": "place-mfa",
-          "parent_station_name": "Museum of Fine Arts",
-          "stop_lat": "42.337711",
-          "stop_lon": "-71.095512"
-        },
-        {
-          "stop_order": "520",
-          "stop_id": "70244",
-          "stop_name": "Northeastern - Inbound",
-          "parent_station": "place-nuniv",
-          "parent_station_name": "Northeastern University",
-          "stop_lat": "42.340401",
-          "stop_lon": "-71.088806"
-        },
-        {
-          "stop_order": "530",
-          "stop_id": "70242",
-          "stop_name": "Symphony - Inbound",
-          "parent_station": "place-symcl",
-          "parent_station_name": "Symphony",
-          "stop_lat": "42.342687",
-          "stop_lon": "-71.085056"
-        },
-        {
-          "stop_order": "540",
-          "stop_id": "70240",
-          "stop_name": "Prudential - Inbound",
-          "parent_station": "place-prmnl",
-          "parent_station_name": "Prudential",
-          "stop_lat": "42.34557",
-          "stop_lon": "-71.081696"
-        },
-        {
-          "stop_order": "570",
-          "stop_id": "70154",
-          "stop_name": "Copley - Inbound",
-          "parent_station": "place-coecl",
-          "parent_station_name": "Copley",
-          "stop_lat": "42.349974",
-          "stop_lon": "-71.077447"
-        },
-        {
-          "stop_order": "580",
-          "stop_id": "70156",
-          "stop_name": "Arlington - Inbound",
-          "parent_station": "place-armnl",
-          "parent_station_name": "Arlington",
-          "stop_lat": "42.351902",
-          "stop_lon": "-71.070893"
-        },
-        {
-          "stop_order": "590",
-          "stop_id": "70158",
-          "stop_name": "Boylston - Inbound",
-          "parent_station": "place-boyls",
-          "parent_station_name": "Boylston",
-          "stop_lat": "42.35302",
-          "stop_lon": "-71.06459"
-        },
-        {
-          "stop_order": "600",
-          "stop_id": "70200",
-          "stop_name": "Park Street - Green Line Eastbound",
-          "parent_station": "place-pktrm",
-          "parent_station_name": "Park Street",
-          "stop_lat": "42.35639457",
-          "stop_lon": "-71.0624242"
-        },
-        {
-          "stop_order": "620",
-          "stop_id": "70203",
-          "stop_name": "Haymarket - Green Line Outbound",
-          "parent_station": "place-haecl",
-          "parent_station_name": "Haymarket",
-          "stop_lat": "42.363021",
-          "stop_lon": "-71.05829"
-        },
-        {
-          "stop_order": "630",
-          "stop_id": "70205",
-          "stop_name": "North Station - Green Line Outbound",
-          "parent_station": "place-north",
-          "parent_station_name": "North Station",
-          "stop_lat": "42.365577",
-          "stop_lon": "-71.06129"
-        },
-        {
-          "stop_order": "640",
-          "stop_id": "70207",
-          "stop_name": "Science Park - Outbound",
-          "parent_station": "place-spmnl",
-          "parent_station_name": "Science Park",
-          "stop_lat": "42.366664",
-          "stop_lon": "-71.067666"
-        },
-        {
-          "stop_order": "650",
-          "stop_id": "70209",
-          "stop_name": "Lechmere - Outbound",
-          "parent_station": "place-lech",
-          "parent_station_name": "Lechmere",
-          "stop_lat": "42.370772",
-          "stop_lon": "-71.076536"
-        }
-      ]
-    }
-  ],
-  "green-d": [
-    {
-      "direction_id": "0",
-      "direction_name": "Westbound",
-      "stop": [
-        {
-          "stop_order": "1",
-          "stop_id": "70210",
-          "stop_name": "Lechmere - Inbound",
-          "parent_station": "place-lech",
-          "parent_station_name": "Lechmere",
-          "stop_lat": "42.370772",
-          "stop_lon": "-71.076536"
-        },
-        {
-          "stop_order": "10",
-          "stop_id": "70208",
-          "stop_name": "Science Park - Inbound",
-          "parent_station": "place-spmnl",
-          "parent_station_name": "Science Park",
-          "stop_lat": "42.366664",
-          "stop_lon": "-71.067666"
-        },
-        {
-          "stop_order": "20",
-          "stop_id": "70206",
-          "stop_name": "North Station - Green Line Inbound",
-          "parent_station": "place-north",
-          "parent_station_name": "North Station",
-          "stop_lat": "42.365577",
-          "stop_lon": "-71.06129"
-        },
-        {
-          "stop_order": "30",
-          "stop_id": "70204",
-          "stop_name": "Haymarket - Green Line Inbound",
-          "parent_station": "place-haecl",
-          "parent_station_name": "Haymarket",
-          "stop_lat": "42.363021",
-          "stop_lon": "-71.05829"
-        },
-        {
-          "stop_order": "70",
-          "stop_id": "70198",
-          "stop_name": "Park Street - Green Line - D Branch Berth",
-          "parent_station": "place-pktrm",
-          "parent_station_name": "Park Street",
-          "stop_lat": "42.35639457",
-          "stop_lon": "-71.0624242"
-        },
-        {
-          "stop_order": "90",
-          "stop_id": "70159",
-          "stop_name": "Boylston - Outbound",
-          "parent_station": "place-boyls",
-          "parent_station_name": "Boylston",
-          "stop_lat": "42.35302",
-          "stop_lon": "-71.06459"
-        },
-        {
-          "stop_order": "100",
-          "stop_id": "70157",
-          "stop_name": "Arlington - Outbound",
-          "parent_station": "place-armnl",
-          "parent_station_name": "Arlington",
-          "stop_lat": "42.351902",
-          "stop_lon": "-71.070893"
-        },
-        {
-          "stop_order": "110",
-          "stop_id": "70155",
-          "stop_name": "Copley - Outbound",
-          "parent_station": "place-coecl",
-          "parent_station_name": "Copley",
-          "stop_lat": "42.349974",
-          "stop_lon": "-71.077447"
-        },
-        {
-          "stop_order": "120",
-          "stop_id": "70153",
-          "stop_name": "Hynes - Outbound",
-          "parent_station": "place-hymnl",
-          "parent_station_name": "Hynes Convention Center",
-          "stop_lat": "42.347888",
-          "stop_lon": "-71.087903"
-        },
-        {
-          "stop_order": "130",
-          "stop_id": "70151",
-          "stop_name": "Kenmore - Outbound",
-          "parent_station": "place-kencl",
-          "parent_station_name": "Kenmore",
-          "stop_lat": "42.348949",
-          "stop_lon": "-71.095169"
-        },
-        {
-          "stop_order": "450",
-          "stop_id": "70187",
-          "stop_name": "Fenway - Outbound",
-          "parent_station": "place-fenwy",
-          "parent_station_name": "Fenway",
-          "stop_lat": "42.345394",
-          "stop_lon": "-71.104187"
-        },
-        {
-          "stop_order": "460",
-          "stop_id": "70183",
-          "stop_name": "Longwood - Outbound",
-          "parent_station": "place-longw",
-          "parent_station_name": "Longwood",
-          "stop_lat": "42.341145",
-          "stop_lon": "-71.110451"
-        },
-        {
-          "stop_order": "470",
-          "stop_id": "70181",
-          "stop_name": "Brookline Village - Outbound",
-          "parent_station": "place-bvmnl",
-          "parent_station_name": "Brookline Village",
-          "stop_lat": "42.332774",
-          "stop_lon": "-71.116296"
-        },
-        {
-          "stop_order": "480",
-          "stop_id": "70179",
-          "stop_name": "Brookline Hills - Outbound",
-          "parent_station": "place-brkhl",
-          "parent_station_name": "Brookline Hills",
-          "stop_lat": "42.331333",
-          "stop_lon": "-71.126999"
-        },
-        {
-          "stop_order": "490",
-          "stop_id": "70177",
-          "stop_name": "Beaconsfield - Outbound",
-          "parent_station": "place-bcnfd",
-          "parent_station_name": "Beaconsfield",
-          "stop_lat": "42.335846",
-          "stop_lon": "-71.140823"
-        },
-        {
-          "stop_order": "500",
-          "stop_id": "70175",
-          "stop_name": "Reservoir - Outbound",
-          "parent_station": "place-rsmnl",
-          "parent_station_name": "Reservoir",
-          "stop_lat": "42.335027",
-          "stop_lon": "-71.148952"
-        },
-        {
-          "stop_order": "510",
-          "stop_id": "70173",
-          "stop_name": "Chestnut Hill - Outbound",
-          "parent_station": "place-chhil",
-          "parent_station_name": "Chestnut Hill",
-          "stop_lat": "42.326653",
-          "stop_lon": "-71.165314"
-        },
-        {
-          "stop_order": "520",
-          "stop_id": "70171",
-          "stop_name": "Newton Centre - Outbound",
-          "parent_station": "place-newto",
-          "parent_station_name": "Newton Centre",
-          "stop_lat": "42.329391",
-          "stop_lon": "-71.192429"
-        },
-        {
-          "stop_order": "530",
-          "stop_id": "70169",
-          "stop_name": "Newton Highlands - Outbound",
-          "parent_station": "place-newtn",
-          "parent_station_name": "Newton Highlands",
-          "stop_lat": "42.321735",
-          "stop_lon": "-71.206116"
-        },
-        {
-          "stop_order": "540",
-          "stop_id": "70167",
-          "stop_name": "Eliot - Outbound",
-          "parent_station": "place-eliot",
-          "parent_station_name": "Eliot",
-          "stop_lat": "42.319023",
-          "stop_lon": "-71.216713"
-        },
-        {
-          "stop_order": "550",
-          "stop_id": "70165",
-          "stop_name": "Waban - Outbound",
-          "parent_station": "place-waban",
-          "parent_station_name": "Waban",
-          "stop_lat": "42.325943",
-          "stop_lon": "-71.230728"
-        },
-        {
-          "stop_order": "560",
-          "stop_id": "70163",
-          "stop_name": "Woodland - Outbound",
-          "parent_station": "place-woodl",
-          "parent_station_name": "Woodland",
-          "stop_lat": "42.333374",
-          "stop_lon": "-71.244301"
-        },
-        {
-          "stop_order": "570",
-          "stop_id": "70161",
-          "stop_name": "Riverside - Outbound",
-          "parent_station": "place-river",
-          "parent_station_name": "Riverside",
-          "stop_lat": "42.337059",
-          "stop_lon": "-71.251742"
-        }
-      ]
-    },
-    {
-      "direction_id": "1",
-      "direction_name": "Eastbound",
-      "stop": [
-        {
-          "stop_order": "310",
-          "stop_id": "70160",
-          "stop_name": "Riverside - Inbound",
-          "parent_station": "place-river",
-          "parent_station_name": "Riverside",
-          "stop_lat": "42.337059",
-          "stop_lon": "-71.251742"
-        },
-        {
-          "stop_order": "320",
-          "stop_id": "70162",
-          "stop_name": "Woodland - Inbound",
-          "parent_station": "place-woodl",
-          "parent_station_name": "Woodland",
-          "stop_lat": "42.333374",
-          "stop_lon": "-71.244301"
-        },
-        {
-          "stop_order": "330",
-          "stop_id": "70164",
-          "stop_name": "Waban - Inbound",
-          "parent_station": "place-waban",
-          "parent_station_name": "Waban",
-          "stop_lat": "42.325943",
-          "stop_lon": "-71.230728"
-        },
-        {
-          "stop_order": "340",
-          "stop_id": "70166",
-          "stop_name": "Eliot - Inbound",
-          "parent_station": "place-eliot",
-          "parent_station_name": "Eliot",
-          "stop_lat": "42.319023",
-          "stop_lon": "-71.216713"
-        },
-        {
-          "stop_order": "350",
-          "stop_id": "70168",
-          "stop_name": "Newton Highlands - Inbound",
-          "parent_station": "place-newtn",
-          "parent_station_name": "Newton Highlands",
-          "stop_lat": "42.321735",
-          "stop_lon": "-71.206116"
-        },
-        {
-          "stop_order": "360",
-          "stop_id": "70170",
-          "stop_name": "Newton Centre - Inbound",
-          "parent_station": "place-newto",
-          "parent_station_name": "Newton Centre",
-          "stop_lat": "42.329391",
-          "stop_lon": "-71.192429"
-        },
-        {
-          "stop_order": "370",
-          "stop_id": "70172",
-          "stop_name": "Chestnut Hill - Inbound",
-          "parent_station": "place-chhil",
-          "parent_station_name": "Chestnut Hill",
-          "stop_lat": "42.326653",
-          "stop_lon": "-71.165314"
-        },
-        {
-          "stop_order": "380",
-          "stop_id": "70174",
-          "stop_name": "Reservoir - Inbound",
-          "parent_station": "place-rsmnl",
-          "parent_station_name": "Reservoir",
-          "stop_lat": "42.335027",
-          "stop_lon": "-71.148952"
-        },
-        {
-          "stop_order": "390",
-          "stop_id": "70176",
-          "stop_name": "Beaconsfield - Inbound",
-          "parent_station": "place-bcnfd",
-          "parent_station_name": "Beaconsfield",
-          "stop_lat": "42.335846",
-          "stop_lon": "-71.140823"
-        },
-        {
-          "stop_order": "400",
-          "stop_id": "70178",
-          "stop_name": "Brookline Hills - Inbound",
-          "parent_station": "place-brkhl",
-          "parent_station_name": "Brookline Hills",
-          "stop_lat": "42.331333",
-          "stop_lon": "-71.126999"
-        },
-        {
-          "stop_order": "410",
-          "stop_id": "70180",
-          "stop_name": "Brookline Village - Inbound",
-          "parent_station": "place-bvmnl",
-          "parent_station_name": "Brookline Village",
-          "stop_lat": "42.332774",
-          "stop_lon": "-71.116296"
-        },
-        {
-          "stop_order": "420",
-          "stop_id": "70182",
-          "stop_name": "Longwood - Inbound",
-          "parent_station": "place-longw",
-          "parent_station_name": "Longwood",
-          "stop_lat": "42.341145",
-          "stop_lon": "-71.110451"
-        },
-        {
-          "stop_order": "430",
-          "stop_id": "70186",
-          "stop_name": "Fenway - Inbound",
-          "parent_station": "place-fenwy",
-          "parent_station_name": "Fenway",
-          "stop_lat": "42.345394",
-          "stop_lon": "-71.104187"
-        },
-        {
-          "stop_order": "550",
-          "stop_id": "70150",
-          "stop_name": "Kenmore - Inbound",
-          "parent_station": "place-kencl",
-          "parent_station_name": "Kenmore",
-          "stop_lat": "42.348949",
-          "stop_lon": "-71.095169"
-        },
-        {
-          "stop_order": "560",
-          "stop_id": "70152",
-          "stop_name": "Hynes - Inbound",
-          "parent_station": "place-hymnl",
-          "parent_station_name": "Hynes Convention Center",
-          "stop_lat": "42.347888",
-          "stop_lon": "-71.087903"
-        },
-        {
-          "stop_order": "570",
-          "stop_id": "70154",
-          "stop_name": "Copley - Inbound",
-          "parent_station": "place-coecl",
-          "parent_station_name": "Copley",
-          "stop_lat": "42.349974",
-          "stop_lon": "-71.077447"
-        },
-        {
-          "stop_order": "580",
-          "stop_id": "70156",
-          "stop_name": "Arlington - Inbound",
-          "parent_station": "place-armnl",
-          "parent_station_name": "Arlington",
-          "stop_lat": "42.351902",
-          "stop_lon": "-71.070893"
-        },
-        {
-          "stop_order": "590",
-          "stop_id": "70158",
-          "stop_name": "Boylston - Inbound",
-          "parent_station": "place-boyls",
-          "parent_station_name": "Boylston",
-          "stop_lat": "42.35302",
-          "stop_lon": "-71.06459"
-        },
-        {
-          "stop_order": "600",
-          "stop_id": "70200",
-          "stop_name": "Park Street - Green Line Eastbound",
-          "parent_station": "place-pktrm",
-          "parent_station_name": "Park Street",
-          "stop_lat": "42.35639457",
-          "stop_lon": "-71.0624242"
-        },
-        {
-          "stop_order": "620",
-          "stop_id": "70203",
-          "stop_name": "Haymarket - Green Line Outbound",
-          "parent_station": "place-haecl",
-          "parent_station_name": "Haymarket",
-          "stop_lat": "42.363021",
-          "stop_lon": "-71.05829"
-        },
-        {
-          "stop_order": "630",
-          "stop_id": "70205",
-          "stop_name": "North Station - Green Line Outbound",
-          "parent_station": "place-north",
-          "parent_station_name": "North Station",
-          "stop_lat": "42.365577",
-          "stop_lon": "-71.06129"
-        },
-        {
-          "stop_order": "640",
-          "stop_id": "70207",
-          "stop_name": "Science Park - Outbound",
-          "parent_station": "place-spmnl",
-          "parent_station_name": "Science Park",
-          "stop_lat": "42.366664",
-          "stop_lon": "-71.067666"
-        },
-        {
-          "stop_order": "650",
-          "stop_id": "70209",
-          "stop_name": "Lechmere - Outbound",
-          "parent_station": "place-lech",
-          "parent_station_name": "Lechmere",
-          "stop_lat": "42.370772",
-          "stop_lon": "-71.076536"
-        }
-      ]
-    }
-  ],
-  "green-b": [
-    {
-      "direction_id": "0",
-      "direction_name": "Westbound",
-      "stop": [
-        {
-          "stop_order": "1",
-          "stop_id": "70210",
-          "stop_name": "Lechmere - Inbound",
-          "parent_station": "place-lech",
-          "parent_station_name": "Lechmere",
-          "stop_lat": "42.370772",
-          "stop_lon": "-71.076536"
-        },
-        {
-          "stop_order": "10",
-          "stop_id": "70208",
-          "stop_name": "Science Park - Inbound",
-          "parent_station": "place-spmnl",
-          "parent_station_name": "Science Park",
-          "stop_lat": "42.366664",
-          "stop_lon": "-71.067666"
-        },
-        {
-          "stop_order": "20",
-          "stop_id": "70206",
-          "stop_name": "North Station - Green Line Inbound",
-          "parent_station": "place-north",
-          "parent_station_name": "North Station",
-          "stop_lat": "42.365577",
-          "stop_lon": "-71.06129"
-        },
-        {
-          "stop_order": "30",
-          "stop_id": "70204",
-          "stop_name": "Haymarket - Green Line Inbound",
-          "parent_station": "place-haecl",
-          "parent_station_name": "Haymarket",
-          "stop_lat": "42.363021",
-          "stop_lon": "-71.05829"
-        },
-        {
-          "stop_order": "50",
-          "stop_id": "70196",
-          "stop_name": "Park Street - Green Line - B Branch Berth",
-          "parent_station": "place-pktrm",
-          "parent_station_name": "Park Street",
-          "stop_lat": "42.35639457",
-          "stop_lon": "-71.0624242"
-        },
-        {
-          "stop_order": "90",
-          "stop_id": "70159",
-          "stop_name": "Boylston - Outbound",
-          "parent_station": "place-boyls",
-          "parent_station_name": "Boylston",
-          "stop_lat": "42.35302",
-          "stop_lon": "-71.06459"
-        },
-        {
-          "stop_order": "100",
-          "stop_id": "70157",
-          "stop_name": "Arlington - Outbound",
-          "parent_station": "place-armnl",
-          "parent_station_name": "Arlington",
-          "stop_lat": "42.351902",
-          "stop_lon": "-71.070893"
-        },
-        {
-          "stop_order": "110",
-          "stop_id": "70155",
-          "stop_name": "Copley - Outbound",
-          "parent_station": "place-coecl",
-          "parent_station_name": "Copley",
-          "stop_lat": "42.349974",
-          "stop_lon": "-71.077447"
-        },
-        {
-          "stop_order": "120",
-          "stop_id": "70153",
-          "stop_name": "Hynes - Outbound",
-          "parent_station": "place-hymnl",
-          "parent_station_name": "Hynes Convention Center",
-          "stop_lat": "42.347888",
-          "stop_lon": "-71.087903"
-        },
-        {
-          "stop_order": "130",
-          "stop_id": "70151",
-          "stop_name": "Kenmore - Outbound",
-          "parent_station": "place-kencl",
-          "parent_station_name": "Kenmore",
-          "stop_lat": "42.348949",
-          "stop_lon": "-71.095169"
-        },
-        {
-          "stop_order": "140",
-          "stop_id": "70149",
-          "stop_name": "Blandford Street - Outbound",
-          "parent_station": "place-bland",
-          "parent_station_name": "Blandford Street",
-          "stop_lat": "42.349293",
-          "stop_lon": "-71.100258"
-        },
-        {
-          "stop_order": "150",
-          "stop_id": "70147",
-          "stop_name": "Boston Univ East - Outbound",
-          "parent_station": "place-buest",
-          "parent_station_name": "Boston Univ. East",
-          "stop_lat": "42.349735",
-          "stop_lon": "-71.103889"
-        },
-        {
-          "stop_order": "160",
-          "stop_id": "70145",
-          "stop_name": "Boston Univ Central - Outbound",
-          "parent_station": "place-bucen",
-          "parent_station_name": "Boston Univ. Central",
-          "stop_lat": "42.350082",
-          "stop_lon": "-71.106865"
-        },
-        {
-          "stop_order": "170",
-          "stop_id": "70143",
-          "stop_name": "Boston Univ West - Outbound",
-          "parent_station": "place-buwst",
-          "parent_station_name": "Boston Univ. West",
-          "stop_lat": "42.350941",
-          "stop_lon": "-71.113876"
-        },
-        {
-          "stop_order": "180",
-          "stop_id": "70141",
-          "stop_name": "Saint Paul Street - Outbound",
-          "parent_station": "place-stplb",
-          "parent_station_name": "Saint Paul Street",
-          "stop_lat": "42.3512",
-          "stop_lon": "-71.116104"
-        },
-        {
-          "stop_order": "190",
-          "stop_id": "70139",
-          "stop_name": "Pleasant Street - Outbound",
-          "parent_station": "place-plsgr",
-          "parent_station_name": "Pleasant Street",
-          "stop_lat": "42.351521",
-          "stop_lon": "-71.118889"
-        },
-        {
-          "stop_order": "200",
-          "stop_id": "70137",
-          "stop_name": "Babcock Street - Outbound",
-          "parent_station": "place-babck",
-          "parent_station_name": "Babcock Street",
-          "stop_lat": "42.35182",
-          "stop_lon": "-71.12165"
-        },
-        {
-          "stop_order": "210",
-          "stop_id": "70135",
-          "stop_name": "Packards Corner - Outbound",
-          "parent_station": "place-brico",
-          "parent_station_name": "Packards Corner",
-          "stop_lat": "42.351967",
-          "stop_lon": "-71.125031"
-        },
-        {
-          "stop_order": "220",
-          "stop_id": "70131",
-          "stop_name": "Harvard Avenue - Outbound",
-          "parent_station": "place-harvd",
-          "parent_station_name": "Harvard Ave.",
-          "stop_lat": "42.350243",
-          "stop_lon": "-71.131355"
-        },
-        {
-          "stop_order": "230",
-          "stop_id": "70129",
-          "stop_name": "Griggs Street - Outbound",
-          "parent_station": "place-grigg",
-          "parent_station_name": "Griggs Street",
-          "stop_lat": "42.348545",
-          "stop_lon": "-71.134949"
-        },
-        {
-          "stop_order": "240",
-          "stop_id": "70127",
-          "stop_name": "Allston Street - Outbound",
-          "parent_station": "place-alsgr",
-          "parent_station_name": "Allston Street",
-          "stop_lat": "42.348701",
-          "stop_lon": "-71.137955"
-        },
-        {
-          "stop_order": "250",
-          "stop_id": "70125",
-          "stop_name": "Warren Street - Outbound",
-          "parent_station": "place-wrnst",
-          "parent_station_name": "Warren Street",
-          "stop_lat": "42.348343",
-          "stop_lon": "-71.140457"
-        },
-        {
-          "stop_order": "260",
-          "stop_id": "70121",
-          "stop_name": "Washington Street - Outbound",
-          "parent_station": "place-wascm",
-          "parent_station_name": "Washington Street",
-          "stop_lat": "42.343864",
-          "stop_lon": "-71.142853"
-        },
-        {
-          "stop_order": "270",
-          "stop_id": "70117",
-          "stop_name": "Sutherland Road - Outbound",
-          "parent_station": "place-sthld",
-          "parent_station_name": "Sutherland Road",
-          "stop_lat": "42.341614",
-          "stop_lon": "-71.146202"
-        },
-        {
-          "stop_order": "280",
-          "stop_id": "70115",
-          "stop_name": "Chiswick Road - Outbound",
-          "parent_station": "place-chswk",
-          "parent_station_name": "Chiswick Road",
-          "stop_lat": "42.340805",
-          "stop_lon": "-71.150711"
-        },
-        {
-          "stop_order": "290",
-          "stop_id": "70113",
-          "stop_name": "Chestnut Hill Avenue - Outbound",
-          "parent_station": "place-chill",
-          "parent_station_name": "Chestnut Hill Ave.",
-          "stop_lat": "42.338169",
-          "stop_lon": "-71.15316"
-        },
-        {
-          "stop_order": "300",
-          "stop_id": "70111",
-          "stop_name": "South Street - Outbound",
-          "parent_station": "place-sougr",
-          "parent_station_name": "South Street",
-          "stop_lat": "42.3396",
-          "stop_lon": "-71.157661"
-        },
-        {
-          "stop_order": "310",
-          "stop_id": "70107",
-          "stop_name": "Boston College - Outbound",
-          "parent_station": "place-lake",
-          "parent_station_name": "Boston College",
-          "stop_lat": "42.340081",
-          "stop_lon": "-71.166769"
-        }
-      ]
-    },
-    {
-      "direction_id": "1",
-      "direction_name": "Eastbound",
-      "stop": [
-        {
-          "stop_order": "1",
-          "stop_id": "70106",
-          "stop_name": "Boston College - Inbound",
-          "parent_station": "place-lake",
-          "parent_station_name": "Boston College",
-          "stop_lat": "42.340081",
-          "stop_lon": "-71.166769"
-        },
-        {
-          "stop_order": "10",
-          "stop_id": "70110",
-          "stop_name": "South Street - Inbound",
-          "parent_station": "place-sougr",
-          "parent_station_name": "South Street",
-          "stop_lat": "42.3396",
-          "stop_lon": "-71.157661"
-        },
-        {
-          "stop_order": "20",
-          "stop_id": "70112",
-          "stop_name": "Chestnut Hill Avenue - Inbound",
-          "parent_station": "place-chill",
-          "parent_station_name": "Chestnut Hill Ave.",
-          "stop_lat": "42.338169",
-          "stop_lon": "-71.15316"
-        },
-        {
-          "stop_order": "30",
-          "stop_id": "70114",
-          "stop_name": "Chiswick Road - Inbound",
-          "parent_station": "place-chswk",
-          "parent_station_name": "Chiswick Road",
-          "stop_lat": "42.340805",
-          "stop_lon": "-71.150711"
-        },
-        {
-          "stop_order": "40",
-          "stop_id": "70116",
-          "stop_name": "Sutherland Road - Inbound",
-          "parent_station": "place-sthld",
-          "parent_station_name": "Sutherland Road",
-          "stop_lat": "42.341614",
-          "stop_lon": "-71.146202"
-        },
-        {
-          "stop_order": "50",
-          "stop_id": "70120",
-          "stop_name": "Washington Street - Inbound",
-          "parent_station": "place-wascm",
-          "parent_station_name": "Washington Street",
-          "stop_lat": "42.343864",
-          "stop_lon": "-71.142853"
-        },
-        {
-          "stop_order": "60",
-          "stop_id": "70124",
-          "stop_name": "Warren Street - Inbound",
-          "parent_station": "place-wrnst",
-          "parent_station_name": "Warren Street",
-          "stop_lat": "42.348343",
-          "stop_lon": "-71.140457"
-        },
-        {
-          "stop_order": "70",
-          "stop_id": "70126",
-          "stop_name": "Allston Street - Inbound",
-          "parent_station": "place-alsgr",
-          "parent_station_name": "Allston Street",
-          "stop_lat": "42.348701",
-          "stop_lon": "-71.137955"
-        },
-        {
-          "stop_order": "80",
-          "stop_id": "70128",
-          "stop_name": "Griggs Street - Inbound",
-          "parent_station": "place-grigg",
-          "parent_station_name": "Griggs Street",
-          "stop_lat": "42.348545",
-          "stop_lon": "-71.134949"
-        },
-        {
-          "stop_order": "90",
-          "stop_id": "70130",
-          "stop_name": "Harvard Avenue - Inbound",
-          "parent_station": "place-harvd",
-          "parent_station_name": "Harvard Ave.",
-          "stop_lat": "42.350243",
-          "stop_lon": "-71.131355"
-        },
-        {
-          "stop_order": "100",
-          "stop_id": "70134",
-          "stop_name": "Packards Corner - Inbound",
-          "parent_station": "place-brico",
-          "parent_station_name": "Packards Corner",
-          "stop_lat": "42.351967",
-          "stop_lon": "-71.125031"
-        },
-        {
-          "stop_order": "110",
-          "stop_id": "70136",
-          "stop_name": "Babcock Street - Inbound",
-          "parent_station": "place-babck",
-          "parent_station_name": "Babcock Street",
-          "stop_lat": "42.35182",
-          "stop_lon": "-71.12165"
-        },
-        {
-          "stop_order": "120",
-          "stop_id": "70138",
-          "stop_name": "Pleasant Street - Inbound",
-          "parent_station": "place-plsgr",
-          "parent_station_name": "Pleasant Street",
-          "stop_lat": "42.351521",
-          "stop_lon": "-71.118889"
-        },
-        {
-          "stop_order": "130",
-          "stop_id": "70140",
-          "stop_name": "Saint Paul Street - Inbound",
-          "parent_station": "place-stplb",
-          "parent_station_name": "Saint Paul Street",
-          "stop_lat": "42.3512",
-          "stop_lon": "-71.116104"
-        },
-        {
-          "stop_order": "140",
-          "stop_id": "70142",
-          "stop_name": "Boston Univ West - Inbound",
-          "parent_station": "place-buwst",
-          "parent_station_name": "Boston Univ. West",
-          "stop_lat": "42.350941",
-          "stop_lon": "-71.113876"
-        },
-        {
-          "stop_order": "150",
-          "stop_id": "70144",
-          "stop_name": "Boston Univ Central - Inbound",
-          "parent_station": "place-bucen",
-          "parent_station_name": "Boston Univ. Central",
-          "stop_lat": "42.350082",
-          "stop_lon": "-71.106865"
-        },
-        {
-          "stop_order": "160",
-          "stop_id": "70146",
-          "stop_name": "Boston Univ East - Inbound",
-          "parent_station": "place-buest",
-          "parent_station_name": "Boston Univ. East",
-          "stop_lat": "42.349735",
-          "stop_lon": "-71.103889"
-        },
-        {
-          "stop_order": "170",
-          "stop_id": "70148",
-          "stop_name": "Blandford Street - Inbound",
-          "parent_station": "place-bland",
-          "parent_station_name": "Blandford Street",
-          "stop_lat": "42.349293",
-          "stop_lon": "-71.100258"
-        },
-        {
-          "stop_order": "550",
-          "stop_id": "70150",
-          "stop_name": "Kenmore - Inbound",
-          "parent_station": "place-kencl",
-          "parent_station_name": "Kenmore",
-          "stop_lat": "42.348949",
-          "stop_lon": "-71.095169"
-        },
-        {
-          "stop_order": "560",
-          "stop_id": "70152",
-          "stop_name": "Hynes - Inbound",
-          "parent_station": "place-hymnl",
-          "parent_station_name": "Hynes Convention Center",
-          "stop_lat": "42.347888",
-          "stop_lon": "-71.087903"
-        },
-        {
-          "stop_order": "570",
-          "stop_id": "70154",
-          "stop_name": "Copley - Inbound",
-          "parent_station": "place-coecl",
-          "parent_station_name": "Copley",
-          "stop_lat": "42.349974",
-          "stop_lon": "-71.077447"
-        },
-        {
-          "stop_order": "580",
-          "stop_id": "70156",
-          "stop_name": "Arlington - Inbound",
-          "parent_station": "place-armnl",
-          "parent_station_name": "Arlington",
-          "stop_lat": "42.351902",
-          "stop_lon": "-71.070893"
-        },
-        {
-          "stop_order": "590",
-          "stop_id": "70158",
-          "stop_name": "Boylston - Inbound",
-          "parent_station": "place-boyls",
-          "parent_station_name": "Boylston",
-          "stop_lat": "42.35302",
-          "stop_lon": "-71.06459"
-        },
-        {
-          "stop_order": "600",
-          "stop_id": "70200",
-          "stop_name": "Park Street - Green Line Eastbound",
-          "parent_station": "place-pktrm",
-          "parent_station_name": "Park Street",
-          "stop_lat": "42.35639457",
-          "stop_lon": "-71.0624242"
-        },
-        {
-          "stop_order": "620",
-          "stop_id": "70203",
-          "stop_name": "Haymarket - Green Line Outbound",
-          "parent_station": "place-haecl",
-          "parent_station_name": "Haymarket",
-          "stop_lat": "42.363021",
-          "stop_lon": "-71.05829"
-        },
-        {
-          "stop_order": "630",
-          "stop_id": "70205",
-          "stop_name": "North Station - Green Line Outbound",
-          "parent_station": "place-north",
-          "parent_station_name": "North Station",
-          "stop_lat": "42.365577",
-          "stop_lon": "-71.06129"
-        },
-        {
-          "stop_order": "640",
-          "stop_id": "70207",
-          "stop_name": "Science Park - Outbound",
-          "parent_station": "place-spmnl",
-          "parent_station_name": "Science Park",
-          "stop_lat": "42.366664",
-          "stop_lon": "-71.067666"
-        },
-        {
-          "stop_order": "650",
-          "stop_id": "70209",
-          "stop_name": "Lechmere - Outbound",
-          "parent_station": "place-lech",
-          "parent_station_name": "Lechmere",
-          "stop_lat": "42.370772",
-          "stop_lon": "-71.076536"
-        }
-      ]
-    }
-  ],
-  "green-c": [
-    {
-      "direction_id": "0",
-      "direction_name": "Westbound",
-      "stop": [
-        {
-          "stop_order": "1",
-          "stop_id": "70210",
-          "stop_name": "Lechmere - Inbound",
-          "parent_station": "place-lech",
-          "parent_station_name": "Lechmere",
-          "stop_lat": "42.370772",
-          "stop_lon": "-71.076536"
-        },
-        {
-          "stop_order": "10",
-          "stop_id": "70208",
-          "stop_name": "Science Park - Inbound",
-          "parent_station": "place-spmnl",
-          "parent_station_name": "Science Park",
-          "stop_lat": "42.366664",
-          "stop_lon": "-71.067666"
-        },
-        {
-          "stop_order": "20",
-          "stop_id": "70206",
-          "stop_name": "North Station - Green Line Inbound",
-          "parent_station": "place-north",
-          "parent_station_name": "North Station",
-          "stop_lat": "42.365577",
-          "stop_lon": "-71.06129"
-        },
-        {
-          "stop_order": "30",
-          "stop_id": "70204",
-          "stop_name": "Haymarket - Green Line Inbound",
-          "parent_station": "place-haecl",
-          "parent_station_name": "Haymarket",
-          "stop_lat": "42.363021",
-          "stop_lon": "-71.05829"
-        },
-        {
-          "stop_order": "60",
-          "stop_id": "70197",
-          "stop_name": "Park Street - Green Line - C Branch Berth",
-          "parent_station": "place-pktrm",
-          "parent_station_name": "Park Street",
-          "stop_lat": "42.35639457",
-          "stop_lon": "-71.0624242"
-        },
-        {
-          "stop_order": "90",
-          "stop_id": "70159",
-          "stop_name": "Boylston - Outbound",
-          "parent_station": "place-boyls",
-          "parent_station_name": "Boylston",
-          "stop_lat": "42.35302",
-          "stop_lon": "-71.06459"
-        },
-        {
-          "stop_order": "100",
-          "stop_id": "70157",
-          "stop_name": "Arlington - Outbound",
-          "parent_station": "place-armnl",
-          "parent_station_name": "Arlington",
-          "stop_lat": "42.351902",
-          "stop_lon": "-71.070893"
-        },
-        {
-          "stop_order": "110",
-          "stop_id": "70155",
-          "stop_name": "Copley - Outbound",
-          "parent_station": "place-coecl",
-          "parent_station_name": "Copley",
-          "stop_lat": "42.349974",
-          "stop_lon": "-71.077447"
-        },
-        {
-          "stop_order": "120",
-          "stop_id": "70153",
-          "stop_name": "Hynes - Outbound",
-          "parent_station": "place-hymnl",
-          "parent_station_name": "Hynes Convention Center",
-          "stop_lat": "42.347888",
-          "stop_lon": "-71.087903"
-        },
-        {
-          "stop_order": "130",
-          "stop_id": "70151",
-          "stop_name": "Kenmore - Outbound",
-          "parent_station": "place-kencl",
-          "parent_station_name": "Kenmore",
-          "stop_lat": "42.348949",
-          "stop_lon": "-71.095169"
-        },
-        {
-          "stop_order": "320",
-          "stop_id": "70211",
-          "stop_name": "Saint Mary Street - Outbound",
-          "parent_station": "place-smary",
-          "parent_station_name": "Saint Mary Street",
-          "stop_lat": "42.345974",
-          "stop_lon": "-71.107353"
-        },
-        {
-          "stop_order": "330",
-          "stop_id": "70213",
-          "stop_name": "Hawes Street - Outbound",
-          "parent_station": "place-hwsst",
-          "parent_station_name": "Hawes Street",
-          "stop_lat": "42.344906",
-          "stop_lon": "-71.111145"
-        },
-        {
-          "stop_order": "340",
-          "stop_id": "70215",
-          "stop_name": "Kent Street - Outbound",
-          "parent_station": "place-kntst",
-          "parent_station_name": "Kent Street",
-          "stop_lat": "42.344074",
-          "stop_lon": "-71.114197"
-        },
-        {
-          "stop_order": "350",
-          "stop_id": "70217",
-          "stop_name": "Saint Paul Street - Outbound",
-          "parent_station": "place-stpul",
-          "parent_station_name": "Saint Paul Street",
-          "stop_lat": "42.343327",
-          "stop_lon": "-71.116997"
-        },
-        {
-          "stop_order": "360",
-          "stop_id": "70219",
-          "stop_name": "Coolidge Corner - Outbound",
-          "parent_station": "place-cool",
-          "parent_station_name": "Coolidge Corner",
-          "stop_lat": "42.342116",
-          "stop_lon": "-71.121263"
-        },
-        {
-          "stop_order": "370",
-          "stop_id": "70223",
-          "stop_name": "Summit Avenue - Outbound",
-          "parent_station": "place-sumav",
-          "parent_station_name": "Summit Ave.",
-          "stop_lat": "42.34111",
-          "stop_lon": "-71.12561"
-        },
-        {
-          "stop_order": "380",
-          "stop_id": "70225",
-          "stop_name": "Brandon Hall - Outbound",
-          "parent_station": "place-bndhl",
-          "parent_station_name": "Brandon Hall",
-          "stop_lat": "42.340023",
-          "stop_lon": "-71.129082"
-        },
-        {
-          "stop_order": "390",
-          "stop_id": "70227",
-          "stop_name": "Fairbanks Street - Outbound",
-          "parent_station": "place-fbkst",
-          "parent_station_name": "Fairbanks Street",
-          "stop_lat": "42.339725",
-          "stop_lon": "-71.131073"
-        },
-        {
-          "stop_order": "400",
-          "stop_id": "70229",
-          "stop_name": "Washington Square - Outbound",
-          "parent_station": "place-bcnwa",
-          "parent_station_name": "Washington Square",
-          "stop_lat": "42.339394",
-          "stop_lon": "-71.13533"
-        },
-        {
-          "stop_order": "410",
-          "stop_id": "70231",
-          "stop_name": "Tappan Street - Outbound",
-          "parent_station": "place-tapst",
-          "parent_station_name": "Tappan Street",
-          "stop_lat": "42.338459",
-          "stop_lon": "-71.138702"
-        },
-        {
-          "stop_order": "420",
-          "stop_id": "70233",
-          "stop_name": "Dean Road - Outbound",
-          "parent_station": "place-denrd",
-          "parent_station_name": "Dean Road",
-          "stop_lat": "42.337807",
-          "stop_lon": "-71.141853"
-        },
-        {
-          "stop_order": "430",
-          "stop_id": "70235",
-          "stop_name": "Englewood Avenue - Outbound",
-          "parent_station": "place-engav",
-          "parent_station_name": "Englewood Ave.",
-          "stop_lat": "42.336971",
-          "stop_lon": "-71.14566"
-        },
-        {
-          "stop_order": "440",
-          "stop_id": "70237",
-          "stop_name": "Cleveland Circle - Outbound",
-          "parent_station": "place-clmnl",
-          "parent_station_name": "Cleveland Circle",
-          "stop_lat": "42.336142",
-          "stop_lon": "-71.149326"
-        }
-      ]
-    },
-    {
-      "direction_id": "1",
-      "direction_name": "Eastbound",
-      "stop": [
-        {
-          "stop_order": "180",
-          "stop_id": "70238",
-          "stop_name": "Cleveland Circle - Inbound",
-          "parent_station": "place-clmnl",
-          "parent_station_name": "Cleveland Circle",
-          "stop_lat": "42.336142",
-          "stop_lon": "-71.149326"
-        },
-        {
-          "stop_order": "190",
-          "stop_id": "70236",
-          "stop_name": "Englewood Avenue - Inbound",
-          "parent_station": "place-engav",
-          "parent_station_name": "Englewood Ave.",
-          "stop_lat": "42.336971",
-          "stop_lon": "-71.14566"
-        },
-        {
-          "stop_order": "200",
-          "stop_id": "70234",
-          "stop_name": "Dean Road - Inbound",
-          "parent_station": "place-denrd",
-          "parent_station_name": "Dean Road",
-          "stop_lat": "42.337807",
-          "stop_lon": "-71.141853"
-        },
-        {
-          "stop_order": "210",
-          "stop_id": "70232",
-          "stop_name": "Tappan Street - Inbound",
-          "parent_station": "place-tapst",
-          "parent_station_name": "Tappan Street",
-          "stop_lat": "42.338459",
-          "stop_lon": "-71.138702"
-        },
-        {
-          "stop_order": "220",
-          "stop_id": "70230",
-          "stop_name": "Washington Square - Inbound",
-          "parent_station": "place-bcnwa",
-          "parent_station_name": "Washington Square",
-          "stop_lat": "42.339394",
-          "stop_lon": "-71.13533"
-        },
-        {
-          "stop_order": "230",
-          "stop_id": "70228",
-          "stop_name": "Fairbanks Street - Inbound",
-          "parent_station": "place-fbkst",
-          "parent_station_name": "Fairbanks Street",
-          "stop_lat": "42.339725",
-          "stop_lon": "-71.131073"
-        },
-        {
-          "stop_order": "240",
-          "stop_id": "70226",
-          "stop_name": "Brandon Hall - Inbound",
-          "parent_station": "place-bndhl",
-          "parent_station_name": "Brandon Hall",
-          "stop_lat": "42.340023",
-          "stop_lon": "-71.129082"
-        },
-        {
-          "stop_order": "250",
-          "stop_id": "70224",
-          "stop_name": "Summit Avenue - Inbound",
-          "parent_station": "place-sumav",
-          "parent_station_name": "Summit Ave.",
-          "stop_lat": "42.34111",
-          "stop_lon": "-71.12561"
-        },
-        {
-          "stop_order": "260",
-          "stop_id": "70220",
-          "stop_name": "Coolidge Corner - Inbound",
-          "parent_station": "place-cool",
-          "parent_station_name": "Coolidge Corner",
-          "stop_lat": "42.342116",
-          "stop_lon": "-71.121263"
-        },
-        {
-          "stop_order": "270",
-          "stop_id": "70218",
-          "stop_name": "Saint Paul Street - Inbound",
-          "parent_station": "place-stpul",
-          "parent_station_name": "Saint Paul Street",
-          "stop_lat": "42.343327",
-          "stop_lon": "-71.116997"
-        },
-        {
-          "stop_order": "280",
-          "stop_id": "70216",
-          "stop_name": "Kent Street - Inbound",
-          "parent_station": "place-kntst",
-          "parent_station_name": "Kent Street",
-          "stop_lat": "42.344074",
-          "stop_lon": "-71.114197"
-        },
-        {
-          "stop_order": "290",
-          "stop_id": "70214",
-          "stop_name": "Hawes Street - Inbound",
-          "parent_station": "place-hwsst",
-          "parent_station_name": "Hawes Street",
-          "stop_lat": "42.344906",
-          "stop_lon": "-71.111145"
-        },
-        {
-          "stop_order": "300",
-          "stop_id": "70212",
-          "stop_name": "Saint Mary Street - Inbound",
-          "parent_station": "place-smary",
-          "parent_station_name": "Saint Mary Street",
-          "stop_lat": "42.345974",
-          "stop_lon": "-71.107353"
-        },
-        {
-          "stop_order": "550",
-          "stop_id": "70150",
-          "stop_name": "Kenmore - Inbound",
-          "parent_station": "place-kencl",
-          "parent_station_name": "Kenmore",
-          "stop_lat": "42.348949",
-          "stop_lon": "-71.095169"
-        },
-        {
-          "stop_order": "560",
-          "stop_id": "70152",
-          "stop_name": "Hynes - Inbound",
-          "parent_station": "place-hymnl",
-          "parent_station_name": "Hynes Convention Center",
-          "stop_lat": "42.347888",
-          "stop_lon": "-71.087903"
-        },
-        {
-          "stop_order": "570",
-          "stop_id": "70154",
-          "stop_name": "Copley - Inbound",
-          "parent_station": "place-coecl",
-          "parent_station_name": "Copley",
-          "stop_lat": "42.349974",
-          "stop_lon": "-71.077447"
-        },
-        {
-          "stop_order": "580",
-          "stop_id": "70156",
-          "stop_name": "Arlington - Inbound",
-          "parent_station": "place-armnl",
-          "parent_station_name": "Arlington",
-          "stop_lat": "42.351902",
-          "stop_lon": "-71.070893"
-        },
-        {
-          "stop_order": "590",
-          "stop_id": "70158",
-          "stop_name": "Boylston - Inbound",
-          "parent_station": "place-boyls",
-          "parent_station_name": "Boylston",
-          "stop_lat": "42.35302",
-          "stop_lon": "-71.06459"
-        },
-        {
-          "stop_order": "600",
-          "stop_id": "70200",
-          "stop_name": "Park Street - Green Line Eastbound",
-          "parent_station": "place-pktrm",
-          "parent_station_name": "Park Street",
-          "stop_lat": "42.35639457",
-          "stop_lon": "-71.0624242"
-        },
-        {
-          "stop_order": "620",
-          "stop_id": "70203",
-          "stop_name": "Haymarket - Green Line Outbound",
-          "parent_station": "place-haecl",
-          "parent_station_name": "Haymarket",
-          "stop_lat": "42.363021",
-          "stop_lon": "-71.05829"
-        },
-        {
-          "stop_order": "630",
-          "stop_id": "70205",
-          "stop_name": "North Station - Green Line Outbound",
-          "parent_station": "place-north",
-          "parent_station_name": "North Station",
-          "stop_lat": "42.365577",
-          "stop_lon": "-71.06129"
-        },
-        {
-          "stop_order": "640",
-          "stop_id": "70207",
-          "stop_name": "Science Park - Outbound",
-          "parent_station": "place-spmnl",
-          "parent_station_name": "Science Park",
-          "stop_lat": "42.366664",
-          "stop_lon": "-71.067666"
-        },
-        {
-          "stop_order": "650",
-          "stop_id": "70209",
-          "stop_name": "Lechmere - Outbound",
-          "parent_station": "place-lech",
-          "parent_station_name": "Lechmere",
-          "stop_lat": "42.370772",
-          "stop_lon": "-71.076536"
-        }
-      ]
-    }
-  ]
+      {  
+         "direction_id":"0",
+         "direction_name":"Westbound",
+         "stop":[  
+            {  
+               "stop_order":"1",
+               "stop_id":"70210",
+               "stop_name":"Lechmere - Inbound",
+               "parent_station":"place-lech",
+               "parent_station_name":"Lechmere",
+               "stop_lat":"42.370772",
+               "stop_lon":"-71.076536"
+            },
+            {  
+               "stop_order":"10",
+               "stop_id":"70208",
+               "stop_name":"Science Park - Inbound",
+               "parent_station":"place-spmnl",
+               "parent_station_name":"Science Park",
+               "stop_lat":"42.366664",
+               "stop_lon":"-71.067666"
+            },
+            {  
+               "stop_order":"20",
+               "stop_id":"70206",
+               "stop_name":"North Station - Green Line Inbound",
+               "parent_station":"place-north",
+               "parent_station_name":"North Station",
+               "stop_lat":"42.365577",
+               "stop_lon":"-71.06129"
+            },
+            {  
+               "stop_order":"30",
+               "stop_id":"70204",
+               "stop_name":"Haymarket - Green Line Inbound",
+               "parent_station":"place-haecl",
+               "parent_station_name":"Haymarket",
+               "stop_lat":"42.363021",
+               "stop_lon":"-71.05829"
+            },
+            {  
+               "stop_order":"40",
+               "stop_id":"70202",
+               "stop_name":"Government Center - Green Line Westbound",
+               "parent_station":"place-gover",
+               "parent_station_name":"Government Center",
+               "stop_lat":"42.359705",
+               "stop_lon":"-71.059215"
+            },
+            {  
+               "stop_order":"80",
+               "stop_id":"70199",
+               "stop_name":"Park Street - Green Line - E Branch Berth",
+               "parent_station":"place-pktrm",
+               "parent_station_name":"Park Street",
+               "stop_lat":"42.35639457",
+               "stop_lon":"-71.0624242"
+            },
+            {  
+               "stop_order":"90",
+               "stop_id":"70159",
+               "stop_name":"Boylston - Outbound",
+               "parent_station":"place-boyls",
+               "parent_station_name":"Boylston",
+               "stop_lat":"42.35302",
+               "stop_lon":"-71.06459"
+            },
+            {  
+               "stop_order":"100",
+               "stop_id":"70157",
+               "stop_name":"Arlington - Outbound",
+               "parent_station":"place-armnl",
+               "parent_station_name":"Arlington",
+               "stop_lat":"42.351902",
+               "stop_lon":"-71.070893"
+            },
+            {  
+               "stop_order":"110",
+               "stop_id":"70155",
+               "stop_name":"Copley - Outbound",
+               "parent_station":"place-coecl",
+               "parent_station_name":"Copley",
+               "stop_lat":"42.349974",
+               "stop_lon":"-71.077447"
+            },
+            {  
+               "stop_order":"580",
+               "stop_id":"70239",
+               "stop_name":"Prudential - Outbound",
+               "parent_station":"place-prmnl",
+               "parent_station_name":"Prudential",
+               "stop_lat":"42.34557",
+               "stop_lon":"-71.081696"
+            },
+            {  
+               "stop_order":"590",
+               "stop_id":"70241",
+               "stop_name":"Symphony - Outbound",
+               "parent_station":"place-symcl",
+               "parent_station_name":"Symphony",
+               "stop_lat":"42.342687",
+               "stop_lon":"-71.085056"
+            },
+            {  
+               "stop_order":"600",
+               "stop_id":"70243",
+               "stop_name":"Northeastern - Outbound",
+               "parent_station":"place-nuniv",
+               "parent_station_name":"Northeastern University",
+               "stop_lat":"42.340401",
+               "stop_lon":"-71.088806"
+            },
+            {  
+               "stop_order":"610",
+               "stop_id":"70245",
+               "stop_name":"Museum of Fine Arts - Outbound",
+               "parent_station":"place-mfa",
+               "parent_station_name":"Museum of Fine Arts",
+               "stop_lat":"42.337711",
+               "stop_lon":"-71.095512"
+            },
+            {  
+               "stop_order":"620",
+               "stop_id":"70247",
+               "stop_name":"Longwood Medical Area - Outbound",
+               "parent_station":"place-lngmd",
+               "parent_station_name":"Longwood Medical Area",
+               "stop_lat":"42.33596",
+               "stop_lon":"-71.100052"
+            },
+            {  
+               "stop_order":"630",
+               "stop_id":"70249",
+               "stop_name":"Brigham Circle - Outbound",
+               "parent_station":"place-brmnl",
+               "parent_station_name":"Brigham Circle",
+               "stop_lat":"42.334229",
+               "stop_lon":"-71.104609"
+            },
+            {  
+               "stop_order":"640",
+               "stop_id":"70251",
+               "stop_name":"Fenwood Road - Outbound",
+               "parent_station":"place-fenwd",
+               "parent_station_name":"Fenwood Road",
+               "stop_lat":"42.333706",
+               "stop_lon":"-71.105728"
+            },
+            {  
+               "stop_order":"650",
+               "stop_id":"70253",
+               "stop_name":"Mission Park - Outbound",
+               "parent_station":"place-mispk",
+               "parent_station_name":"Mission Park",
+               "stop_lat":"42.333195",
+               "stop_lon":"-71.109756"
+            },
+            {  
+               "stop_order":"660",
+               "stop_id":"70255",
+               "stop_name":"Riverway - Outbound",
+               "parent_station":"place-rvrwy",
+               "parent_station_name":"Riverway",
+               "stop_lat":"42.331684",
+               "stop_lon":"-71.111931"
+            },
+            {  
+               "stop_order":"670",
+               "stop_id":"70257",
+               "stop_name":"Back of the Hill - Outbound",
+               "parent_station":"place-bckhl",
+               "parent_station_name":"Back of the Hill",
+               "stop_lat":"42.330139",
+               "stop_lon":"-71.111313"
+            },
+            {  
+               "stop_order":"680",
+               "stop_id":"70259",
+               "stop_name":"Heath Street - Outbound",
+               "parent_station":"place-hsmnl",
+               "parent_station_name":"Heath Street",
+               "stop_lat":"42.328681",
+               "stop_lon":"-71.110559"
+            }
+         ]
+      },
+      {  
+         "direction_id":"1",
+         "direction_name":"Eastbound",
+         "stop":[  
+            {  
+               "stop_order":"440",
+               "stop_id":"70260",
+               "stop_name":"Heath Street - Inbound",
+               "parent_station":"place-hsmnl",
+               "parent_station_name":"Heath Street",
+               "stop_lat":"42.328681",
+               "stop_lon":"-71.110559"
+            },
+            {  
+               "stop_order":"450",
+               "stop_id":"70258",
+               "stop_name":"Back of the Hill - Inbound",
+               "parent_station":"place-bckhl",
+               "parent_station_name":"Back of the Hill",
+               "stop_lat":"42.330139",
+               "stop_lon":"-71.111313"
+            },
+            {  
+               "stop_order":"460",
+               "stop_id":"70256",
+               "stop_name":"Riverway - Inbound",
+               "parent_station":"place-rvrwy",
+               "parent_station_name":"Riverway",
+               "stop_lat":"42.331684",
+               "stop_lon":"-71.111931"
+            },
+            {  
+               "stop_order":"470",
+               "stop_id":"70254",
+               "stop_name":"Mission Park - Inbound",
+               "parent_station":"place-mispk",
+               "parent_station_name":"Mission Park",
+               "stop_lat":"42.333195",
+               "stop_lon":"-71.109756"
+            },
+            {  
+               "stop_order":"480",
+               "stop_id":"70252",
+               "stop_name":"Fenwood Road - Inbound",
+               "parent_station":"place-fenwd",
+               "parent_station_name":"Fenwood Road",
+               "stop_lat":"42.333706",
+               "stop_lon":"-71.105728"
+            },
+            {  
+               "stop_order":"490",
+               "stop_id":"70250",
+               "stop_name":"Brigham Circle - Inbound",
+               "parent_station":"place-brmnl",
+               "parent_station_name":"Brigham Circle",
+               "stop_lat":"42.334229",
+               "stop_lon":"-71.104609"
+            },
+            {  
+               "stop_order":"500",
+               "stop_id":"70248",
+               "stop_name":"Longwood Medical Area - Inbound",
+               "parent_station":"place-lngmd",
+               "parent_station_name":"Longwood Medical Area",
+               "stop_lat":"42.33596",
+               "stop_lon":"-71.100052"
+            },
+            {  
+               "stop_order":"510",
+               "stop_id":"70246",
+               "stop_name":"Museum of Fine Arts - Inbound",
+               "parent_station":"place-mfa",
+               "parent_station_name":"Museum of Fine Arts",
+               "stop_lat":"42.337711",
+               "stop_lon":"-71.095512"
+            },
+            {  
+               "stop_order":"520",
+               "stop_id":"70244",
+               "stop_name":"Northeastern - Inbound",
+               "parent_station":"place-nuniv",
+               "parent_station_name":"Northeastern University",
+               "stop_lat":"42.340401",
+               "stop_lon":"-71.088806"
+            },
+            {  
+               "stop_order":"530",
+               "stop_id":"70242",
+               "stop_name":"Symphony - Inbound",
+               "parent_station":"place-symcl",
+               "parent_station_name":"Symphony",
+               "stop_lat":"42.342687",
+               "stop_lon":"-71.085056"
+            },
+            {  
+               "stop_order":"540",
+               "stop_id":"70240",
+               "stop_name":"Prudential - Inbound",
+               "parent_station":"place-prmnl",
+               "parent_station_name":"Prudential",
+               "stop_lat":"42.34557",
+               "stop_lon":"-71.081696"
+            },
+            {  
+               "stop_order":"570",
+               "stop_id":"70154",
+               "stop_name":"Copley - Inbound",
+               "parent_station":"place-coecl",
+               "parent_station_name":"Copley",
+               "stop_lat":"42.349974",
+               "stop_lon":"-71.077447"
+            },
+            {  
+               "stop_order":"580",
+               "stop_id":"70156",
+               "stop_name":"Arlington - Inbound",
+               "parent_station":"place-armnl",
+               "parent_station_name":"Arlington",
+               "stop_lat":"42.351902",
+               "stop_lon":"-71.070893"
+            },
+            {  
+               "stop_order":"590",
+               "stop_id":"70158",
+               "stop_name":"Boylston - Inbound",
+               "parent_station":"place-boyls",
+               "parent_station_name":"Boylston",
+               "stop_lat":"42.35302",
+               "stop_lon":"-71.06459"
+            },
+            {  
+               "stop_order":"600",
+               "stop_id":"70200",
+               "stop_name":"Park Street - Green Line Eastbound",
+               "parent_station":"place-pktrm",
+               "parent_station_name":"Park Street",
+               "stop_lat":"42.35639457",
+               "stop_lon":"-71.0624242"
+            },
+            {  
+               "stop_order":"610",
+               "stop_id":"70201",
+               "stop_name":"Government Center - Green Line Eastbound",
+               "parent_station":"place-gover",
+               "parent_station_name":"Government Center",
+               "stop_lat":"42.359705",
+               "stop_lon":"-71.059215"
+            },
+            {  
+               "stop_order":"620",
+               "stop_id":"70203",
+               "stop_name":"Haymarket - Green Line Outbound",
+               "parent_station":"place-haecl",
+               "parent_station_name":"Haymarket",
+               "stop_lat":"42.363021",
+               "stop_lon":"-71.05829"
+            },
+            {  
+               "stop_order":"630",
+               "stop_id":"70205",
+               "stop_name":"North Station - Green Line Outbound",
+               "parent_station":"place-north",
+               "parent_station_name":"North Station",
+               "stop_lat":"42.365577",
+               "stop_lon":"-71.06129"
+            },
+            {  
+               "stop_order":"640",
+               "stop_id":"70207",
+               "stop_name":"Science Park - Outbound",
+               "parent_station":"place-spmnl",
+               "parent_station_name":"Science Park",
+               "stop_lat":"42.366664",
+               "stop_lon":"-71.067666"
+            },
+            {  
+               "stop_order":"650",
+               "stop_id":"70209",
+               "stop_name":"Lechmere - Outbound",
+               "parent_station":"place-lech",
+               "parent_station_name":"Lechmere",
+               "stop_lat":"42.370772",
+               "stop_lon":"-71.076536"
+            }
+         ]
+      }
+   ],
+  "green-d": [  
+      {  
+         "direction_id":"0",
+         "direction_name":"Westbound",
+         "stop":[  
+            {  
+               "stop_order":"1",
+               "stop_id":"70210",
+               "stop_name":"Lechmere - Inbound",
+               "parent_station":"place-lech",
+               "parent_station_name":"Lechmere",
+               "stop_lat":"42.370772",
+               "stop_lon":"-71.076536"
+            },
+            {  
+               "stop_order":"10",
+               "stop_id":"70208",
+               "stop_name":"Science Park - Inbound",
+               "parent_station":"place-spmnl",
+               "parent_station_name":"Science Park",
+               "stop_lat":"42.366664",
+               "stop_lon":"-71.067666"
+            },
+            {  
+               "stop_order":"20",
+               "stop_id":"70206",
+               "stop_name":"North Station - Green Line Inbound",
+               "parent_station":"place-north",
+               "parent_station_name":"North Station",
+               "stop_lat":"42.365577",
+               "stop_lon":"-71.06129"
+            },
+            {  
+               "stop_order":"30",
+               "stop_id":"70204",
+               "stop_name":"Haymarket - Green Line Inbound",
+               "parent_station":"place-haecl",
+               "parent_station_name":"Haymarket",
+               "stop_lat":"42.363021",
+               "stop_lon":"-71.05829"
+            },
+            {  
+               "stop_order":"40",
+               "stop_id":"70202",
+               "stop_name":"Government Center - Green Line Westbound",
+               "parent_station":"place-gover",
+               "parent_station_name":"Government Center",
+               "stop_lat":"42.359705",
+               "stop_lon":"-71.059215"
+            },
+            {  
+               "stop_order":"70",
+               "stop_id":"70198",
+               "stop_name":"Park Street - Green Line - D Branch Berth",
+               "parent_station":"place-pktrm",
+               "parent_station_name":"Park Street",
+               "stop_lat":"42.35639457",
+               "stop_lon":"-71.0624242"
+            },
+            {  
+               "stop_order":"90",
+               "stop_id":"70159",
+               "stop_name":"Boylston - Outbound",
+               "parent_station":"place-boyls",
+               "parent_station_name":"Boylston",
+               "stop_lat":"42.35302",
+               "stop_lon":"-71.06459"
+            },
+            {  
+               "stop_order":"100",
+               "stop_id":"70157",
+               "stop_name":"Arlington - Outbound",
+               "parent_station":"place-armnl",
+               "parent_station_name":"Arlington",
+               "stop_lat":"42.351902",
+               "stop_lon":"-71.070893"
+            },
+            {  
+               "stop_order":"110",
+               "stop_id":"70155",
+               "stop_name":"Copley - Outbound",
+               "parent_station":"place-coecl",
+               "parent_station_name":"Copley",
+               "stop_lat":"42.349974",
+               "stop_lon":"-71.077447"
+            },
+            {  
+               "stop_order":"120",
+               "stop_id":"70153",
+               "stop_name":"Hynes - Outbound",
+               "parent_station":"place-hymnl",
+               "parent_station_name":"Hynes Convention Center",
+               "stop_lat":"42.347888",
+               "stop_lon":"-71.087903"
+            },
+            {  
+               "stop_order":"130",
+               "stop_id":"70151",
+               "stop_name":"Kenmore - Outbound",
+               "parent_station":"place-kencl",
+               "parent_station_name":"Kenmore",
+               "stop_lat":"42.348949",
+               "stop_lon":"-71.095169"
+            },
+            {  
+               "stop_order":"450",
+               "stop_id":"70187",
+               "stop_name":"Fenway - Outbound",
+               "parent_station":"place-fenwy",
+               "parent_station_name":"Fenway",
+               "stop_lat":"42.345394",
+               "stop_lon":"-71.104187"
+            },
+            {  
+               "stop_order":"460",
+               "stop_id":"70183",
+               "stop_name":"Longwood - Outbound",
+               "parent_station":"place-longw",
+               "parent_station_name":"Longwood",
+               "stop_lat":"42.341145",
+               "stop_lon":"-71.110451"
+            },
+            {  
+               "stop_order":"470",
+               "stop_id":"70181",
+               "stop_name":"Brookline Village - Outbound",
+               "parent_station":"place-bvmnl",
+               "parent_station_name":"Brookline Village",
+               "stop_lat":"42.332774",
+               "stop_lon":"-71.116296"
+            },
+            {  
+               "stop_order":"480",
+               "stop_id":"70179",
+               "stop_name":"Brookline Hills - Outbound",
+               "parent_station":"place-brkhl",
+               "parent_station_name":"Brookline Hills",
+               "stop_lat":"42.331333",
+               "stop_lon":"-71.126999"
+            },
+            {  
+               "stop_order":"490",
+               "stop_id":"70177",
+               "stop_name":"Beaconsfield - Outbound",
+               "parent_station":"place-bcnfd",
+               "parent_station_name":"Beaconsfield",
+               "stop_lat":"42.335846",
+               "stop_lon":"-71.140823"
+            },
+            {  
+               "stop_order":"500",
+               "stop_id":"70175",
+               "stop_name":"Reservoir - Outbound",
+               "parent_station":"place-rsmnl",
+               "parent_station_name":"Reservoir",
+               "stop_lat":"42.335027",
+               "stop_lon":"-71.148952"
+            },
+            {  
+               "stop_order":"510",
+               "stop_id":"70173",
+               "stop_name":"Chestnut Hill - Outbound",
+               "parent_station":"place-chhil",
+               "parent_station_name":"Chestnut Hill",
+               "stop_lat":"42.326653",
+               "stop_lon":"-71.165314"
+            },
+            {  
+               "stop_order":"520",
+               "stop_id":"70171",
+               "stop_name":"Newton Centre - Outbound",
+               "parent_station":"place-newto",
+               "parent_station_name":"Newton Centre",
+               "stop_lat":"42.329391",
+               "stop_lon":"-71.192429"
+            },
+            {  
+               "stop_order":"530",
+               "stop_id":"70169",
+               "stop_name":"Newton Highlands - Outbound",
+               "parent_station":"place-newtn",
+               "parent_station_name":"Newton Highlands",
+               "stop_lat":"42.321735",
+               "stop_lon":"-71.206116"
+            },
+            {  
+               "stop_order":"540",
+               "stop_id":"70167",
+               "stop_name":"Eliot - Outbound",
+               "parent_station":"place-eliot",
+               "parent_station_name":"Eliot",
+               "stop_lat":"42.319023",
+               "stop_lon":"-71.216713"
+            },
+            {  
+               "stop_order":"550",
+               "stop_id":"70165",
+               "stop_name":"Waban - Outbound",
+               "parent_station":"place-waban",
+               "parent_station_name":"Waban",
+               "stop_lat":"42.325943",
+               "stop_lon":"-71.230728"
+            },
+            {  
+               "stop_order":"560",
+               "stop_id":"70163",
+               "stop_name":"Woodland - Outbound",
+               "parent_station":"place-woodl",
+               "parent_station_name":"Woodland",
+               "stop_lat":"42.333374",
+               "stop_lon":"-71.244301"
+            },
+            {  
+               "stop_order":"570",
+               "stop_id":"70161",
+               "stop_name":"Riverside - Outbound",
+               "parent_station":"place-river",
+               "parent_station_name":"Riverside",
+               "stop_lat":"42.337059",
+               "stop_lon":"-71.251742"
+            }
+         ]
+      },
+      {  
+         "direction_id":"1",
+         "direction_name":"Eastbound",
+         "stop":[  
+            {  
+               "stop_order":"310",
+               "stop_id":"70160",
+               "stop_name":"Riverside - Inbound",
+               "parent_station":"place-river",
+               "parent_station_name":"Riverside",
+               "stop_lat":"42.337059",
+               "stop_lon":"-71.251742"
+            },
+            {  
+               "stop_order":"320",
+               "stop_id":"70162",
+               "stop_name":"Woodland - Inbound",
+               "parent_station":"place-woodl",
+               "parent_station_name":"Woodland",
+               "stop_lat":"42.333374",
+               "stop_lon":"-71.244301"
+            },
+            {  
+               "stop_order":"330",
+               "stop_id":"70164",
+               "stop_name":"Waban - Inbound",
+               "parent_station":"place-waban",
+               "parent_station_name":"Waban",
+               "stop_lat":"42.325943",
+               "stop_lon":"-71.230728"
+            },
+            {  
+               "stop_order":"340",
+               "stop_id":"70166",
+               "stop_name":"Eliot - Inbound",
+               "parent_station":"place-eliot",
+               "parent_station_name":"Eliot",
+               "stop_lat":"42.319023",
+               "stop_lon":"-71.216713"
+            },
+            {  
+               "stop_order":"350",
+               "stop_id":"70168",
+               "stop_name":"Newton Highlands - Inbound",
+               "parent_station":"place-newtn",
+               "parent_station_name":"Newton Highlands",
+               "stop_lat":"42.321735",
+               "stop_lon":"-71.206116"
+            },
+            {  
+               "stop_order":"360",
+               "stop_id":"70170",
+               "stop_name":"Newton Centre - Inbound",
+               "parent_station":"place-newto",
+               "parent_station_name":"Newton Centre",
+               "stop_lat":"42.329391",
+               "stop_lon":"-71.192429"
+            },
+            {  
+               "stop_order":"370",
+               "stop_id":"70172",
+               "stop_name":"Chestnut Hill - Inbound",
+               "parent_station":"place-chhil",
+               "parent_station_name":"Chestnut Hill",
+               "stop_lat":"42.326653",
+               "stop_lon":"-71.165314"
+            },
+            {  
+               "stop_order":"380",
+               "stop_id":"70174",
+               "stop_name":"Reservoir - Inbound",
+               "parent_station":"place-rsmnl",
+               "parent_station_name":"Reservoir",
+               "stop_lat":"42.335027",
+               "stop_lon":"-71.148952"
+            },
+            {  
+               "stop_order":"390",
+               "stop_id":"70176",
+               "stop_name":"Beaconsfield - Inbound",
+               "parent_station":"place-bcnfd",
+               "parent_station_name":"Beaconsfield",
+               "stop_lat":"42.335846",
+               "stop_lon":"-71.140823"
+            },
+            {  
+               "stop_order":"400",
+               "stop_id":"70178",
+               "stop_name":"Brookline Hills - Inbound",
+               "parent_station":"place-brkhl",
+               "parent_station_name":"Brookline Hills",
+               "stop_lat":"42.331333",
+               "stop_lon":"-71.126999"
+            },
+            {  
+               "stop_order":"410",
+               "stop_id":"70180",
+               "stop_name":"Brookline Village - Inbound",
+               "parent_station":"place-bvmnl",
+               "parent_station_name":"Brookline Village",
+               "stop_lat":"42.332774",
+               "stop_lon":"-71.116296"
+            },
+            {  
+               "stop_order":"420",
+               "stop_id":"70182",
+               "stop_name":"Longwood - Inbound",
+               "parent_station":"place-longw",
+               "parent_station_name":"Longwood",
+               "stop_lat":"42.341145",
+               "stop_lon":"-71.110451"
+            },
+            {  
+               "stop_order":"430",
+               "stop_id":"70186",
+               "stop_name":"Fenway - Inbound",
+               "parent_station":"place-fenwy",
+               "parent_station_name":"Fenway",
+               "stop_lat":"42.345394",
+               "stop_lon":"-71.104187"
+            },
+            {  
+               "stop_order":"550",
+               "stop_id":"70150",
+               "stop_name":"Kenmore - Inbound",
+               "parent_station":"place-kencl",
+               "parent_station_name":"Kenmore",
+               "stop_lat":"42.348949",
+               "stop_lon":"-71.095169"
+            },
+            {  
+               "stop_order":"560",
+               "stop_id":"70152",
+               "stop_name":"Hynes - Inbound",
+               "parent_station":"place-hymnl",
+               "parent_station_name":"Hynes Convention Center",
+               "stop_lat":"42.347888",
+               "stop_lon":"-71.087903"
+            },
+            {  
+               "stop_order":"570",
+               "stop_id":"70154",
+               "stop_name":"Copley - Inbound",
+               "parent_station":"place-coecl",
+               "parent_station_name":"Copley",
+               "stop_lat":"42.349974",
+               "stop_lon":"-71.077447"
+            },
+            {  
+               "stop_order":"580",
+               "stop_id":"70156",
+               "stop_name":"Arlington - Inbound",
+               "parent_station":"place-armnl",
+               "parent_station_name":"Arlington",
+               "stop_lat":"42.351902",
+               "stop_lon":"-71.070893"
+            },
+            {  
+               "stop_order":"590",
+               "stop_id":"70158",
+               "stop_name":"Boylston - Inbound",
+               "parent_station":"place-boyls",
+               "parent_station_name":"Boylston",
+               "stop_lat":"42.35302",
+               "stop_lon":"-71.06459"
+            },
+            {  
+               "stop_order":"600",
+               "stop_id":"70200",
+               "stop_name":"Park Street - Green Line Eastbound",
+               "parent_station":"place-pktrm",
+               "parent_station_name":"Park Street",
+               "stop_lat":"42.35639457",
+               "stop_lon":"-71.0624242"
+            },
+            {  
+               "stop_order":"610",
+               "stop_id":"70201",
+               "stop_name":"Government Center - Green Line Eastbound",
+               "parent_station":"place-gover",
+               "parent_station_name":"Government Center",
+               "stop_lat":"42.359705",
+               "stop_lon":"-71.059215"
+            },
+            {  
+               "stop_order":"620",
+               "stop_id":"70203",
+               "stop_name":"Haymarket - Green Line Outbound",
+               "parent_station":"place-haecl",
+               "parent_station_name":"Haymarket",
+               "stop_lat":"42.363021",
+               "stop_lon":"-71.05829"
+            },
+            {  
+               "stop_order":"630",
+               "stop_id":"70205",
+               "stop_name":"North Station - Green Line Outbound",
+               "parent_station":"place-north",
+               "parent_station_name":"North Station",
+               "stop_lat":"42.365577",
+               "stop_lon":"-71.06129"
+            },
+            {  
+               "stop_order":"640",
+               "stop_id":"70207",
+               "stop_name":"Science Park - Outbound",
+               "parent_station":"place-spmnl",
+               "parent_station_name":"Science Park",
+               "stop_lat":"42.366664",
+               "stop_lon":"-71.067666"
+            },
+            {  
+               "stop_order":"650",
+               "stop_id":"70209",
+               "stop_name":"Lechmere - Outbound",
+               "parent_station":"place-lech",
+               "parent_station_name":"Lechmere",
+               "stop_lat":"42.370772",
+               "stop_lon":"-71.076536"
+            }
+         ]
+      }
+   ],
+  "green-b": [  
+      {  
+         "direction_id":"0",
+         "direction_name":"Westbound",
+         "stop":[  
+            {  
+               "stop_order":"1",
+               "stop_id":"70210",
+               "stop_name":"Lechmere - Inbound",
+               "parent_station":"place-lech",
+               "parent_station_name":"Lechmere",
+               "stop_lat":"42.370772",
+               "stop_lon":"-71.076536"
+            },
+            {  
+               "stop_order":"10",
+               "stop_id":"70208",
+               "stop_name":"Science Park - Inbound",
+               "parent_station":"place-spmnl",
+               "parent_station_name":"Science Park",
+               "stop_lat":"42.366664",
+               "stop_lon":"-71.067666"
+            },
+            {  
+               "stop_order":"20",
+               "stop_id":"70206",
+               "stop_name":"North Station - Green Line Inbound",
+               "parent_station":"place-north",
+               "parent_station_name":"North Station",
+               "stop_lat":"42.365577",
+               "stop_lon":"-71.06129"
+            },
+            {  
+               "stop_order":"30",
+               "stop_id":"70204",
+               "stop_name":"Haymarket - Green Line Inbound",
+               "parent_station":"place-haecl",
+               "parent_station_name":"Haymarket",
+               "stop_lat":"42.363021",
+               "stop_lon":"-71.05829"
+            },
+            {  
+               "stop_order":"40",
+               "stop_id":"70202",
+               "stop_name":"Government Center - Green Line Westbound",
+               "parent_station":"place-gover",
+               "parent_station_name":"Government Center",
+               "stop_lat":"42.359705",
+               "stop_lon":"-71.059215"
+            },
+            {  
+               "stop_order":"50",
+               "stop_id":"70196",
+               "stop_name":"Park Street - Green Line - B Branch Berth",
+               "parent_station":"place-pktrm",
+               "parent_station_name":"Park Street",
+               "stop_lat":"42.35639457",
+               "stop_lon":"-71.0624242"
+            },
+            {  
+               "stop_order":"90",
+               "stop_id":"70159",
+               "stop_name":"Boylston - Outbound",
+               "parent_station":"place-boyls",
+               "parent_station_name":"Boylston",
+               "stop_lat":"42.35302",
+               "stop_lon":"-71.06459"
+            },
+            {  
+               "stop_order":"100",
+               "stop_id":"70157",
+               "stop_name":"Arlington - Outbound",
+               "parent_station":"place-armnl",
+               "parent_station_name":"Arlington",
+               "stop_lat":"42.351902",
+               "stop_lon":"-71.070893"
+            },
+            {  
+               "stop_order":"110",
+               "stop_id":"70155",
+               "stop_name":"Copley - Outbound",
+               "parent_station":"place-coecl",
+               "parent_station_name":"Copley",
+               "stop_lat":"42.349974",
+               "stop_lon":"-71.077447"
+            },
+            {  
+               "stop_order":"120",
+               "stop_id":"70153",
+               "stop_name":"Hynes - Outbound",
+               "parent_station":"place-hymnl",
+               "parent_station_name":"Hynes Convention Center",
+               "stop_lat":"42.347888",
+               "stop_lon":"-71.087903"
+            },
+            {  
+               "stop_order":"130",
+               "stop_id":"70151",
+               "stop_name":"Kenmore - Outbound",
+               "parent_station":"place-kencl",
+               "parent_station_name":"Kenmore",
+               "stop_lat":"42.348949",
+               "stop_lon":"-71.095169"
+            },
+            {  
+               "stop_order":"140",
+               "stop_id":"70149",
+               "stop_name":"Blandford Street - Outbound",
+               "parent_station":"place-bland",
+               "parent_station_name":"Blandford Street",
+               "stop_lat":"42.349293",
+               "stop_lon":"-71.100258"
+            },
+            {  
+               "stop_order":"150",
+               "stop_id":"70147",
+               "stop_name":"Boston Univ East - Outbound",
+               "parent_station":"place-buest",
+               "parent_station_name":"Boston Univ. East",
+               "stop_lat":"42.349735",
+               "stop_lon":"-71.103889"
+            },
+            {  
+               "stop_order":"160",
+               "stop_id":"70145",
+               "stop_name":"Boston Univ Central - Outbound",
+               "parent_station":"place-bucen",
+               "parent_station_name":"Boston Univ. Central",
+               "stop_lat":"42.350082",
+               "stop_lon":"-71.106865"
+            },
+            {  
+               "stop_order":"170",
+               "stop_id":"70143",
+               "stop_name":"Boston Univ West - Outbound",
+               "parent_station":"place-buwst",
+               "parent_station_name":"Boston Univ. West",
+               "stop_lat":"42.350941",
+               "stop_lon":"-71.113876"
+            },
+            {  
+               "stop_order":"180",
+               "stop_id":"70141",
+               "stop_name":"Saint Paul Street - Outbound",
+               "parent_station":"place-stplb",
+               "parent_station_name":"Saint Paul Street",
+               "stop_lat":"42.3512",
+               "stop_lon":"-71.116104"
+            },
+            {  
+               "stop_order":"190",
+               "stop_id":"70139",
+               "stop_name":"Pleasant Street - Outbound",
+               "parent_station":"place-plsgr",
+               "parent_station_name":"Pleasant Street",
+               "stop_lat":"42.351521",
+               "stop_lon":"-71.118889"
+            },
+            {  
+               "stop_order":"200",
+               "stop_id":"70137",
+               "stop_name":"Babcock Street - Outbound",
+               "parent_station":"place-babck",
+               "parent_station_name":"Babcock Street",
+               "stop_lat":"42.35182",
+               "stop_lon":"-71.12165"
+            },
+            {  
+               "stop_order":"210",
+               "stop_id":"70135",
+               "stop_name":"Packards Corner - Outbound",
+               "parent_station":"place-brico",
+               "parent_station_name":"Packards Corner",
+               "stop_lat":"42.351967",
+               "stop_lon":"-71.125031"
+            },
+            {  
+               "stop_order":"220",
+               "stop_id":"70131",
+               "stop_name":"Harvard Avenue - Outbound",
+               "parent_station":"place-harvd",
+               "parent_station_name":"Harvard Ave.",
+               "stop_lat":"42.350243",
+               "stop_lon":"-71.131355"
+            },
+            {  
+               "stop_order":"230",
+               "stop_id":"70129",
+               "stop_name":"Griggs Street - Outbound",
+               "parent_station":"place-grigg",
+               "parent_station_name":"Griggs Street",
+               "stop_lat":"42.348545",
+               "stop_lon":"-71.134949"
+            },
+            {  
+               "stop_order":"240",
+               "stop_id":"70127",
+               "stop_name":"Allston Street - Outbound",
+               "parent_station":"place-alsgr",
+               "parent_station_name":"Allston Street",
+               "stop_lat":"42.348701",
+               "stop_lon":"-71.137955"
+            },
+            {  
+               "stop_order":"250",
+               "stop_id":"70125",
+               "stop_name":"Warren Street - Outbound",
+               "parent_station":"place-wrnst",
+               "parent_station_name":"Warren Street",
+               "stop_lat":"42.348343",
+               "stop_lon":"-71.140457"
+            },
+            {  
+               "stop_order":"260",
+               "stop_id":"70121",
+               "stop_name":"Washington Street - Outbound",
+               "parent_station":"place-wascm",
+               "parent_station_name":"Washington Street",
+               "stop_lat":"42.343864",
+               "stop_lon":"-71.142853"
+            },
+            {  
+               "stop_order":"270",
+               "stop_id":"70117",
+               "stop_name":"Sutherland Road - Outbound",
+               "parent_station":"place-sthld",
+               "parent_station_name":"Sutherland Road",
+               "stop_lat":"42.341614",
+               "stop_lon":"-71.146202"
+            },
+            {  
+               "stop_order":"280",
+               "stop_id":"70115",
+               "stop_name":"Chiswick Road - Outbound",
+               "parent_station":"place-chswk",
+               "parent_station_name":"Chiswick Road",
+               "stop_lat":"42.340805",
+               "stop_lon":"-71.150711"
+            },
+            {  
+               "stop_order":"290",
+               "stop_id":"70113",
+               "stop_name":"Chestnut Hill Avenue - Outbound",
+               "parent_station":"place-chill",
+               "parent_station_name":"Chestnut Hill Ave.",
+               "stop_lat":"42.338169",
+               "stop_lon":"-71.15316"
+            },
+            {  
+               "stop_order":"300",
+               "stop_id":"70111",
+               "stop_name":"South Street - Outbound",
+               "parent_station":"place-sougr",
+               "parent_station_name":"South Street",
+               "stop_lat":"42.3396",
+               "stop_lon":"-71.157661"
+            },
+            {  
+               "stop_order":"310",
+               "stop_id":"70107",
+               "stop_name":"Boston College - Outbound",
+               "parent_station":"place-lake",
+               "parent_station_name":"Boston College",
+               "stop_lat":"42.340081",
+               "stop_lon":"-71.166769"
+            }
+         ]
+      },
+      {  
+         "direction_id":"1",
+         "direction_name":"Eastbound",
+         "stop":[  
+            {  
+               "stop_order":"1",
+               "stop_id":"70106",
+               "stop_name":"Boston College - Inbound",
+               "parent_station":"place-lake",
+               "parent_station_name":"Boston College",
+               "stop_lat":"42.340081",
+               "stop_lon":"-71.166769"
+            },
+            {  
+               "stop_order":"10",
+               "stop_id":"70110",
+               "stop_name":"South Street - Inbound",
+               "parent_station":"place-sougr",
+               "parent_station_name":"South Street",
+               "stop_lat":"42.3396",
+               "stop_lon":"-71.157661"
+            },
+            {  
+               "stop_order":"20",
+               "stop_id":"70112",
+               "stop_name":"Chestnut Hill Avenue - Inbound",
+               "parent_station":"place-chill",
+               "parent_station_name":"Chestnut Hill Ave.",
+               "stop_lat":"42.338169",
+               "stop_lon":"-71.15316"
+            },
+            {  
+               "stop_order":"30",
+               "stop_id":"70114",
+               "stop_name":"Chiswick Road - Inbound",
+               "parent_station":"place-chswk",
+               "parent_station_name":"Chiswick Road",
+               "stop_lat":"42.340805",
+               "stop_lon":"-71.150711"
+            },
+            {  
+               "stop_order":"40",
+               "stop_id":"70116",
+               "stop_name":"Sutherland Road - Inbound",
+               "parent_station":"place-sthld",
+               "parent_station_name":"Sutherland Road",
+               "stop_lat":"42.341614",
+               "stop_lon":"-71.146202"
+            },
+            {  
+               "stop_order":"50",
+               "stop_id":"70120",
+               "stop_name":"Washington Street - Inbound",
+               "parent_station":"place-wascm",
+               "parent_station_name":"Washington Street",
+               "stop_lat":"42.343864",
+               "stop_lon":"-71.142853"
+            },
+            {  
+               "stop_order":"60",
+               "stop_id":"70124",
+               "stop_name":"Warren Street - Inbound",
+               "parent_station":"place-wrnst",
+               "parent_station_name":"Warren Street",
+               "stop_lat":"42.348343",
+               "stop_lon":"-71.140457"
+            },
+            {  
+               "stop_order":"70",
+               "stop_id":"70126",
+               "stop_name":"Allston Street - Inbound",
+               "parent_station":"place-alsgr",
+               "parent_station_name":"Allston Street",
+               "stop_lat":"42.348701",
+               "stop_lon":"-71.137955"
+            },
+            {  
+               "stop_order":"80",
+               "stop_id":"70128",
+               "stop_name":"Griggs Street - Inbound",
+               "parent_station":"place-grigg",
+               "parent_station_name":"Griggs Street",
+               "stop_lat":"42.348545",
+               "stop_lon":"-71.134949"
+            },
+            {  
+               "stop_order":"90",
+               "stop_id":"70130",
+               "stop_name":"Harvard Avenue - Inbound",
+               "parent_station":"place-harvd",
+               "parent_station_name":"Harvard Ave.",
+               "stop_lat":"42.350243",
+               "stop_lon":"-71.131355"
+            },
+            {  
+               "stop_order":"100",
+               "stop_id":"70134",
+               "stop_name":"Packards Corner - Inbound",
+               "parent_station":"place-brico",
+               "parent_station_name":"Packards Corner",
+               "stop_lat":"42.351967",
+               "stop_lon":"-71.125031"
+            },
+            {  
+               "stop_order":"110",
+               "stop_id":"70136",
+               "stop_name":"Babcock Street - Inbound",
+               "parent_station":"place-babck",
+               "parent_station_name":"Babcock Street",
+               "stop_lat":"42.35182",
+               "stop_lon":"-71.12165"
+            },
+            {  
+               "stop_order":"120",
+               "stop_id":"70138",
+               "stop_name":"Pleasant Street - Inbound",
+               "parent_station":"place-plsgr",
+               "parent_station_name":"Pleasant Street",
+               "stop_lat":"42.351521",
+               "stop_lon":"-71.118889"
+            },
+            {  
+               "stop_order":"130",
+               "stop_id":"70140",
+               "stop_name":"Saint Paul Street - Inbound",
+               "parent_station":"place-stplb",
+               "parent_station_name":"Saint Paul Street",
+               "stop_lat":"42.3512",
+               "stop_lon":"-71.116104"
+            },
+            {  
+               "stop_order":"140",
+               "stop_id":"70142",
+               "stop_name":"Boston Univ West - Inbound",
+               "parent_station":"place-buwst",
+               "parent_station_name":"Boston Univ. West",
+               "stop_lat":"42.350941",
+               "stop_lon":"-71.113876"
+            },
+            {  
+               "stop_order":"150",
+               "stop_id":"70144",
+               "stop_name":"Boston Univ Central - Inbound",
+               "parent_station":"place-bucen",
+               "parent_station_name":"Boston Univ. Central",
+               "stop_lat":"42.350082",
+               "stop_lon":"-71.106865"
+            },
+            {  
+               "stop_order":"160",
+               "stop_id":"70146",
+               "stop_name":"Boston Univ East - Inbound",
+               "parent_station":"place-buest",
+               "parent_station_name":"Boston Univ. East",
+               "stop_lat":"42.349735",
+               "stop_lon":"-71.103889"
+            },
+            {  
+               "stop_order":"170",
+               "stop_id":"70148",
+               "stop_name":"Blandford Street - Inbound",
+               "parent_station":"place-bland",
+               "parent_station_name":"Blandford Street",
+               "stop_lat":"42.349293",
+               "stop_lon":"-71.100258"
+            },
+            {  
+               "stop_order":"550",
+               "stop_id":"70150",
+               "stop_name":"Kenmore - Inbound",
+               "parent_station":"place-kencl",
+               "parent_station_name":"Kenmore",
+               "stop_lat":"42.348949",
+               "stop_lon":"-71.095169"
+            },
+            {  
+               "stop_order":"560",
+               "stop_id":"70152",
+               "stop_name":"Hynes - Inbound",
+               "parent_station":"place-hymnl",
+               "parent_station_name":"Hynes Convention Center",
+               "stop_lat":"42.347888",
+               "stop_lon":"-71.087903"
+            },
+            {  
+               "stop_order":"570",
+               "stop_id":"70154",
+               "stop_name":"Copley - Inbound",
+               "parent_station":"place-coecl",
+               "parent_station_name":"Copley",
+               "stop_lat":"42.349974",
+               "stop_lon":"-71.077447"
+            },
+            {  
+               "stop_order":"580",
+               "stop_id":"70156",
+               "stop_name":"Arlington - Inbound",
+               "parent_station":"place-armnl",
+               "parent_station_name":"Arlington",
+               "stop_lat":"42.351902",
+               "stop_lon":"-71.070893"
+            },
+            {  
+               "stop_order":"590",
+               "stop_id":"70158",
+               "stop_name":"Boylston - Inbound",
+               "parent_station":"place-boyls",
+               "parent_station_name":"Boylston",
+               "stop_lat":"42.35302",
+               "stop_lon":"-71.06459"
+            },
+            {  
+               "stop_order":"600",
+               "stop_id":"70200",
+               "stop_name":"Park Street - Green Line Eastbound",
+               "parent_station":"place-pktrm",
+               "parent_station_name":"Park Street",
+               "stop_lat":"42.35639457",
+               "stop_lon":"-71.0624242"
+            },
+            {  
+               "stop_order":"610",
+               "stop_id":"70201",
+               "stop_name":"Government Center - Green Line Eastbound",
+               "parent_station":"place-gover",
+               "parent_station_name":"Government Center",
+               "stop_lat":"42.359705",
+               "stop_lon":"-71.059215"
+            },
+            {  
+               "stop_order":"620",
+               "stop_id":"70203",
+               "stop_name":"Haymarket - Green Line Outbound",
+               "parent_station":"place-haecl",
+               "parent_station_name":"Haymarket",
+               "stop_lat":"42.363021",
+               "stop_lon":"-71.05829"
+            },
+            {  
+               "stop_order":"630",
+               "stop_id":"70205",
+               "stop_name":"North Station - Green Line Outbound",
+               "parent_station":"place-north",
+               "parent_station_name":"North Station",
+               "stop_lat":"42.365577",
+               "stop_lon":"-71.06129"
+            },
+            {  
+               "stop_order":"640",
+               "stop_id":"70207",
+               "stop_name":"Science Park - Outbound",
+               "parent_station":"place-spmnl",
+               "parent_station_name":"Science Park",
+               "stop_lat":"42.366664",
+               "stop_lon":"-71.067666"
+            },
+            {  
+               "stop_order":"650",
+               "stop_id":"70209",
+               "stop_name":"Lechmere - Outbound",
+               "parent_station":"place-lech",
+               "parent_station_name":"Lechmere",
+               "stop_lat":"42.370772",
+               "stop_lon":"-71.076536"
+            }
+         ]
+      }
+   ],
+  "green-c": [  
+      {  
+         "direction_id":"0",
+         "direction_name":"Westbound",
+         "stop":[  
+            {  
+               "stop_order":"1",
+               "stop_id":"70210",
+               "stop_name":"Lechmere - Inbound",
+               "parent_station":"place-lech",
+               "parent_station_name":"Lechmere",
+               "stop_lat":"42.370772",
+               "stop_lon":"-71.076536"
+            },
+            {  
+               "stop_order":"10",
+               "stop_id":"70208",
+               "stop_name":"Science Park - Inbound",
+               "parent_station":"place-spmnl",
+               "parent_station_name":"Science Park",
+               "stop_lat":"42.366664",
+               "stop_lon":"-71.067666"
+            },
+            {  
+               "stop_order":"20",
+               "stop_id":"70206",
+               "stop_name":"North Station - Green Line Inbound",
+               "parent_station":"place-north",
+               "parent_station_name":"North Station",
+               "stop_lat":"42.365577",
+               "stop_lon":"-71.06129"
+            },
+            {  
+               "stop_order":"30",
+               "stop_id":"70204",
+               "stop_name":"Haymarket - Green Line Inbound",
+               "parent_station":"place-haecl",
+               "parent_station_name":"Haymarket",
+               "stop_lat":"42.363021",
+               "stop_lon":"-71.05829"
+            },
+            {  
+               "stop_order":"40",
+               "stop_id":"70202",
+               "stop_name":"Government Center - Green Line Westbound",
+               "parent_station":"place-gover",
+               "parent_station_name":"Government Center",
+               "stop_lat":"42.359705",
+               "stop_lon":"-71.059215"
+            },
+            {  
+               "stop_order":"60",
+               "stop_id":"70197",
+               "stop_name":"Park Street - Green Line - C Branch Berth",
+               "parent_station":"place-pktrm",
+               "parent_station_name":"Park Street",
+               "stop_lat":"42.35639457",
+               "stop_lon":"-71.0624242"
+            },
+            {  
+               "stop_order":"90",
+               "stop_id":"70159",
+               "stop_name":"Boylston - Outbound",
+               "parent_station":"place-boyls",
+               "parent_station_name":"Boylston",
+               "stop_lat":"42.35302",
+               "stop_lon":"-71.06459"
+            },
+            {  
+               "stop_order":"100",
+               "stop_id":"70157",
+               "stop_name":"Arlington - Outbound",
+               "parent_station":"place-armnl",
+               "parent_station_name":"Arlington",
+               "stop_lat":"42.351902",
+               "stop_lon":"-71.070893"
+            },
+            {  
+               "stop_order":"110",
+               "stop_id":"70155",
+               "stop_name":"Copley - Outbound",
+               "parent_station":"place-coecl",
+               "parent_station_name":"Copley",
+               "stop_lat":"42.349974",
+               "stop_lon":"-71.077447"
+            },
+            {  
+               "stop_order":"120",
+               "stop_id":"70153",
+               "stop_name":"Hynes - Outbound",
+               "parent_station":"place-hymnl",
+               "parent_station_name":"Hynes Convention Center",
+               "stop_lat":"42.347888",
+               "stop_lon":"-71.087903"
+            },
+            {  
+               "stop_order":"130",
+               "stop_id":"70151",
+               "stop_name":"Kenmore - Outbound",
+               "parent_station":"place-kencl",
+               "parent_station_name":"Kenmore",
+               "stop_lat":"42.348949",
+               "stop_lon":"-71.095169"
+            },
+            {  
+               "stop_order":"320",
+               "stop_id":"70211",
+               "stop_name":"Saint Mary Street - Outbound",
+               "parent_station":"place-smary",
+               "parent_station_name":"Saint Mary Street",
+               "stop_lat":"42.345974",
+               "stop_lon":"-71.107353"
+            },
+            {  
+               "stop_order":"330",
+               "stop_id":"70213",
+               "stop_name":"Hawes Street - Outbound",
+               "parent_station":"place-hwsst",
+               "parent_station_name":"Hawes Street",
+               "stop_lat":"42.344906",
+               "stop_lon":"-71.111145"
+            },
+            {  
+               "stop_order":"340",
+               "stop_id":"70215",
+               "stop_name":"Kent Street - Outbound",
+               "parent_station":"place-kntst",
+               "parent_station_name":"Kent Street",
+               "stop_lat":"42.344074",
+               "stop_lon":"-71.114197"
+            },
+            {  
+               "stop_order":"350",
+               "stop_id":"70217",
+               "stop_name":"Saint Paul Street - Outbound",
+               "parent_station":"place-stpul",
+               "parent_station_name":"Saint Paul Street",
+               "stop_lat":"42.343327",
+               "stop_lon":"-71.116997"
+            },
+            {  
+               "stop_order":"360",
+               "stop_id":"70219",
+               "stop_name":"Coolidge Corner - Outbound",
+               "parent_station":"place-cool",
+               "parent_station_name":"Coolidge Corner",
+               "stop_lat":"42.342116",
+               "stop_lon":"-71.121263"
+            },
+            {  
+               "stop_order":"370",
+               "stop_id":"70223",
+               "stop_name":"Summit Avenue - Outbound",
+               "parent_station":"place-sumav",
+               "parent_station_name":"Summit Ave.",
+               "stop_lat":"42.34111",
+               "stop_lon":"-71.12561"
+            },
+            {  
+               "stop_order":"380",
+               "stop_id":"70225",
+               "stop_name":"Brandon Hall - Outbound",
+               "parent_station":"place-bndhl",
+               "parent_station_name":"Brandon Hall",
+               "stop_lat":"42.340023",
+               "stop_lon":"-71.129082"
+            },
+            {  
+               "stop_order":"390",
+               "stop_id":"70227",
+               "stop_name":"Fairbanks Street - Outbound",
+               "parent_station":"place-fbkst",
+               "parent_station_name":"Fairbanks Street",
+               "stop_lat":"42.339725",
+               "stop_lon":"-71.131073"
+            },
+            {  
+               "stop_order":"400",
+               "stop_id":"70229",
+               "stop_name":"Washington Square - Outbound",
+               "parent_station":"place-bcnwa",
+               "parent_station_name":"Washington Square",
+               "stop_lat":"42.339394",
+               "stop_lon":"-71.13533"
+            },
+            {  
+               "stop_order":"410",
+               "stop_id":"70231",
+               "stop_name":"Tappan Street - Outbound",
+               "parent_station":"place-tapst",
+               "parent_station_name":"Tappan Street",
+               "stop_lat":"42.338459",
+               "stop_lon":"-71.138702"
+            },
+            {  
+               "stop_order":"420",
+               "stop_id":"70233",
+               "stop_name":"Dean Road - Outbound",
+               "parent_station":"place-denrd",
+               "parent_station_name":"Dean Road",
+               "stop_lat":"42.337807",
+               "stop_lon":"-71.141853"
+            },
+            {  
+               "stop_order":"430",
+               "stop_id":"70235",
+               "stop_name":"Englewood Avenue - Outbound",
+               "parent_station":"place-engav",
+               "parent_station_name":"Englewood Ave.",
+               "stop_lat":"42.336971",
+               "stop_lon":"-71.14566"
+            },
+            {  
+               "stop_order":"440",
+               "stop_id":"70237",
+               "stop_name":"Cleveland Circle - Outbound",
+               "parent_station":"place-clmnl",
+               "parent_station_name":"Cleveland Circle",
+               "stop_lat":"42.336142",
+               "stop_lon":"-71.149326"
+            }
+         ]
+      },
+      {  
+         "direction_id":"1",
+         "direction_name":"Eastbound",
+         "stop":[  
+            {  
+               "stop_order":"180",
+               "stop_id":"70238",
+               "stop_name":"Cleveland Circle - Inbound",
+               "parent_station":"place-clmnl",
+               "parent_station_name":"Cleveland Circle",
+               "stop_lat":"42.336142",
+               "stop_lon":"-71.149326"
+            },
+            {  
+               "stop_order":"190",
+               "stop_id":"70236",
+               "stop_name":"Englewood Avenue - Inbound",
+               "parent_station":"place-engav",
+               "parent_station_name":"Englewood Ave.",
+               "stop_lat":"42.336971",
+               "stop_lon":"-71.14566"
+            },
+            {  
+               "stop_order":"200",
+               "stop_id":"70234",
+               "stop_name":"Dean Road - Inbound",
+               "parent_station":"place-denrd",
+               "parent_station_name":"Dean Road",
+               "stop_lat":"42.337807",
+               "stop_lon":"-71.141853"
+            },
+            {  
+               "stop_order":"210",
+               "stop_id":"70232",
+               "stop_name":"Tappan Street - Inbound",
+               "parent_station":"place-tapst",
+               "parent_station_name":"Tappan Street",
+               "stop_lat":"42.338459",
+               "stop_lon":"-71.138702"
+            },
+            {  
+               "stop_order":"220",
+               "stop_id":"70230",
+               "stop_name":"Washington Square - Inbound",
+               "parent_station":"place-bcnwa",
+               "parent_station_name":"Washington Square",
+               "stop_lat":"42.339394",
+               "stop_lon":"-71.13533"
+            },
+            {  
+               "stop_order":"230",
+               "stop_id":"70228",
+               "stop_name":"Fairbanks Street - Inbound",
+               "parent_station":"place-fbkst",
+               "parent_station_name":"Fairbanks Street",
+               "stop_lat":"42.339725",
+               "stop_lon":"-71.131073"
+            },
+            {  
+               "stop_order":"240",
+               "stop_id":"70226",
+               "stop_name":"Brandon Hall - Inbound",
+               "parent_station":"place-bndhl",
+               "parent_station_name":"Brandon Hall",
+               "stop_lat":"42.340023",
+               "stop_lon":"-71.129082"
+            },
+            {  
+               "stop_order":"250",
+               "stop_id":"70224",
+               "stop_name":"Summit Avenue - Inbound",
+               "parent_station":"place-sumav",
+               "parent_station_name":"Summit Ave.",
+               "stop_lat":"42.34111",
+               "stop_lon":"-71.12561"
+            },
+            {  
+               "stop_order":"260",
+               "stop_id":"70220",
+               "stop_name":"Coolidge Corner - Inbound",
+               "parent_station":"place-cool",
+               "parent_station_name":"Coolidge Corner",
+               "stop_lat":"42.342116",
+               "stop_lon":"-71.121263"
+            },
+            {  
+               "stop_order":"270",
+               "stop_id":"70218",
+               "stop_name":"Saint Paul Street - Inbound",
+               "parent_station":"place-stpul",
+               "parent_station_name":"Saint Paul Street",
+               "stop_lat":"42.343327",
+               "stop_lon":"-71.116997"
+            },
+            {  
+               "stop_order":"280",
+               "stop_id":"70216",
+               "stop_name":"Kent Street - Inbound",
+               "parent_station":"place-kntst",
+               "parent_station_name":"Kent Street",
+               "stop_lat":"42.344074",
+               "stop_lon":"-71.114197"
+            },
+            {  
+               "stop_order":"290",
+               "stop_id":"70214",
+               "stop_name":"Hawes Street - Inbound",
+               "parent_station":"place-hwsst",
+               "parent_station_name":"Hawes Street",
+               "stop_lat":"42.344906",
+               "stop_lon":"-71.111145"
+            },
+            {  
+               "stop_order":"300",
+               "stop_id":"70212",
+               "stop_name":"Saint Mary Street - Inbound",
+               "parent_station":"place-smary",
+               "parent_station_name":"Saint Mary Street",
+               "stop_lat":"42.345974",
+               "stop_lon":"-71.107353"
+            },
+            {  
+               "stop_order":"550",
+               "stop_id":"70150",
+               "stop_name":"Kenmore - Inbound",
+               "parent_station":"place-kencl",
+               "parent_station_name":"Kenmore",
+               "stop_lat":"42.348949",
+               "stop_lon":"-71.095169"
+            },
+            {  
+               "stop_order":"560",
+               "stop_id":"70152",
+               "stop_name":"Hynes - Inbound",
+               "parent_station":"place-hymnl",
+               "parent_station_name":"Hynes Convention Center",
+               "stop_lat":"42.347888",
+               "stop_lon":"-71.087903"
+            },
+            {  
+               "stop_order":"570",
+               "stop_id":"70154",
+               "stop_name":"Copley - Inbound",
+               "parent_station":"place-coecl",
+               "parent_station_name":"Copley",
+               "stop_lat":"42.349974",
+               "stop_lon":"-71.077447"
+            },
+            {  
+               "stop_order":"580",
+               "stop_id":"70156",
+               "stop_name":"Arlington - Inbound",
+               "parent_station":"place-armnl",
+               "parent_station_name":"Arlington",
+               "stop_lat":"42.351902",
+               "stop_lon":"-71.070893"
+            },
+            {  
+               "stop_order":"590",
+               "stop_id":"70158",
+               "stop_name":"Boylston - Inbound",
+               "parent_station":"place-boyls",
+               "parent_station_name":"Boylston",
+               "stop_lat":"42.35302",
+               "stop_lon":"-71.06459"
+            },
+            {  
+               "stop_order":"600",
+               "stop_id":"70200",
+               "stop_name":"Park Street - Green Line Eastbound",
+               "parent_station":"place-pktrm",
+               "parent_station_name":"Park Street",
+               "stop_lat":"42.35639457",
+               "stop_lon":"-71.0624242"
+            },
+            {  
+               "stop_order":"610",
+               "stop_id":"70201",
+               "stop_name":"Government Center - Green Line Eastbound",
+               "parent_station":"place-gover",
+               "parent_station_name":"Government Center",
+               "stop_lat":"42.359705",
+               "stop_lon":"-71.059215"
+            },
+            {  
+               "stop_order":"620",
+               "stop_id":"70203",
+               "stop_name":"Haymarket - Green Line Outbound",
+               "parent_station":"place-haecl",
+               "parent_station_name":"Haymarket",
+               "stop_lat":"42.363021",
+               "stop_lon":"-71.05829"
+            },
+            {  
+               "stop_order":"630",
+               "stop_id":"70205",
+               "stop_name":"North Station - Green Line Outbound",
+               "parent_station":"place-north",
+               "parent_station_name":"North Station",
+               "stop_lat":"42.365577",
+               "stop_lon":"-71.06129"
+            },
+            {  
+               "stop_order":"640",
+               "stop_id":"70207",
+               "stop_name":"Science Park - Outbound",
+               "parent_station":"place-spmnl",
+               "parent_station_name":"Science Park",
+               "stop_lat":"42.366664",
+               "stop_lon":"-71.067666"
+            },
+            {  
+               "stop_order":"650",
+               "stop_id":"70209",
+               "stop_name":"Lechmere - Outbound",
+               "parent_station":"place-lech",
+               "parent_station_name":"Lechmere",
+               "stop_lat":"42.370772",
+               "stop_lon":"-71.076536"
+            }
+         ]
+      }
+   ]
 }
