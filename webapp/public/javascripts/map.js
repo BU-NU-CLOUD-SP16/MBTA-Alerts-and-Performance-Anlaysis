@@ -32,10 +32,12 @@ function initMap(options) {
             if(parseInt(stop) > 0) {
                 var direction = parseInt(data[stop]["Direction"]);
                 if (direction == options.direction) {
-                    var color = "#333333";
+                    
                     // use z_score value to determine size of the stop displayed
                     var indicator = parseFloat(data[stop]["z_score"]);
                     if (indicator === NaN || indicator < 0) indicator = 0;
+                    var color = get_alert_color(indicator);
+                    console.log(get_alert_color(indicator));
                     var icon = {
                         path: google.maps.SymbolPath.CIRCLE,
                         labelContent: indicator,
@@ -131,5 +133,19 @@ function get_color(line) {
         default:
             return 'rgba(255,255,255,0)';
             break;
+    }
+}
+
+function get_alert_color(z_score) {
+    if(z_score === null || z_score === false) {
+        return "gray";
+    } else if(Math.abs(z_score) < data_params.good) {
+        return "green";
+    } else if (Math.abs(z_score) < data_params.moderate) {
+        return "yellow";
+    } else if (Math.abs(z_score) < data_params.bad) {
+        return "orange";
+    } else {
+        return "red";
     }
 }
