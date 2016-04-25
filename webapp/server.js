@@ -1,7 +1,7 @@
 var fs = require("fs");
 var http = require('http');
 var async = require('async');
-var port = 80;
+var port = 8080;
 var express = require('express');
 var app = express();
 var compression = require("compression");
@@ -18,6 +18,12 @@ var mbta = new sqlite.Database("../parser/mbta_subway.db");
 
 // gzip data being sent to client by default
 app.use(compression());
+
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
 
 // implement simple caching (eventually use middleware to do this more efficiently, incorporate TTL etc)
 var all_lines = load_all_lines();
