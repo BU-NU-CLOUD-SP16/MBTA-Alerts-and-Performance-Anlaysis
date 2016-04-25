@@ -32,9 +32,11 @@ function initMap(options) {
 
                     // use z_score value to determine size of the stop displayed
                     var indicator = parseFloat(data[stop]["z_score"]);
-                    if (indicator === NaN || indicator < 0) indicator = 0;
-                    var color = get_alert_color(indicator);
-                    console.log(get_alert_color(indicator));
+                    if (indicator === NaN) {
+			indicator = 0;
+		    } else {
+		        indicator = Math.abs(indicator);
+		    }
                     var icon = {
                         path: google.maps.SymbolPath.CIRCLE,
                         labelContent: indicator,

@@ -13,12 +13,12 @@ queryTime = int(time.time())
 dayOfWeek = datetime.datetime.today().weekday() #0 = Monday 6 = Sunday
 
 #load api and key from json file
-with open('/home/ec2-user/MBTA-Alerts-and-Performance-Anlaysis/auth/api.json') as data_file:
+with open('/home/ec2-user/MBTA-Alerts-and-Performance-Anlaysis/auth/api.json') as data_file: #'../auth/api.json') as data_file:
     auth = json.load(data_file)
     api_key = str(auth["key"])
     api = str(auth["api"])
 
-con = lite.connect('/home/ec2-user/MBTA-Alerts-and-Performance-Anlaysis/parser/mbta_subway.db')
+con = lite.connect('/home/ec2-user/MBTA-Alerts-and-Performance-Anlaysis/parser/mbta_subway.db') #'mbta_subway.db')
 cur = con.cursor() #create cursor in object pointing to mbta_subway
 cur.execute('SELECT StopID from Static')
 all_stops = cur.fetchall() #comes as a list of tuples
@@ -31,7 +31,7 @@ endTime = queryTime
 startTime = endTime - 30*60
 
 #create new table
-#'CREATE TABLE time_table(time integer, line text, direction integer, stop_id integer, headway integer, dayOfWeek integer, stdDev integer);')
+#'CREATE TABLE time_table_new(time integer, line text, direction integer, stop_id integer, dayOfWeek integer, headwayAvg integer, headwayStdDev integer, benchmarkAvg integer, benchmarkStdDev);')
 
 progress = 0
 #iterate through all stops and insert headway info into database
@@ -40,8 +40,10 @@ for stop in all_stops:
     count = 0 #used to find mean and stdDev
     headwaySum = 0
     headwayDiffSum = 0
+    benchmarkDiffSum = 0
     stdDev = 0
     headwayList = [] #create list to store each headway in a stop to determine stdDev
+    benchmarkList = [] #list to store benchmarks for each headway 
 
     params = {
      'api_key' : api_key,
@@ -68,16 +70,25 @@ for stop in all_stops:
             for headway in headways['headways']: #headways_file['headways']: #dive into individual headways
                 headwaySum += int(headway['headway_time_sec']) #headway interval from headway.json
                 headwayList.append(int(headway['headway_time_sec']))
+                benchmarkList.append(int(headway['benchmark_headway_time_sec']))
                 count += 1
 
-            headwayAvg = headwaySum/count
+            headwayAvg = sum(headwayList)/count
+            benchmarkAvg = sum(benchmarkList)/count
+            
             for headway in headwayList:
                 headway = (headway - headwayAvg)**2
                 headwayDiffSum += headway
-            stdDev = (headwayDiffSum/count)**(0.5)
 
-            to_insert = (table_time, table_route_id, table_direction, table_stop_id, headwayAvg, dayOfWeek, stdDev)
-            cur.execute('INSERT INTO time_table_new(time , line , direction , stop_id , headway, dayOfWeek, stdDev) VALUES (?, ?, ?, ?, ?, ?, ?)', to_insert)      
+            for benchmark in benchmarkList:
+                benchmark = (benchmark - benchmarkAvg)**2
+                benchmarkDiffSum += benchmark
+
+            headwayStdDev = (headwayDiffSum/count)**(0.5)
+            benchmarkStdDev = (benchmarkDiffSum/count)**(0.5)
+
+            to_insert = (table_time, table_route_id, table_direction, table_stop_id, headwayAvg, dayOfWeek, headwayStdDev, benchmarkAvg, benchmarkStdDev)
+            cur.execute('INSERT INTO time_table_new(time , line , direction , stop_id , headwayAvg, dayOfWeek, headwayStdDev, benchmarkAvg, benchmarkStdDev) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)', to_insert)      
 
             con.commit()
 
