@@ -135,15 +135,19 @@ $(document).ready(function() {
         chart.append("line")
             .style("stroke", "black")
             .attr("x1", function(d) {
-                return 200;
+                // return d["coords"][0]*specs.x;
+                return 0;
             })
             .attr("y1", function(d) {
-                return 200;
+                // return d["coords"][1]*specs.y;
+                return 0;
             })
             .attr("x2", function(d) {
+                // return d["next"][0]*specs.x;
                 return 0;
             })
             .attr("y2", function(d) {
+                // return d["next"][1]*specs.y;
                 return 0;
             })
 

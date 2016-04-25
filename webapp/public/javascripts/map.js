@@ -37,6 +37,7 @@ function initMap(options) {
 		    } else {
 		        indicator = Math.abs(indicator);
 		    }
+		    var color = get_alert_color(indicator);
                     var icon = {
                         path: google.maps.SymbolPath.CIRCLE,
                         labelContent: indicator,
