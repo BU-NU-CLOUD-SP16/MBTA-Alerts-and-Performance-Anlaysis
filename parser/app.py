@@ -41,7 +41,7 @@ url = api + encoded_params
 con = None
 
 try:
-    con = lite.connect('mbta_subway')
+    con = lite.connect('mbta_subway.db')
     cur = con.cursor()
     lines = ['blue','red','orange','green-d','green-b','green-c','green-e']
     # opening json stops file:
@@ -57,7 +57,7 @@ try:
                     table_stop_lon = float(stop['stop_lon'])
                     table_stop_lat = float(stop['stop_lat'])
                     to_insert = (table_stop_id, table_stop_name, table_line, table_direction, table_stop_lon, table_stop_lat)
-                    # cur.execute('INSERT INTO Static (StopID , StopName , Line , Direction , Longitude , Latitude) VALUES (?, ?, ?, ?, ?, ?)', to_insert)
+                    cur.execute('INSERT INTO Static (StopID , StopName , Line , Direction , Longitude , Latitude) VALUES (?, ?, ?, ?, ?, ?)', to_insert)
                     print(to_insert)
 
     con.commit()
