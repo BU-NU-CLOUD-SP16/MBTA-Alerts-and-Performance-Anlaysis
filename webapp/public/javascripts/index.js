@@ -135,15 +135,19 @@ $(document).ready(function() {
         chart.append("line")
             .style("stroke", "black")
             .attr("x1", function(d) {
-                return 200;
+                // return d["coords"][0]*specs.x;
+                return 0;
             })
             .attr("y1", function(d) {
-                return 200;
+                // return d["coords"][1]*specs.y;
+                return 0;
             })
             .attr("x2", function(d) {
+                // return d["next"][0]*specs.x;
                 return 0;
             })
             .attr("y2", function(d) {
+                // return d["next"][1]*specs.y;
                 return 0;
             })
 
@@ -210,10 +214,35 @@ $(document).ready(function() {
         options.coords.lng = station.dir0.Longitude;
         options.coords.lat = station.dir0.Latitude;
         initMap(options);
+        var noData = "N/A"; // string if no data available
         $(".data-wrapper").addClass("active");
         $(".data-visualization").removeClass("active");
         $(".station-title").html(station.name);
-        $(".station-line").html(station.dir0.Line);
+        $(".station-line").html(station.dir0.Line + " line");
+        
+        if (station.dir1.z_score != null) {
+            $(".dir_1_status").html();
+            $(".dir_1_headway").html(station.dir1.z_score.toFixed(2));
+            $(".dir_1_historical").html();
+            $(".dir_1_benchmark").html();            
+        } else {
+            $(".dir_1_status").html(noData);
+            $(".dir_1_headway").html(noData);
+            $(".dir_1_historical").html(noData);
+            $(".dir_1_benchmark").html(noData); 
+        }
+        if (station.dir0.z_score != null) {
+            $(".dir_0_status").html();
+            $(".dir_0_headway").html(station.dir0.z_score.toFixed(2));
+            $(".dir_0_historical").html();
+            $(".dir_0_benchmark").html();
+        } else {
+            $(".dir_0_status").html(noData);
+            $(".dir_0_headway").html(noData);
+            $(".dir_0_historical").html(noData);
+            $(".dir_0_benchmark").html(noData);
+        }
+
     }
     function switch_direction_text(trainLine) {
         switch (trainLine) {
