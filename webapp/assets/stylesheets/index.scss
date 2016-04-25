@@ -35,19 +35,36 @@ body {
     }
     .data-container {
         height: 500px;
+        .data-wrapper{
+            position: relative;
+            text-align: center;
+            display: none;
+            &.active{
+                display: block;
+            }
+            .close-button-wrapper {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
         .data-visualization {
-            overflow: scroll;
+            display: none;
+            &.active {
+                display: block;
+            }
+            overflow: hidden;
             height: 500px;
             @media #{$md-min} {
                 height: 600px;
                 width: 100%;
             }
-        }
-        svg {
-            margin: 0 auto;
-            display: block;
-            @media #{$md-min} {
-                padding: 25px 0;
+            svg {
+                margin: 0 auto;
+                display: block;
+                @media #{$md-min} {
+                    padding: 25px 0;
+                }
             }
         }
     }

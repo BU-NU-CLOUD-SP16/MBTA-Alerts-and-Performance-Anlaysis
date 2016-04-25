@@ -5840,19 +5840,32 @@ body {
     text-align: center; }
   .wrapper .data-container {
     height: 500px; }
+    .wrapper .data-container .data-wrapper {
+      position: relative;
+      text-align: center;
+      display: none; }
+      .wrapper .data-container .data-wrapper.active {
+        display: block; }
+      .wrapper .data-container .data-wrapper .close-button-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0; }
     .wrapper .data-container .data-visualization {
-      overflow: scroll;
+      display: none;
+      overflow: hidden;
       height: 500px; }
+      .wrapper .data-container .data-visualization.active {
+        display: block; }
       @media only screen and (min-width: 992px) {
         .wrapper .data-container .data-visualization {
           height: 600px;
           width: 100%; } }
-    .wrapper .data-container svg {
-      margin: 0 auto;
-      display: block; }
-      @media only screen and (min-width: 992px) {
-        .wrapper .data-container svg {
-          padding: 25px 0; } }
+      .wrapper .data-container .data-visualization svg {
+        margin: 0 auto;
+        display: block; }
+        @media only screen and (min-width: 992px) {
+          .wrapper .data-container .data-visualization svg {
+            padding: 25px 0; } }
   .wrapper .map-container {
     position: relative; }
     .wrapper .map-container .choose_direction {

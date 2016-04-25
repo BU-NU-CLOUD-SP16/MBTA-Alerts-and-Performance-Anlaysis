@@ -3,10 +3,7 @@
 var map;
 
 function initMap(options) {
-    if(options.line === "Blue") {
-        zoom: 13
-    }
-    map = new google.maps.Map(document.getElementById('map'), get_bounds(options.line));
+    map = new google.maps.Map(document.getElementById('map'), get_bounds(options));
     // map styles
     map.setOptions({ styles: styles });
 
@@ -20,7 +17,7 @@ function initMap(options) {
             return ({
                 strokeColor: color,
                 strokeWeight: 5,
-                strokeOpacity: 0.5
+                strokeOpacity: 0.75
             });
         });
     }
@@ -32,7 +29,7 @@ function initMap(options) {
             if(parseInt(stop) > 0) {
                 var direction = parseInt(data[stop]["Direction"]);
                 if (direction == options.direction) {
-                    
+
                     // use z_score value to determine size of the stop displayed
                     var indicator = parseFloat(data[stop]["z_score"]);
                     if (indicator === NaN || indicator < 0) indicator = 0;
@@ -41,9 +38,9 @@ function initMap(options) {
                     var icon = {
                         path: google.maps.SymbolPath.CIRCLE,
                         labelContent: indicator,
-                        scale: indicator * 5,
+                        scale: 9,
                         fillColor: color,
-                        fillOpacity: 0.5,
+                        fillOpacity: 0.75,
                         strokeOpacity: 0
                     };
                     var lat = parseFloat(data[stop]["Latitude"]);
@@ -92,15 +89,19 @@ function initMap(options) {
     }
 }
 
-function get_bounds(line_color) {
-    if(line_color === "Blue") {
-        return { zoom: 13, center: {lat: 42.3757, lng: -71.024984}};
-    } else if (line_color === "Green") {
-        return { zoom: 12, center: {lat: 42.36174898323397, lng: -71.14789354589846}};
-    } else if (line_color === "Red") {
-        return { zoom: 11, center: {lat: 42.268578344711656, lng: -71.08884203222658}};
-    } else if (line_color === "Orange") {
-        return { zoom: 12, center: {lat: 42.36517, lng: -71.105836}};
+function get_bounds(options) {
+    if (options.custom) {
+        return {zoom: 14, center: {lat: options.coords.lat, lng: options.coords.lng}};
+    } else {
+        if(options.line === "Blue") {
+            return { zoom: 13, center: {lat: 42.3757, lng: -71.024984}};
+        } else if (options.line === "Green") {
+            return { zoom: 12, center: {lat: 42.36174898323397, lng: -71.14789354589846}};
+        } else if (options.line === "Red") {
+            return { zoom: 11, center: {lat: 42.268578344711656, lng: -71.08884203222658}};
+        } else if (options.line === "Orange") {
+            return { zoom: 12, center: {lat: 42.36517, lng: -71.105836}};
+        }
     }
 }
 
@@ -119,16 +120,16 @@ function load_json(path, callback) {
 function get_color(line) {
     switch (line.toLowerCase().slice(0, 3)) {
         case 'gre':
-            return (options.line == 'Green' ? '#357F4C' : 'rgba(255,255,255,0)');
+            return (line == 'Green' ? '#357F4C' : 'rgba(255,255,255,0)');
             break;
         case 'red':
-            return (options.line == 'Red' ? '#F03911' : 'rgba(255,255,255,0)');
+            return (line == 'Red' ? '#F03911' : 'rgba(255,255,255,0)');
             break;
         case 'blu':
-            return (options.line == 'Blue' ? '#295CAB' : 'rgba(255,255,255,0)');
+            return (line == 'Blue' ? '#295CAB' : 'rgba(255,255,255,0)');
             break;
         case 'ora':
-            return (options.line == 'Orange' ? '#f08f00' : 'rgba(255,255,255,0)');
+            return (line == 'Orange' ? '#f08f00' : 'rgba(255,255,255,0)');
             break;
         default:
             return 'rgba(255,255,255,0)';

@@ -11,6 +11,8 @@ var options = {
     positions: false,
     line: false,
     headways: true,
+    zoom: -1,
+    coords: {},
     direction: 0 // display outbound by default
 };
 
@@ -36,21 +38,25 @@ $(document).ready(function() {
     // click event listeners
     $(".red-line").on("click", function() {
         options.line = 'Red';
+        options.custom = false;
         update();
     });
 
     $(".green-line").on("click", function() {
         options.line = 'Green';
+        options.custom = false;
         update();
     });
 
     $(".blue-line").on("click", function() {
         options.line = 'Blue';
+        options.custom = false;
         update();
     });
 
     $(".orange-line").on("click", function() {
         options.line = 'Orange';
+        options.custom = false;
         update();
     });
 
@@ -71,6 +77,11 @@ $(document).ready(function() {
             update();
         }
     });
+
+    $(".hide-details").on("click", function() {
+        $(".data-visualization").addClass("active");
+        $(".data-wrapper").removeClass("active");
+    })
 
     // main update function
     function update() {
@@ -121,11 +132,29 @@ $(document).ready(function() {
                 return "translate(" + d["coords"][0]*specs.x + "," + d["coords"][1]*specs.y + ")";
             })
 
+        chart.append("line")
+            .style("stroke", "black")
+            .attr("x1", function(d) {
+                return 200;
+            })
+            .attr("y1", function(d) {
+                return 200;
+            })
+            .attr("x2", function(d) {
+                return 0;
+            })
+            .attr("y2", function(d) {
+                return 0;
+            })
+
         // add rectangle shapes
         chart.append("rect")
             .attr("fill", function() { return return_color(options.line);})
             .attr("width", specs.w)
-            .attr("height", specs.h);
+            .attr("height", specs.h)
+            .on("click", function(d,i){
+                load_station_details(d);
+            });
 
         // draw direction 0
         chart.append("rect")
@@ -172,6 +201,20 @@ $(document).ready(function() {
             .style("font-size", 10)
             .text(function(d) { return d["name"]; });
     }
+
+    function load_station_details(station) {
+        console.log(station);
+        console.log(station.dir0.Latitude);
+        console.log(station.dir0.Longitude);
+        options.custom = true;
+        options.coords.lng = station.dir0.Longitude;
+        options.coords.lat = station.dir0.Latitude;
+        initMap(options);
+        $(".data-wrapper").addClass("active");
+        $(".data-visualization").removeClass("active");
+        $(".station-title").html(station.name);
+        $(".station-line").html(station.dir0.Line);
+    }
     function switch_direction_text(trainLine) {
         switch (trainLine) {
             case 'Red':
@@ -209,5 +252,4 @@ $(document).ready(function() {
                 break;
         }
     }
-
 });
