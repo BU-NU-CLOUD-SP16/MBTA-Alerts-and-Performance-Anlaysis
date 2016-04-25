@@ -85,7 +85,7 @@ $(document).ready(function() {
 
     // main update function
     function update() {
-        load_json("http://localhost:8080/api/mbta/headways/" + options.line, function(response) {
+        load_json("http://ec2-52-34-3-119.us-west-2.compute.amazonaws.com/api/mbta/headways/" + options.line, function(response) {
             options.data = JSON.parse(response);
             $(".time-container").html("<p>Displaying data from " + (new Date(options.data.time * 1000).toString())+"</p>");
             update_visual(options.line);

@@ -1,7 +1,7 @@
 var fs = require("fs");
 var http = require('http');
 var async = require('async');
-var port = 8080;
+var port = 80;
 var express = require('express');
 var app = express();
 var compression = require("compression");
@@ -68,7 +68,7 @@ router.route('/all').get(function(req, res) {
 // Query made from front end for specific line performance for most recent time
 router.route('/headways/:line').get(function(req, res) {
         // first check to see what the last query made was
-        mbta.all("SELECT MAX(time) FROM time_table", function(err, row) {
+        mbta.all("SELECT MAX(time) FROM time_table_new", function(err, row) {
             if (!err) {
                 time = row[0]["MAX(time)"];
                 // check to see if data was already calculated
@@ -92,7 +92,7 @@ router.route('/headways/:line').get(function(req, res) {
                         function(err) {
                             if (req.params.line == 'Green') {
                                 // concatenate all green lines
-                                mbta.all("SELECT * FROM time_table WHERE (time = $time) AND (line = 'Green-E' OR line == 'Green-B' OR line == 'Green-D' OR line == 'Green-C')", {
+                                mbta.all("SELECT * FROM time_table_new WHERE (time = $time) AND (line = 'Green-E' OR line == 'Green-B' OR line == 'Green-D' OR line == 'Green-C')", {
                                     $time: time
                                 }, function(err, row) {
                                     if (!err) {
@@ -100,7 +100,7 @@ router.route('/headways/:line').get(function(req, res) {
                                     }
                                 });
                             } else {
-                                mbta.all("SELECT * FROM time_table WHERE (time = $time) AND line = $line", {
+                                mbta.all("SELECT * FROM time_table_new WHERE (time = $time) AND line = $line", {
                                     $time: time,
                                     $line: req.params.line
                                 }, function(err, row) {
