@@ -5,16 +5,7 @@
     <link rel="stylesheet" href="stylesheets/index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://d3js.org/d3.v4.0.0-alpha.29.min.js"></script>
-    <script src="https://d3js.org/d3-array.v0.7.min.js"></script>
-    <script src="https://d3js.org/d3-collection.v0.1.min.js"></script>
-    <script src="https://d3js.org/d3-color.v0.4.min.js"></script>
-    <script src="https://d3js.org/d3-format.v0.5.min.js"></script>
-    <script src="https://d3js.org/d3-interpolate.v0.7.min.js"></script>
-    <script src="https://d3js.org/d3-time.v0.2.min.js"></script>
-    <script src="https://d3js.org/d3-time-format.v0.3.min.js"></script>
-    <script src="https://d3js.org/d3-scale.v0.6.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
-    <script src="./javascripts/vendor/d3-scale.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <title>MBTA Alerts Performance Console</title>
 </head>
@@ -29,7 +20,7 @@
             <button type="button" class="orange-line btn btn-warning">Orange Line</button>
         </div>
         <div class="data-mode-container col-md-12">
-            <div class="btn-group" role="group" aria-label="...">
+            <div class="btn-group-sm" role="group" aria-label="...">
               <button type="button" class="cv_benchmark btn btn-default active" data-toggle="tooltip" data-placement="bottom" title="Displays the coefficient of variance of the realtime headways to the benchmark (schedule) headways">Benchmark CV</button>
               <button type="button" class="cv_historic btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Displays the coefficient of variance of the realtime headways to the historical (statistical) headways">Historical CV</button>
               <button type="button" class="dev_benchmark btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Percentage deviation from benchmark (schedule) standards">Benchmark Deviation</button>
@@ -93,15 +84,28 @@
             </div>
             <div class="data-visualization active">
                 <div id="chart"></div>
+                <div class="legend">
+                    <div class="station">
+                        <div class="stop"></div>
+                        <div class="direction_1"></div>
+                        <div class="direction_0"></div>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class=""></div>
+                </div>
             </div>
         </div>
         <div class="col-md-6 col-md-pull-6 map-container">
             <div class="btn-group-vertical choose_direction" role="group" aria-label="...">
-              <button type="button" class="direction_1 btn btn-default" data-toggle="tooltip" data-placement="right" title="change direction displayed">Direction 1</button>
-              <button type="button" class="direction_0 btn btn-default active" data-toggle="tooltip" data-placement="right" title="change direction displayed">Direction 0</button>
+              <button type="button" class="direction_1 btn direction_1_btn btn-default" data-toggle="tooltip" data-placement="right" title="change direction displayed">Direction 1</button>
+              <button type="button" class="direction_0 btn direction_0_btn btn-default active" data-toggle="tooltip" data-placement="right" title="change direction displayed">Direction 0</button>
             </div>
             <div id="map"></div>
         </div>
+    </div>
+    <div class="footer border-bar container-fluid">
+        <p>Boston University EC500 - Cloud Computer Spring 2016</p>
     </div>
     <script src="javascripts/map.js"></script>
     <script src="javascripts/map_style.js"></script>

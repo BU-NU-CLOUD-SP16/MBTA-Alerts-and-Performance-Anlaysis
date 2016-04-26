@@ -5822,13 +5822,29 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  padding-bottom: 30px; }
+  background-color: #ffffff; }
+
+.footer {
+  height: 50px;
+  line-height: 50px;
+  margin: 20px 0 0 0;
+  width: 100%; }
+  .footer p {
+    padding: 0;
+    margin: 0;
+    text-align: center; }
+    @media only screen and (min-width: 992px) {
+      .footer p {
+        text-align: left; } }
 
 .header-bar {
   width: 100%;
   font-size: 1.5em;
   padding: 8px 0 4px 0;
   margin-bottom: 10px; }
+  .header-bar h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.02em; }
   .header-bar .line-selection-container {
     padding: 0 0 8px 0;
     margin: 0 auto;
@@ -5850,7 +5866,9 @@ body {
   text-align: center; }
 
 .wrapper .data-container {
-  height: 520px; }
+  height: 340px; }
+  .wrapper .data-container.lengthen {
+    height: 550px; }
   .wrapper .data-container .data-wrapper {
     position: relative;
     text-align: center;
@@ -5863,20 +5881,61 @@ body {
       left: 0; }
   .wrapper .data-container .data-visualization {
     display: none;
-    overflow: hidden;
-    height: 500px; }
+    height: 500px;
+    overflow: hidden; }
     .wrapper .data-container .data-visualization.active {
       display: block; }
     @media only screen and (min-width: 992px) {
       .wrapper .data-container .data-visualization {
-        height: 600px;
+        height: 500px;
         width: 100%; } }
     .wrapper .data-container .data-visualization svg {
       margin: 0 auto;
       display: block; }
-      @media only screen and (min-width: 992px) {
-        .wrapper .data-container .data-visualization svg {
-          padding: 25px 0; } }
+  .wrapper .data-container .legend {
+    position: absolute;
+    top: 90px;
+    left: 30px; }
+    .wrapper .data-container .legend .station {
+      position: relative; }
+      .wrapper .data-container .legend .station .stop {
+        width: 30px;
+        position: absolute;
+        height: 30px;
+        border-radius: 100%;
+        background-color: black;
+        left: 49px;
+        top: -6px; }
+      .wrapper .data-container .legend .station .direction_0 {
+        position: absolute;
+        font-size: 11px;
+        width: 110px;
+        text-align: center;
+        font-weight: bold;
+        left: 40px;
+        text-transform: uppercase;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg); }
+      .wrapper .data-container .legend .station .direction_1 {
+        position: absolute;
+        font-size: 11px;
+        width: 110px;
+        text-align: center;
+        font-weight: bold;
+        left: -22px;
+        text-transform: uppercase;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        transform: rotate(-90deg); }
+  .wrapper .data-container .info {
+    position: absolute;
+    bottom: 30px;
+    right: 30px; }
 
 .wrapper .map-container {
   position: relative; }

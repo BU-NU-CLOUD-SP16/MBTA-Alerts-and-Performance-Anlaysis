@@ -13,7 +13,23 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16px;
-    padding-bottom: 30px;
+    // padding-bottom: 30px;
+    background-color: #ffffff;
+}
+
+.footer {
+    height: 50px;
+    line-height: 50px;
+    margin: 20px 0 0 0;
+    width: 100%;
+    p {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        @media #{$md-min} {
+            text-align: left;
+        }
+    }
 }
 
 .header-bar {
@@ -21,6 +37,10 @@ body {
     font-size: 1.5em;
     padding: 8px 0 4px 0 ;
     margin-bottom: 10px;
+    h2 {
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+    }
     .line-selection-container {
         padding: 0 0 8px 0;
         margin: 0 auto;
@@ -47,7 +67,10 @@ body {
         text-align: center;
     }
     .data-container {
-        height: 520px;
+        height: 340px;
+        &.lengthen {
+            height: 550px;
+        }
         .data-wrapper{
             position: relative;
             text-align: center;
@@ -66,19 +89,70 @@ body {
             &.active {
                 display: block;
             }
-            overflow: hidden;
             height: 500px;
+            overflow: hidden;
             @media #{$md-min} {
-                height: 600px;
+                height: 500px;
                 width: 100%;
             }
             svg {
                 margin: 0 auto;
                 display: block;
                 @media #{$md-min} {
-                    padding: 25px 0;
+                    // padding: 25px 0;
                 }
             }
+        }
+        .legend {
+            position: absolute;
+            top: 90px;
+            left: 30px;
+            .station {
+                position: relative;
+                .stop {
+                    width: 30px;
+                    position: absolute;
+                    height: 30px;
+                    border-radius: 100%;
+                    background-color: black;
+                    left: 49px;
+                    top: -6px;
+                }
+                .direction_0 {
+                    position: absolute;
+                    font-size: 11px;
+                    width: 110px;
+                    text-align: center;
+                    font-weight: bold;
+                    left: 40px;
+                    text-transform: uppercase;
+                    -webkit-transform: rotate(90deg);
+                    -moz-transform: rotate(90deg);
+                    -o-transform: rotate(90deg);
+                    -ms-transform: rotate(90deg);
+                    transform: rotate(90deg);
+
+                }
+                .direction_1 {
+                    position: absolute;
+                    font-size: 11px;
+                    width: 110px;
+                    text-align: center;
+                    font-weight: bold;
+                    left: -22px;
+                    text-transform: uppercase;
+                    -webkit-transform: rotate(-90deg);
+                    -moz-transform: rotate(-90deg);
+                    -o-transform: rotate(-90deg);
+                    -ms-transform: rotate(-90deg);
+                    transform: rotate(-90deg);
+                }
+            }
+        }
+        .info {
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
         }
     }
     .map-container {

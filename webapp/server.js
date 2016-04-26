@@ -85,14 +85,20 @@ router.route('/headways/:line').get(function(req, res) {
                 } else {
                     // need to calculate new performance
                     var date = new Date(time * 1000);
+                    var day = date.getDay();
+                    // 0 = sunday, 2 = weekday, 3 = saturday
+                    if (day === 6) {
+                        day = 3;
+                    } else if (day > 0) {
+                        day = 2;
+                    }
                     var time_of_day = date.getHours() * 60 + date.getMinutes(); // find time of day in minutes
                     time_of_day = Math.ceil((time_of_day / (24 * 60)) * 48); // convert time to time_of_day in headway distributions
                     time_of_day = (time_of_day === 0 ? 1 : time_of_day); // edge case where time is midnight
-
                     // using async library to know when we reach end of forEach loop
                     async.each(headway_distributions,
                         function(headway, callback) {
-                            if (headway["time_of_day"] === time_of_day) {
+                            if (headway["time_of_day"] === time_of_day && headway["day_of_week"] === day) {
                                 subset_headway_distribution.push(headway);
                             }
                             return callback(null);

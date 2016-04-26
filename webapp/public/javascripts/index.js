@@ -59,6 +59,7 @@ $(document).ready(function() {
             $(".green-line").removeClass("active");
             $(".blue-line").removeClass("active");
             $(".orange-line").removeClass("active");
+            $(".data-container").removeClass("lengthen");
         } else if (buttons === "modes") {
             $(".cv_historic").removeClass("active");
             $(".dev_benchmark").removeClass("active");
@@ -82,6 +83,7 @@ $(document).ready(function() {
         $(this).addClass("active");
         options.line = 'Green';
         options.custom = false;
+        $(".data-container").addClass("lengthen");
         update();
     });
 
@@ -103,7 +105,7 @@ $(document).ready(function() {
         update();
     });
 
-    $(".direction_0").on("click", function() {
+    $(".direction_0_btn").on("click", function() {
         if (options.direction != 0) {
             options.direction = 0;
             $(this).addClass("active");
@@ -112,7 +114,7 @@ $(document).ready(function() {
         }
     });
 
-    $(".direction_1").on("click", function() {
+    $(".direction_1_btn").on("click", function() {
         if (options.direction != 1) {
             options.direction = 1;
             $(this).addClass("active");
@@ -124,6 +126,9 @@ $(document).ready(function() {
     $(".hide-details").on("click", function() {
         $(".data-visualization").addClass("active");
         $(".data-wrapper").removeClass("active");
+        if(options.line !== "Green") {
+            $(".data-container").removeClass("lengthen");
+        }
         options.custom=false; // reset map zoom to default
         initMap(options);
     })
@@ -157,7 +162,7 @@ $(document).ready(function() {
         load_json("http://localhost:8080/api/mbta/headways/" + options.line, function(response) {
             options.data = JSON.parse(response);
             var update_date = new Date(options.data.time * 1000);
-            $(".time-container").html("<p>Displaying data from " + update_date.getHours()+":"+update_date.getMinutes()+" on "+ (update_date.getMonth()+1)+"/"+update_date.getDate()+"/"+update_date.getFullYear() +"</p>");
+            $(".time-container").html("<h4>Displaying data from " + update_date.getHours()+":"+update_date.getMinutes()+" on "+ (update_date.getMonth()+1)+"/"+update_date.getDate()+"/"+update_date.getFullYear() +"</h4>");
             update_visual(options.line);
             switch_direction_text(options.line);
             initMap(options);
@@ -189,7 +194,7 @@ $(document).ready(function() {
         d3.select("svg").remove();
         chart = d3.select("#chart").append("svg")
             .attr("width", 300)
-            .attr("height", 600);
+            .attr("height", 500);
 
         // create all of the station objects
         chart = chart.selectAll("g")
@@ -197,7 +202,7 @@ $(document).ready(function() {
             .enter()
             .append("g")
             .attr("transform", function(d) {
-                return "translate(" + d["cords"][0]*specs.x + "," + d["cords"][1]*specs.y + ")";
+                return "translate(" + d["cords"][0]*specs.x + "," + (10 + d["cords"][1]*specs.y) + ")";
             })
 
         chart.append("line")
@@ -230,15 +235,14 @@ $(document).ready(function() {
                     .transition()
                     .duration(200)
                     .attr("r",15)
-                    .attr("fill", "black")
             })
             .on("mouseout", function() {
                 d3.select(this)
                     .transition()
                     .attr("r", specs.h/2)
-                    .attr("fill", function() { return return_color(options.line);})
             })
             .on("click", function(d,i){
+                $(".data-container").addClass("lengthen");
                 load_station_details(d);
             });
 
@@ -246,6 +250,7 @@ $(document).ready(function() {
         chart.append("rect")
             .attr("width", specs.w/4)
             .attr("height", specs.h)
+            .attr("x", function() {return (specs.x - specs.w/2)})
             .attr("fill", function(d) {
                 if(d.dir[0][options.data_mode] === null || d.dir[0][options.data_mode] === false) {
                     return "gray";
@@ -256,12 +261,10 @@ $(document).ready(function() {
                     return color(Math.pow(2.71828,d.dir[0][options.data_mode]));
                 }
             });
-
         // draw direction 1
         chart.append("rect")
             .attr("width", specs.w/4)
             .attr("height", specs.h)
-            .attr("x", function() {return (specs.x - specs.w/2)})
             .attr("fill", function(d) {
                 if(d.dir[1][options.data_mode] === null || d.dir[1][options.data_mode] === false) {
                     return "gray";
@@ -272,6 +275,7 @@ $(document).ready(function() {
                     return color(Math.pow(2.71828,d.dir[1][options.data_mode]));
                 }
             });
+
 
         // append text
         var text = chart.append("text")

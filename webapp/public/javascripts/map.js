@@ -30,7 +30,7 @@ function initMap(options) {
                 var direction = parseInt(data[stop]["Direction"]);
                 if (direction === options.direction) {
                     // use z_score value to determine size of the stop displayed
-                    console.log(Math.pow(2.71828,data[stop][options.data_mode]));
+                    // console.log(Math.pow(2.71828,data[stop][options.data_mode]));
                     var indicator = parseFloat(Math.pow(2.71828,data[stop][options.data_mode]));
                     if (indicator === NaN) {
         		        indicator = 0;
