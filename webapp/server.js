@@ -80,6 +80,7 @@ router.route('/headways/:line').get(function(req, res) {
                 // check to see if data was already calculated
                 if (last_performance[req.params.line]["time"] === time) {
                     res.json(last_performance[req.params.line]);
+                    console.log("here");
                 } else {
                     // need to calculate new performance
                     var date = new Date(time * 1000);
@@ -128,7 +129,29 @@ router.route('/headways/:line').get(function(req, res) {
                                         if(stations[j]["stop_id"] === all_lines[k]["StopID"]) {
                                             // make sure not to insert the same station twice (mainly for green line)
                                             var station = all_lines[k];
-                                            station["z_score"] = (stations[j]["headway"] - subset[i]["meanHeadway"]) / subset[i]["SDHeadway"];
+                                            // subset = historical
+                                            // benchmark = benchmark
+                                            // stations = collected data
+                                            station["historic_headway"] = subset[i]["meanHeadway"];
+                                            station["benchmark_headway"] = stations[j]["benchmarkAvg"];
+                                            station["headway"] = stations[j]["headwayAvg"];
+                                            station["z_historic"] = (stations[j]["headwayAvg"] - subset[i]["meanHeadway"]) / subset[i]["SDHeadway"];
+                                            var cv = stations[j]["headwayStdDev"]/stations[j]["headwayAvg"];
+                                            station["z_benchmark"] = (stations[j]["headwayAvg"] - stations[j]["benchmarkAvg"]) / stations[j]["benchmarkStdDev"];
+                                            station["cv_historic"] = (cv - (subset[i]["SDHeadway"]/subset[i]["meanHeadway"]));
+                                            station["cv_benchmark"] = (cv - (stations[j]["benchmarkStdDev"]/stations[j]["benchmarkAvg"]));
+                                            console.log(station["cv_benchmark"]);
+                                            /*
+                                            CREATE TABLE time_table_new(time integer,
+                                            line text,
+                                            direction integer,
+                                            stop_id integer,
+                                            dayOfWeek integer,
+                                            headwayAvg integer,
+                                            headwayStdDev integer,
+                                            benchmarkAvg integer,
+                                            benchmarkStdDev integer);
+                                            */
                                             if (last_performance[line][station["StopID"]] === undefined) {
                                                 last_performance[line][station["StopID"]] = station;
                                             }
@@ -137,6 +160,7 @@ router.route('/headways/:line').get(function(req, res) {
                                 }
                             }
                         }
+                        // add timestamp
                         last_performance[line]["time"] = time;
                         return last_performance[line];
                     }

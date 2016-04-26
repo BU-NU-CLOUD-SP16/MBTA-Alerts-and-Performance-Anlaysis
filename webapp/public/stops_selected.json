@@ -194,7 +194,7 @@
 		{
 			"name": "Shawmut",
 			"cords": [0,4],
-			"next": [2,4],
+			"next": [0,4],
 			"stops" : [
 				"70091",
 				"70092"
@@ -203,7 +203,7 @@
 		{
 			"name": "Quincy Adams",
 			"cords": [2,4],
-			"next": [2,4],
+			"next": [1,3],
 			"stops" : [
 				"70103",
 				"70104"

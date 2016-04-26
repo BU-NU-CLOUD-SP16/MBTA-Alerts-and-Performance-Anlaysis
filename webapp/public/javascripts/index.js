@@ -86,6 +86,7 @@ $(document).ready(function() {
     function update() {
         load_json("http://ec2-52-34-3-119.us-west-2.compute.amazonaws.com/api/mbta/headways/" + options.line, function(response) {
             options.data = JSON.parse(response);
+            console.log(options.data);
             $(".time-container").html("<p>Displaying data from " + (new Date(options.data.time * 1000).toString())+"</p>");
             update_visual(options.line);
             switch_direction_text(options.line);
@@ -108,7 +109,8 @@ $(document).ready(function() {
                 console.log("DIR1 undefined");
                 console.log(options.data);
             }
-            node.coords = stop["cords"];
+            node.cords = stop["cords"];
+            node.next = stop["next"];
             node.name = stop["name"];
             // find calculated z_score for each stop
             node.z_score0 = (node.dir0 === undefined) ? false : options.data[stop["stops"][0]]["z_score"];
@@ -135,30 +137,24 @@ $(document).ready(function() {
             .enter()
             .append("g")
             .attr("transform", function(d) {
-                console.log(d.z_score0);
-                return "translate(" + d["coords"][0]*specs.x + "," + d["coords"][1]*specs.y + ")";
+                console.log(d);
+                return "translate(" + d["cords"][0]*specs.x + "," + d["cords"][1]*specs.y + ")";
             })
 
         chart.append("line")
-            .style("stroke", "black")
+            .style("stroke", function() {return return_color(options.line)})
+            .style("stroke-width", "10")
             .attr("x1", function(d) {
-                // return d["coords"][0]*specs.x;
-                // console.log(d["cords"][0]);
-                console.log(d);
-                return 0;
+                return (d["cords"][0]*specs.x);
             })
             .attr("y1", function(d) {
-                // return 0;
-                // console.log(d["cords"][1]);
-                return 0;
+                return (d["cords"][1]*specs.y);
             })
             .attr("x2", function(d) {
-                // console.log(d["cords"][0]);
-                return 0;
+                return (d["next"][0]*specs.x);
             })
             .attr("y2", function(d) {
-                // console.log(d["cords"][1]);
-                return 0;
+                return (d["next"][1]*specs.y);
             })
 
         // add rectangle shapes
