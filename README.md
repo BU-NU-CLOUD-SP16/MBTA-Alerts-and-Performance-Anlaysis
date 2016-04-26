@@ -1,14 +1,14 @@
 ### **MBTA Alerts and Performance Analysis**
 **EC500 Cloud Computing Project, Spring 2016**
-- ##### [Live Demo](ec2-52-34-3-119.us-west-2.compute.amazonaws.com)
-- ##### [Video Presentation](https://youtu.be/LLjoNVFAMVY)
+- [Live Demo](ec2-52-34-3-119.us-west-2.compute.amazonaws.com)
+- [Video Presentation](https://youtu.be/LLjoNVFAMVY)
 
 ##### Contributors:
 
-- Ben Snyder [johnbensnyder](https://github.com/johnbensnyder)
-- Daniel Gorelick [dqgorelick](https://github.com/dqgorelick)
-- Eddy Lou [edluo1](https://github.com/edluo1)
-- EJ Fitzpatrick [ejfitz](https://github.com/ejfitz)
+- Ben Snyder ( [johnbensnyder](https://github.com/johnbensnyder) )
+- Daniel Gorelick ( [dqgorelick](https://github.com/dqgorelick) )
+- Eddy Lou ( [edluo1](https://github.com/edluo1) )
+- EJ Fitzpatrick ( [ejfitz](https://github.com/ejfitz) )
 
 
 #### Final deliverables:
@@ -49,5 +49,3 @@ The exploratory analysis also examined the degree to which performance metrics p
 The allDwells.R file loads dwell data from the allDwells.csv file, and combines it with the subwayAlertsCleaned.csv file to create models of how well dwells predict alert issuance. Similarly, the allHeadways.R file will load the allHeadways.csv file and create the same predictive models. Note that the APIDwells.R and APIHeadways.R files are used to pull dwell and headway data from the MBTA api. These API calls are not currently open to the public, and their specification have changed several times recently. To avoid these issues with replication, the full datasets are included in this file.
 
 We found headway timing and variance to be the best predictor of alert issuance. Based on this, the MBTA asked us create a system to monitor headways, to better determine when alerts should be issued. Therefore, we first determine distribution for all stations by time of day and day of the week. For example, we have the distribution of historical headways for the period from 6:30-7:00 pm for Park Street on weekdays. An R script to produce this distributions is contained in the headway_distributions.R file. These data give us a baseline of comparison for what headways are within the normal range, and what is beyond what we would expect. Additionally, these distributions give of the ability to examine current variability versus past variability for a comparable time. Our final product tracks where current headways sit compared to these historic distributions, as well as compared to what the MBTA considers to be an acceptable threshold of performance.
-
-The link below contains all R files and data discussed above, as well as output graphs. The files are not included directly on github due to their size.
