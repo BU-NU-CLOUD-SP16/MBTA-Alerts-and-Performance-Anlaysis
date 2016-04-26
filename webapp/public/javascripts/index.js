@@ -168,7 +168,7 @@ $(document).ready(function() {
             })
             .attr("y2", function(d) {
                 return ((d["next"][1]-d["cords"][1])*specs.y+specs.h/2);
-            })
+            });
 
         // add rectangle shapes
         chart.append("circle")
@@ -226,12 +226,16 @@ $(document).ready(function() {
             });
 
         // append text
-        chart.append("text")
+        var text = chart.append("text")
             .attr("x", "0" )
             .attr("y", specs["y"] / 2)
+            .attr("dx",specs.w/2)
             .attr("dy", ".5em")
             .style("font-size", 10)
-            .text(function(d) { return d["name"]; });
+            .style("font-weight", "bold")
+            .text(function(d) { return d["name"]; })
+            .attr("text-anchor", "middle");
+
     }
     function load_station_details(station){
         console.log(station);
