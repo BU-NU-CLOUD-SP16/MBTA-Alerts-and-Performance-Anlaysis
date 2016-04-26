@@ -66,7 +66,7 @@
 		{
 			"name": "South St",
 			"cords": [0,7],
-			"next": [1,4],
+			"next": [0,7],
 			"stops" : [
 				"70111",
 				"70110"
@@ -75,7 +75,7 @@
 		{
 			"name": "Coolidge Corner",
 			"cords": [1,4],
-			"next": [1,5],
+			"next": [2,3],
 			"stops" : [
 				"70219",
 				"70220"
@@ -84,7 +84,7 @@
 		{
 			"name": "Washington Sq",
 			"cords": [1,5],
-			"next": [1,6],
+			"next": [1,4],
 			"stops" : [
 				"70229",
 				"70230"
@@ -93,7 +93,7 @@
 		{
 			"name": "Englewood Ave",
 			"cords": [1,6],
-			"next": [2,4],
+			"next": [1,5],
 			"stops" : [
 				"70235",
 				"70236"
@@ -102,7 +102,7 @@
 		{
 			"name": "Brookline Village",
 			"cords": [2,4],
-			"next": [2,5],
+			"next": [2,3],
 			"stops" : [
 				"70181",
 				"70180"
@@ -111,7 +111,7 @@
 		{
 			"name": "Reservoir",
 			"cords": [2,5],
-			"next": [2,6],
+			"next": [2,4],
 			"stops" : [
 				"70175",
 				"70174"
@@ -120,7 +120,7 @@
 		{
 			"name": "Newtown Highands",
 			"cords": [2,6],
-			"next": [2,7],
+			"next": [2,5],
 			"stops" : [
 				"70169",
 				"70168"
@@ -129,7 +129,7 @@
 		{
 			"name": "Woodland",
 			"cords": [2,7],
-			"next": [3,3],
+			"next": [2,6],
 			"stops" : [
 				"70163",
 				"70162"
@@ -138,7 +138,7 @@
 		{
 			"name": "Northeastern",
 			"cords": [3,3],
-			"next": [3,4],
+			"next": [2,2],
 			"stops" : [
 				"70243",
 				"70244"
@@ -147,7 +147,7 @@
 		{
 			"name": "Brigham Circle",
 			"cords": [3,4],
-			"next": [3,4],
+			"next": [3,3],
 			"stops" : [
 				"70257",
 				"70258"

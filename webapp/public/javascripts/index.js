@@ -80,11 +80,14 @@ $(document).ready(function() {
     $(".hide-details").on("click", function() {
         $(".data-visualization").addClass("active");
         $(".data-wrapper").removeClass("active");
+        options.custom=false; // reset map zoom to default
+        initMap(options);
     })
 
     // main update function
     function update() {
-        load_json("http://ec2-52-34-3-119.us-west-2.compute.amazonaws.com/api/mbta/headways/" + options.line, function(response) {
+        load_json("http://localhost:8080/api/mbta/headways/" + options.line, function(response) {
+        //load_json("http://ec2-52-34-3-119.us-west-2.compute.amazonaws.com/api/mbta/headways/" + options.line, function(response) {
             options.data = JSON.parse(response);
             console.log(options.data);
             $(".time-container").html("<p>Displaying data from " + (new Date(options.data.time * 1000).toString())+"</p>");
@@ -140,28 +143,47 @@ $(document).ready(function() {
                 console.log(d);
                 return "translate(" + d["cords"][0]*specs.x + "," + d["cords"][1]*specs.y + ")";
             })
+        
 
         chart.append("line")
             .style("stroke", function() {return return_color(options.line)})
             .style("stroke-width", "10")
+
             .attr("x1", function(d) {
-                return (d["cords"][0]*specs.x);
+                console.log(d["cords"][0]);
+                console.log(specs.x);
+                console.log(d["cords"][1]);
+                console.log(specs.y);
+                return specs.w/2;
             })
             .attr("y1", function(d) {
-                return (d["cords"][1]*specs.y);
+                return specs.h/2;
             })
             .attr("x2", function(d) {
-                return (d["next"][0]*specs.x);
+                return ((d["next"][0]-d["cords"][0])*specs.x+specs.w/2);
             })
             .attr("y2", function(d) {
-                return (d["next"][1]*specs.y);
+                return ((d["next"][1]-d["cords"][1])*specs.y+specs.h/2);
             })
 
         // add rectangle shapes
-        chart.append("rect")
+        chart.append("circle")
             .attr("fill", function() { return return_color(options.line);})
-            .attr("width", specs.w)
-            .attr("height", specs.h)
+            .attr("cx", specs.w/2)
+            .attr("cy", specs.h/2)
+            .attr("r", specs.h/2)
+            .on("mouseover", function() {
+                this.prevRadius = d3.select(this).attr("r");
+                d3.select(this)
+                    .transition()
+                    .duration(1000)
+                    .attr("r",30)
+            })
+            .on("mouseout", function() {
+                d3.select(this)
+                    .transition()
+                    .attr("r", specs.h/2)
+            })
             .on("click", function(d,i){
                 load_station_details(d);
             });
@@ -173,7 +195,14 @@ $(document).ready(function() {
             .attr("fill", function(d) {
                 if(d.z_score0 === null || d.z_score0 === false) {
                     return "gray";
-                } else if(Math.abs(d.z_score0) < data_params.good) {
+                } else {
+                    var color = d3.scaleLinear()
+                        .domain([0.1, 1.5])
+                        .range(["green", "red"]);
+                    return color(d.z_score0);
+                }
+                /*
+                if(Math.abs(d.z_score0) < data_params.good) {
                     return "green";
                 } else if (Math.abs(d.z_score0) < data_params.moderate) {
                     return "yellow";
@@ -182,6 +211,7 @@ $(document).ready(function() {
                 } else {
                     return "red";
                 }
+                */
             });
 
         // draw direction 1
@@ -190,9 +220,16 @@ $(document).ready(function() {
             .attr("height", specs.h)
             .attr("x", function() {return (specs.x - specs.w/2)})
             .attr("fill", function(d) {
-                if(d.z_score1 === null || d.z_score1 === false) {
+                if(d.z_score0 === null || d.z_score0 === false) {
                     return "gray";
-                } else if(Math.abs(d.z_score1) < data_params.good) {
+                } else {
+                    var color = d3.scaleLinear()
+                        .domain([0.1, 1.5])
+                        .range(["green", "red"]);
+                    return color(d.z_score1);
+                }
+                /*
+                if(Math.abs(d.z_score1) < data_params.good) {
                     return "green";
                 } else if (Math.abs(d.z_score1) < data_params.moderate) {
                     return "yellow";
@@ -201,6 +238,7 @@ $(document).ready(function() {
                 } else {
                     return "red";
                 }
+                */
             });
 
         // append text
