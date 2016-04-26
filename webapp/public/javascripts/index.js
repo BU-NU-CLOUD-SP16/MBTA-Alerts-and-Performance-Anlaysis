@@ -290,27 +290,39 @@ $(document).ready(function() {
         $(".station-title").html(station.name);
         $(".station-line").html(station.dir[0].Line + " line");
 
-        if (station.dir[1].z_score != null) {
-            $(".dir_1_status").html();
-            $(".dir_1_headway").html(station.dir[1].z_score.toFixed(2));
-            $(".dir_1_historical").html();
-            $(".dir_1_benchmark").html();
+        if (station.dir[1].cv_benchmark != null) {
+            $(".dir_1_cv_benchmark").html(station.dir[1].cv_benchmark.toFixed(2));
+            $(".dir_1_cv_historic").html(station.dir[1].cv_historic.toFixed(2));
+            $(".dir_1_dev_benchmark").html(station.dir[1].dev_benchmark.toFixed(2));
+            $(".dir_1_dev_historic").html(station.dir[1].dev_historic.toFixed(2));
+            $(".dir_1_mean_headway").html(station.dir[1].headway.toFixed(2));
+            $(".dir_1_mean_headway_historic").html(station.dir[1].historic_headway.toFixed(2));
+            $(".dir_1_mean_headway_benchmark").html(station.dir[1].benchmark_headway.toFixed(2));
         } else {
-            $(".dir_1_status").html(noData);
-            $(".dir_1_headway").html(noData);
-            $(".dir_1_historical").html(noData);
-            $(".dir_1_benchmark").html(noData);
+            $(".dir_1_cv_benchmark").html(noData);
+            $(".dir_1_cv_historic").html(noData);
+            $(".dir_1_dev_benchmark").html(noData);
+            $(".dir_1_dev_historic").html(noData);
+            $(".dir_1_mean_headway").html(noData);
+            $(".dir_1_mean_headway_historic").html(noData);
+            $(".dir_1_mean_headway_benchmark").html(noData);
         }
-        if (station.dir[0].z_score != null) {
-            $(".dir_0_status").html();
-            $(".dir_0_headway").html(station.dir[0].z_score.toFixed(2));
-            $(".dir_0_historical").html();
-            $(".dir_0_benchmark").html();
+        if (station.dir[0].cv_benchmark != null) {
+            $(".dir_0_cv_benchmark").html(station.dir[0].cv_benchmark.toFixed(2));
+            $(".dir_0_cv_historic").html(station.dir[0].cv_historic.toFixed(2));
+            $(".dir_0_dev_benchmark").html(station.dir[0].dev_benchmark.toFixed(2));
+            $(".dir_0_dev_historic").html(station.dir[0].dev_historic.toFixed(2));
+            $(".dir_0_mean_headway").html(station.dir[0].headway.toFixed(2));
+            $(".dir_0_mean_headway_historic").html(station.dir[0].historic_headway.toFixed(2));
+            $(".dir_0_mean_headway_benchmark").html(station.dir[0].benchmark_headway.toFixed(2));
         } else {
-            $(".dir_0_status").html(noData);
-            $(".dir_0_headway").html(noData);
-            $(".dir_0_historical").html(noData);
-            $(".dir_0_benchmark").html(noData);
+            $(".dir_0_cv_benchmark").html(noData);
+            $(".dir_0_cv_historic").html(noData);
+            $(".dir_0_dev_benchmark").html(noData);
+            $(".dir_0_dev_historic").html(noData);
+            $(".dir_0_mean_headway").html(noData);
+            $(".dir_0_mean_headway_historic").html(noData);
+            $(".dir_0_mean_headway_benchmark").html(noData);
         }
     }
 
