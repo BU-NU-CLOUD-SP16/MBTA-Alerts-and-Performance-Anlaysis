@@ -87,7 +87,6 @@ $(document).ready(function() {
     // main update function
     function update() {
         load_json("http://localhost:8080/api/mbta/headways/" + options.line, function(response) {
-        //load_json("http://ec2-52-34-3-119.us-west-2.compute.amazonaws.com/api/mbta/headways/" + options.line, function(response) {
             options.data = JSON.parse(response);
             $(".time-container").html("<p>Displaying data from " + (new Date(options.data.time * 1000).toString())+"</p>");
             update_visual(options.line);
@@ -102,21 +101,33 @@ $(document).ready(function() {
         selected_stops[line_color].forEach(function(stop, it) {
             var node = {};
             node.dir0 = options.data[stop["stops"][0]];
-            if(node.dir0 === undefined) {
-                console.log("DIR0 undefined");
-                console.log(options.data);
+            if(options.data[stop["stops"][0]] === undefined) {
+                node.dir0 = options.data[stop["stops"][1]];
+                console.log(node.dir0);
             }
             node.dir1 = options.data[stop["stops"][1]];
-            if(node.dir1 === undefined) {
-                console.log("DIR1 undefined");
-                console.log(options.data);
+            if(options.data[stop["stops"][1]] === undefined) {
+               node.dir1 = options.data[stop["stops"][0]];
+               console.log(node.dir1);
             }
             node.cords = stop["cords"];
             node.next = stop["next"];
             node.name = stop["name"];
+
+            node.benchmark_headway_0 = options.data[stop["stops"][0]].benchmark_headway;
+            node.cv_benchmark_0 = options.data[stop["stops"][0]].cv_benchmark;
+            node.cv_historic_0 = options.data[stop["stops"][0]].cv_historic;
+            node.dev_benchmark_0 = options.data[stop["stops"][0]].dev_benchmark;
+            node.dev_historic_0 = options.data[stop["stops"][0]].dev_historic;
+            node.headway_0 = options.data[stop["stops"][0]].headway;
+            node.benchmark_headway_1 = options.data[stop["stops"][0]].benchmark_headway;
+            node.cv_benchmark_1 = options.data[stop["stops"][0]].cv_benchmark;
+            node.cv_historic_1 = options.data[stop["stops"][0]].cv_historic;
+            node.dev_benchmark_1 = options.data[stop["stops"][0]].dev_benchmark;
+            node.dev_historic_1 = options.data[stop["stops"][0]].dev_historic;
+            node.headway_1 = options.data[stop["stops"][0]].headway;
+            console.log(node);
             // find calculated z_score for each stop
-            node.z_score0 = (node.dir0 === undefined) ? false : options.data[stop["stops"][0]]["z_score"];
-            node.z_score1 = (node.dir1 === undefined) ? false : options.data[stop["stops"][1]]["z_score"];
             cluster.push(node);
 
             // loop is complete
@@ -141,7 +152,7 @@ $(document).ready(function() {
             .attr("transform", function(d) {
                 return "translate(" + d["cords"][0]*specs.x + "," + d["cords"][1]*specs.y + ")";
             })
-        
+
 
         chart.append("line")
             .style("stroke", function() {return return_color(options.line)})
@@ -187,25 +198,23 @@ $(document).ready(function() {
             .attr("width", specs.w/4)
             .attr("height", specs.h)
             .attr("fill", function(d) {
-                if(d.z_score0 === null || d.z_score0 === false) {
+                // } else {
+                //     var color = d3.scaleLinear()
+                //         .domain([0.1, 1.5])
+                //         .range(["green", "red"]);
+                //     return color(d.z_score0);
+                // }
+                if(d.cv_benchmark_0 === null || d.cv_benchmark_0 === false) {
                     return "gray";
-                } else {
-                    var color = d3.scaleLinear()
-                        .domain([0.1, 1.5])
-                        .range(["green", "red"]);
-                    return color(d.z_score0);
-                }
-                /*
-                if(Math.abs(d.z_score0) < data_params.good) {
+                } else if(d.cv_benchmark_0 < data_params.good) {
                     return "green";
-                } else if (Math.abs(d.z_score0) < data_params.moderate) {
+                } else if (d.cv_benchmark_0 < data_params.moderate) {
                     return "yellow";
-                } else if (Math.abs(d.z_score0) < data_params.bad) {
+                } else if (d.cv_benchmark_0 < data_params.bad) {
                     return "orange";
                 } else {
                     return "red";
                 }
-                */
             });
 
         // draw direction 1
@@ -214,25 +223,23 @@ $(document).ready(function() {
             .attr("height", specs.h)
             .attr("x", function() {return (specs.x - specs.w/2)})
             .attr("fill", function(d) {
-                if(d.z_score0 === null || d.z_score0 === false) {
+                // } else {
+                //     var color = d3.scaleLinear()
+                //         .domain([0.1, 1.5])
+                //         .range(["green", "red"]);
+                //     return color(d.z_score1);
+                // }
+                if(d.cv_benchmark_1 === null || d.cv_benchmark_1 === false) {
                     return "gray";
-                } else {
-                    var color = d3.scaleLinear()
-                        .domain([0.1, 1.5])
-                        .range(["green", "red"]);
-                    return color(d.z_score1);
-                }
-                /*
-                if(Math.abs(d.z_score1) < data_params.good) {
+                } else if(d.cv_benchmark_1 < data_params.good) {
                     return "green";
-                } else if (Math.abs(d.z_score1) < data_params.moderate) {
+                } else if (d.cv_benchmark_1 < data_params.moderate) {
                     return "yellow";
-                } else if (Math.abs(d.z_score1) < data_params.bad) {
+                } else if (d.cv_benchmark_1 < data_params.bad) {
                     return "orange";
                 } else {
                     return "red";
                 }
-                */
             });
 
         // append text

@@ -130,39 +130,18 @@ router.route('/headways/:line').get(function(req, res) {
                                         if(stations[j]["stop_id"] === all_lines[k]["StopID"]) {
                                             // make sure not to insert the same station twice (mainly for green line)
                                             var station = all_lines[k];
-                                            // subset = historical
-                                            // benchmark = benchmark
-                                            // stations = collected data
-                                            console.log('station["meanHeadway"]', station["meanHeadway"]);
-                                            console.log('station["headwayStdDev"]', station["headwayStdDev"]);
-                                            console.log('station["benchmarkStdDev"]', station["benchmarkStdDev"]);
-                                            console.log('station["benchmarkAvg"]', station["benchmarkAvg"]);
-
-                                            console.log('station["historic_headway"]', station["historic_headway"]);
-                                            console.log('stations[j]["benchmarkAvg"]',stations[j]["benchmarkAvg"]);
-                                            console.log('"benchmarkStdDev"',stations[j]["benchmarkStdDev"]);
-                                            console.log('subset[i]["meanHeadway"]',subset[i]["meanHeadway"]);
-                                            console.log('subset[i]["SDHeadway"]',subset[i]["SDHeadway"]);
                                             station["historic_headway"] = subset[i]["meanHeadway"];
                                             station["benchmark_headway"] = stations[j]["benchmarkAvg"];
                                             station["headway"] = stations[j]["headwayAvg"];
-                                            station["z_historic"] = (stations[j]["headwayAvg"] - subset[i]["meanHeadway"]) / subset[i]["SDHeadway"];
+                                            station["dev_historic"] = (Math.abs(stations[j]["headwayAvg"] - subset[i]["meanHeadway"]) / subset[i]["meanHeadway"]);
+                                            station["dev_benchmark"] = (Math.abs(stations[j]["headwayAvg"] - stations[j]["benchmarkAvg"]) / stations[j]["benchmarkAvg"]);
                                             var cv = stations[j]["headwayStdDev"]/stations[j]["headwayAvg"];
-                                            station["z_benchmark"] = (stations[j]["headwayAvg"] - stations[j]["benchmarkAvg"]) / stations[j]["benchmarkStdDev"];
-                                            station["cv_historic"] = (cv - (subset[i]["SDHeadway"]/subset[i]["meanHeadway"]));
-                                            station["cv_benchmark"] = (cv - (stations[j]["benchmarkStdDev"]/stations[j]["benchmarkAvg"]));
-                                            console.log(station["cv_benchmark"]);
-                                            /*
-                                            CREATE TABLE time_table_new(time integer,
-                                            line text,
-                                            direction integer,
-                                            stop_id integer,
-                                            dayOfWeek integer,
-                                            headwayAvg integer,
-                                            headwayStdDev integer,
-                                            benchmarkAvg integer,
-                                            benchmarkStdDev integer);
-                                            */
+                                            station["cv_historic"] = Math.abs(cv - (subset[i]["SDHeadway"]/subset[i]["meanHeadway"]));
+                                            station["cv_benchmark"] = Math.abs(cv - (stations[j]["benchmarkStdDev"]/stations[j]["benchmarkAvg"]));
+                                            // console.log('station["cv_historic"]',station["cv_historic"]);
+                                            // console.log('station["cv_benchmark"]',station["cv_benchmark"]);
+                                            // console.log('station["dev_historic"]',station["dev_historic"]);
+                                            // console.log('station["dev_benchmark"]',station["dev_benchmark"]);
                                             if (last_performance[line][station["StopID"]] === undefined) {
                                                 last_performance[line][station["StopID"]] = station;
                                             }
