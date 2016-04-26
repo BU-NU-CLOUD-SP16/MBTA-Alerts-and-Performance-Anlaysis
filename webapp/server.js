@@ -78,9 +78,10 @@ router.route('/headways/:line').get(function(req, res) {
             if (!err) {
                 time = row[0]["MAX(time)"];
                 // check to see if data was already calculated
-                if (last_performance[req.params.line]["time"] === time) {
-                    res.json(last_performance[req.params.line]);
-                    console.log("here");
+                // if (last_performance[req.params.line]["time"] === time) {
+                //     res.json(last_performance[req.params.line]);
+                if(false) {
+                    console.log("Shouldn't be here");
                 } else {
                     // need to calculate new performance
                     var date = new Date(time * 1000);
@@ -132,6 +133,16 @@ router.route('/headways/:line').get(function(req, res) {
                                             // subset = historical
                                             // benchmark = benchmark
                                             // stations = collected data
+                                            console.log('station["meanHeadway"]', station["meanHeadway"]);
+                                            console.log('station["headwayStdDev"]', station["headwayStdDev"]);
+                                            console.log('station["benchmarkStdDev"]', station["benchmarkStdDev"]);
+                                            console.log('station["benchmarkAvg"]', station["benchmarkAvg"]);
+
+                                            console.log('station["historic_headway"]', station["historic_headway"]);
+                                            console.log('stations[j]["benchmarkAvg"]',stations[j]["benchmarkAvg"]);
+                                            console.log('"benchmarkStdDev"',stations[j]["benchmarkStdDev"]);
+                                            console.log('subset[i]["meanHeadway"]',subset[i]["meanHeadway"]);
+                                            console.log('subset[i]["SDHeadway"]',subset[i]["SDHeadway"]);
                                             station["historic_headway"] = subset[i]["meanHeadway"];
                                             station["benchmark_headway"] = stations[j]["benchmarkAvg"];
                                             station["headway"] = stations[j]["headwayAvg"];
