@@ -156,7 +156,8 @@ $(document).ready(function() {
     function update() {
         load_json("http://localhost:8080/api/mbta/headways/" + options.line, function(response) {
             options.data = JSON.parse(response);
-            $(".time-container").html("<p>Displaying data from " + (new Date(options.data.time * 1000).toString())+"</p>");
+            var update_date = new Date(options.data.time * 1000);
+            $(".time-container").html("<p>Displaying data from " + update_date.getHours()+":"+update_date.getMinutes()+" on "+ (update_date.getMonth()+1)+"/"+update_date.getDate()+"/"+update_date.getFullYear() +"</p>");
             update_visual(options.line);
             switch_direction_text(options.line);
             initMap(options);
