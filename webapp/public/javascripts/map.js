@@ -28,9 +28,9 @@ function initMap(options) {
             // filter out all non-stop_id keys
             if(parseInt(stop) > 0) {
                 var direction = parseInt(data[stop]["Direction"]);
-                if (direction == options.direction) {
+                if (direction === options.direction) {
                     // use z_score value to determine size of the stop displayed
-                    var indicator = parseFloat(data[stop]["z_score"]);
+                    var indicator = parseFloat(data[stop][["z_score"]]);
                     if (indicator === NaN) {
         		        indicator = 0;
                     } else {
@@ -143,14 +143,14 @@ function load_json(path, callback) {
     xobj.send(null);
 }
 
-function get_alert_color(z_score) {
-    if(z_score === null || z_score === false) {
+function get_alert_color(indicator) {
+    if(indicator === null || indicator === false) {
         return "gray";
-    } else if(Math.abs(z_score) < data_params.good) {
+    } else if(Math.abs(indicator) < options.data_params.good) {
         return "green";
-    } else if (Math.abs(z_score) < data_params.moderate) {
+    } else if (Math.abs(indicator) < options.data_params.moderate) {
         return "yellow";
-    } else if (Math.abs(z_score) < data_params.bad) {
+    } else if (Math.abs(indicator) < options.data_params.bad) {
         return "orange";
     } else {
         return "red";

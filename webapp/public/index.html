@@ -25,26 +25,19 @@
             <p>MBTA Alerts Performance Console</p>
         </div>
         <div class="line-selection-container col-md-12">
-            <button type="button" class="red-line btn btn-danger">Red Line</button>
+            <button type="button" class="red-line btn btn-danger active">Red Line</button>
             <button type="button" class="blue-line btn btn-primary">Blue Line</button>
             <button type="button" class="green-line btn btn-success">Green Line</button>
             <button type="button" class="orange-line btn btn-warning">Orange Line</button>
         </div>
-<!--         <div class"data-mode col-md-12">
-            <div class="dropdown">
-              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                Dropdown
-                <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
+        <div class="data-mode-container col-md-12">
+            <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="cv_benchmark btn btn-default active" data-toggle="tooltip" data-placement="bottom" title="Displays the coefficient of variance of the realtime headways to the benchmark (schedule) headways">Benchmark CV</button>
+              <button type="button" class="cv_historic btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Displays the coefficient of variance of the realtime headways to the historical (statistical) headways">Historical CV</button>
+              <button type="button" class="dev_benchmark btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Percentage deviation from benchmark (schedule) standards">Benchmark Deviation</button>
+              <button type="button" class="dev_historic btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Percentage deviation from historical (statistical) standards">Historical Deviation</button>
             </div>
-        </div> -->
+        </div>
         <div class="data-container col-md-6 col-md-push-6">
             <div class="time-container"></div>
             <div class="data-wrapper">
@@ -85,8 +78,8 @@
         </div>
         <div class="col-md-6 col-md-pull-6 map-container">
             <div class="btn-group-vertical choose_direction" role="group" aria-label="...">
-              <button type="button" class="direction_1 btn btn-default">Direction 1</button>
-              <button type="button" class="direction_0 btn btn-default active">Direction 0</button>
+              <button type="button" class="direction_1 btn btn-default" data-toggle="tooltip" data-placement="right" title="change direction displayed">Direction 1</button>
+              <button type="button" class="direction_0 btn btn-default active" data-toggle="tooltip" data-placement="right" title="change direction displayed">Direction 0</button>
             </div>
             <div id="map"></div>
         </div>

@@ -1,11 +1,5 @@
 "use strict";
 
-var data_params = {
-    good: 0.25,
-    moderate: 0.75,
-    bad: 1.25
-};
-
 var options = {
     lines: true,
     positions: false,
@@ -13,7 +7,30 @@ var options = {
     headways: true,
     zoom: -1,
     coords: {},
-    direction: 0 // display outbound by default
+    direction: 0,
+    data_mode: "cv_benchmark",
+    data_params : {
+        cv_benchmark: {
+            good: 0.25,
+            moderate: 0.75,
+            bad: 1.25
+        },
+        cv_historic: {
+            good: 0.25,
+            moderate: 0.75,
+            bad: 1.25
+        },
+        dev_benchmark: {
+            good: 0.25,
+            moderate: 0.75,
+            bad: 1.25
+        },
+        cv_historic: {
+            good: 0.25,
+            moderate: 0.75,
+            bad: 1.25
+        }
+    }
 };
 
 var specs = {
@@ -24,6 +41,8 @@ var specs = {
 };
 
 $(document).ready(function() {
+    $('[data-toggle="tooltip"]').tooltip();
+
     var chart;
     var selected_stops;
 
@@ -34,26 +53,47 @@ $(document).ready(function() {
     options.line = 'Red';
     update();
 
+    function removeClasses(buttons) {
+        if(buttons === "lines") {
+            $(".red-line").removeClass("active");
+            $(".green-line").removeClass("active");
+            $(".blue-line").removeClass("active");
+            $(".orange-line").removeClass("active");
+        } else if (buttons === "modes") {
+            $(".cv_historic").removeClass("active");
+            $(".dev_benchmark").removeClass("active");
+            $(".dev_historic").removeClass("active");
+            $(".cv_benchmark").removeClass("active");
+        }
+    }
     // click event listeners
     $(".red-line").on("click", function() {
         options.line = 'Red';
+        removeClasses("lines");
+        $(this).addClass("active");
         options.custom = false;
         update();
     });
 
     $(".green-line").on("click", function() {
+        removeClasses("lines");
+        $(this).addClass("active");
         options.line = 'Green';
         options.custom = false;
         update();
     });
 
     $(".blue-line").on("click", function() {
+        removeClasses("lines");
+        $(this).addClass("active");
         options.line = 'Blue';
         options.custom = false;
         update();
     });
 
     $(".orange-line").on("click", function() {
+        removeClasses("lines");
+        $(this).addClass("active");
         options.line = 'Orange';
         options.custom = false;
         update();
@@ -84,6 +124,30 @@ $(document).ready(function() {
         initMap(options);
     })
 
+    $(".cv_benchmark").on("click", function() {
+        options.data_mode = "cv_benchmark";
+        removeClasses("modes");
+        $(this).addClass("active");
+        update();
+    })
+    $(".cv_historic").on("click", function() {
+        options.data_mode = "cv_historic";
+        removeClasses("modes");
+        $(this).addClass("active");
+        update();
+    })
+    $(".dev_benchmark").on("click", function() {
+        options.data_mode = "dev_benchmark";
+        removeClasses("modes");
+        $(this).addClass("active");
+        update();
+    })
+    $(".dev_historic").on("click", function() {
+        options.data_mode = "dev_historic";
+        removeClasses("modes");
+        $(this).addClass("active");
+        update();
+    })
     // main update function
     function update() {
         load_json("http://localhost:8080/api/mbta/headways/" + options.line, function(response) {
@@ -100,32 +164,13 @@ $(document).ready(function() {
         var cluster = [];
         selected_stops[line_color].forEach(function(stop, it) {
             var node = {};
-            node.dir0 = (options.data[stop["stops"][0]] === undefined ? options.data[stop["stops"][1]] : options.data[stop["stops"][0]]);
-            node.dir1 = (options.data[stop["stops"][1]] === undefined ? options.data[stop["stops"][0]] : options.data[stop["stops"][1]]);
+            node.dir = []
+            node.dir[0] = (options.data[stop["stops"][0]] === undefined ? options.data[stop["stops"][1]] : options.data[stop["stops"][0]]);
+            node.dir[1] = (options.data[stop["stops"][1]] === undefined ? options.data[stop["stops"][0]] : options.data[stop["stops"][1]]);
             node.cords = stop["cords"];
             node.next = stop["next"];
             node.name = stop["name"];
 
-            if(node.dir0 === undefined ) {
-                console.log("HERE")
-                console.log(stop["stops"][0]);
-            }
-            if(node.dir1 === undefined ) {
-                console.log("HERE1")
-                console.log(stop["stops"][1]);
-            }
-            node.benchmark_headway_0 = node.dir0.benchmark_headway;
-            node.cv_benchmark_0 = node.dir0.cv_benchmark;
-            node.cv_historic_0 = node.dir0.cv_historic;
-            node.dev_benchmark_0 = node.dir0.dev_benchmark;
-            node.dev_historic_0 = node.dir0.dev_historic;
-            node.headway_0 = node.dir0.headway;
-            node.benchmark_headway_1 = node.dir1.benchmark_headway;
-            node.cv_benchmark_1 = node.dir1.cv_benchmark;
-            node.cv_historic_1 = node.dir1.cv_historic;
-            node.dev_benchmark_1 = node.dir1.dev_benchmark;
-            node.dev_historic_1 = node.dir1.dev_historic;
-            node.headway_1 = node.dir1.headway;
             // find calculated z_score for each stop
             cluster.push(node);
 
@@ -152,11 +197,9 @@ $(document).ready(function() {
                 return "translate(" + d["cords"][0]*specs.x + "," + d["cords"][1]*specs.y + ")";
             })
 
-
         chart.append("line")
             .style("stroke", function() {return return_color(options.line)})
             .style("stroke-width", "10")
-
             .attr("x1", function(d) {
                 return specs.w/2;
             })
@@ -197,14 +240,13 @@ $(document).ready(function() {
             .attr("width", specs.w/4)
             .attr("height", specs.h)
             .attr("fill", function(d) {
-                if(d.cv_benchmark_0 === null || d.cv_benchmark_0 === false) {
+                if(d.dir[0][options.data_mode] === null || d.dir[0][options.data_mode] === false) {
                     return "gray";
                 } else {
                     var color = d3.scale.linear()
-                        .domain([0, data_params.moderate, data_params.bad])
+                        .domain([options.data_params[options.data_mode]["good"], options.data_params[options.data_mode]["moderate"], options.data_params[options.data_mode]["bad"]])
                         .range(["green", "yellow", "red"]);
-                    console.log(d.cv_benchmark_0);
-                    return color(d.cv_benchmark_0);
+                    return color(d.dir[0][options.data_mode]);
                 }
             });
 
@@ -214,14 +256,13 @@ $(document).ready(function() {
             .attr("height", specs.h)
             .attr("x", function() {return (specs.x - specs.w/2)})
             .attr("fill", function(d) {
-                if(d.cv_benchmark_1 === null || d.cv_benchmark_1 === false) {
+                if(d.dir[1][options.data_mode] === null || d.dir[1][options.data_mode] === false) {
                     return "gray";
                 } else {
                     var color = d3.scale.linear()
-                        .domain([0, data_params.moderate, data_params.bad])
+                        .domain([options.data_params[options.data_mode]["good"], options.data_params[options.data_mode]["moderate"], options.data_params[options.data_mode]["bad"]])
                         .range(["green", "yellow", "red"]);
-                    console.log(d.cv_benchmark_1);
-                    return color(d.cv_benchmark_1);
+                    return color(d.dir[1][options.data_mode]);
                 }
             });
 
@@ -239,20 +280,19 @@ $(document).ready(function() {
     }
     function load_station_details(station){
         console.log(station);
-    // window.load_station_details = function(station) {
         options.custom = true;
-        options.coords.lng = station.dir0.Longitude;
-        options.coords.lat = station.dir0.Latitude;
+        options.coords.lng = station.dir[0].Longitude;
+        options.coords.lat = station.dir[0].Latitude;
         initMap(options);
         var noData = "N/A"; // string if no data available
         $(".data-wrapper").addClass("active");
         $(".data-visualization").removeClass("active");
         $(".station-title").html(station.name);
-        $(".station-line").html(station.dir0.Line + " line");
+        $(".station-line").html(station.dir[0].Line + " line");
 
-        if (station.dir1.z_score != null) {
+        if (station.dir[1].z_score != null) {
             $(".dir_1_status").html();
-            $(".dir_1_headway").html(station.dir1.z_score.toFixed(2));
+            $(".dir_1_headway").html(station.dir[1].z_score.toFixed(2));
             $(".dir_1_historical").html();
             $(".dir_1_benchmark").html();
         } else {
@@ -261,9 +301,9 @@ $(document).ready(function() {
             $(".dir_1_historical").html(noData);
             $(".dir_1_benchmark").html(noData);
         }
-        if (station.dir0.z_score != null) {
+        if (station.dir[0].z_score != null) {
             $(".dir_0_status").html();
-            $(".dir_0_headway").html(station.dir0.z_score.toFixed(2));
+            $(".dir_0_headway").html(station.dir[0].z_score.toFixed(2));
             $(".dir_0_historical").html();
             $(".dir_0_benchmark").html();
         } else {
