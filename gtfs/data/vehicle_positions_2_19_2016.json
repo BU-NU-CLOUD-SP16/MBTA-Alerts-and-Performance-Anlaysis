@@ -1,0 +1,2314 @@
+{
+    "data": [
+        {
+            "position": {
+                "latitude": 42.40633010864258,
+                "longitude": -70.9923095703125,
+                "bearing": 170
+            },
+            "timestamp": {
+                "low": 1455912047,
+                "high": 0
+            },
+            "id": "1455912074_0714",
+            "trip_id": "29429728",
+            "route_id": "Blue",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "0714",
+            "current_stop_sequence": 20,
+            "stop_id": "70055",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.41020965576172,
+                "longitude": -70.9926528930664,
+                "bearing": 5
+            },
+            "timestamp": {
+                "low": 1455912046,
+                "high": 0
+            },
+            "id": "1455912074_0701",
+            "trip_id": "29429780",
+            "route_id": "Blue",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "0701",
+            "current_stop_sequence": 110,
+            "stop_id": "70060",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.369239807128906,
+                "longitude": -71.0394287109375,
+                "bearing": 35
+            },
+            "timestamp": {
+                "low": 1455911994,
+                "high": 0
+            },
+            "id": "1455912074_0750",
+            "trip_id": "29429856",
+            "route_id": "Blue",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "0750",
+            "current_stop_sequence": 40,
+            "stop_id": "70046",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.36830139160156,
+                "longitude": -71.04029846191406,
+                "bearing": 215
+            },
+            "timestamp": {
+                "low": 1455912034,
+                "high": 0
+            },
+            "id": "1455912074_0770",
+            "trip_id": "29429889",
+            "route_id": "Blue",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "0770",
+            "current_stop_sequence": 80,
+            "stop_id": "70043",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.360801696777344,
+                "longitude": -71.06098937988281,
+                "bearing": 130
+            },
+            "timestamp": {
+                "low": 1455912038,
+                "high": 0
+            },
+            "id": "1455912074_0718",
+            "trip_id": "29429902",
+            "route_id": "Blue",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "0718",
+            "current_stop_sequence": null,
+            "stop_id": "70040",
+            "current_status": 0
+        },
+        {
+            "position": {
+                "latitude": 42.359371185302734,
+                "longitude": -71.052978515625,
+                "bearing": 260
+            },
+            "timestamp": {
+                "low": 1455912047,
+                "high": 0
+            },
+            "id": "1455912074_0724",
+            "trip_id": "29429920",
+            "route_id": "Blue",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "0724",
+            "current_stop_sequence": 90,
+            "stop_id": "70041",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.3731803894043,
+                "longitude": -71.03156280517578,
+                "bearing": 225
+            },
+            "timestamp": {
+                "low": 1455912040,
+                "high": 0
+            },
+            "id": "1455912074_0779",
+            "trip_id": "29429948",
+            "route_id": "Blue",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "0779",
+            "current_stop_sequence": 70,
+            "stop_id": "70045",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.38689041137695,
+                "longitude": -71.0047836303711,
+                "bearing": 235
+            },
+            "timestamp": {
+                "low": 1455912018,
+                "high": 0
+            },
+            "id": "1455912074_0768",
+            "trip_id": "29430043",
+            "route_id": "Blue",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "0768",
+            "current_stop_sequence": 40,
+            "stop_id": "70051",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.237979888916016,
+                "longitude": -71.13307189941406,
+                "bearing": 56
+            },
+            "timestamp": {
+                "low": 1455911961,
+                "high": 0
+            },
+            "id": "1455912074_1508",
+            "trip_id": "CR-Fairmount-CR-Weekday-Fairmount-Jun15-764",
+            "route_id": "CR-Fairmount",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1508",
+            "current_stop_sequence": 1,
+            "stop_id": "Readville",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.3503303527832,
+                "longitude": -71.0556411743164,
+                "bearing": 201
+            },
+            "timestamp": {
+                "low": 1455911596,
+                "high": 0
+            },
+            "id": "1455912074_1805",
+            "trip_id": "CR-Fairmount-CR-Weekday-Fairmount-Jun15-765",
+            "route_id": "CR-Fairmount",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1805",
+            "current_stop_sequence": 1,
+            "stop_id": "South Station",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.580299377441406,
+                "longitude": -71.79186248779297,
+                "bearing": 144
+            },
+            "timestamp": {
+                "low": 1455911969,
+                "high": 0
+            },
+            "id": "1455912074_1642",
+            "trip_id": "CR-Fitchburg-CR-Weekday-Fitchburg-Dec15-420",
+            "route_id": "CR-Fitchburg",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1642",
+            "current_stop_sequence": 1,
+            "stop_id": "Fitchburg",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.37860870361328,
+                "longitude": -71.2818603515625,
+                "bearing": 319
+            },
+            "timestamp": {
+                "low": 1455911979,
+                "high": 0
+            },
+            "id": "1455912074_1650",
+            "trip_id": "CR-Fitchburg-CR-Weekday-Fitchburg-Dec15-455",
+            "route_id": "CR-Fitchburg",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1650",
+            "current_stop_sequence": 7,
+            "stop_id": "Kendal Green",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.251129150390625,
+                "longitude": -71.12747955322266,
+                "bearing": 199
+            },
+            "timestamp": {
+                "low": 1455911954,
+                "high": 0
+            },
+            "id": "1455912074_1533",
+            "trip_id": "CR-Franklin-CR-Weekday-Franklin-Jun15-713",
+            "route_id": "CR-Franklin",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1533",
+            "current_stop_sequence": 5,
+            "stop_id": "Readville",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.34696960449219,
+                "longitude": -71.07611083984375,
+                "bearing": 43
+            },
+            "timestamp": {
+                "low": 1455911975,
+                "high": 0
+            },
+            "id": "1455912074_1708",
+            "trip_id": "CR-Franklin-CR-Weekday-Franklin-Jun15-718",
+            "route_id": "CR-Franklin",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1708",
+            "current_stop_sequence": 15,
+            "stop_id": "Back Bay",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.24052047729492,
+                "longitude": -70.89917755126953,
+                "bearing": 71
+            },
+            "timestamp": {
+                "low": 1455911976,
+                "high": 0
+            },
+            "id": "1455912074_1700",
+            "trip_id": "CR-Greenbush-CR-Weekday-Greenbush-Dec13-079",
+            "route_id": "CR-Greenbush",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1700",
+            "current_stop_sequence": 7,
+            "stop_id": "Nantasket Junction",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.30363845825195,
+                "longitude": -71.05561828613281,
+                "bearing": 5
+            },
+            "timestamp": {
+                "low": 1455911980,
+                "high": 0
+            },
+            "id": "1455912074_1817",
+            "trip_id": "CR-Greenbush-CR-Weekday-Greenbush-Dec13-084",
+            "route_id": "CR-Greenbush",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1817",
+            "current_stop_sequence": 10,
+            "stop_id": "South Station",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.3668212890625,
+                "longitude": -71.06295776367188,
+                "bearing": 323
+            },
+            "timestamp": {
+                "low": 1455911106,
+                "high": 0
+            },
+            "id": "1455912074_1804",
+            "trip_id": "CR-Haverhill-CR-Weekday-Haverhill-May14-211",
+            "route_id": "CR-Haverhill",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1804",
+            "current_stop_sequence": 1,
+            "stop_id": "North Station",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.70328903198242,
+                "longitude": -71.13909912109375,
+                "bearing": 244
+            },
+            "timestamp": {
+                "low": 1455911955,
+                "high": 0
+            },
+            "id": "1455912074_1629",
+            "trip_id": "CR-Haverhill-CR-Weekday-Haverhill-May14-218",
+            "route_id": "CR-Haverhill",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1629",
+            "current_stop_sequence": 3,
+            "stop_id": "Lawrence",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.521671295166016,
+                "longitude": -71.10700225830078,
+                "bearing": 120
+            },
+            "timestamp": {
+                "low": 1455911978,
+                "high": 0
+            },
+            "id": "1455912074_1639",
+            "trip_id": "CR-Haverhill-CR-Weekday-Haverhill-May14-268",
+            "route_id": "CR-Haverhill",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1639",
+            "current_stop_sequence": 12,
+            "stop_id": "Reading",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.16741180419922,
+                "longitude": -70.95805358886719,
+                "bearing": 342
+            },
+            "timestamp": {
+                "low": 1455911967,
+                "high": 0
+            },
+            "id": "1455912074_1824",
+            "trip_id": "CR-Kingston-CR-Weekday-Kingston-Dec13-064",
+            "route_id": "CR-Kingston",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1824",
+            "current_stop_sequence": 14,
+            "stop_id": "Braintree",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.36912155151367,
+                "longitude": -71.06169128417969,
+                "bearing": null
+            },
+            "timestamp": {
+                "low": 1455911965,
+                "high": 0
+            },
+            "id": "1455912074_1643",
+            "trip_id": "CR-Lowell-CR-Weekday-Lowell-Dec13-325",
+            "route_id": "CR-Lowell",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1643",
+            "current_stop_sequence": 1,
+            "stop_id": "North Station",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.63521957397461,
+                "longitude": -71.31446075439453,
+                "bearing": 157
+            },
+            "timestamp": {
+                "low": 1455911954,
+                "high": 0
+            },
+            "id": "1455912074_1627",
+            "trip_id": "CR-Lowell-CR-Weekday-Lowell-Dec13-326",
+            "route_id": "CR-Lowell",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1627",
+            "current_stop_sequence": 1,
+            "stop_id": "Lowell",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 41.99287033081055,
+                "longitude": -70.97313690185547,
+                "bearing": 144
+            },
+            "timestamp": {
+                "low": 1455911923,
+                "high": 0
+            },
+            "id": "1455912074_1531",
+            "trip_id": "CR-Middleborough-CR-Weekday-Middleborough-Dec13-015",
+            "route_id": "CR-Middleborough",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1531",
+            "current_stop_sequence": 9,
+            "stop_id": "Bridgewater",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.35062026977539,
+                "longitude": -71.05551147460938,
+                "bearing": 201
+            },
+            "timestamp": {
+                "low": 1455911805,
+                "high": 0
+            },
+            "id": "1455912074_1822",
+            "trip_id": "CR-Middleborough-CR-Weekday-Middleborough-Dec13-017",
+            "route_id": "CR-Middleborough",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1822",
+            "current_stop_sequence": 1,
+            "stop_id": "South Station",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.28664016723633,
+                "longitude": -71.1426010131836,
+                "bearing": 88
+            },
+            "timestamp": {
+                "low": 1455911962,
+                "high": 0
+            },
+            "id": "1455912074_1513",
+            "trip_id": "CR-Needham-CR-Weekday-Needham-Apr15-616",
+            "route_id": "CR-Needham",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1513",
+            "current_stop_sequence": 8,
+            "stop_id": "Roslindale Village",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.33885955810547,
+                "longitude": -71.08624267578125,
+                "bearing": 221
+            },
+            "timestamp": {
+                "low": 1455911969,
+                "high": 0
+            },
+            "id": "1455912074_1511",
+            "trip_id": "CR-Needham-CR-Weekday-Needham-Apr15-617",
+            "route_id": "CR-Needham",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1511",
+            "current_stop_sequence": 3,
+            "stop_id": "Ruggles",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.56203079223633,
+                "longitude": -70.86975860595703,
+                "bearing": 67
+            },
+            "timestamp": {
+                "low": 1455911978,
+                "high": 0
+            },
+            "id": "1455912074_1816",
+            "trip_id": "CR-Newburyport-CR-Weekday-Newburyport-Dec14-109",
+            "route_id": "CR-Newburyport",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1816",
+            "current_stop_sequence": 13,
+            "stop_id": "Montserrat",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.397621154785156,
+                "longitude": -71.01978302001953,
+                "bearing": 237
+            },
+            "timestamp": {
+                "low": 1455911975,
+                "high": 0
+            },
+            "id": "1455912074_1647",
+            "trip_id": "CR-Newburyport-CR-Weekday-Newburyport-Dec14-114",
+            "route_id": "CR-Newburyport",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1647",
+            "current_stop_sequence": 18,
+            "stop_id": "Chelsea",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.67121124267578,
+                "longitude": -70.84339141845703,
+                "bearing": 200
+            },
+            "timestamp": {
+                "low": 1455911959,
+                "high": 0
+            },
+            "id": "1455912074_1644",
+            "trip_id": "CR-Newburyport-CR-Weekday-Newburyport-Dec14-168",
+            "route_id": "CR-Newburyport",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1644",
+            "current_stop_sequence": 11,
+            "stop_id": "Hamilton/ Wenham",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 41.80215072631836,
+                "longitude": -71.43644714355469,
+                "bearing": 90
+            },
+            "timestamp": {
+                "low": 1455911957,
+                "high": 0
+            },
+            "id": "1455912074_1811",
+            "trip_id": "CR-Providence-CR-Weekday-Providence-Dec13-809",
+            "route_id": "CR-Providence",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1811",
+            "current_stop_sequence": 14,
+            "stop_id": "TF Green Airport",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.15687942504883,
+                "longitude": -71.14588165283203,
+                "bearing": 124
+            },
+            "timestamp": {
+                "low": 1455911957,
+                "high": 0
+            },
+            "id": "1455912074_1719",
+            "trip_id": "CR-Providence-CR-Weekday-Providence-Dec13-915",
+            "route_id": "CR-Providence",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1719",
+            "current_stop_sequence": 7,
+            "stop_id": "Canton Center",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.347511291503906,
+                "longitude": -71.07005310058594,
+                "bearing": 271
+            },
+            "timestamp": {
+                "low": 1455911952,
+                "high": 0
+            },
+            "id": "1455912074_1530",
+            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-521",
+            "route_id": "CR-Worcester",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1530",
+            "current_stop_sequence": 2,
+            "stop_id": "Back Bay",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.32368087768555,
+                "longitude": -71.27205657958984,
+                "bearing": 3
+            },
+            "timestamp": {
+                "low": 1455911965,
+                "high": 0
+            },
+            "id": "1455912074_1827",
+            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-522",
+            "route_id": "CR-Worcester",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1827",
+            "current_stop_sequence": 11,
+            "stop_id": "Wellesley Farms",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.26152038574219,
+                "longitude": -71.79332733154297,
+                "bearing": 67
+            },
+            "timestamp": {
+                "low": 1455911972,
+                "high": 0
+            },
+            "id": "1455912074_1709",
+            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-524",
+            "route_id": "CR-Worcester",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1709",
+            "current_stop_sequence": 2,
+            "stop_id": "Grafton",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.34027099609375,
+                "longitude": -71.1668930053711,
+                "bearing": 296
+            },
+            "timestamp": {
+                "low": 1455912001,
+                "high": 0
+            },
+            "id": "1455912074_3676",
+            "trip_id": "3676_0",
+            "route_id": "Green-B",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3676",
+            "current_stop_sequence": 310,
+            "stop_id": "70107",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.35625076293945,
+                "longitude": -71.06263732910156,
+                "bearing": 210
+            },
+            "timestamp": {
+                "low": 1455911616,
+                "high": 0
+            },
+            "id": "1455912074_3828",
+            "trip_id": "3828_0",
+            "route_id": "Green-B",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3828",
+            "current_stop_sequence": 50,
+            "stop_id": "70196",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.348140716552734,
+                "longitude": -71.09221649169922,
+                "bearing": 130
+            },
+            "timestamp": {
+                "low": 1455912002,
+                "high": 0
+            },
+            "id": "1455912074_3888",
+            "trip_id": "805_1",
+            "route_id": "Green-B",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3888",
+            "current_stop_sequence": 560,
+            "stop_id": "70152",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.348140716552734,
+                "longitude": -71.09221649169922,
+                "bearing": 130
+            },
+            "timestamp": {
+                "low": 1455912048,
+                "high": 0
+            },
+            "id": "1455912074_3675",
+            "trip_id": "827_1",
+            "route_id": "Green-B",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3675",
+            "current_stop_sequence": 560,
+            "stop_id": "70152",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.3394889831543,
+                "longitude": -71.1572265625,
+                "bearing": 295
+            },
+            "timestamp": {
+                "low": 1455912014,
+                "high": 0
+            },
+            "id": "1455912074_3841",
+            "trip_id": "833_0",
+            "route_id": "Green-B",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3841",
+            "current_stop_sequence": 300,
+            "stop_id": "70111",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.344810485839844,
+                "longitude": -71.14215850830078,
+                "bearing": 207
+            },
+            "timestamp": {
+                "low": 1455912046,
+                "high": 0
+            },
+            "id": "1455912074_3659",
+            "trip_id": "837_0",
+            "route_id": "Green-B",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3659",
+            "current_stop_sequence": 260,
+            "stop_id": "70121",
+            "current_status": 0
+        },
+        {
+            "position": {
+                "latitude": 42.348880767822266,
+                "longitude": -71.09510040283203,
+                "bearing": 90
+            },
+            "timestamp": {
+                "low": 1455912019,
+                "high": 0
+            },
+            "id": "1455912074_3821",
+            "trip_id": "843_1",
+            "route_id": "Green-B",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3821",
+            "current_stop_sequence": 550,
+            "stop_id": "70150",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.35115051269531,
+                "longitude": -71.1163330078125,
+                "bearing": 99
+            },
+            "timestamp": {
+                "low": 1455912001,
+                "high": 0
+            },
+            "id": "1455912074_3669",
+            "trip_id": "845_1",
+            "route_id": "Green-B",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3669",
+            "current_stop_sequence": 130,
+            "stop_id": "70140",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.351749420166016,
+                "longitude": -71.1253662109375,
+                "bearing": 221
+            },
+            "timestamp": {
+                "low": 1455912019,
+                "high": 0
+            },
+            "id": "1455912074_3859",
+            "trip_id": "847_0",
+            "route_id": "Green-B",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3859",
+            "current_stop_sequence": 210,
+            "stop_id": "70135",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.35054016113281,
+                "longitude": -71.12869262695312,
+                "bearing": 94
+            },
+            "timestamp": {
+                "low": 1455912042,
+                "high": 0
+            },
+            "id": "1455912074_3842",
+            "trip_id": "854_1",
+            "route_id": "Green-B",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3842",
+            "current_stop_sequence": 100,
+            "stop_id": "70134",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.351200103759766,
+                "longitude": -71.1163330078125,
+                "bearing": 279
+            },
+            "timestamp": {
+                "low": 1455912047,
+                "high": 0
+            },
+            "id": "1455912074_3829",
+            "trip_id": "856_0",
+            "route_id": "Green-B",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3829",
+            "current_stop_sequence": 180,
+            "stop_id": "70141",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.33892059326172,
+                "longitude": -71.15245056152344,
+                "bearing": 22
+            },
+            "timestamp": {
+                "low": 1455912049,
+                "high": 0
+            },
+            "id": "1455912074_3686",
+            "trip_id": "869_1",
+            "route_id": "Green-B",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3686",
+            "current_stop_sequence": 30,
+            "stop_id": "70114",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.3660888671875,
+                "longitude": -71.06298065185547,
+                "bearing": 230
+            },
+            "timestamp": {
+                "low": 1455911883,
+                "high": 0
+            },
+            "id": "1455912074_3616",
+            "trip_id": "3616_1",
+            "route_id": "Green-C",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3616",
+            "current_stop_sequence": 640,
+            "stop_id": "70207",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.359291076660156,
+                "longitude": -71.05951690673828,
+                "bearing": 215
+            },
+            "timestamp": {
+                "low": 1455912006,
+                "high": 0
+            },
+            "id": "1455912074_3869",
+            "trip_id": "3869_0",
+            "route_id": "Green-C",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3869",
+            "current_stop_sequence": 60,
+            "stop_id": "70197",
+            "current_status": 0
+        },
+        {
+            "position": {
+                "latitude": 42.35245132446289,
+                "longitude": -71.06482696533203,
+                "bearing": 20
+            },
+            "timestamp": {
+                "low": 1455912019,
+                "high": 0
+            },
+            "id": "1455912074_3868",
+            "trip_id": "831_1",
+            "route_id": "Green-C",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3868",
+            "current_stop_sequence": 590,
+            "stop_id": "70158",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.35179901123047,
+                "longitude": -71.07080841064453,
+                "bearing": 60
+            },
+            "timestamp": {
+                "low": 1455911998,
+                "high": 0
+            },
+            "id": "1455912074_3683",
+            "trip_id": "838_1",
+            "route_id": "Green-C",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3683",
+            "current_stop_sequence": 590,
+            "stop_id": "70158",
+            "current_status": 0
+        },
+        {
+            "position": {
+                "latitude": 42.340579986572266,
+                "longitude": -71.12716674804688,
+                "bearing": 244
+            },
+            "timestamp": {
+                "low": 1455912039,
+                "high": 0
+            },
+            "id": "1455912074_3709",
+            "trip_id": "839_0",
+            "route_id": "Green-C",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3709",
+            "current_stop_sequence": 380,
+            "stop_id": "70225",
+            "current_status": 0
+        },
+        {
+            "position": {
+                "latitude": 42.34111022949219,
+                "longitude": -71.12567138671875,
+                "bearing": 250
+            },
+            "timestamp": {
+                "low": 1455912038,
+                "high": 0
+            },
+            "id": "1455912074_3673",
+            "trip_id": "844_0",
+            "route_id": "Green-C",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3673",
+            "current_stop_sequence": 370,
+            "stop_id": "70223",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.34703063964844,
+                "longitude": -71.10355377197266,
+                "bearing": 240
+            },
+            "timestamp": {
+                "low": 1455912034,
+                "high": 0
+            },
+            "id": "1455912074_3882",
+            "trip_id": "852_0",
+            "route_id": "Green-C",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3882",
+            "current_stop_sequence": 320,
+            "stop_id": "70211",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.3486213684082,
+                "longitude": -71.09760284423828,
+                "bearing": 60
+            },
+            "timestamp": {
+                "low": 1455912025,
+                "high": 0
+            },
+            "id": "1455912074_3691",
+            "trip_id": "857_1",
+            "route_id": "Green-C",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3691",
+            "current_stop_sequence": 550,
+            "stop_id": "70150",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.341949462890625,
+                "longitude": -71.12197875976562,
+                "bearing": 70
+            },
+            "timestamp": {
+                "low": 1455912046,
+                "high": 0
+            },
+            "id": "1455912074_3892",
+            "trip_id": "860_1",
+            "route_id": "Green-C",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3892",
+            "current_stop_sequence": 260,
+            "stop_id": "70220",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.35187911987305,
+                "longitude": -71.07084655761719,
+                "bearing": 240
+            },
+            "timestamp": {
+                "low": 1455912019,
+                "high": 0
+            },
+            "id": "1455912074_3885",
+            "trip_id": "864_0",
+            "route_id": "Green-C",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3885",
+            "current_stop_sequence": 100,
+            "stop_id": "70157",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.34056854248047,
+                "longitude": -71.12703704833984,
+                "bearing": 62
+            },
+            "timestamp": {
+                "low": 1455912048,
+                "high": 0
+            },
+            "id": "1455912074_3605",
+            "trip_id": "868_1",
+            "route_id": "Green-C",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3605",
+            "current_stop_sequence": 250,
+            "stop_id": "70224",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.35157012939453,
+                "longitude": -71.07167053222656,
+                "bearing": 60
+            },
+            "timestamp": {
+                "low": 1455912036,
+                "high": 0
+            },
+            "id": "1455912074_3872",
+            "trip_id": "799_1",
+            "route_id": "Green-D",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3872",
+            "current_stop_sequence": 580,
+            "stop_id": "70156",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.349769592285156,
+                "longitude": -71.0782470703125,
+                "bearing": 60
+            },
+            "timestamp": {
+                "low": 1455912036,
+                "high": 0
+            },
+            "id": "1455912074_3701",
+            "trip_id": "815_1",
+            "route_id": "Green-D",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3701",
+            "current_stop_sequence": 570,
+            "stop_id": "70154",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.33420944213867,
+                "longitude": -71.24593353271484,
+                "bearing": 303
+            },
+            "timestamp": {
+                "low": 1455912045,
+                "high": 0
+            },
+            "id": "1455912074_3663",
+            "trip_id": "822_0",
+            "route_id": "Green-D",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3663",
+            "current_stop_sequence": 570,
+            "stop_id": "70161",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.34880828857422,
+                "longitude": -71.0950927734375,
+                "bearing": 90
+            },
+            "timestamp": {
+                "low": 1455912010,
+                "high": 0
+            },
+            "id": "1455912074_3822",
+            "trip_id": "823_1",
+            "route_id": "Green-D",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3822",
+            "current_stop_sequence": 550,
+            "stop_id": "70150",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.3284797668457,
+                "longitude": -71.23444366455078,
+                "bearing": 303
+            },
+            "timestamp": {
+                "low": 1455912044,
+                "high": 0
+            },
+            "id": "1455912074_3848",
+            "trip_id": "829_0",
+            "route_id": "Green-D",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3848",
+            "current_stop_sequence": 560,
+            "stop_id": "70163",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.34516906738281,
+                "longitude": -71.10456085205078,
+                "bearing": 51
+            },
+            "timestamp": {
+                "low": 1455911999,
+                "high": 0
+            },
+            "id": "1455912074_3837",
+            "trip_id": "832_1",
+            "route_id": "Green-D",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3837",
+            "current_stop_sequence": 430,
+            "stop_id": "70186",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.335140228271484,
+                "longitude": -71.14820098876953,
+                "bearing": 75
+            },
+            "timestamp": {
+                "low": 1455911828,
+                "high": 0
+            },
+            "id": "1455912074_3805",
+            "trip_id": "836_1",
+            "route_id": "Green-D",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3805",
+            "current_stop_sequence": 380,
+            "stop_id": "70174",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.32672882080078,
+                "longitude": -71.16461944580078,
+                "bearing": 84
+            },
+            "timestamp": {
+                "low": 1455911549,
+                "high": 0
+            },
+            "id": "1455912074_3827",
+            "trip_id": "842_1",
+            "route_id": "Green-D",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3827",
+            "current_stop_sequence": 370,
+            "stop_id": "70172",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.33528137207031,
+                "longitude": -71.13907623291016,
+                "bearing": 304
+            },
+            "timestamp": {
+                "low": 1455912046,
+                "high": 0
+            },
+            "id": "1455912074_3813",
+            "trip_id": "849_0",
+            "route_id": "Green-D",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3813",
+            "current_stop_sequence": 490,
+            "stop_id": "70177",
+            "current_status": 0
+        },
+        {
+            "position": {
+                "latitude": 42.326778411865234,
+                "longitude": -71.16739654541016,
+                "bearing": 105
+            },
+            "timestamp": {
+                "low": 1455911571,
+                "high": 0
+            },
+            "id": "1455912074_3633",
+            "trip_id": "851_1",
+            "route_id": "Green-D",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3633",
+            "current_stop_sequence": 370,
+            "stop_id": "70172",
+            "current_status": 0
+        },
+        {
+            "position": {
+                "latitude": 42.34523010253906,
+                "longitude": -71.10460662841797,
+                "bearing": 232
+            },
+            "timestamp": {
+                "low": 1455911923,
+                "high": 0
+            },
+            "id": "1455912074_3660",
+            "trip_id": "853_0",
+            "route_id": "Green-D",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3660",
+            "current_stop_sequence": 450,
+            "stop_id": "70187",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.328460693359375,
+                "longitude": -71.17607116699219,
+                "bearing": 103
+            },
+            "timestamp": {
+                "low": 1455911678,
+                "high": 0
+            },
+            "id": "1455912074_3817",
+            "trip_id": "855_1",
+            "route_id": "Green-D",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3817",
+            "current_stop_sequence": 370,
+            "stop_id": "70172",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.33604049682617,
+                "longitude": -71.14312744140625,
+                "bearing": 264
+            },
+            "timestamp": {
+                "low": 1455911949,
+                "high": 0
+            },
+            "id": "1455912074_3838",
+            "trip_id": "862_0",
+            "route_id": "Green-D",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3838",
+            "current_stop_sequence": 500,
+            "stop_id": "70175",
+            "current_status": 0
+        },
+        {
+            "position": {
+                "latitude": 42.32973098754883,
+                "longitude": -71.18260192871094,
+                "bearing": 104
+            },
+            "timestamp": {
+                "low": 1455911988,
+                "high": 0
+            },
+            "id": "1455912074_3800",
+            "trip_id": "863_1",
+            "route_id": "Green-D",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3800",
+            "current_stop_sequence": 370,
+            "stop_id": "70172",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.35356140136719,
+                "longitude": -71.06432342529297,
+                "bearing": 200
+            },
+            "timestamp": {
+                "low": 1455912034,
+                "high": 0
+            },
+            "id": "1455912074_3839",
+            "trip_id": "867_0",
+            "route_id": "Green-D",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3839",
+            "current_stop_sequence": 90,
+            "stop_id": "70159",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.318519592285156,
+                "longitude": -71.2156982421875,
+                "bearing": 122
+            },
+            "timestamp": {
+                "low": 1455912043,
+                "high": 0
+            },
+            "id": "1455912074_3853",
+            "trip_id": "871_1",
+            "route_id": "Green-D",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3853",
+            "current_stop_sequence": 350,
+            "stop_id": "70168",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.37107849121094,
+                "longitude": -71.07723236083984,
+                "bearing": 305
+            },
+            "timestamp": {
+                "low": 1455911833,
+                "high": 0
+            },
+            "id": "1455912074_3678",
+            "trip_id": "3678_1",
+            "route_id": "Green-E",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3678",
+            "current_stop_sequence": null,
+            "stop_id": "70210",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.36668014526367,
+                "longitude": -71.06771850585938,
+                "bearing": 125
+            },
+            "timestamp": {
+                "low": 1455912028,
+                "high": 0
+            },
+            "id": "1455912074_3823",
+            "trip_id": "3823_0",
+            "route_id": "Green-E",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3823",
+            "current_stop_sequence": 10,
+            "stop_id": "70208",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.3563117980957,
+                "longitude": -71.0627670288086,
+                "bearing": 210
+            },
+            "timestamp": {
+                "low": 1455912010,
+                "high": 0
+            },
+            "id": "1455912074_3856",
+            "trip_id": "3856_0",
+            "route_id": "Green-E",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3856",
+            "current_stop_sequence": null,
+            "stop_id": "70197",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.37107849121094,
+                "longitude": -71.07723236083984,
+                "bearing": 305
+            },
+            "timestamp": {
+                "low": 1455911942,
+                "high": 0
+            },
+            "id": "1455912074_3880",
+            "trip_id": "3880_1",
+            "route_id": "Green-E",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3880",
+            "current_stop_sequence": null,
+            "stop_id": "70210",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.33161163330078,
+                "longitude": -71.11195373535156,
+                "bearing": 162
+            },
+            "timestamp": {
+                "low": 1455912024,
+                "high": 0
+            },
+            "id": "1455912074_3654",
+            "trip_id": "834_0",
+            "route_id": "Green-E",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3654",
+            "current_stop_sequence": 660,
+            "stop_id": "70255",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.35926818847656,
+                "longitude": -71.05946350097656,
+                "bearing": 35
+            },
+            "timestamp": {
+                "low": 1455911982,
+                "high": 0
+            },
+            "id": "1455912074_3620",
+            "trip_id": "835_1",
+            "route_id": "Green-E",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3620",
+            "current_stop_sequence": 620,
+            "stop_id": "70203",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.33218002319336,
+                "longitude": -71.1117935180664,
+                "bearing": 227
+            },
+            "timestamp": {
+                "low": 1455912043,
+                "high": 0
+            },
+            "id": "1455912074_3870",
+            "trip_id": "840_0",
+            "route_id": "Green-E",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3870",
+            "current_stop_sequence": 660,
+            "stop_id": "70255",
+            "current_status": 0
+        },
+        {
+            "position": {
+                "latitude": 42.349971771240234,
+                "longitude": -71.07747650146484,
+                "bearing": 60
+            },
+            "timestamp": {
+                "low": 1455911997,
+                "high": 0
+            },
+            "id": "1455912074_3889",
+            "trip_id": "846_1",
+            "route_id": "Green-E",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3889",
+            "current_stop_sequence": 580,
+            "stop_id": "70156",
+            "current_status": 0
+        },
+        {
+            "position": {
+                "latitude": 42.33790969848633,
+                "longitude": -71.09506225585938,
+                "bearing": 241
+            },
+            "timestamp": {
+                "low": 1455912007,
+                "high": 0
+            },
+            "id": "1455912074_3681",
+            "trip_id": "850_0",
+            "route_id": "Green-E",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3681",
+            "current_stop_sequence": 610,
+            "stop_id": "70245",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.34003829956055,
+                "longitude": -71.08969116210938,
+                "bearing": 60
+            },
+            "timestamp": {
+                "low": 1455912042,
+                "high": 0
+            },
+            "id": "1455912074_3845",
+            "trip_id": "858_1",
+            "route_id": "Green-E",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3845",
+            "current_stop_sequence": 520,
+            "stop_id": "70244",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.350181579589844,
+                "longitude": -71.07710266113281,
+                "bearing": 240
+            },
+            "timestamp": {
+                "low": 1455912011,
+                "high": 0
+            },
+            "id": "1455912074_3671",
+            "trip_id": "859_0",
+            "route_id": "Green-E",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3671",
+            "current_stop_sequence": 110,
+            "stop_id": "70155",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.333290100097656,
+                "longitude": -71.1065902709961,
+                "bearing": 71
+            },
+            "timestamp": {
+                "low": 1455912034,
+                "high": 0
+            },
+            "id": "1455912074_3690",
+            "trip_id": "865_1",
+            "route_id": "Green-E",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "3690",
+            "current_stop_sequence": 480,
+            "stop_id": "70252",
+            "current_status": 0
+        },
+        {
+            "position": {
+                "latitude": 42.33359909057617,
+                "longitude": -71.09304809570312,
+                "bearing": 220
+            },
+            "timestamp": {
+                "low": 1455912049,
+                "high": 0
+            },
+            "id": "1455912074_1249",
+            "trip_id": "29176494",
+            "route_id": "Orange",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1249",
+            "current_stop_sequence": 150,
+            "stop_id": "70008",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.34606170654297,
+                "longitude": -71.07784271240234,
+                "bearing": 220
+            },
+            "timestamp": {
+                "low": 1455912045,
+                "high": 0
+            },
+            "id": "1455912074_1290",
+            "trip_id": "29176511",
+            "route_id": "Orange",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1290",
+            "current_stop_sequence": 130,
+            "stop_id": "70012",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.43223190307617,
+                "longitude": -71.07212829589844,
+                "bearing": 200
+            },
+            "timestamp": {
+                "low": 1455912040,
+                "high": 0
+            },
+            "id": "1455912074_1297",
+            "trip_id": "29176516",
+            "route_id": "Orange",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1297",
+            "current_stop_sequence": 10,
+            "stop_id": "70034",
+            "current_status": 0
+        },
+        {
+            "position": {
+                "latitude": 42.3631591796875,
+                "longitude": -71.05818939208984,
+                "bearing": 150
+            },
+            "timestamp": {
+                "low": 1455912005,
+                "high": 0
+            },
+            "id": "1455912074_1251",
+            "trip_id": "29176518",
+            "route_id": "Orange",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1251",
+            "current_stop_sequence": 70,
+            "stop_id": "70024",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.39208984375,
+                "longitude": -71.07734680175781,
+                "bearing": 175
+            },
+            "timestamp": {
+                "low": 1455912001,
+                "high": 0
+            },
+            "id": "1455912074_1306",
+            "trip_id": "29176524",
+            "route_id": "Orange",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1306",
+            "current_stop_sequence": 30,
+            "stop_id": "70278",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.30540084838867,
+                "longitude": -71.11077117919922,
+                "bearing": 30
+            },
+            "timestamp": {
+                "low": 1455912026,
+                "high": 0
+            },
+            "id": "1455912074_1302",
+            "trip_id": "29176618",
+            "route_id": "Orange",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1302",
+            "current_stop_sequence": 10,
+            "stop_id": "70003",
+            "current_status": 0
+        },
+        {
+            "position": {
+                "latitude": 42.35881042480469,
+                "longitude": -71.05774688720703,
+                "bearing": 355
+            },
+            "timestamp": {
+                "low": 1455912005,
+                "high": 0
+            },
+            "id": "1455912074_1316",
+            "trip_id": "29176765",
+            "route_id": "Orange",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1316",
+            "current_stop_sequence": 110,
+            "stop_id": "70023",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.38425064086914,
+                "longitude": -71.07695007324219,
+                "bearing": 355
+            },
+            "timestamp": {
+                "low": 1455912048,
+                "high": 0
+            },
+            "id": "1455912074_1226",
+            "trip_id": "29176766",
+            "route_id": "Orange",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1226",
+            "current_stop_sequence": 150,
+            "stop_id": "70031",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.33525848388672,
+                "longitude": -71.09091186523438,
+                "bearing": 40
+            },
+            "timestamp": {
+                "low": 1455912034,
+                "high": 0
+            },
+            "id": "1455912074_1205",
+            "trip_id": "29176767",
+            "route_id": "Orange",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1205",
+            "current_stop_sequence": 50,
+            "stop_id": "70011",
+            "current_status": 0
+        },
+        {
+            "position": {
+                "latitude": 42.43341827392578,
+                "longitude": -71.07160949707031,
+                "bearing": 20
+            },
+            "timestamp": {
+                "low": 1455911915,
+                "high": 0
+            },
+            "id": "1455912074_1239",
+            "trip_id": "29176778",
+            "route_id": "Orange",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1239",
+            "current_stop_sequence": 190,
+            "stop_id": "70036",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.347591400146484,
+                "longitude": -71.06723022460938,
+                "bearing": 50
+            },
+            "timestamp": {
+                "low": 1455912038,
+                "high": 0
+            },
+            "id": "1455912074_1207",
+            "trip_id": "29176779",
+            "route_id": "Orange",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1207",
+            "current_stop_sequence": 80,
+            "stop_id": "70017",
+            "current_status": 0
+        },
+        {
+            "position": {
+                "latitude": 42.35649871826172,
+                "longitude": -71.06262969970703,
+                "bearing": 310
+            },
+            "timestamp": {
+                "low": 1455912016,
+                "high": 0
+            },
+            "id": "1455912074_1852",
+            "trip_id": "29538198",
+            "route_id": "Red",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1852",
+            "current_stop_sequence": 150,
+            "stop_id": "70076",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.32455062866211,
+                "longitude": -71.05449676513672,
+                "bearing": 310
+            },
+            "timestamp": {
+                "low": 1455912031,
+                "high": 0
+            },
+            "id": "1455912074_1885",
+            "trip_id": "29538199",
+            "route_id": "Red",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1885",
+            "current_stop_sequence": 110,
+            "stop_id": "70084",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.285789489746094,
+                "longitude": -71.03854370117188,
+                "bearing": 330
+            },
+            "timestamp": {
+                "low": 1455911987,
+                "high": 0
+            },
+            "id": "1455912074_1839",
+            "trip_id": "29538360",
+            "route_id": "Red",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1839",
+            "current_stop_sequence": 100,
+            "stop_id": "70096",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.23337173461914,
+                "longitude": -71.00682067871094,
+                "bearing": 15
+            },
+            "timestamp": {
+                "low": 1455912018,
+                "high": 0
+            },
+            "id": "1455912074_1832",
+            "trip_id": "29538361",
+            "route_id": "Red",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1832",
+            "current_stop_sequence": 10,
+            "stop_id": "70104",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.34273147583008,
+                "longitude": -71.05706787109375,
+                "bearing": 350
+            },
+            "timestamp": {
+                "low": 1455912010,
+                "high": 0
+            },
+            "id": "1455912074_1724",
+            "trip_id": "29538447",
+            "route_id": "Red",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1724",
+            "current_stop_sequence": 120,
+            "stop_id": "70082",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.36125946044922,
+                "longitude": -71.07161712646484,
+                "bearing": 275
+            },
+            "timestamp": {
+                "low": 1455912025,
+                "high": 0
+            },
+            "id": "1455912074_1735",
+            "trip_id": "29538452",
+            "route_id": "Red",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1735",
+            "current_stop_sequence": 160,
+            "stop_id": "70074",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.299381256103516,
+                "longitude": -71.06397247314453,
+                "bearing": 260
+            },
+            "timestamp": {
+                "low": 1455912028,
+                "high": 0
+            },
+            "id": "1455912074_1520",
+            "trip_id": "29538623",
+            "route_id": "Red",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1520",
+            "current_stop_sequence": 160,
+            "stop_id": "70091",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.373958587646484,
+                "longitude": -71.11873626708984,
+                "bearing": 130
+            },
+            "timestamp": {
+                "low": 1455911948,
+                "high": 0
+            },
+            "id": "1455912074_1635",
+            "trip_id": "29538624",
+            "route_id": "Red",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1635",
+            "current_stop_sequence": 30,
+            "stop_id": "70067",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.35523986816406,
+                "longitude": -71.0601806640625,
+                "bearing": 135
+            },
+            "timestamp": {
+                "low": 1455911974,
+                "high": 0
+            },
+            "id": "1455912074_1878",
+            "trip_id": "29538629",
+            "route_id": "Red",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1878",
+            "current_stop_sequence": 80,
+            "stop_id": "70077",
+            "current_status": 1
+        },
+        {
+            "position": {
+                "latitude": 42.38922882080078,
+                "longitude": -71.11930847167969,
+                "bearing": null
+            },
+            "timestamp": {
+                "low": 1455911995,
+                "high": 0
+            },
+            "id": "1455912074_1625",
+            "trip_id": "29538667",
+            "route_id": "Red",
+            "direction_id": 1,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1625",
+            "current_stop_sequence": 210,
+            "stop_id": "70064",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.2313117980957,
+                "longitude": -71.00711059570312,
+                "bearing": 180
+            },
+            "timestamp": {
+                "low": 1455912049,
+                "high": 0
+            },
+            "id": "1455912074_1877",
+            "trip_id": "29538673",
+            "route_id": "Red",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1877",
+            "current_stop_sequence": 220,
+            "stop_id": "70105",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.31602096557617,
+                "longitude": -71.05206298828125,
+                "bearing": 170
+            },
+            "timestamp": {
+                "low": 1455912010,
+                "high": 0
+            },
+            "id": "1455912074_1842",
+            "trip_id": "29538674",
+            "route_id": "Red",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1842",
+            "current_stop_sequence": 180,
+            "stop_id": "70097",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.35953903198242,
+                "longitude": -71.06784057617188,
+                "bearing": 130
+            },
+            "timestamp": {
+                "low": 1455912046,
+                "high": 0
+            },
+            "id": "1455912074_1718",
+            "trip_id": "29538675",
+            "route_id": "Red",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1718",
+            "current_stop_sequence": 70,
+            "stop_id": "70075",
+            "current_status": 2
+        },
+        {
+            "position": {
+                "latitude": 42.396728515625,
+                "longitude": -71.12245178222656,
+                "bearing": 125
+            },
+            "timestamp": {
+                "low": 1455912035,
+                "high": 0
+            },
+            "id": "1455912074_1700",
+            "trip_id": "29538676",
+            "route_id": "Red",
+            "direction_id": 0,
+            "start_time": null,
+            "start_date": "20160219",
+            "vehicle_id": "1700",
+            "current_stop_sequence": 10,
+            "stop_id": "70063",
+            "current_status": 1
+        }
+    ]
+}

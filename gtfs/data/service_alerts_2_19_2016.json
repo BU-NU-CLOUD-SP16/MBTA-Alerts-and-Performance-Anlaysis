@@ -1,0 +1,4397 @@
+{
+    "data": [
+        {
+            "id": "78216",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1432629000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5602"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5603"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5605"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5609"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5615"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "56170"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5618"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5619"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5620"
+                    }
+                ],
+                "cause": 10,
+                "effect": 4,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Route 111 detour",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 111 detoured beginning at the start of service on Saturday, May 26, and continuing until further notice due to construction on Washington Avenue between Bellingham Square and Carey Avenue.\r\n\r\nOutbound: Connect at Hawthorne St @ Broadway or Washington Ave @ Cary Ave.\r\nInbound: Connect at Washington Ave @ Bloomingdale St or Washington Ave @ Broadway.\r\n\r\nBypassed stops:\r\nCity Hall @ Broadway (outbound)\r\nWashington Ave @ Crescent Ave (outbound)\r\n125 Washington Ave opp Orange St (outbound)\r\nWashington Ave @ Heard St (inbound)\r\nWashington Ave @ Chestnut St (inbound)",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "88088",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1439195400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "Orange",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70020"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Orange",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70021"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70077"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70078"
+                    }
+                ],
+                "cause": 10,
+                "effect": 8,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Change at Downtown Crossing",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Downtown Crossing: The Franklin St entrance will be closed on Monday, August 10, and will remain closed until Summer 2016 to accommodate ongoing construction for the Millennium Tower Project.\r\n\r\nCustomers desiring to enter and exit at Downtown Crossing should instead utilize entrances and exits on Summer, Chauncy, and Arch Streets. \r\n\r\nCustomers desiring elevator access should note that Elevator 891 will be closed during this construction. If exiting, travel down the concourse to use the elevator through the glass doors and to the left of the CharlieCard Store. This elevator will take you to the lobby of 101 Arch Street. If boarding, travel to 101 Arch Street. Take the elevator in the back left corner of the lobby to the concourse. Take a right to find the Oak Grove-bound platform ahead. Customers can also enter and exit the station using the Roche Bros. elevator on Summer St. (during store hours only).\r\n\r\nAffected routes:\r\nOrange Line\r\nRed Line (Ashmont branch)\r\nRed Line (Braintree",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "88365",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1439195400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": null,
+                        "route_type": null,
+                        "trip": null,
+                        "stop_id": "70021"
+                    }
+                ],
+                "cause": 10,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "elevator unavailable",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Elevator 891 DOWNTOWN CROSSING - Oak Grove-bound platform to Franklin and Washington Streets is unavailable Monday, August 10, until Summer 2016 to accommodate ongoing construction for the Millennium Tower Project.\r\n\r\nIf exiting, travel down the concourse to use the elevator through the glass doors and to the left of the CharlieCard Store. This elevator will take you to the lobby of 101 Arch Street. If boarding, travel to 101 Arch Street. Take the elevator in the back left corner of the lobby to the concourse. Take a right to find the Oak Grove-bound platform ahead.\r\n\r\nCustomers can also enter and exit the station using the Roche Bros. elevator on Summer St. (during store hours only).",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "93383",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1444033800,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": null,
+                        "route_type": null,
+                        "trip": null,
+                        "stop_id": "74612"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": null,
+                        "route_type": null,
+                        "trip": null,
+                        "stop_id": "74616"
+                    }
+                ],
+                "cause": 10,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "elevator unavailable",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Elevator 939 COURTHOUSE - Lobby to the south headhouse on Seaport Blvd is unavailable beginning Monday, October 5, until Fall 2016 due to the Yotel Hotel Development.\r\n\r\nPlease use Courthouse Elevator 940 to exit/enter Courthouse. This elevator is located on the opposite side of the lobby. At the street, cross Seaport Boulevard to use Courthouse Elevator 940.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "93384",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1444033800,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "741",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "742",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "746",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 10,
+                "effect": 8,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Silver Line - SL1 and Silver Line - SL2 notice",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Beginning at the start of service on Monday, October 5, Courthouse Station's south entrance/exit will be closed until Fall 2016 due to the Yotel Hotel Development.\r\n\r\nDue to the construction of the Yotel Hotel Development, the south entrance/exit at Courthouse Station will be closed from Monday, October 5, 2015, until Fall 2016. To exit/enter the station, please use the north entrance across the street. \r\n\r\nAlso please note that Courthouse Elevator 939 will be unavailable during this time. Customers desiring elevator access should use Courthouse Elevator 940 to exit/enter Courthouse. This elevator is located on the opposite side of the lobby. At the street, cross Seaport Boulevard to use Courthouse Elevator 940.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "103918",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1447925400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "11",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "251"
+                    }
+                ],
+                "cause": 10,
+                "effect": 1,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "B St @ W 6th St closed",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "The following stops are closed temporarily beginning Thursday, November 19 due to construction: B Street @ West 6th Street (outbound). Please board at B Street @ West 5th Street.\r\n\r\nAffected routes:\r\n11",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "104562",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1448276400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "230",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "236",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 10,
+                "effect": 8,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Routes 230 and 236 notice",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Bus Routes 230 and 236 will pick up at berth 7 in the outer busway at Braintree Station from 6:00 AM to 2:30 PM beginning Mon Nov 23 due to construction.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "105024",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1451727000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Orange",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 10,
+                "effect": 8,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Green Line and Orange Line notice",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Green Line and Orange Line Notice: Beginning Saturday, January 2, 2016, North Station's north entrance/exit will be permanently closed.\r\n\r\nDue to construction of the Boston Garden Development, the Orange and Green Line's north entrance/exit at North Station will be closed permanently starting Saturday, January 2, 2016. A new underground passageway will be constructed in order to provide customers with a direct connection between the Green Line, Orange Line, and Commuter Rail. The new passageway will open in approximately three years.\r\n\r\nTo exit and enter North Station, please use the entrance/exit across Causeway Street. \r\n \r\nDuring this time, North Station Elevator 941 will be closed. If exiting, return to the fare lobby to use North Station Elevator 912 (lobby to Causeway Street) or pass through the fare gates, walk the full length of the Green Line platform to use North Station Elevator 909 (lobby to Valenti Way). If boarding, cross Causeway Street to use North Station Elevator 912",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "105025",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1451727000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": null,
+                        "route_type": null,
+                        "trip": null,
+                        "stop_id": "70026"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": null,
+                        "route_type": null,
+                        "trip": null,
+                        "stop_id": "70027"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": null,
+                        "route_type": null,
+                        "trip": null,
+                        "stop_id": "70205"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": null,
+                        "route_type": null,
+                        "trip": null,
+                        "stop_id": "70206"
+                    }
+                ],
+                "cause": 10,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "elevator unavailable",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Elevator 941 NORTH STATION - Lobby to the Commuter Rail and Boston Garden will be closed beginning Saturday, January 2, 2016, until further notice due to construction of the Boston Garden Development.\r\n\r\nIf exiting, return to the fare lobby to use North Station Elevator 912 (lobby to Causeway Street) or pass through the fare gates, walk the full length of the Green Line platform to use North Station Elevator 909 (lobby to Valenti Way). If boarding, cross Causeway Street to use North Station Elevator 912 (lobby to street) or travel one-tenth of a mile down Haverhill Street to the entrance located at the intersection of Haverhill Street and Valenti Way.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "105780",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1449221400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "350",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "18245"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "351",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "18245"
+                    }
+                ],
+                "cause": 1,
+                "effect": 9,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Burlington Mall Rd @ NE Executive Pk moved",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Burlington Mall Road @ NE Executive Park permanently moving beginning Friday, December 4 from the far side of New England Executive Park to the near side in front of Tavern in The Square.\r\n\r\nAffected routes:\r\n350\r\n351",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "107214",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1449938982,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "64",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11070"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "64",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11071"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "64",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11971"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "64",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11972"
+                    }
+                ],
+                "cause": 10,
+                "effect": 4,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Route 64 detour",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 64 detoured due to construction. Connections can be made at North Beacon Street @ Saunders Street or North Beacon Street @ Life Street.\r\n\r\nAffected stops:\r\nArthur Street @ Guest Street - Stop & Shop (outbound)\r\nGuest Street @ Life Street (outbound)\r\nLife Street @ Guest Street (inbound)\r\nArthur Street @ Guest Street - Stop & Shop (inbound)",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "107383",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456144200,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456167600,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456230600,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456254000,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456317000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456340400,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456403400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456426800,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456489800,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456513200,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456749000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456772400,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456835400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456858800,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456921800,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456945200,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1457008200,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1457031600,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1457094600,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1457118000,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "64",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "70",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "70A",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 10,
+                "effect": 4,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Bus detour",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Routes 64, 70 and 70A detoured from 7:30 AM to 2:00 PM on Monday, due to construction. Connections can be made at Magazine Street @ Green Street.\r\n\r\nAffected direction: Outbound\r\n\r\nAffected stops:\r\nGreen Street @ Pearl Street",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "109500",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1451496484,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "429",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "67203"
+                    }
+                ],
+                "cause": 8,
+                "effect": 1,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Saugus Walmart closed",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "The Route 429 (inbound) bus stop at Saugus Wal-Mart has been closed temporarily. Inbound trips will bypass service to Wal-Mart, until further notice.\r\n\r\nAffected routes:\n429",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "110949",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1452637827,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "742",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "30251"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "746",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "30251"
+                    }
+                ],
+                "cause": 10,
+                "effect": 9,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "25 Dry Dock Ave moved",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "25 Dry Dock Avenue moving temporarily to the Black Falcon Corner stop (21 and 27 Dry Dock Avenue) due to construction.\r\n\r\nAffected routes:\nSilver Line - SL2",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "111276",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455960600,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456126200,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70196"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70197"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70198"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70199"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70200"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70203"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70204"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70196"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70197"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70198"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70199"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70200"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70203"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70204"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70196"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70197"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70198"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70199"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70200"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70203"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70204"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70196"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70197"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70198"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70199"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70200"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70203"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70204"
+                    }
+                ],
+                "cause": 10,
+                "effect": 1,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Suspension of service on Green Line",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Green Line suspended in both directions between Park Street and Haymarket on Feb 20-21 and March 5-6 from start to end of service. Trains will not operate between Park Street and Haymarket.\r\n\r\nDue to MBTA crews performing necessary track and signal work as well as the Government Center Project, Green Line service will be suspended between Park St. and Haymarket in both directions from start to end of service during the following weekends: \r\n\r\n- Saturday, February 20, 2016, through Sunday, February 21, 2016.\r\n- Saturday, March 5, 2016, through Sunday, March 6, 2016.\r\n\r\nInbound (eastbound) trains will terminate at Park St. and outbound (westbound) trains will terminate at Haymarket. \r\n\r\nFor customers desiring westbound Green Line service beyond Haymarket, transfer to Forest Hills-bound Orange Line service at either North Station or Haymarket. Exit at Downtown Crossing and use the Winter Street Concourse to Park St. for access to the Green Line.\r\n\r\nFor customers desiring eastbound Green",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "111569",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456191900,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456212600,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456278300,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456299000,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456364700,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456385400,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456451100,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456471800,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70196"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70197"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70198"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70199"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70200"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70203"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70204"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70196"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70197"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70198"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70199"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70200"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70203"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70204"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70196"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70197"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70198"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70199"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70200"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70203"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70204"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70196"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70197"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70198"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70199"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70200"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70203"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70204"
+                    }
+                ],
+                "cause": 10,
+                "effect": 1,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Suspension of service on Green Line",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Green Line suspended in both directions between Park and Haymarket beginning at approx 8:45 p.m. on Feb 23, approx 11 p.m. on Feb 22 and 24, and approx 10 p.m. on Feb 25. Trains will not operate between Park and Haymarket.\r\n\r\nDue to the Government Center Project, Green Line service will be suspended between Park and Haymarket in both directions beginning at approximately 8:45 p.m. through the end of service on the following days:\r\n\r\n- Monday, February 22, 2016 (after the conclusion of the Bruins game, approx 11 p.m.-12 a.m.).\r\n- Tuesday, February 23, 2016.\r\n- Wednesday, February 24, 2016 (after the conclusion of the Celtics game, approx 11 p.m.).\r\n- Thursday, February 25, 2016 (after the conclusion of the Celtics game, approx 10 p.m.).\r\n\r\nInbound (eastbound) trains will terminate at Park and outbound (westbound) trains will terminate at Haymarket. \r\n\r\nFor customers desiring westbound Green Line service beyond Haymarket, transfer to Forest Hills-bound Orange Line service at either North",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "112686",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1453994761,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "32",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11131"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "3233",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11131"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "35",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11131"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "3738",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11131"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "38",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11131"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "39",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11131"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "41",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11131"
+                    }
+                ],
+                "cause": 10,
+                "effect": 9,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Centre St @ Roseway moved",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Routes 32, 35, 38, 39, & 41: Centre Street @ Roseway moved to 462 Centre Street due to construction.\r\n\r\nAffected routes:\r\n32\r\n35\r\n38\r\n39\r\n41",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "112824",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1454319000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "501",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "981"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "503",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "981"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "57",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "981"
+                    }
+                ],
+                "cause": 10,
+                "effect": 9,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Tremont St opp Tremont Pl moved",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Routes 57, 501, and 503: Beginning Monday, February 1, Tremont Street opposite Tremont Place will temporarily move ~100 feet east of its current location (toward Oak Square) due to construction.\r\n\r\nAffected routes:\n57\n501\n503",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "113084",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456711200,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456731000,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456797600,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456817400,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456884000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456903800,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456970400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456990200,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "Blue",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70038"
+                    }
+                ],
+                "cause": 10,
+                "effect": 1,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Bowdoin closed",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Bowdoin will be closed beginning at approximately 8:45 p.m. through the end of service on Feb 28-Mar 2. Please board and exit the Blue Line at State Street during the closure.\r\n\r\nDue to crews performing necessary work as part of Government Center Project, Bowdoin Station will be closed beginning at approximately 8:45 p.m. through the end of service on the following days:\r\n\r\n- Sunday, February 28, 2016.\r\n- Monday, February 29, 2016.\r\n- Tuesday, March 1, 2016.\r\n- Wednesday, March  2, 2016.\r\n\r\nDuring this time, Blue Line service will terminate/originate at State Street Station. For westbound service, please exit at State Street and travel at the street-level to Bowdoin. For eastbound service, please travel at the street-level to State Street in order to board the Blue Line. Bowdoin will re-open at the start of service the following day.  \r\n\r\nA single train will operate between State Street outbound and Maverick outbound. Customers desiring service towards State Street will need transfer",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "113155",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1454372611,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Haverhill",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Andover"
+                    }
+                ],
+                "cause": 1,
+                "effect": 8,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Haverhill Line notice",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Haverhill Line notice: The mini-high platform at Andover Station is out of service. A portable lift is available.\r\n\r\nAffected stops:\r\nAndover",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "114030",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455031088,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456212600,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": null,
+                        "route_id": null,
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 1,
+                "effect": 8,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Commuter Rail notice",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Reminder: Monday, February 22, is the final day to provide feedback at mbta.com for proposed Commuter Rail schedule changes.\r\n\r\nPlease visit http://www.mbta.com/about_the_mbta/public_meetings or click the link below and select the appropriate option to provide feedback on the schedule changes. Passengers should provide their feedback using the online Customer Comment form.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "114158",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1458376200,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1458541800,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70261"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70262"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70263"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70264"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70265"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70266"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70267"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70268"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70269"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70270"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70271"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70272"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70273"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70274"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70275"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70276"
+                    }
+                ],
+                "cause": 10,
+                "effect": 4,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Mattapan Trolley shuttle",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Buses replacing Mattapan Trolley from Ashmont to Mattapan Stations in both directions from start to end of service on Saturday, March 19, through Sunday, March 20, due to the Neponset River Greenway Project.\r\n\r\nDue to crews performing necessary work as part of the Neponset River Greenway Project, buses will replace Mattapan Trolley service between Ashmont and Mattapan Stations in both directions from start to end of service beginning Saturday, March 19, 2016, through Sunday, March 20, 2016.\r\n\r\nRegular Mattapan Trolley service will resume at the start of service on Monday, March 21, 2016. All shuttle bus stops are accessible for persons with disabilities. \r\n\r\nShuttling the following stops: \r\nAshmont\r\nCedar Grove\r\nButler\r\nMilton\r\nCentral Ave.\r\nValley Road\r\nCapen Street\r\nMattapan",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "114161",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1458981000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1459060200,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1459067400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1459146600,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1459585800,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1459665000,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1459672200,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1459751400,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1460190600,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1460269800,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1460277000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1460356200,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70061"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70063"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70064"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70065"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70066"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70067"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70068"
+                    }
+                ],
+                "cause": 10,
+                "effect": 4,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Red Line shuttle",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Buses replacing Red Line service between Alewife and Harvard Square Stations on March 26-27 as well as April 2-3, 9-10, and 23-24 from start to end of service.\r\n\r\nDue to the Floating Slab Project, buses will replace Red Line trains between Alewife and Harvard Square Stations in both directions from start to end of service during the following weekends:\r\n\r\n- Saturday, March 26, 2016, through Sunday, March 27, 2016.\r\n- Saturday, April 2, 2016, through Sunday, April 3, 2016. \r\n- Saturday, April 9, 2016, through Sunday, April 10, 2016. \r\n- Saturday, April 23, 2016, through Sunday, April 24, 2016.\r\n\r\nRegular Red Line train service will resume at the start of service on Mondays. All shuttle bus stops are accessible for persons with disabilities. \r\n\r\nShuttling the following stops:\r\nAlewife\r\nDavis\r\nPorter\r\nHarvard",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "114871",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455616922,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Providence",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Providence-CR-Weekday-Providence-Dec13-800",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Hyde Park"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Providence",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Providence-CR-Weekday-Providence-Dec13-802",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Hyde Park"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Providence",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Providence-CR-Weekday-Providence-Dec13-812",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Hyde Park"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Providence",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Providence-CR-Weekday-Providence-Dec13-814",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Hyde Park"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Providence",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Providence-CR-Weekday-Providence-Dec13-816",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Hyde Park"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Providence",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Providence-CR-Weekday-Providence-Dec13-906",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Hyde Park"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Providence",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Providence-CR-Weekday-Providence-Dec13-912",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Hyde Park"
+                    }
+                ],
+                "cause": 1,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Providence/Stoughton Line track change",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Providence Line the following morning trains will  board on the outbound side platform at Hyde Park: 800 (6:01am), 802 (6:21am), 906 (8:13am), 812 (9:13am), 814 (10:38am), 912(11:02am), 816 (12:08pm).\r\n\r\nAffected stops:\nHyde Park\n\nAffected trips:\n802 (4:50 am from Wickford Junction)\n800 (5:07 am from Providence)\n812 (7:42 am from Wickford Junction)\n906 (7:48 am from Stoughton)\n814 (9:10 am from Wickford Junction)\n912 (10:40 am from Stoughton)\n816 (11:15 am from Providence)",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115081",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456565400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456731000,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Fitchburg",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Ayer"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Fitchburg",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Fitchburg"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Fitchburg",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Littleton / Rte 495"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Fitchburg",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "North Leominster"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Fitchburg",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Shirley"
+                    }
+                ],
+                "cause": 10,
+                "effect": 4,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Fitchburg Line shuttle",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "All Fitchburg Line trains will be suspended between Fitchburg and Littleton/Route 495 on Saturday, February 27, and Sunday, February 28, with shuttle buses provided.\r\n\r\nDue to ongoing signal construction activity in Shirley, service will be suspended and replaced with alternate shuttle bus service between Fitchburg and Littleton/Route 495 Stations in both directions on the following dates:\r\n\r\n- Saturday, February 27, 2016\r\n- Sunday, February 28, 2016\r\n\r\nOutbound Fitchburg Line service will terminate at Littleton/Route 495 Station where passengers can connect with shuttle buses to Ayer, Shirley, North Leominster, and Fitchburg Stations. Passengers desiring Inbound Fitchburg Line service from Fitchburg, North Leominster, Shirley, or Ayer Stations must board shuttle buses to Littleton/Route 495 for inbound Commuter Rail connections. There will be no ski train connection to/from Wachusett Mountain. Passengers should allow additional travel time, anticipating delays of approximately twenty",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115090",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456133400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1472711400,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70105"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Kingston",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Braintree"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Middleborough",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Braintree"
+                    }
+                ],
+                "cause": 10,
+                "effect": 8,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Change at Braintree",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Braintree Garage construction beginning Monday, February 22, 2016, through August 2016, causing diminished parking availability.\r\n\r\nBraintree Garage construction will occur in phases with one or multiple aspects of the garage affected depending on the phase. \r\n \r\nParking Availability: \r\nBraintree Garage reaches capacity daily at approximately 7:30 a.m. Customers are advised to proceed to Quincy Adams or North Quincy for increased chances of locating available parking spaces Monday through Friday.\r\n \r\nPick Up/Drop Off Traffic Pattern:\r\nCustomers are advised to follow construction detour signs in order to access the current passenger pick up/drop off area. Customers can access the Garage and the pick up/drop off area from Union Street on the ramp from the Route 3 rotary.\r\n \r\nPremium Parking Spaces:\r\nAll premium parkers must use the Union Street entrance on the ramp from the Route 3 rotary and follow construction signs to maneuver into premium spaces.\r\n \r\nAccessibility:\r\nDuring this phase",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115522",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455880715,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1455953400,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Fairmount",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Franklin",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Greenbush",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Kingston",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Middleborough",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Needham",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Providence",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 1,
+                "effect": 8,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Commuter Rail notice",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Fram/Worc, Needham, Franklin, Fairmount, Prov/Sto, Middleboro/Lakeville, Kingston/Plymouth, Greenbush Lines: The Amtrak signal issue has been resolved and all trains will operate on a regular schedule into and out of South Station.\r\n\r\nAffected routes:\nFramingham/Worcester Line\nNeedham Line\nFranklin Line\nFairmount Line\nProvidence/Stoughton Line\nMiddleborough/Lakeville Line\nKingston/Plymouth Line\nGreenbush Line",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115577",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455900124,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1455926232,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "57",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 2,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Minor Route 57 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 57 experiencing minor delays due to traffic.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115578",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455900989,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1455926232,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "236",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 2,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Minor Route 236 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 236 experiencing minor delays due to traffic.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115579",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455902543,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1455926232,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "7",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 1,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Moderate Route 7 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 7 experiencing moderate delays.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115580",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455902993,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1455926232,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "708",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 2,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Minor CT3 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "CT3 experiencing minor delays due to traffic.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115583",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455906998,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1455926232,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "749",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 2,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Minor Silver Line - SL5 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Silver Line - SL5 experiencing minor delays due to traffic.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115586",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455907145,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1455914160,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-517",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Framingham"
+                    }
+                ],
+                "cause": 1,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Framingham/Worcester Line track change",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Please board Worcester Train 517 (1:05 pm outbound) on the inbound side platform at Framingham Station today.\r\n\r\nAffected direction: Outbound\n\nAffected stops:\nFramingham",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115588",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455907856,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1455916680,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-519",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": null
+                    }
+                ],
+                "cause": 1,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Framingham/Worcester Line delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Correction: Worcester Train 519 (1:35 pm outbound) has departed Yawkey Station and is operating near schedule.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115589",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455908814,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1455926232,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "29",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 2,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Minor Route 29 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 29 experiencing minor delays due to traffic.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115590",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455908946,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1455926232,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "112",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 2,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Moderate Route 112 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 112 experiencing moderate delays due to traffic.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115592",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455910078,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1455928200,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-520",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Natick Center"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-520",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Farms"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-520",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Hills"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-520",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Square"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-520",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "West Natick"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-522",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Natick Center"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-522",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Farms"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-522",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Hills"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-522",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Square"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-522",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "West Natick"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-524",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Natick Center"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-524",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Farms"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-524",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Hills"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-524",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Square"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-524",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "West Natick"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-526",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Natick Center"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-526",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Farms"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-526",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Hills"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-526",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Square"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-526",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "West Natick"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-528",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Natick Center"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-528",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Farms"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-528",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Hills"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-528",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Square"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-528",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "West Natick"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-530",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Natick Center"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-530",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Farms"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-530",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Hills"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-530",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Square"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-530",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "West Natick"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-532",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Natick Center"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-532",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Farms"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-532",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Hills"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-532",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Square"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-532",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "West Natick"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-534",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Natick Center"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-534",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Farms"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-534",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Hills"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-534",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Square"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-534",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "West Natick"
+                    }
+                ],
+                "cause": 1,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Framingham/Worcester Line track change",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Please board inbound Worcester Line trains on the outbound platforms at West Natick through Wellesley Farms stations today until 7:30 pm.\r\n\r\nAffected stops:\r\nNatick Center\r\nWellesley Farms\r\nWellesley Hills\r\nWellesley Square\r\nWest Natick\r\n\r\nAffected trips:\r\n522 (1:50 pm from Worcester)\r\n524 (3:00 pm from Worcester)\r\n526 (3:55 pm from Worcester)\r\n528 (4:40 pm from Worcester)\r\n532 (5:50 pm from Worcester)\r\n530 (6:15 pm from Framingham)\r\n534 (6:45 pm from Framingham)",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115593",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455910139,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1455928200,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-521",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Framingham"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-521",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Natick Center"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-521",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Farms"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-521",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Hills"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-521",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Square"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-521",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "West Natick"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-523",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Framingham"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-523",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Natick Center"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-523",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Farms"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-523",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Hills"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-523",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Square"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-523",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "West Natick"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-525",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Framingham"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-525",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Natick Center"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-525",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Farms"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-525",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Hills"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-525",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Square"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-525",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "West Natick"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-527",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Framingham"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-527",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Natick Center"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-527",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Farms"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-527",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Hills"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-527",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Square"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-527",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "West Natick"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-529",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Framingham"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-529",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Natick Center"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-529",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Farms"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-529",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Hills"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-529",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Square"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-529",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "West Natick"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-533",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Framingham"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-533",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Natick Center"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-533",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Farms"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-533",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Hills"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-533",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Square"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-533",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "West Natick"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-535",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Framingham"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-535",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Natick Center"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-535",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Farms"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-535",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Hills"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-535",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Wellesley Square"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-535",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "West Natick"
+                    }
+                ],
+                "cause": 1,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Framingham/Worcester Line track change",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Please board outbound Worcester line trains on the inbound platforms at Wellesley Farms through Framingham stations until 7:30 pm.\r\n\r\nAffected direction: Outbound\n\nAffected stops:\nFramingham\nNatick Center\nWellesley Farms\nWellesley Hills\nWellesley Square\nWest Natick\n\nAffected trips:\n521 (2:55 pm from South Station)\n523 (4:05 pm from South Station)\n525 (4:25 pm from South Station)\n527 (5:00 pm from South Station)\n529 (5:15 pm from South Station)\n533 (6:05 pm from South Station)\n535 (6:40 pm from South Station)",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115594",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455910921,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1455926232,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "701",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 6,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Moderate CT1 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "CT1 experiencing moderate delays due to accident.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115596",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455911578,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1455926232,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "24",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "2427",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 6,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Moderate Route 24 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 24 experiencing moderate delays due to accident.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115597",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455911820,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1455926232,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "19",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 1,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Moderate Route 19 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 19 experiencing moderate delays.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115598",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455911829,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1455926232,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "22",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 1,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Minor Route 22 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 22 experiencing minor delays.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

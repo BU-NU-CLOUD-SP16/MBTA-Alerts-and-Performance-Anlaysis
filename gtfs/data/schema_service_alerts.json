@@ -1,0 +1,39 @@
+{
+    "id": "116141",
+    "alert": {
+        "active_period": [
+            {
+                "start": {
+                    "low": 1456354753,
+                },
+                "end": {
+                    "low": 1456378972,
+                }
+            }
+        ],
+        "informed_entity": [
+            {
+                "agency_id": "1",
+                "route_id": "Red",
+                "route_type": 1,
+                "stop_id": null
+            }
+        ],
+        "cause": 3,
+        "effect": 7,
+        "header_text": {
+            "translation": [
+                {
+                    "text": "Moderate Red Line delay",
+                }
+            ]
+        },
+        "description_text": {
+            "translation": [
+                {
+                    "text": "Red Line experiencing moderate delays due to a signal problem at Alewife.",
+                }
+            ]
+        }
+    }
+},

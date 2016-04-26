@@ -1,0 +1,3532 @@
+{
+    "data": [
+        {
+            "id": "78216",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1432629000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5602"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5603"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5605"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5609"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5615"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "56170"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5618"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5619"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5620"
+                    }
+                ],
+                "cause": 10,
+                "effect": 4,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Route 111 detour",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 111 detoured beginning at the start of service on Saturday, May 26, and continuing until further notice due to construction on Washington Avenue between Bellingham Square and Carey Avenue.\r\n\r\nOutbound: Connect at Hawthorne St @ Broadway or Washington Ave @ Cary Ave.\r\nInbound: Connect at Washington Ave @ Bloomingdale St or Washington Ave @ Broadway.\r\n\r\nBypassed stops:\r\nCity Hall @ Broadway (outbound)\r\nWashington Ave @ Crescent Ave (outbound)\r\n125 Washington Ave opp Orange St (outbound)\r\nWashington Ave @ Heard St (inbound)\r\nWashington Ave @ Chestnut St (inbound)",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "88088",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1439195400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "Orange",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70020"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Orange",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70021"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70077"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70078"
+                    }
+                ],
+                "cause": 10,
+                "effect": 8,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Change at Downtown Crossing",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Downtown Crossing: The Franklin St entrance will remain closed until Summer 2016 to accommodate ongoing construction for the Millennium Tower Project.\r\n\r\nCustomers desiring to enter and exit at Downtown Crossing should instead utilize entrances and exits on Summer, Chauncy, and Arch Streets. \r\n\r\nCustomers desiring elevator access should note that Elevator 891 will be closed during this construction. If exiting, travel down the concourse to use the elevator through the glass doors and to the left of the CharlieCard Store. This elevator will take you to the lobby of 101 Arch Street. If boarding, travel to 101 Arch Street. Take the elevator in the back left corner of the lobby to the concourse. Take a right to find the Oak Grove-bound platform ahead. Customers can also enter and exit the station using the Roche Bros. elevator on Summer St. (during store hours only).\r\n\r\nAffected routes:\r\nOrange Line\r\nRed Line (Ashmont branch)\r\nRed Line (Braintree branch)",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "88365",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1439195400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": null,
+                        "route_type": null,
+                        "trip": null,
+                        "stop_id": "70021"
+                    }
+                ],
+                "cause": 10,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "elevator unavailable",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Elevator 891 DOWNTOWN CROSSING - Oak Grove-bound platform to Franklin and Washington Streets is unavailable Monday, August 10, until Summer 2016 to accommodate ongoing construction for the Millennium Tower Project.\r\n\r\nIf exiting, travel down the concourse to use the elevator through the glass doors and to the left of the CharlieCard Store. This elevator will take you to the lobby of 101 Arch Street. If boarding, travel to 101 Arch Street. Take the elevator in the back left corner of the lobby to the concourse. Take a right to find the Oak Grove-bound platform ahead.\r\n\r\nCustomers can also enter and exit the station using the Roche Bros. elevator on Summer St. (during store hours only).",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "93383",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1444033800,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": null,
+                        "route_type": null,
+                        "trip": null,
+                        "stop_id": "74612"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": null,
+                        "route_type": null,
+                        "trip": null,
+                        "stop_id": "74616"
+                    }
+                ],
+                "cause": 10,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "elevator unavailable",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Elevator 939 COURTHOUSE - Lobby to the south headhouse on Seaport Blvd is unavailable beginning Monday, October 5, until Fall 2016 due to the Yotel Hotel Development.\r\n\r\nPlease use Courthouse Elevator 940 to exit/enter Courthouse. This elevator is located on the opposite side of the lobby. At the street, cross Seaport Boulevard to use Courthouse Elevator 940.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "93384",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1444033800,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "741",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "742",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "746",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 10,
+                "effect": 8,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Silver Line - SL1 and Silver Line - SL2 notice",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Beginning at the start of service on Monday, October 5, Courthouse Station's south entrance/exit will be closed until Fall 2016 due to the Yotel Hotel Development.\r\n\r\nDue to the construction of the Yotel Hotel Development, the south entrance/exit at Courthouse Station will be closed from Monday, October 5, 2015, until Fall 2016. To exit/enter the station, please use the north entrance across the street. \r\n\r\nAlso please note that Courthouse Elevator 939 will be unavailable during this time. Customers desiring elevator access should use Courthouse Elevator 940 to exit/enter Courthouse. This elevator is located on the opposite side of the lobby. At the street, cross Seaport Boulevard to use Courthouse Elevator 940.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "103918",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1447925400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "11",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "251"
+                    }
+                ],
+                "cause": 10,
+                "effect": 1,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "B St @ W 6th St closed",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "The following stops are closed temporarily beginning Thursday, November 19 due to construction: B Street @ West 6th Street (outbound). Please board at B Street @ West 5th Street.\r\n\r\nAffected routes:\r\n11",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "104562",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1448276400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "230",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "236",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 10,
+                "effect": 8,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Routes 230 and 236 notice",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Bus Routes 230 and 236 will pick up at berth 7 in the outer busway at Braintree Station from 6:00 AM to 2:30 PM beginning Mon Nov 23 due to construction.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "105024",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1451727000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Orange",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 10,
+                "effect": 8,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Green Line and Orange Line notice",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Green Line and Orange Line Notice: Beginning Saturday, January 2, 2016, North Station's north entrance/exit will be permanently closed.\r\n\r\nDue to construction of the Boston Garden Development, the Orange and Green Line's north entrance/exit at North Station will be closed permanently starting Saturday, January 2, 2016. A new underground passageway will be constructed in order to provide customers with a direct connection between the Green Line, Orange Line, and Commuter Rail. The new passageway will open in approximately three years.\r\n\r\nTo exit and enter North Station, please use the entrance/exit across Causeway Street. \r\n \r\nDuring this time, North Station Elevator 941 will be closed. If exiting, return to the fare lobby to use North Station Elevator 912 (lobby to Causeway Street) or pass through the fare gates, walk the full length of the Green Line platform to use North Station Elevator 909 (lobby to Valenti Way). If boarding, cross Causeway Street to use North Station Elevator 912",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "105025",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1451727000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": null,
+                        "route_type": null,
+                        "trip": null,
+                        "stop_id": "70026"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": null,
+                        "route_type": null,
+                        "trip": null,
+                        "stop_id": "70027"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": null,
+                        "route_type": null,
+                        "trip": null,
+                        "stop_id": "70205"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": null,
+                        "route_type": null,
+                        "trip": null,
+                        "stop_id": "70206"
+                    }
+                ],
+                "cause": 10,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "elevator unavailable",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Elevator 941 NORTH STATION - Lobby to the Commuter Rail and Boston Garden will be closed beginning Saturday, January 2, 2016, until further notice due to construction of the Boston Garden Development.\r\n\r\nIf exiting, return to the fare lobby to use North Station Elevator 912 (lobby to Causeway Street) or pass through the fare gates, walk the full length of the Green Line platform to use North Station Elevator 909 (lobby to Valenti Way). If boarding, cross Causeway Street to use North Station Elevator 912 (lobby to street) or travel one-tenth of a mile down Haverhill Street to the entrance located at the intersection of Haverhill Street and Valenti Way.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "105780",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1449221400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "350",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "18245"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "351",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "18245"
+                    }
+                ],
+                "cause": 1,
+                "effect": 9,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Burlington Mall Rd @ NE Executive Pk moved",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Burlington Mall Road @ NE Executive Park permanently moving beginning Friday, December 4 from the far side of New England Executive Park to the near side in front of Tavern in The Square.\r\n\r\nAffected routes:\r\n350\r\n351",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "107214",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1449938982,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "64",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11070"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "64",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11071"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "64",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11971"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "64",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11972"
+                    }
+                ],
+                "cause": 10,
+                "effect": 4,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Route 64 detour",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 64 detoured due to construction. Connections can be made at North Beacon Street @ Saunders Street or North Beacon Street @ Life Street.\r\n\r\nAffected stops:\r\nArthur Street @ Guest Street - Stop & Shop (outbound)\r\nGuest Street @ Life Street (outbound)\r\nLife Street @ Guest Street (inbound)\r\nArthur Street @ Guest Street - Stop & Shop (inbound)",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "107383",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456403400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456426800,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456489800,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456513200,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456749000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456772400,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456835400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456858800,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456921800,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456945200,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1457008200,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1457031600,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1457094600,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1457118000,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1457353800,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1457377200,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1457440200,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1457463600,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1457526600,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1457550000,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "64",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "70",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "70A",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 10,
+                "effect": 4,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Bus detour",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Routes 64, 70 and 70A detoured from 7:30 AM to 2:00 PM on Monday, due to construction. Connections can be made at Magazine Street @ Green Street.\r\n\r\nAffected direction: Outbound\r\n\r\nAffected stops:\r\nGreen Street @ Pearl Street",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "109500",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1451496484,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "429",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "67203"
+                    }
+                ],
+                "cause": 8,
+                "effect": 1,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Saugus Walmart closed",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "The Route 429 (inbound) bus stop at Saugus Wal-Mart has been closed temporarily. Inbound trips will bypass service to Wal-Mart, until further notice.\r\n\r\nAffected routes:\n429",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "110949",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1452637827,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "742",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "30251"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "746",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "30251"
+                    }
+                ],
+                "cause": 10,
+                "effect": 9,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "25 Dry Dock Ave moved",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "25 Dry Dock Avenue moving temporarily to the Black Falcon Corner stop (21 and 27 Dry Dock Avenue) due to construction.\r\n\r\nAffected routes:\nSilver Line - SL2",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "111569",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456369200,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456385400,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456455600,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456471800,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70196"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70197"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70198"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70199"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70200"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70203"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70204"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70196"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70197"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70198"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70199"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70200"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70203"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70204"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70196"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70197"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70198"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70199"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70200"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70203"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70204"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70196"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70197"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70198"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70199"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70200"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70203"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70204"
+                    }
+                ],
+                "cause": 10,
+                "effect": 1,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Suspension of service on Green Line",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Green Line suspended in both directions between Park and Haymarket beginning at approx 11 p.m. on Feb 24 and approx 10:00 p.m. on Feb 25. Trains will not operate between Park and Haymarket.\r\n\r\nDue to the Government Center Project, Green Line service will be suspended between Park and Haymarket in both directions beginning at approximately 10:00 p.m. through the end of service on the following days:\r\n\r\n- Wednesday, February 24, 2016 (after the conclusion of the Celtics game, approx 11 p.m.).\r\n- Thursday, February 25, 2016 (after the conclusion of the Celtics game, approx 10 p.m.).\r\n\r\nInbound (eastbound) trains will terminate at Park and outbound (westbound) trains will terminate at Haymarket. \r\n\r\nFor customers desiring westbound Green Line service beyond Haymarket, transfer to Forest Hills-bound Orange Line service at either North Station or Haymarket. Exit at Downtown Crossing and use the Winter Street Concourse to Park for access to the Green Line.\r\n\r\nFor customers desiring eastbound",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "112686",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1453994761,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "32",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11131"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "3233",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11131"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "35",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11131"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "3738",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11131"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "38",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11131"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "39",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11131"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "41",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "11131"
+                    }
+                ],
+                "cause": 10,
+                "effect": 9,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Centre St @ Roseway moved",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Routes 32, 35, 38, 39, & 41: Centre Street @ Roseway moved to 462 Centre Street due to construction.\r\n\r\nAffected routes:\r\n32\r\n35\r\n38\r\n39\r\n41",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "112824",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1454319000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "501",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "981"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "503",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "981"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "57",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "981"
+                    }
+                ],
+                "cause": 10,
+                "effect": 9,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Tremont St opp Tremont Pl moved",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Routes 57, 501, and 503: Beginning Monday, February 1, Tremont Street opposite Tremont Place will temporarily move ~100 feet east of its current location (toward Oak Square) due to construction.\r\n\r\nAffected routes:\n57\n501\n503",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "113084",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456711200,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456731000,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456797600,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456817400,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456884000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456903800,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456970400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456990200,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "Blue",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70038"
+                    }
+                ],
+                "cause": 10,
+                "effect": 1,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Bowdoin closed",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Bowdoin will be closed beginning at approximately 8:45 p.m. through the end of service on Feb 28-Mar 2. Please board and exit the Blue Line at State Street during the closure.\r\n\r\nDue to crews performing necessary work as part of Government Center Project, Bowdoin Station will be closed beginning at approximately 8:45 p.m. through the end of service on the following days:\r\n\r\n- Sunday, February 28, 2016.\r\n- Monday, February 29, 2016.\r\n- Tuesday, March 1, 2016.\r\n- Wednesday, March  2, 2016.\r\n\r\nDuring this time, Blue Line service will terminate/originate at State Street Station. For westbound service, please exit at State Street and travel at the street-level to Bowdoin. For eastbound service, please travel at the street-level to State Street in order to board the Blue Line. Bowdoin will re-open at the start of service the following day.  \r\n\r\nA single train will operate between State Street outbound and Maverick outbound. Customers desiring service towards State Street will need transfer",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "113155",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1454372611,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Haverhill",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Andover"
+                    }
+                ],
+                "cause": 1,
+                "effect": 8,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Haverhill Line notice",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Haverhill Line notice: The mini-high platform at Andover Station is out of service. A portable lift is available.\r\n\r\nAffected stops:\r\nAndover",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "114158",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1458376200,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1458541800,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70261"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70262"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70263"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70264"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70265"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70266"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70267"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70268"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70269"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70270"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70271"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70272"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70273"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70274"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70275"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Mattapan",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70276"
+                    }
+                ],
+                "cause": 10,
+                "effect": 4,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Mattapan Trolley shuttle",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Buses replacing Mattapan Trolley from Ashmont to Mattapan Stations in both directions from start to end of service on Saturday, March 19, through Sunday, March 20, due to the Neponset River Greenway Project.\r\n\r\nDue to crews performing necessary work as part of the Neponset River Greenway Project, buses will replace Mattapan Trolley service between Ashmont and Mattapan Stations in both directions from start to end of service beginning Saturday, March 19, 2016, through Sunday, March 20, 2016.\r\n\r\nRegular Mattapan Trolley service will resume at the start of service on Monday, March 21, 2016. All shuttle bus stops are accessible for persons with disabilities. \r\n\r\nShuttling the following stops: \r\nAshmont\r\nCedar Grove\r\nButler\r\nMilton\r\nCentral Ave.\r\nValley Road\r\nCapen Street\r\nMattapan",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "114161",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1458981000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1459060200,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1459067400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1459146600,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1459585800,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1459665000,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1459672200,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1459751400,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1460190600,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1460269800,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1460277000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1460356200,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70061"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70063"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70064"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70065"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70066"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70067"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70068"
+                    }
+                ],
+                "cause": 10,
+                "effect": 4,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Red Line shuttle",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Buses replacing Red Line service between Alewife and Harvard Square Stations on March 26-27 as well as April 2-3, 9-10, and 23-24 from start to end of service.\r\n\r\nDue to the Floating Slab Project, buses will replace Red Line trains between Alewife and Harvard Square Stations in both directions from start to end of service during the following weekends:\r\n\r\n- Saturday, March 26, 2016, through Sunday, March 27, 2016.\r\n- Saturday, April 2, 2016, through Sunday, April 3, 2016. \r\n- Saturday, April 9, 2016, through Sunday, April 10, 2016. \r\n- Saturday, April 23, 2016, through Sunday, April 24, 2016.\r\n\r\nRegular Red Line train service will resume at the start of service on Mondays. All shuttle bus stops are accessible for persons with disabilities. \r\n\r\nShuttling the following stops:\r\nAlewife\r\nDavis\r\nPorter\r\nHarvard",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "114871",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1455616922,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": null
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Providence",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Providence-CR-Weekday-Providence-Dec13-800",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Hyde Park"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Providence",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Providence-CR-Weekday-Providence-Dec13-802",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Hyde Park"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Providence",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Providence-CR-Weekday-Providence-Dec13-812",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Hyde Park"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Providence",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Providence-CR-Weekday-Providence-Dec13-814",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Hyde Park"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Providence",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Providence-CR-Weekday-Providence-Dec13-816",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Hyde Park"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Providence",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Providence-CR-Weekday-Providence-Dec13-906",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Hyde Park"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Providence",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Providence-CR-Weekday-Providence-Dec13-912",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": "Hyde Park"
+                    }
+                ],
+                "cause": 1,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Providence/Stoughton Line track change",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Providence Line - The following weekday morning trains will board on the outbound side platform at Hyde Park: 800 (6:01am), 802 (6:21am), 906 (8:13am), 812 (9:13am), 814 (10:38am), 912 (11:02am), and 816 (12:08pm).\r\n\r\nAffected stops:\nHyde Park\n\nAffected trips:\n802 (4:50 am from Wickford Junction)\n800 (5:07 am from Providence)\n812 (7:42 am from Wickford Junction)\n906 (7:48 am from Stoughton)\n814 (9:10 am from Wickford Junction)\n912 (10:40 am from Stoughton)\n816 (11:15 am from Providence)",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "114932",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1457170200,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1457335800,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70196"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70197"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70198"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70199"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70200"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70203"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-B",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70204"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70196"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70197"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70198"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70199"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70200"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70203"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-C",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70204"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70196"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70197"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70198"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70199"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70200"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70203"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-D",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70204"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70196"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70197"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70198"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70199"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70200"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70203"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Green-E",
+                        "route_type": 0,
+                        "trip": null,
+                        "stop_id": "70204"
+                    }
+                ],
+                "cause": 10,
+                "effect": 1,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Suspension of service on Green Line",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Green Line suspended in both directions between Park Street and Haymarket on March 5-6 from start to end of service. Trains will not operate between Park Street and Haymarket.\r\n\r\nDue to MBTA crews performing necessary track and signal work as well as the Government Center Project, Green Line service will be suspended between Park St. and Haymarket in both directions from start to end of service on Saturday, March 5, 2016, through Sunday, March 6, 2016.\r\n\r\nInbound (eastbound) trains will terminate at Park St. and outbound (westbound) trains will terminate at Haymarket. \r\n\r\nFor customers desiring westbound Green Line service beyond Haymarket, transfer to Forest Hills-bound Orange Line service at either North Station or Haymarket. Exit at Downtown Crossing and use the Winter Street Concourse to Park St. for access to the Green Line.\r\n\r\nFor customers desiring eastbound Green Line service beyond Park St., use the Winter Street Concourse at Park St. to Downtown Crossing and board Oak",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115081",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456565400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456731000,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Fitchburg",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Ayer"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Fitchburg",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Fitchburg"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Fitchburg",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Littleton / Rte 495"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Fitchburg",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "North Leominster"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Fitchburg",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Shirley"
+                    }
+                ],
+                "cause": 10,
+                "effect": 4,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Fitchburg Line shuttle",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "All Fitchburg Line trains will be suspended between Fitchburg and Littleton/Route 495 on Saturday, February 27, and Sunday, February 28, with shuttle buses provided.\r\n\r\nDue to ongoing signal construction activity in Shirley, service will be suspended and replaced with alternate shuttle bus service between Fitchburg and Littleton/Route 495 Stations in both directions on the following dates:\r\n\r\n- Saturday, February 27, 2016\r\n- Sunday, February 28, 2016\r\n\r\nOutbound Fitchburg Line service will terminate at Littleton/Route 495 Station where passengers can connect with shuttle buses to Ayer, Shirley, North Leominster, and Fitchburg Stations. Passengers desiring Inbound Fitchburg Line service from Fitchburg, North Leominster, Shirley, or Ayer Stations must board shuttle buses to Littleton/Route 495 for inbound Commuter Rail connections. There will be no ski train connection to/from Wachusett Mountain. Passengers should allow additional travel time, anticipating delays of approximately twenty",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115090",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456133400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1472711400,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70105"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Kingston",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Braintree"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Middleborough",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Braintree"
+                    }
+                ],
+                "cause": 10,
+                "effect": 8,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Change at Braintree",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Braintree Garage construction beginning Monday, February 22, 2016, through August 2016, causing diminished parking availability.\r\n\r\nBraintree Garage construction will occur in phases with one or multiple aspects of the garage affected depending on the phase. \r\n \r\nParking Availability: \r\nBraintree Garage reaches capacity daily at approximately 7:30 a.m. Customers are advised to proceed to Quincy Adams or North Quincy for increased chances of locating available parking spaces Monday through Friday.\r\n \r\nPick Up/Drop Off Traffic Pattern:\r\nCustomers are advised to follow construction detour signs in order to access the current passenger pick up/drop off area. Customers can access the Garage and the pick up/drop off area from Union Street on the ramp from the Route 3 rotary.\r\n \r\nPremium Parking Spaces:\r\nAll premium parkers must use the Union Street entrance on the ramp from the Route 3 rotary and follow construction signs to maneuver into premium spaces.\r\n \r\nAccessibility:\r\nDuring this phase",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "115683",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456565400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456644600,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1456651800,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456731000,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1457170200,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1457249400,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1457256600,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1457335800,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1457775000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1457854200,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1457857800,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1457937000,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1458376200,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1458455400,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1458462600,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1458541800,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1458981000,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1459060200,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    },
+                    {
+                        "start": {
+                            "low": 1459067400,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1459146600,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Providence",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Hyde Park"
+                    }
+                ],
+                "cause": 1,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Providence/Stoughton Line track change",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Please board all inbound trains at Hyde Park Station on the outbound side platform this weekend due to Amtrak signal work.\r\n\r\nAffected direction: Inbound\n\nAffected stops:\nHyde Park",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116064",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1457256600,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1483255800,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "Orange",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70014"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "Orange",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": "70015"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Franklin",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Back Bay"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Needham",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Back Bay"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Providence",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Back Bay"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": null,
+                        "stop_id": "Back Bay"
+                    }
+                ],
+                "cause": 10,
+                "effect": 8,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Change at Back Bay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Due to the Simon Companys Copley Place construction, Back Bay Stations Dartmouth Street underpass will be closed Sunday, March 6, through December 2016.\r\n\r\nDue to Copley Place construction being performed by the Simon Company, the Dartmouth Street underpass  leading to and from the west side of Dartmouth Street at Back Bay Station will be temporarily closed from beginning Sunday, March 6, through December 2016. \r\n\r\nCustomers are encouraged to use the stations main entrance on the east side of Dartmouth Street during the underpasss closure. \r\n\r\nAffected routes:\r\nOrange Line\r\nFramingham/Worcester Line\r\nNeedham Line\r\nFranklin Line\r\nProvidence/Stoughton Line",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116116",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456351543,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456378972,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "354",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 2,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Minor Route 354 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 354 experiencing minor delays due to traffic.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116136",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456354504,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456378972,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "16",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 2,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Minor Route 16 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 16 experiencing minor delays due to traffic.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116141",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456354753,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456378972,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "Red",
+                        "route_type": 1,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 3,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Moderate Red Line delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Red Line experiencing moderate delays due to a signal problem at Alewife.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116146",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456356145,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456378972,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "8993",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "93",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 2,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Minor Route 93 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 93 experiencing minor delays due to traffic.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116150",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456357053,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456378972,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "92",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 2,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Minor Route 92 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 92 experiencing minor delays due to traffic.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116152",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456357819,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456378972,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "30",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 2,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Minor Route 30 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 30 experiencing minor delays due to traffic.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116153",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456357856,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456378972,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "89",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "8993",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 2,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Minor Route 89 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 89 experiencing minor delays due to traffic.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116154",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456357927,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456378972,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "21",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 6,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Severe Route 21 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 21 experiencing severe delays due to an auto accident.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116155",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456357954,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456378972,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "31",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 6,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Severe Route 31 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 31 experiencing severe delays due to an auto accident.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116159",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456359829,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456378972,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "136",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 2,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Minor Route 136 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 136 experiencing minor delays due to traffic.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116160",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456360112,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456378972,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "62",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "627",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 2,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Minor Route 62 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 62 experiencing minor delays due to traffic.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116161",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456360303,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456378972,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "134",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 2,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Minor Route 134 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 134 experiencing minor delays due to traffic.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116162",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456360434,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456378972,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "37",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "3738",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 1,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Severe Route 37 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 37 experiencing severe delays.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116165",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456361761,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456378972,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "106",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": null
+                    }
+                ],
+                "cause": 3,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Moderate Route 106 delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 106 experiencing moderate delays due to disabled bus.",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116166",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456362120,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456367880,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Needham",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Needham-CR-Weekday-Needham-Apr15-628",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": null
+                    }
+                ],
+                "cause": 1,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Needham Line delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Needham Train 628 (8:02 pm inbound) has departed Needham Heights and is operating 30-35 min late en route to S. Station due to an earlier mechanical issue.\r\n\r\nAffected direction: Inbound",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116167",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456362787,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456378972,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5611"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5612"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5613"
+                    },
+                    {
+                        "agency_id": "1",
+                        "route_id": "111",
+                        "route_type": 3,
+                        "trip": null,
+                        "stop_id": "5614"
+                    }
+                ],
+                "cause": 10,
+                "effect": 4,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Route 111 detour",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Route 111 Outbound detoured around Park Street, Chelsea due to construction. Connect on Beacon Street or on Hawthorne St.\r\n\r\nAffected direction: Outbound\r\n\r\nBypassed stops:\r\nPark St @ Williams St\r\nPark St @ Cross St\r\n\r\nConnections can be made at:\r\nBeacon St @ Broadway\r\nPark St @ Hawthorne St",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116168",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456363800,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456372620,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-538",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": null
+                    }
+                ],
+                "cause": 1,
+                "effect": 7,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Framingham/Worcester Line delay",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Worcester Train 538 (8:30 pm inbound) is expected to depart Worcester 10-20 minutes late due to a disabled Amtrak train at Worcester Station.\r\n\r\nAffected direction: Inbound",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "116169",
+            "is_deleted": false,
+            "trip_update": null,
+            "vehicle": null,
+            "alert": {
+                "active_period": [
+                    {
+                        "start": {
+                            "low": 1456363103,
+                            "high": 0,
+                            "unsigned": true
+                        },
+                        "end": {
+                            "low": 1456369440,
+                            "high": 0,
+                            "unsigned": true
+                        }
+                    }
+                ],
+                "informed_entity": [
+                    {
+                        "agency_id": "1",
+                        "route_id": "CR-Worcester",
+                        "route_type": 2,
+                        "trip": {
+                            "trip_id": "CR-Worcester-CR-Weekday-Worcester-Dec15-536",
+                            "route_id": null,
+                            "direction_id": null,
+                            "start_time": null,
+                            "start_date": null,
+                            "schedule_relationship": null
+                        },
+                        "stop_id": null
+                    }
+                ],
+                "cause": 1,
+                "effect": 8,
+                "url": null,
+                "header_text": {
+                    "translation": [
+                        {
+                            "text": "Framingham/Worcester Line notice",
+                            "language": "en"
+                        }
+                    ]
+                },
+                "description_text": {
+                    "translation": [
+                        {
+                            "text": "Worcester Line notice: Train 536 will originate from Grafton Station & is expected to depart Grafton 35-45 min behind schedule due to a disabled Amtrak train in Worcester.\r\n\r\nAffected direction: Inbound\r\n\r\nAffected trips:\r\n536 (7:50 pm from Worcester)",
+                            "language": "en"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

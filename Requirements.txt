@@ -1,9 +1,0 @@
-Visualize certain stations
-
-Audience will be the customer information officers (they are responsible for giving out the alerts)
-
-It will be useful for them to see if the service is degrating
-
-Color contrast for color blind
-
-Add mobile optimization

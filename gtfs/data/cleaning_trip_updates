@@ -1,0 +1,157 @@
+{
+            "id": "1455912382_29429728",
+            "trip_update": {
+                "trip": {
+                    "trip_id": "29429728",
+                    "route_id": "Blue",
+                    "direction_id": 0,
+                    "start_date": "20160219",
+                },
+                "vehicle": {
+                    "id": "0714",
+                },
+                "stop_time_update": [
+                    {
+                        "stop_sequence": 50,
+                        "stop_id": "70049",
+                        "arrival": {
+                            "delay": null,
+                            "time": {
+                                "low": 1455912443,
+                                "high": 0,
+                                "unsigned": false
+                            },
+                            "uncertainty": null
+                        },
+                        "departure": {
+                            "delay": null,
+                            "time": {
+                                "low": 1455912443,
+                                "high": 0,
+                                "unsigned": false
+                            },
+                            "uncertainty": null
+                        },
+                        "schedule_relationship": 0
+                    },
+                    {
+                        "stop_sequence": 60,
+                        "stop_id": "70047",
+                        "arrival": {
+                            "delay": null,
+                            "time": {
+                                "low": 1455912536,
+                                "high": 0,
+                                "unsigned": false
+                            },
+                            "uncertainty": null
+                        },
+                        "departure": {
+                            "delay": null,
+                            "time": {
+                                "low": 1455912536,
+                                "high": 0,
+                                "unsigned": false
+                            },
+                            "uncertainty": null
+                        },
+                        "schedule_relationship": 0
+                    },
+                    {
+                        "stop_sequence": 70,
+                        "stop_id": "70045",
+                        "arrival": {
+                            "delay": null,
+                            "time": {
+                                "low": 1455912672,
+                                "high": 0,
+                                "unsigned": false
+                            },
+                            "uncertainty": null
+                        },
+                        "departure": {
+                            "delay": null,
+                            "time": {
+                                "low": 1455912672,
+                                "high": 0,
+                                "unsigned": false
+                            },
+                            "uncertainty": null
+                        },
+                        "schedule_relationship": 0
+                    },
+                    {
+                        "stop_sequence": 80,
+                        "stop_id": "70043",
+                        "arrival": {
+                            "delay": null,
+                            "time": {
+                                "low": 1455912818,
+                                "high": 0,
+                                "unsigned": false
+                            },
+                            "uncertainty": null
+                        },
+                        "departure": {
+                            "delay": null,
+                            "time": {
+                                "low": 1455912818,
+                                "high": 0,
+                                "unsigned": false
+                            },
+                            "uncertainty": null
+                        },
+                        "schedule_relationship": 0
+                    },
+                    {
+                        "stop_sequence": 90,
+                        "stop_id": "70041",
+                        "arrival": {
+                            "delay": null,
+                            "time": {
+                                "low": 1455912908,
+                                "high": 0,
+                                "unsigned": false
+                            },
+                            "uncertainty": null
+                        },
+                        "departure": {
+                            "delay": null,
+                            "time": {
+                                "low": 1455912908,
+                                "high": 0,
+                                "unsigned": false
+                            },
+                            "uncertainty": null
+                        },
+                        "schedule_relationship": 0
+                    },
+                    {
+                        "stop_sequence": 110,
+                        "stop_id": "70038",
+                        "arrival": {
+                            "delay": null,
+                            "time": {
+                                "low": 1455913069,
+                                "high": 0,
+                                "unsigned": false
+                            },
+                            "uncertainty": null
+                        },
+                        "departure": {
+                            "delay": null,
+                            "time": {
+                                "low": 1455913069,
+                                "high": 0,
+                            },
+                            "uncertainty": null
+                        },
+                        "schedule_relationship": 0
+                    }
+                ],
+                "timestamp": {
+                    "low": 1455912368,
+                    "high": 0,
+                },
+            },
+        },
