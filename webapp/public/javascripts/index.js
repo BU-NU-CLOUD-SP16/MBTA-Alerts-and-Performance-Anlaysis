@@ -24,7 +24,6 @@ var specs = {
 };
 
 $(document).ready(function() {
-
     var chart;
     var selected_stops;
 
@@ -100,7 +99,15 @@ $(document).ready(function() {
         selected_stops[line_color].forEach(function(stop, it) {
             var node = {};
             node.dir0 = options.data[stop["stops"][0]];
+            if(node.dir0 === undefined) {
+                console.log("DIR0 undefined");
+                console.log(options.data);
+            }
             node.dir1 = options.data[stop["stops"][1]];
+            if(node.dir1 === undefined) {
+                console.log("DIR1 undefined");
+                console.log(options.data);
+            }
             node.coords = stop["cords"];
             node.name = stop["name"];
             // find calculated z_score for each stop
@@ -136,18 +143,21 @@ $(document).ready(function() {
             .style("stroke", "black")
             .attr("x1", function(d) {
                 // return d["coords"][0]*specs.x;
+                // console.log(d["cords"][0]);
+                console.log(d);
                 return 0;
             })
             .attr("y1", function(d) {
-                // return d["coords"][1]*specs.y;
+                // return 0;
+                // console.log(d["cords"][1]);
                 return 0;
             })
             .attr("x2", function(d) {
-                // return d["next"][0]*specs.x;
+                // console.log(d["cords"][0]);
                 return 0;
             })
             .attr("y2", function(d) {
-                // return d["next"][1]*specs.y;
+                // console.log(d["cords"][1]);
                 return 0;
             })
 
@@ -205,11 +215,9 @@ $(document).ready(function() {
             .style("font-size", 10)
             .text(function(d) { return d["name"]; });
     }
-
-    function load_station_details(station) {
+    function load_station_details(station){
         console.log(station);
-        console.log(station.dir0.Latitude);
-        console.log(station.dir0.Longitude);
+    // window.load_station_details = function(station) {
         options.custom = true;
         options.coords.lng = station.dir0.Longitude;
         options.coords.lat = station.dir0.Latitude;
@@ -219,17 +227,17 @@ $(document).ready(function() {
         $(".data-visualization").removeClass("active");
         $(".station-title").html(station.name);
         $(".station-line").html(station.dir0.Line + " line");
-        
+
         if (station.dir1.z_score != null) {
             $(".dir_1_status").html();
             $(".dir_1_headway").html(station.dir1.z_score.toFixed(2));
             $(".dir_1_historical").html();
-            $(".dir_1_benchmark").html();            
+            $(".dir_1_benchmark").html();
         } else {
             $(".dir_1_status").html(noData);
             $(".dir_1_headway").html(noData);
             $(".dir_1_historical").html(noData);
-            $(".dir_1_benchmark").html(noData); 
+            $(".dir_1_benchmark").html(noData);
         }
         if (station.dir0.z_score != null) {
             $(".dir_0_status").html();
@@ -242,8 +250,8 @@ $(document).ready(function() {
             $(".dir_0_historical").html(noData);
             $(".dir_0_benchmark").html(noData);
         }
-
     }
+
     function switch_direction_text(trainLine) {
         switch (trainLine) {
             case 'Red':
@@ -295,17 +303,17 @@ function load_station_details(station) {
     $(".data-visualization").removeClass("active");
     $(".station-title").html(station.name);
     $(".station-line").html(station.dir0.Line + " line");
-    
+
     if (station.dir1.z_score != null) {
         $(".dir_1_status").html();
         $(".dir_1_headway").html(station.dir1.z_score.toFixed(2));
         $(".dir_1_historical").html();
-        $(".dir_1_benchmark").html();            
+        $(".dir_1_benchmark").html();
     } else {
         $(".dir_1_status").html(noData);
         $(".dir_1_headway").html(noData);
         $(".dir_1_historical").html(noData);
-        $(".dir_1_benchmark").html(noData); 
+        $(".dir_1_benchmark").html(noData);
     }
     if (station.dir0.z_score != null) {
         $(".dir_0_status").html();

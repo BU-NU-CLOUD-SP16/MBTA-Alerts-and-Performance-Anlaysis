@@ -29,15 +29,14 @@ function initMap(options) {
             if(parseInt(stop) > 0) {
                 var direction = parseInt(data[stop]["Direction"]);
                 if (direction == options.direction) {
-
                     // use z_score value to determine size of the stop displayed
                     var indicator = parseFloat(data[stop]["z_score"]);
                     if (indicator === NaN) {
-			indicator = 0;
-		    } else {
-		        indicator = Math.abs(indicator);
-		    }
-		    var color = get_alert_color(indicator);
+        		        indicator = 0;
+                    } else {
+                        indicator = Math.abs(indicator);
+                    }
+                    var color = get_alert_color(indicator);
                     var icon = {
                         path: google.maps.SymbolPath.CIRCLE,
                         labelContent: indicator,
@@ -52,23 +51,24 @@ function initMap(options) {
                         position: { lat, lng },
                         map: map,
                         title: data[stop]["StopName"],
+                        data: data[stop]["StopID"],
                         icon: icon
                     });
-                    console.log(stop);
                     marker.addListener('click', function() {
-                        load_station_details(marker.station);
+                        console.log(marker.data);
+                        // console.log(options.data[marker.data]);
+                        load_station_details(options.data[marker.data]);
                     });
                 }
             };
         }
-
     }
     if (options.positions) {
         // load positions from 2/19/16 around 3PM
         load_json('./data/positions.json', function(response) {
             var positions = JSON.parse(response);
             positions.data.forEach(function(item) {
-                var color = get_color(item.route_id);
+                // var color = get_color(item.route_id);
                 var icon = {
                     // path: google.maps.SymbolPath.BACKWARD_OPEN_ARROW, <- trains might be backwards
                     path: google.maps.SymbolPath.FORWARD_OPEN_ARROW,
@@ -93,6 +93,25 @@ function initMap(options) {
                 });
             })
         });
+    }
+    function get_color(line) {
+        switch (line.toLowerCase().slice(0, 3)) {
+            case 'gre':
+                return (options.line == 'Green' ? '#357F4C' : 'rgba(255,255,255,0)');
+                break;
+            case 'red':
+                return (options.line == 'Red' ? '#F03911' : 'rgba(255,255,255,0)');
+                break;
+            case 'blu':
+                return (options.line == 'Blue' ? '#295CAB' : 'rgba(255,255,255,0)');
+                break;
+            case 'ora':
+                return (options.line == 'Orange' ? '#f08f00' : 'rgba(255,255,255,0)');
+                break;
+            default:
+                return 'rgba(255,255,255,0)';
+                break;
+        }
     }
 }
 
@@ -122,26 +141,6 @@ function load_json(path, callback) {
         }
     };
     xobj.send(null);
-}
-
-function get_color(line) {
-    switch (line.toLowerCase().slice(0, 3)) {
-        case 'gre':
-            return (line == 'Green' ? '#357F4C' : 'rgba(255,255,255,0)');
-            break;
-        case 'red':
-            return (line == 'Red' ? '#F03911' : 'rgba(255,255,255,0)');
-            break;
-        case 'blu':
-            return (line == 'Blue' ? '#295CAB' : 'rgba(255,255,255,0)');
-            break;
-        case 'ora':
-            return (line == 'Orange' ? '#f08f00' : 'rgba(255,255,255,0)');
-            break;
-        default:
-            return 'rgba(255,255,255,0)';
-            break;
-    }
 }
 
 function get_alert_color(z_score) {
