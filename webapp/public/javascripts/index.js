@@ -197,22 +197,14 @@ $(document).ready(function() {
             .attr("width", specs.w/4)
             .attr("height", specs.h)
             .attr("fill", function(d) {
-                // } else {
-                //     var color = d3.scaleLinear()
-                //         .domain([0.1, 1.5])
-                //         .range(["green", "red"]);
-                //     return color(d.z_score0);
-                // }
                 if(d.cv_benchmark_0 === null || d.cv_benchmark_0 === false) {
                     return "gray";
-                } else if(d.cv_benchmark_0 < data_params.good) {
-                    return "green";
-                } else if (d.cv_benchmark_0 < data_params.moderate) {
-                    return "yellow";
-                } else if (d.cv_benchmark_0 < data_params.bad) {
-                    return "orange";
                 } else {
-                    return "red";
+                    var color = d3.scale.linear()
+                        .domain([0, data_params.moderate, data_params.bad])
+                        .range(["green", "yellow", "red"]);
+                    console.log(d.cv_benchmark_0);
+                    return color(d.cv_benchmark_0);
                 }
             });
 
@@ -222,22 +214,14 @@ $(document).ready(function() {
             .attr("height", specs.h)
             .attr("x", function() {return (specs.x - specs.w/2)})
             .attr("fill", function(d) {
-                // } else {
-                //     var color = d3.scaleLinear()
-                //         .domain([0.1, 1.5])
-                //         .range(["green", "red"]);
-                //     return color(d.z_score1);
-                // }
                 if(d.cv_benchmark_1 === null || d.cv_benchmark_1 === false) {
                     return "gray";
-                } else if(d.cv_benchmark_1 < data_params.good) {
-                    return "green";
-                } else if (d.cv_benchmark_1 < data_params.moderate) {
-                    return "yellow";
-                } else if (d.cv_benchmark_1 < data_params.bad) {
-                    return "orange";
                 } else {
-                    return "red";
+                    var color = d3.scale.linear()
+                        .domain([0, data_params.moderate, data_params.bad])
+                        .range(["green", "yellow", "red"]);
+                    console.log(d.cv_benchmark_1);
+                    return color(d.cv_benchmark_1);
                 }
             });
 
