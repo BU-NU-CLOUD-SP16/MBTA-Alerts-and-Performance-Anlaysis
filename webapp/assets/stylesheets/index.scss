@@ -17,16 +17,12 @@ body {
 }
 
 .header-bar {
-    height: 50px;
     width: 100%;
-    line-height: 50px;
     font-size: 1.5em;
-}
-
-.wrapper {
-    height: 100%;
+    padding: 8px 0 4px 0 ;
+    margin-bottom: 10px;
     .line-selection-container {
-        padding: 0 0 20px 0;
+        padding: 0 0 8px 0;
         margin: 0 auto;
         text-align: center;
     }
@@ -35,6 +31,18 @@ body {
         margin: 0 auto;
         text-align: center;
     }
+}
+
+.border-bar {
+    color: #ffffff;
+    background-color: #F03911;
+    -webkit-transition: background-color ease-out 1s;
+        -moz-transition: background-color ease-out 1s;
+        -o-transition: background-color ease-out 1s;
+        transition: background-color ease-out 1s;
+}
+
+.wrapper {
     .time-container {
         text-align: center;
     }
@@ -92,5 +100,4 @@ body {
             }
         }
     }
-
 }

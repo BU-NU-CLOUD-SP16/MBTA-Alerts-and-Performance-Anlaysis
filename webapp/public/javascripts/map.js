@@ -30,11 +30,10 @@ function initMap(options) {
                 var direction = parseInt(data[stop]["Direction"]);
                 if (direction === options.direction) {
                     // use z_score value to determine size of the stop displayed
-                    var indicator = parseFloat(data[stop][["z_score"]]);
+                    console.log(Math.pow(2.71828,data[stop][options.data_mode]));
+                    var indicator = parseFloat(Math.pow(2.71828,data[stop][options.data_mode]));
                     if (indicator === NaN) {
         		        indicator = 0;
-                    } else {
-                        indicator = Math.abs(indicator);
                     }
                     var color = get_alert_color(indicator);
                     var icon = {
@@ -65,34 +64,34 @@ function initMap(options) {
     }
     if (options.positions) {
         // load positions from 2/19/16 around 3PM
-        // load_json('./data/positions.json', function(response) {
-        //     var positions = JSON.parse(response);
-        //     positions.data.forEach(function(item) {
-        //         // var color = get_color(item.route_id);
-        //         var icon = {
-        //             // path: google.maps.SymbolPath.BACKWARD_OPEN_ARROW, <- trains might be backwards
-        //             path: google.maps.SymbolPath.FORWARD_OPEN_ARROW,
-        //             scale: 3,
-        //             strokeColor: color,
-        //             rotation: item.position.bearing
-        //         };
-        //         var lat = item.position.latitude;
-        //         var lng = item.position.longitude;
-        //         var contentString = '<p>' + item.route_id + ' Line</p>' + '<p>' + item.id + ' at stop ' + item.stop_id + '</p>';
-        //         var infowindow = new google.maps.InfoWindow({
-        //             content: contentString
-        //         });
-        //         var marker = new google.maps.Marker({
-        //             position: { lat, lng },
-        //             map: map,
-        //             title: item.id,
-        //             icon: icon
-        //         });
-        //         marker.addListener('click', function() {
-        //             infowindow.open(map, marker);
-        //         });
-        //     })
-        // });
+        load_json('./data/positions.json', function(response) {
+            var positions = JSON.parse(response);
+            positions.data.forEach(function(item) {
+                // var color = get_color(item.route_id);
+                var icon = {
+                    // path: google.maps.SymbolPath.BACKWARD_OPEN_ARROW, <- trains might be backwards
+                    path: google.maps.SymbolPath.FORWARD_OPEN_ARROW,
+                    scale: 3,
+                    strokeColor: color,
+                    rotation: item.position.bearing
+                };
+                var lat = item.position.latitude;
+                var lng = item.position.longitude;
+                var contentString = '<p>' + item.route_id + ' Line</p>' + '<p>' + item.id + ' at stop ' + item.stop_id + '</p>';
+                var infowindow = new google.maps.InfoWindow({
+                    content: contentString
+                });
+                var marker = new google.maps.Marker({
+                    position: { lat, lng },
+                    map: map,
+                    title: item.id,
+                    icon: icon
+                });
+                marker.addListener('click', function() {
+                    infowindow.open(map, marker);
+                });
+            })
+        });
     }
     function get_color(line) {
         switch (line.toLowerCase().slice(0, 3)) {
@@ -144,15 +143,20 @@ function load_json(path, callback) {
 }
 
 function get_alert_color(indicator) {
-    if(indicator === null || indicator === false) {
-        return "gray";
-    } else if(Math.abs(indicator) < options.data_params.good) {
-        return "green";
-    } else if (Math.abs(indicator) < options.data_params.moderate) {
-        return "yellow";
-    } else if (Math.abs(indicator) < options.data_params.bad) {
-        return "orange";
-    } else {
-        return "red";
-    }
+    var color = d3.scale.linear()
+        .domain([options.data_params[options.data_mode]["mild"], options.data_params[options.data_mode]["moderate"], options.data_params[options.data_mode]["severe"]])
+        .range(["green", "yellow", "red"]);
+    return color(indicator);
+
+    // if(indicator === null || indicator === false) {
+    //     return "gray";
+    // } else if(Math.abs(indicator) < options.data_params.good) {
+    //     return "green";
+    // } else if (Math.abs(indicator) < options.data_params.moderate) {
+    //     return "yellow";
+    // } else if (Math.abs(indicator) < options.data_params.bad) {
+    //     return "orange";
+    // } else {
+    //     return "red";
+    // }
 }

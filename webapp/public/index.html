@@ -20,10 +20,8 @@
 </head>
 
 <body>
-    <div class="wrapper container">
-        <div class="header-bar col-md-12 text-center">
-            <p>MBTA Alerts Performance Console</p>
-        </div>
+    <div class="header-bar border-bar container-fluid text-center">
+        <h2>MBTA Alerts Performance Console</h2>
         <div class="line-selection-container col-md-12">
             <button type="button" class="red-line btn btn-danger active">Red Line</button>
             <button type="button" class="blue-line btn btn-primary">Blue Line</button>
@@ -38,6 +36,8 @@
               <button type="button" class="dev_historic btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Percentage deviation from historical (statistical) standards">Historical Deviation</button>
             </div>
         </div>
+    </div>
+    <div class="wrapper container-fluid">
         <div class="data-container col-md-6 col-md-push-6">
             <div class="time-container"></div>
             <div class="data-wrapper">
@@ -55,39 +55,39 @@
                         </tr>
                     </thead>
                     <tr>
-                        <th>cv_benchmark</th>
-                        <td class="dir_1_cv_benchmark"></td>
-                        <td class="dir_0_cv_benchmark"></td>
-                    </tr>
-                    <tr>
-                        <th>cv_historic</th>
-                        <td class="dir_1_cv_historic"></td>
-                        <td class="dir_0_cv_historic"></td>
-                    </tr>
-                    <tr>
-                        <th>dev_benchmark</th>
-                        <td class="dir_1_dev_benchmark"></td>
-                        <td class="dir_0_dev_benchmark"></td>
-                    </tr>
-                    <tr>
-                        <th>dev_historic</th>
-                        <td class="dir_1_dev_historic"></td>
-                        <td class="dir_0_dev_historic"></td>
-                    </tr>
-                    <tr>
-                        <th>mean_headway</th>
+                        <th>Current Headway (last 30 minutes)</th>
                         <td class="dir_1_mean_headway"></td>
                         <td class="dir_0_mean_headway"></td>
                     </tr>
                     <tr>
-                        <th>mean_headway_historic</th>
+                        <th>Historic (Statistical) Headway</th>
                         <td class="dir_1_mean_headway_historic"></td>
                         <td class="dir_0_mean_headway_historic"></td>
                     </tr>
                     <tr>
-                        <th>mean_headway_benchmark</th>
+                        <th>Benchmark (Schedule) Headway</th>
                         <td class="dir_1_mean_headway_benchmark"></td>
                         <td class="dir_0_mean_headway_benchmark"></td>
+                    </tr>
+                    <tr>
+                        <th>Benchmark Coefficient of Variance</th>
+                        <td class="dir_1_cv_benchmark"></td>
+                        <td class="dir_0_cv_benchmark"></td>
+                    </tr>
+                    <tr>
+                        <th>Historic Coefficient of Variance</th>
+                        <td class="dir_1_cv_historic"></td>
+                        <td class="dir_0_cv_historic"></td>
+                    </tr>
+                    <tr>
+                        <th>Benchmark Percentage Deviation</th>
+                        <td class="dir_1_dev_benchmark"></td>
+                        <td class="dir_0_dev_benchmark"></td>
+                    </tr>
+                    <tr>
+                        <th>Historic Percentage Deviation</th>
+                        <td class="dir_1_dev_historic"></td>
+                        <td class="dir_0_dev_historic"></td>
                     </tr>
                 </table>
             </div>
@@ -109,5 +109,4 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRbnwLhy1xtygHEpOL_rehfiBuBFX8vvs">
     </script>
 </body>
-
 </html>

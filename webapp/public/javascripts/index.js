@@ -11,24 +11,24 @@ var options = {
     data_mode: "cv_benchmark",
     data_params : {
         cv_benchmark: {
-            good: 0.25,
-            moderate: 0.75,
-            bad: 1.25
+            mild: 1,
+            moderate: 1.25,
+            severe: 1.75
         },
         cv_historic: {
-            good: 0.25,
-            moderate: 0.75,
-            bad: 1.25
+            mild: 1,
+            moderate: 1.25,
+            severe: 1.75
         },
         dev_benchmark: {
-            good: 0.25,
-            moderate: 0.75,
-            bad: 1.25
+            mild: 1,
+            moderate: 2,
+            severe: 3
         },
         dev_historic: {
-            good: 0.25,
-            moderate: 0.75,
-            bad: 1.25
+            mild: 1,
+            moderate: 2,
+            severe: 3
         }
     }
 };
@@ -68,6 +68,7 @@ $(document).ready(function() {
     }
     // click event listeners
     $(".red-line").on("click", function() {
+        $(".border-bar").css("background-color", '#F03911');
         options.line = 'Red';
         removeClasses("lines");
         $(this).addClass("active");
@@ -76,6 +77,7 @@ $(document).ready(function() {
     });
 
     $(".green-line").on("click", function() {
+        $(".border-bar").css("background-color", '#357F4C');
         removeClasses("lines");
         $(this).addClass("active");
         options.line = 'Green';
@@ -84,6 +86,7 @@ $(document).ready(function() {
     });
 
     $(".blue-line").on("click", function() {
+        $(".border-bar").css("background-color", '#295CAB');
         removeClasses("lines");
         $(this).addClass("active");
         options.line = 'Blue';
@@ -92,6 +95,7 @@ $(document).ready(function() {
     });
 
     $(".orange-line").on("click", function() {
+        $(".border-bar").css("background-color", '#f08f00');
         removeClasses("lines");
         $(this).addClass("active");
         options.line = 'Orange';
@@ -170,18 +174,16 @@ $(document).ready(function() {
             node.cords = stop["cords"];
             node.next = stop["next"];
             node.name = stop["name"];
-
             // find calculated z_score for each stop
             cluster.push(node);
 
             // loop is complete
             if(it === selected_stops[line_color].length - 1) {
-                create_visual(cluster);
+                create_background(cluster);
             }
         })
     }
-
-    function create_visual(data) {
+    function create_background(data) {
         // remove and create new svg
         d3.select("svg").remove();
         chart = d3.select("#chart").append("svg")
@@ -212,7 +214,9 @@ $(document).ready(function() {
             .attr("y2", function(d) {
                 return ((d["next"][1]-d["cords"][1])*specs.y+specs.h/2);
             });
-
+        create_visual(data);
+    }
+    function create_visual(data) {
         // add rectangle shapes
         chart.append("circle")
             .attr("fill", function() { return return_color(options.line);})
@@ -223,13 +227,15 @@ $(document).ready(function() {
                 this.prevRadius = d3.select(this).attr("r");
                 d3.select(this)
                     .transition()
-                    .duration(1000)
-                    .attr("r",30)
+                    .duration(200)
+                    .attr("r",15)
+                    .attr("fill", "black")
             })
             .on("mouseout", function() {
                 d3.select(this)
                     .transition()
                     .attr("r", specs.h/2)
+                    .attr("fill", function() { return return_color(options.line);})
             })
             .on("click", function(d,i){
                 load_station_details(d);
@@ -244,9 +250,9 @@ $(document).ready(function() {
                     return "gray";
                 } else {
                     var color = d3.scale.linear()
-                        .domain([options.data_params[options.data_mode]["good"], options.data_params[options.data_mode]["moderate"], options.data_params[options.data_mode]["bad"]])
+                        .domain([options.data_params[options.data_mode]["mild"], options.data_params[options.data_mode]["moderate"], options.data_params[options.data_mode]["severe"]])
                         .range(["green", "yellow", "red"]);
-                    return color(d.dir[0][options.data_mode]);
+                    return color(Math.pow(2.71828,d.dir[0][options.data_mode]));
                 }
             });
 
@@ -260,9 +266,9 @@ $(document).ready(function() {
                     return "gray";
                 } else {
                     var color = d3.scale.linear()
-                        .domain([options.data_params[options.data_mode]["good"], options.data_params[options.data_mode]["moderate"], options.data_params[options.data_mode]["bad"]])
+                        .domain([options.data_params[options.data_mode]["mild"], options.data_params[options.data_mode]["moderate"], options.data_params[options.data_mode]["severe"]])
                         .range(["green", "yellow", "red"]);
-                    return color(d.dir[1][options.data_mode]);
+                    return color(Math.pow(2.71828,d.dir[1][options.data_mode]));
                 }
             });
 
@@ -288,7 +294,7 @@ $(document).ready(function() {
         $(".data-wrapper").addClass("active");
         $(".data-visualization").removeClass("active");
         $(".station-title").html(station.name);
-        $(".station-line").html(station.dir[0].Line + " line");
+        $(".station-line").html((station.dir[0].Line + " line").toUpperCase());
 
         if (station.dir[1].cv_benchmark != null) {
             $(".dir_1_cv_benchmark").html(station.dir[1].cv_benchmark.toFixed(2));
@@ -365,9 +371,6 @@ $(document).ready(function() {
     }
 });
 function load_station_details(station) {
-    console.log(station);
-    console.log(station.dir0.Latitude);
-    console.log(station.dir0.Longitude);
     options.custom = true;
     options.coords.lng = station.dir0.Longitude;
     options.coords.lat = station.dir0.Latitude;
@@ -376,11 +379,10 @@ function load_station_details(station) {
     $(".data-wrapper").addClass("active");
     $(".data-visualization").removeClass("active");
     $(".station-title").html(station.name);
-    $(".station-line").html(station.dir0.Line + " line");
-
-    if (station.dir1.z_score != null) {
+    $(".station-line").html(station.dir[0].Line + " line");
+    if (station.dir[1].cv_benchmark != null) {
         $(".dir_1_status").html();
-        $(".dir_1_headway").html(station.dir1.z_score.toFixed(2));
+        $(".dir_1_headway").html(station.dir[1].cv_benchmark.toFixed(3));
         $(".dir_1_historical").html();
         $(".dir_1_benchmark").html();
     } else {
@@ -389,9 +391,9 @@ function load_station_details(station) {
         $(".dir_1_historical").html(noData);
         $(".dir_1_benchmark").html(noData);
     }
-    if (station.dir0.z_score != null) {
+    if (station.dir[0].cv_benchmark != null) {
         $(".dir_0_status").html();
-        $(".dir_0_headway").html(station.dir0.z_score.toFixed(2));
+        $(".dir_0_headway").html(station.dir[0].cv_benchmark.toFixed(3));
         $(".dir_0_historical").html();
         $(".dir_0_benchmark").html();
     } else {
