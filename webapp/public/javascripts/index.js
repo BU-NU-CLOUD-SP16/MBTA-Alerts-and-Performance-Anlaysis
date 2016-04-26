@@ -101,19 +101,17 @@ $(document).ready(function() {
         selected_stops[line_color].forEach(function(stop, it) {
             var node = {};
             node.dir0 = options.data[stop["stops"][0]];
-            if(options.data[stop["stops"][0]] === undefined) {
+            console.log(options.data[stop["stops"][0]]);
+            if(node.dir0 === undefined) {
                 node.dir0 = options.data[stop["stops"][1]];
-                console.log(node.dir0);
             }
             node.dir1 = options.data[stop["stops"][1]];
-            if(options.data[stop["stops"][1]] === undefined) {
-               node.dir1 = options.data[stop["stops"][0]];
-               console.log(node.dir1);
+            if(node.dir1 === undefined) {
+                node.dir1 = options.data[stop["stops"][0]];
             }
             node.cords = stop["cords"];
             node.next = stop["next"];
             node.name = stop["name"];
-
             node.benchmark_headway_0 = options.data[stop["stops"][0]].benchmark_headway;
             node.cv_benchmark_0 = options.data[stop["stops"][0]].cv_benchmark;
             node.cv_historic_0 = options.data[stop["stops"][0]].cv_historic;
