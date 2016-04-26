@@ -5824,11 +5824,17 @@ body {
   font-size: 16px;
   background-color: #ffffff; }
 
+html {
+  min-height: 100%; }
+
 .footer {
-  height: 50px;
+  display: none;
   line-height: 50px;
   margin: 20px 0 0 0;
-  width: 100%; }
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; }
   .footer p {
     padding: 0;
     margin: 0;
@@ -5862,92 +5868,95 @@ body {
   -o-transition: background-color ease-out 1s;
   transition: background-color ease-out 1s; }
 
-.wrapper .time-container {
-  text-align: center; }
-
-.wrapper .data-container {
-  height: 340px; }
-  .wrapper .data-container.lengthen {
-    height: 550px; }
-  .wrapper .data-container .data-wrapper {
-    position: relative;
-    text-align: center;
-    display: none; }
-    .wrapper .data-container .data-wrapper.active {
-      display: block; }
-    .wrapper .data-container .data-wrapper .close-button-wrapper {
+.wrapper {
+  height: 100%;
+  display: block;
+  padding-bottom: 50px; }
+  .wrapper .time-container {
+    text-align: center; }
+  .wrapper .data-container {
+    height: 340px; }
+    .wrapper .data-container.lengthen {
+      height: 550px; }
+    .wrapper .data-container .data-wrapper {
+      position: relative;
+      text-align: center;
+      display: none; }
+      .wrapper .data-container .data-wrapper.active {
+        display: block; }
+      .wrapper .data-container .data-wrapper .close-button-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0; }
+    .wrapper .data-container .data-visualization {
+      display: none;
+      height: 500px;
+      overflow: hidden; }
+      .wrapper .data-container .data-visualization.active {
+        display: block; }
+      @media only screen and (min-width: 992px) {
+        .wrapper .data-container .data-visualization {
+          height: 500px;
+          width: 100%; } }
+      .wrapper .data-container .data-visualization svg {
+        margin: 0 auto;
+        display: block; }
+    .wrapper .data-container .legend {
       position: absolute;
-      top: 0;
-      left: 0; }
-  .wrapper .data-container .data-visualization {
-    display: none;
-    height: 500px;
-    overflow: hidden; }
-    .wrapper .data-container .data-visualization.active {
-      display: block; }
-    @media only screen and (min-width: 992px) {
-      .wrapper .data-container .data-visualization {
-        height: 500px;
-        width: 100%; } }
-    .wrapper .data-container .data-visualization svg {
-      margin: 0 auto;
-      display: block; }
-  .wrapper .data-container .legend {
-    position: absolute;
-    top: 90px;
-    left: 30px; }
-    .wrapper .data-container .legend .station {
-      position: relative; }
-      .wrapper .data-container .legend .station .stop {
-        width: 30px;
-        position: absolute;
-        height: 30px;
-        border-radius: 100%;
-        background-color: black;
-        left: 49px;
-        top: -6px; }
-      .wrapper .data-container .legend .station .direction_0 {
-        position: absolute;
-        font-size: 11px;
-        width: 110px;
-        text-align: center;
-        font-weight: bold;
-        left: 40px;
-        text-transform: uppercase;
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        transform: rotate(90deg); }
-      .wrapper .data-container .legend .station .direction_1 {
-        position: absolute;
-        font-size: 11px;
-        width: 110px;
-        text-align: center;
-        font-weight: bold;
-        left: -22px;
-        text-transform: uppercase;
-        -webkit-transform: rotate(-90deg);
-        -moz-transform: rotate(-90deg);
-        -o-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-        transform: rotate(-90deg); }
-  .wrapper .data-container .info {
-    position: absolute;
-    bottom: 30px;
-    right: 30px; }
-
-.wrapper .map-container {
-  position: relative; }
-  .wrapper .map-container .choose_direction {
-    z-index: 100;
-    position: absolute;
-    top: 10px;
-    right: 30px; }
-  .wrapper .map-container #map {
-    height: 450px;
-    width: 100%; }
-    @media only screen and (min-width: 992px) {
-      .wrapper .map-container #map {
-        width: 100%;
-        height: 550px; } }
+      top: 90px;
+      left: 30px; }
+      .wrapper .data-container .legend .station {
+        position: relative; }
+        .wrapper .data-container .legend .station .stop {
+          width: 30px;
+          position: absolute;
+          height: 30px;
+          border-radius: 100%;
+          background-color: black;
+          left: 49px;
+          top: -6px; }
+        .wrapper .data-container .legend .station .direction_0 {
+          position: absolute;
+          font-size: 11px;
+          width: 110px;
+          text-align: center;
+          font-weight: bold;
+          left: 40px;
+          text-transform: uppercase;
+          -webkit-transform: rotate(90deg);
+          -moz-transform: rotate(90deg);
+          -o-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+          transform: rotate(90deg); }
+        .wrapper .data-container .legend .station .direction_1 {
+          position: absolute;
+          font-size: 11px;
+          width: 110px;
+          text-align: center;
+          font-weight: bold;
+          left: -22px;
+          text-transform: uppercase;
+          -webkit-transform: rotate(-90deg);
+          -moz-transform: rotate(-90deg);
+          -o-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg); }
+    .wrapper .data-container .info {
+      position: absolute;
+      bottom: 30px;
+      right: 30px; }
+  .wrapper .map-container {
+    position: relative;
+    height: 100%; }
+    .wrapper .map-container .choose_direction {
+      z-index: 100;
+      position: absolute;
+      top: 10px;
+      right: 30px; }
+    .wrapper .map-container #map {
+      height: 450px;
+      width: 100%; }
+      @media only screen and (min-width: 992px) {
+        .wrapper .map-container #map {
+          width: 100%;
+          height: 550px; } }
