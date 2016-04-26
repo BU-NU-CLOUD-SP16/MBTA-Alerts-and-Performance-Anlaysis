@@ -25,7 +25,7 @@ var options = {
             moderate: 0.75,
             bad: 1.25
         },
-        cv_historic: {
+        dev_historic: {
             good: 0.25,
             moderate: 0.75,
             bad: 1.25
