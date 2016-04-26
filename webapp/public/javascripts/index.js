@@ -100,31 +100,32 @@ $(document).ready(function() {
         var cluster = [];
         selected_stops[line_color].forEach(function(stop, it) {
             var node = {};
-            node.dir0 = options.data[stop["stops"][0]];
-            console.log(options.data[stop["stops"][0]]);
-            if(node.dir0 === undefined) {
-                node.dir0 = options.data[stop["stops"][1]];
-            }
-            node.dir1 = options.data[stop["stops"][1]];
-            if(node.dir1 === undefined) {
-                node.dir1 = options.data[stop["stops"][0]];
-            }
+            node.dir0 = (options.data[stop["stops"][0]] === undefined ? options.data[stop["stops"][1]] : options.data[stop["stops"][0]]);
+            node.dir1 = (options.data[stop["stops"][1]] === undefined ? options.data[stop["stops"][0]] : options.data[stop["stops"][1]]);
             node.cords = stop["cords"];
             node.next = stop["next"];
             node.name = stop["name"];
-            node.benchmark_headway_0 = options.data[stop["stops"][0]].benchmark_headway;
-            node.cv_benchmark_0 = options.data[stop["stops"][0]].cv_benchmark;
-            node.cv_historic_0 = options.data[stop["stops"][0]].cv_historic;
-            node.dev_benchmark_0 = options.data[stop["stops"][0]].dev_benchmark;
-            node.dev_historic_0 = options.data[stop["stops"][0]].dev_historic;
-            node.headway_0 = options.data[stop["stops"][0]].headway;
-            node.benchmark_headway_1 = options.data[stop["stops"][0]].benchmark_headway;
-            node.cv_benchmark_1 = options.data[stop["stops"][0]].cv_benchmark;
-            node.cv_historic_1 = options.data[stop["stops"][0]].cv_historic;
-            node.dev_benchmark_1 = options.data[stop["stops"][0]].dev_benchmark;
-            node.dev_historic_1 = options.data[stop["stops"][0]].dev_historic;
-            node.headway_1 = options.data[stop["stops"][0]].headway;
-            console.log(node);
+
+            if(node.dir0 === undefined ) {
+                console.log("HERE")
+                console.log(stop["stops"][0]);
+            }
+            if(node.dir1 === undefined ) {
+                console.log("HERE1")
+                console.log(stop["stops"][1]);
+            }
+            node.benchmark_headway_0 = node.dir0.benchmark_headway;
+            node.cv_benchmark_0 = node.dir0.cv_benchmark;
+            node.cv_historic_0 = node.dir0.cv_historic;
+            node.dev_benchmark_0 = node.dir0.dev_benchmark;
+            node.dev_historic_0 = node.dir0.dev_historic;
+            node.headway_0 = node.dir0.headway;
+            node.benchmark_headway_1 = node.dir1.benchmark_headway;
+            node.cv_benchmark_1 = node.dir1.cv_benchmark;
+            node.cv_historic_1 = node.dir1.cv_historic;
+            node.dev_benchmark_1 = node.dir1.dev_benchmark;
+            node.dev_historic_1 = node.dir1.dev_historic;
+            node.headway_1 = node.dir1.headway;
             // find calculated z_score for each stop
             cluster.push(node);
 
