@@ -89,7 +89,6 @@ $(document).ready(function() {
         load_json("http://localhost:8080/api/mbta/headways/" + options.line, function(response) {
         //load_json("http://ec2-52-34-3-119.us-west-2.compute.amazonaws.com/api/mbta/headways/" + options.line, function(response) {
             options.data = JSON.parse(response);
-            console.log(options.data);
             $(".time-container").html("<p>Displaying data from " + (new Date(options.data.time * 1000).toString())+"</p>");
             update_visual(options.line);
             switch_direction_text(options.line);
@@ -140,7 +139,6 @@ $(document).ready(function() {
             .enter()
             .append("g")
             .attr("transform", function(d) {
-                console.log(d);
                 return "translate(" + d["cords"][0]*specs.x + "," + d["cords"][1]*specs.y + ")";
             })
         
@@ -150,10 +148,6 @@ $(document).ready(function() {
             .style("stroke-width", "10")
 
             .attr("x1", function(d) {
-                console.log(d["cords"][0]);
-                console.log(specs.x);
-                console.log(d["cords"][1]);
-                console.log(specs.y);
                 return specs.w/2;
             })
             .attr("y1", function(d) {
