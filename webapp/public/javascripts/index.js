@@ -41,6 +41,13 @@ var specs = {
 };
 
 $(document).ready(function() {
+    // ask to reload for more recent data every 5 minutes
+    setInterval(function() {
+        if(window.confirm("Reload most recent data?")) {
+            update();
+        }
+    }, 1000*60*5);
+
     $('[data-toggle="tooltip"]').tooltip();
 
     var chart;
@@ -162,7 +169,7 @@ $(document).ready(function() {
         load_json("http://localhost:8080/api/mbta/headways/" + options.line, function(response) {
             options.data = JSON.parse(response);
             var update_date = new Date(options.data.time * 1000);
-            $(".time-container").html("<h4>Displaying data from " + update_date.getHours()+":"+update_date.getMinutes()+" on "+ (update_date.getMonth()+1)+"/"+update_date.getDate()+"/"+update_date.getFullYear() +"</h4>");
+            $(".time-container").html("<h4>Displaying data from " + update_date.getHours()+":"+ (update_date.getMinutes() < 10 ? "0" + update_date.getMinutes() : update_date.getMinutes()) + " on " + (update_date.getMonth()+1)+"/"+update_date.getDate()+"/"+update_date.getFullYear() +"</h4>");
             update_visual(options.line);
             switch_direction_text(options.line);
             initMap(options);

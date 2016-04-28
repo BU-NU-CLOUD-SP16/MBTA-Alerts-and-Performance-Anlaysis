@@ -7,7 +7,7 @@ var app = express();
 var compression = require("compression");
 
 // load daily statistics of headway data to use in model
-var headway_distributions = JSON.parse(fs.readFileSync("./assets/headway_distributions.json", "utf-8"));
+var headway_distributions = JSON.parse(fs.readFileSync("./assets/headway_distributions.min.json", "utf-8"));
 
 // use router to make API calls
 var router = express.Router();

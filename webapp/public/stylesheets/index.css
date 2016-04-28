@@ -5947,7 +5947,8 @@ html {
       right: 30px; }
   .wrapper .map-container {
     position: relative;
-    height: 100%; }
+    height: 100%;
+    margin-top: 15px; }
     .wrapper .map-container .choose_direction {
       z-index: 100;
       position: absolute;

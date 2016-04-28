@@ -11,8 +11,8 @@ function initMap(options) {
         // change this to local eventually
         map.data.loadGeoJson("https://raw.githubusercontent.com/BU-NU-CLOUD-SP16/MBTA-Alerts-and-Performance-Anlaysis/master/webapp/public/data/mbta_lines.json");
         map.data.setStyle(function(feature) {
-            if (feature.R.LINE) {
-                var color = get_color(feature.R.LINE);
+            if (feature.H.LINE) {
+                var color = get_color(feature.H.LINE);
             }
             return ({
                 strokeColor: color,
