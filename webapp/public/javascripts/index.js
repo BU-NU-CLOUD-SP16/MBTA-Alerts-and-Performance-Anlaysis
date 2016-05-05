@@ -178,7 +178,7 @@ $(document).ready(function() {
 
     // main update function
     function update() {
-        load_json("http://localhost:8080/api/mbta/headways/" + options.line, function(response) {
+        load_json("http://ec2-52-34-3-119.us-west-2.compute.amazonaws.com/api/mbta/headways/" + options.line, function(response) {
             options.data = JSON.parse(response);
             var update_date = new Date(options.data.time * 1000);
             $(".time-container").html("<h4>Displaying data from " + update_date.getHours()+":"+ (update_date.getMinutes() < 10 ? "0" + update_date.getMinutes() : update_date.getMinutes()) + " on " + (update_date.getMonth()+1)+"/"+update_date.getDate()+"/"+update_date.getFullYear() +"</h4>");

@@ -52,6 +52,7 @@ function initMap(options) {
                         data: data[stop]["StopID"],
                         icon: icon
                     });
+		    marker.setZIndex(10);
                     marker.addListener('click', function() {
                         console.log(marker.data);
                         // console.log(options.data[marker.data]);
@@ -61,7 +62,7 @@ function initMap(options) {
             };
         }
     }
-    load_json('http://localhost:8080/api/mbta/positions', function(response) {
+    load_json('http://ec2-52-34-3-119.us-west-2.compute.amazonaws.com/api/mbta/positions', function(response) {
         var positions = JSON.parse(response);
         positions.data.forEach(function(item) {
             if (item.direction_id === options.direction && draw_color(item.route_id)) {
@@ -84,6 +85,7 @@ function initMap(options) {
                     title: item.id,
                     icon: icon
                 });
+		marker.setZIndex(100);
                 marker.addListener('click', function() {
                     infowindow.open(map, marker);
                 });
