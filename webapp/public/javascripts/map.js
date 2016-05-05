@@ -61,37 +61,35 @@ function initMap(options) {
             };
         }
     }
-    if (options.positions) {
-        load_json('http://localhost:8080/api/mbta/positions', function(response) {
-            var positions = JSON.parse(response);
-            positions.data.forEach(function(item) {
-                if (item.direction_id === options.direction && draw_color(item.route_id)) {
-                    var color = get_color(item.route_id);
-                    var icon = {
-                        path: google.maps.SymbolPath.FORWARD_OPEN_ARROW,
-                        scale: 3,
-                        strokeColor: "#000000",
-                        rotation: item.position.bearing
-                    };
-                    var lat = item.position.latitude;
-                    var lng = item.position.longitude;
-                    var contentString = '<p>' + item.route_id + ' Line</p>' + '<p>' + item.id + '</p>';
-                    var infowindow = new google.maps.InfoWindow({
-                        content: contentString
-                    });
-                    var marker = new google.maps.Marker({
-                        position: { lat, lng },
-                        map: map,
-                        title: item.id,
-                        icon: icon
-                    });
-                    marker.addListener('click', function() {
-                        infowindow.open(map, marker);
-                    });
-                }
-            })
-        });
-    }
+    load_json('http://localhost:8080/api/mbta/positions', function(response) {
+        var positions = JSON.parse(response);
+        positions.data.forEach(function(item) {
+            if (item.direction_id === options.direction && draw_color(item.route_id)) {
+                var color = get_color(item.route_id);
+                var icon = {
+                    path: google.maps.SymbolPath.FORWARD_OPEN_ARROW,
+                    scale: 3,
+                    strokeColor: "#000000",
+                    rotation: item.position.bearing
+                };
+                var lat = item.position.latitude;
+                var lng = item.position.longitude;
+                var contentString = '<p>' + item.route_id + ' Line</p>' + '<p>' + item.id + '</p>';
+                var infowindow = new google.maps.InfoWindow({
+                    content: contentString
+                });
+                var marker = new google.maps.Marker({
+                    position: { lat, lng },
+                    map: map,
+                    title: item.id,
+                    icon: icon
+                });
+                marker.addListener('click', function() {
+                    infowindow.open(map, marker);
+                });
+            }
+        })
+    });
     function draw_color(line) {
         switch (line.toLowerCase().slice(0, 3)) {
             case 'gre':
