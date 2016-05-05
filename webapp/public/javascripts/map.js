@@ -30,7 +30,6 @@ function initMap(options) {
                 var direction = parseInt(data[stop]["Direction"]);
                 if (direction === options.direction) {
                     // use z_score value to determine size of the stop displayed
-                    // console.log(Math.pow(2.71828,data[stop][options.data_mode]));
                     var indicator = parseFloat(Math.pow(2.71828,data[stop][options.data_mode]));
                     if (indicator === NaN) {
         		        indicator = 0;
@@ -63,49 +62,65 @@ function initMap(options) {
         }
     }
     if (options.positions) {
-        // load positions from 2/19/16 around 3PM
-        load_json('./data/positions.json', function(response) {
+        load_json('http://localhost:8080/api/mbta/positions', function(response) {
             var positions = JSON.parse(response);
             positions.data.forEach(function(item) {
-                // var color = get_color(item.route_id);
-                var icon = {
-                    // path: google.maps.SymbolPath.BACKWARD_OPEN_ARROW, <- trains might be backwards
-                    path: google.maps.SymbolPath.FORWARD_OPEN_ARROW,
-                    scale: 3,
-                    strokeColor: color,
-                    rotation: item.position.bearing
-                };
-                var lat = item.position.latitude;
-                var lng = item.position.longitude;
-                var contentString = '<p>' + item.route_id + ' Line</p>' + '<p>' + item.id + ' at stop ' + item.stop_id + '</p>';
-                var infowindow = new google.maps.InfoWindow({
-                    content: contentString
-                });
-                var marker = new google.maps.Marker({
-                    position: { lat, lng },
-                    map: map,
-                    title: item.id,
-                    icon: icon
-                });
-                marker.addListener('click', function() {
-                    infowindow.open(map, marker);
-                });
+                if (item.direction_id === options.direction && draw_color(item.route_id)) {
+                    var color = get_color(item.route_id);
+                    var icon = {
+                        path: google.maps.SymbolPath.FORWARD_OPEN_ARROW,
+                        scale: 3,
+                        strokeColor: "#000000",
+                        rotation: item.position.bearing
+                    };
+                    var lat = item.position.latitude;
+                    var lng = item.position.longitude;
+                    var contentString = '<p>' + item.route_id + ' Line</p>' + '<p>' + item.id + '</p>';
+                    var infowindow = new google.maps.InfoWindow({
+                        content: contentString
+                    });
+                    var marker = new google.maps.Marker({
+                        position: { lat, lng },
+                        map: map,
+                        title: item.id,
+                        icon: icon
+                    });
+                    marker.addListener('click', function() {
+                        infowindow.open(map, marker);
+                    });
+                }
             })
         });
     }
+    function draw_color(line) {
+        switch (line.toLowerCase().slice(0, 3)) {
+            case 'gre':
+                return (options.line === 'Green' ? true : false);
+            case 'red':
+                return (options.line === 'Red' ? true : false);
+            case 'blu':
+                return (options.line === 'Blue' ? true : false);
+            case 'ora':
+                return (options.line === 'Orange' ? true : false);
+            default:
+                return false;
+                break;
+        }
+    }
+
     function get_color(line) {
         switch (line.toLowerCase().slice(0, 3)) {
             case 'gre':
-                return (options.line == 'Green' ? '#357F4C' : 'rgba(255,255,255,0)');
+                return (options.line === 'Green' ? '#357F4C' : 'rgba(255,255,255,0)');
                 break;
             case 'red':
-                return (options.line == 'Red' ? '#F03911' : 'rgba(255,255,255,0)');
+                return (options.line === 'Red' ? '#F03911' : 'rgba(255,255,255,0)');
                 break;
             case 'blu':
-                return (options.line == 'Blue' ? '#295CAB' : 'rgba(255,255,255,0)');
+                return (options.line === 'Blue' ? '#295CAB' : 'rgba(255,255,255,0)');
                 break;
             case 'ora':
-                return (options.line == 'Orange' ? '#f08f00' : 'rgba(255,255,255,0)');
+                return (options.line === 'Orange' ? '#f08f00' : 'rgba(255,255,255,0)');
                 break;
             default:
                 return 'rgba(255,255,255,0)';
@@ -147,16 +162,4 @@ function get_alert_color(indicator) {
         .domain([options.data_params[options.data_mode]["mild"], options.data_params[options.data_mode]["moderate"], options.data_params[options.data_mode]["severe"]])
         .range(["green", "yellow", "red"]);
     return color(indicator);
-
-    // if(indicator === null || indicator === false) {
-    //     return "gray";
-    // } else if(Math.abs(indicator) < options.data_params.good) {
-    //     return "green";
-    // } else if (Math.abs(indicator) < options.data_params.moderate) {
-    //     return "yellow";
-    // } else if (Math.abs(indicator) < options.data_params.bad) {
-    //     return "orange";
-    // } else {
-    //     return "red";
-    // }
 }

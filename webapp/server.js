@@ -6,6 +6,9 @@ var express = require('express');
 var app = express();
 var compression = require("compression");
 
+// gtfs realtime positions module
+var gtfs = require("./gtfs.js");
+
 // load daily statistics of headway data to use in model
 var headway_distributions = JSON.parse(fs.readFileSync("./assets/headway_distributions.min.json", "utf-8"));
 
@@ -20,9 +23,9 @@ var mbta = new sqlite.Database("../parser/mbta_subway.db");
 app.use(compression());
 
 app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
 });
 
 // implement simple caching (eventually use middleware to do this more efficiently, incorporate TTL etc)
@@ -70,100 +73,100 @@ router.route('/all').get(function(req, res) {
     }
 });
 
+// get current positions of trains
+router.route('/positions').get(function(req, res) {
+    gtfs(function(data) {
+        res.json(data);
+    });
+})
 
 // Query made from front end for specific line performance for most recent time
 router.route('/headways/:line').get(function(req, res) {
-        // first check to see what the last query made was
-        mbta.all("SELECT MAX(time) FROM time_table_new", function(err, row) {
-            if (!err) {
-                time = row[0]["MAX(time)"];
-                // check to see if data was already calculated
-                // if (last_performance[req.params.line]["time"] === time) {
-                //     res.json(last_performance[req.params.line]);
-                if(false) {
-                    console.log("Shouldn't be here");
-                } else {
-                    // need to calculate new performance
-                    var date = new Date(time * 1000);
-                    var day = date.getDay();
-                    // 0 = sunday, 2 = weekday, 3 = saturday
-                    if (day === 6) {
-                        day = 3;
-                    } else if (day > 0) {
-                        day = 2;
-                    }
-                    var time_of_day = date.getHours() * 60 + date.getMinutes(); // find time of day in minutes
-                    time_of_day = Math.ceil((time_of_day / (24 * 60)) * 48); // convert time to time_of_day in headway distributions
-                    time_of_day = (time_of_day === 0 ? 1 : time_of_day); // edge case where time is midnight
-                    // using async library to know when we reach end of forEach loop
-                    async.each(headway_distributions,
-                        function(headway, callback) {
-                            if (headway["time_of_day"] === time_of_day && headway["day_of_week"] === day) {
-                                subset_headway_distribution.push(headway);
-                            }
-                            return callback(null);
-                        },
-                        function(err) {
-                            if (req.params.line == 'Green') {
-                                // concatenate all green lines
-                                mbta.all("SELECT * FROM time_table_new WHERE (time = $time) AND (line = 'Green-E' OR line == 'Green-B' OR line == 'Green-D' OR line == 'Green-C')", {
-                                    $time: time
-                                }, function(err, row) {
-                                    if (!err) {
-                                        res.json(performance_metrics(subset_headway_distribution, row, req.params.line, time));
-                                    }
-                                });
-                            } else {
-                                mbta.all("SELECT * FROM time_table_new WHERE (time = $time) AND line = $line", {
-                                    $time: time,
-                                    $line: req.params.line
-                                }, function(err, row) {
-                                    if (!err) {
-                                        res.json(performance_metrics(subset_headway_distribution, row, req.params.line, time));
-                                    }
-                                });
-                            }
+    // first check to see what the last query made was
+    mbta.all("SELECT MAX(time) FROM time_table_new", function(err, row) {
+        if (!err) {
+            time = row[0]["MAX(time)"];
+            // check to see if data was already calculated
+            if (last_performance[req.params.line]["time"] === time) {
+                res.json(last_performance[req.params.line]);
+            } else {
+                // need to calculate new performance
+                var date = new Date(time * 1000);
+                var day = date.getDay();
+                // 0 = sunday, 2 = weekday, 3 = saturday
+                if (day === 6) {
+                    day = 3;
+                } else if (day > 0) {
+                    day = 2;
+                }
+                var time_of_day = date.getHours() * 60 + date.getMinutes(); // find time of day in minutes
+                time_of_day = Math.ceil((time_of_day / (24 * 60)) * 48); // convert time to time_of_day in headway distributions
+                time_of_day = (time_of_day === 0 ? 1 : time_of_day); // edge case where time is midnight
+                // using async library to know when we reach end of forEach loop
+                async.each(headway_distributions,
+                    function(headway, callback) {
+                        if (headway["time_of_day"] === time_of_day && headway["day_of_week"] === day) {
+                            subset_headway_distribution.push(headway);
                         }
-                    );
+                        return callback(null);
+                    },
+                    function(err) {
+                        if (req.params.line == 'Green') {
+                            // concatenate all green lines
+                            mbta.all("SELECT * FROM time_table_new WHERE (time = $time) AND (line = 'Green-E' OR line == 'Green-B' OR line == 'Green-D' OR line == 'Green-C')", {
+                                $time: time
+                            }, function(err, row) {
+                                if (!err) {
+                                    res.json(performance_metrics(subset_headway_distribution, row, req.params.line, time));
+                                }
+                            });
+                        } else {
+                            mbta.all("SELECT * FROM time_table_new WHERE (time = $time) AND line = $line", {
+                                $time: time,
+                                $line: req.params.line
+                            }, function(err, row) {
+                                if (!err) {
+                                    res.json(performance_metrics(subset_headway_distribution, row, req.params.line, time));
+                                }
+                            });
+                        }
+                    }
+                );
 
-                    // calculates performance metrics for a line given, caches last time for each line
-                    function performance_metrics(subset, stations, line, time) {
-                        // use synchonous for loops
-                        for (var j = 0; j < stations.length; j++) {
-                            for (var i = 0; i < subset.length; i++) {
-                                if (stations[j]["stop_id"] === subset[i]["StationID"]) {
-                                    for (var k = 0; k < all_lines.length; k++) {
-                                        if(stations[j]["stop_id"] === all_lines[k]["StopID"]) {
-                                            // make sure not to insert the same station twice (mainly for green line)
-                                            var station = all_lines[k];
-                                            station["historic_headway"] = subset[i]["meanHeadway"];
-                                            station["benchmark_headway"] = stations[j]["benchmarkAvg"];
-                                            station["headway"] = stations[j]["headwayAvg"];
-                                            station["dev_historic"] = (Math.abs(stations[j]["headwayAvg"] - subset[i]["meanHeadway"]) / subset[i]["meanHeadway"]);
-                                            station["dev_benchmark"] = (Math.abs(stations[j]["headwayAvg"] - stations[j]["benchmarkAvg"]) / stations[j]["benchmarkAvg"]);
-                                            var cv = stations[j]["headwayStdDev"]/stations[j]["headwayAvg"];
-                                            station["cv_historic"] = Math.abs(cv - (subset[i]["SDHeadway"]/subset[i]["meanHeadway"]));
-                                            station["cv_benchmark"] = Math.abs(cv - (stations[j]["benchmarkStdDev"]/stations[j]["benchmarkAvg"]));
-                                            // console.log('station["cv_historic"]',station["cv_historic"]);
-                                            // console.log('station["cv_benchmark"]',station["cv_benchmark"]);
-                                            // console.log('station["dev_historic"]',station["dev_historic"]);
-                                            // console.log('station["dev_benchmark"]',station["dev_benchmark"]);
-                                            if (last_performance[line][station["StopID"]] === undefined) {
-                                                last_performance[line][station["StopID"]] = station;
-                                            }
+                // calculates performance metrics for a line given, caches last time for each line
+                function performance_metrics(subset, stations, line, time) {
+                    // use synchonous for loops
+                    for (var j = 0; j < stations.length; j++) {
+                        for (var i = 0; i < subset.length; i++) {
+                            if (stations[j]["stop_id"] === subset[i]["StationID"]) {
+                                for (var k = 0; k < all_lines.length; k++) {
+                                    if (stations[j]["stop_id"] === all_lines[k]["StopID"]) {
+                                        // make sure not to insert the same station twice (mainly for green line)
+                                        var station = all_lines[k];
+                                        station["historic_headway"] = subset[i]["meanHeadway"];
+                                        station["benchmark_headway"] = stations[j]["benchmarkAvg"];
+                                        station["headway"] = stations[j]["headwayAvg"];
+                                        station["dev_historic"] = (Math.abs(stations[j]["headwayAvg"] - subset[i]["meanHeadway"]) / subset[i]["meanHeadway"]);
+                                        station["dev_benchmark"] = (Math.abs(stations[j]["headwayAvg"] - stations[j]["benchmarkAvg"]) / stations[j]["benchmarkAvg"]);
+                                        var cv = stations[j]["headwayStdDev"] / stations[j]["headwayAvg"];
+                                        station["cv_historic"] = Math.abs(cv - (subset[i]["SDHeadway"] / subset[i]["meanHeadway"]));
+                                        station["cv_benchmark"] = Math.abs(cv - (stations[j]["benchmarkStdDev"] / stations[j]["benchmarkAvg"]));
+                                        if (last_performance[line][station["StopID"]] === undefined) {
+                                            last_performance[line][station["StopID"]] = station;
                                         }
                                     }
                                 }
                             }
                         }
-                        // add timestamp
-                        last_performance[line]["time"] = time;
-                        return last_performance[line];
                     }
+                    // add timestamp
+                    last_performance[line]["time"] = time;
+                    return last_performance[line];
                 }
             }
-        })
-    });
+        }
+    })
+});
 
 
 // create api route
