@@ -3,6 +3,9 @@
 
 <head>
     <link rel="stylesheet" href="stylesheets/index.css">
+    <meta content="text/html" charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://d3js.org/d3.v4.0.0-alpha.29.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
@@ -13,16 +16,24 @@
 <body>
     <div class="header-bar border-bar container-fluid text-center">
         <h2>MBTA Alerts Performance Console</h2>
-        <div class="line-selection-container col-md-12">
-            <button type="button" class="red-line btn btn-danger active">Red Line</button>
-            <button type="button" class="blue-line btn btn-primary">Blue Line</button>
-            <button type="button" class="green-line btn btn-success">Green Line</button>
-            <button type="button" class="orange-line btn btn-warning">Orange Line</button>
+        <p>Select Line:</p>
+        <div class="line-selection-container fluid-selection col-md-12">
+            <div class="selection-top">
+                <button type="button" class="red-line btn btn-danger active">Red Line</button>
+                <button type="button" class="blue-line btn btn-primary">Blue Line</button>
+            </div>
+            <div class="selection-bottom">
+                <button type="button" class="green-line btn btn-success">Green Line</button>
+                <button type="button" class="orange-line btn btn-warning">Orange Line</button>
+            </div>
         </div>
-        <div class="data-mode-container col-md-12">
-            <div class="btn-group-sm" role="group" aria-label="...">
+        <p>Select Benchmark:</p>
+        <div class="data-selection-container fluid-selection col-md-12">
+            <div class="selection-top">
               <button type="button" class="cv_benchmark btn btn-default active" data-toggle="tooltip" data-placement="bottom" title="Displays the coefficient of variance of the realtime headways to the benchmark (schedule) headways">Benchmark CV</button>
               <button type="button" class="cv_historic btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Displays the coefficient of variance of the realtime headways to the historical (statistical) headways">Historical CV</button>
+            </div>
+            <div class="selection-bottom">
               <button type="button" class="dev_benchmark btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Percentage deviation from benchmark (schedule) standards">Benchmark Deviation</button>
               <button type="button" class="dev_historic btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Percentage deviation from historical (statistical) standards">Historical Deviation</button>
             </div>

@@ -5851,14 +5851,19 @@ html {
   .header-bar h2 {
     text-transform: uppercase;
     letter-spacing: 0.02em; }
-  .header-bar .line-selection-container {
+  .header-bar .fluid-selection {
     padding: 0 0 8px 0;
     margin: 0 auto;
     text-align: center; }
-  .header-bar .data-mode-container {
-    padding: 0 0 20px 0;
-    margin: 0 auto;
-    text-align: center; }
+    .header-bar .fluid-selection > div {
+      display: block; }
+      @media only screen and (min-width: 992px) {
+        .header-bar .fluid-selection > div {
+          display: inline-block; } }
+  .header-bar .line-selection-container button {
+    width: 100px; }
+  .header-bar .data-selection-container button {
+    width: 160px; }
 
 .border-bar {
   color: #ffffff;
@@ -5904,16 +5909,16 @@ html {
     .wrapper .data-container .legend {
       position: absolute;
       top: 90px;
-      left: 30px; }
+      left: 0; }
       .wrapper .data-container .legend .station {
         position: relative; }
         .wrapper .data-container .legend .station .stop {
-          width: 30px;
+          width: 25px;
           position: absolute;
-          height: 30px;
+          height: 25px;
           border-radius: 100%;
           background-color: black;
-          left: 49px;
+          left: 30px;
           top: -6px; }
         .wrapper .data-container .legend .station .direction_0 {
           position: absolute;
@@ -5921,7 +5926,7 @@ html {
           width: 110px;
           text-align: center;
           font-weight: bold;
-          left: 40px;
+          left: 10px;
           text-transform: uppercase;
           -webkit-transform: rotate(90deg);
           -moz-transform: rotate(90deg);
@@ -5934,7 +5939,7 @@ html {
           width: 110px;
           text-align: center;
           font-weight: bold;
-          left: -22px;
+          left: -37px;
           text-transform: uppercase;
           -webkit-transform: rotate(-90deg);
           -moz-transform: rotate(-90deg);

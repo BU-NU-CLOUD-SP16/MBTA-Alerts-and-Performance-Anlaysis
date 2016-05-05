@@ -46,7 +46,7 @@ $(document).ready(function() {
         if(window.confirm("Reload most recent data?")) {
             update();
         }
-    }, 1000*60*5);
+    }, 1000*60*20);
 
     $('[data-toggle="tooltip"]').tooltip();
 
