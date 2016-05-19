@@ -7,7 +7,7 @@
 
 - Ben Snyder ( [johnbensnyder](https://github.com/johnbensnyder) )
 - Daniel Gorelick ( [dqgorelick](https://github.com/dqgorelick) )
-- Eddy Lou ( [edluo1](https://github.com/edluo1) )
+- Eddy Luo ( [edluo1](https://github.com/edluo1) )
 - EJ Fitzpatrick ( [ejfitz](https://github.com/ejfitz) )
 
 
