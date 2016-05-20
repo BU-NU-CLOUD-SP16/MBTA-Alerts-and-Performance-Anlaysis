@@ -54,8 +54,6 @@ function initMap(options) {
                     });
 		    marker.setZIndex(10);
                     marker.addListener('click', function() {
-                        console.log(marker.data);
-                        // console.log(options.data[marker.data]);
                         load_station_details(options.data[marker.data]);
                     });
                 }
@@ -75,7 +73,21 @@ function initMap(options) {
                 };
                 var lat = item.position.latitude;
                 var lng = item.position.longitude;
-                var contentString = '<p>' + item.route_id + ' Line</p>' + '<p>' + item.id + '</p>';
+                var trainDirection = (function() {
+                    switch (item.route_id) {
+                        case 'Red':
+                        case 'Orange':
+                            if (item.direction_id == 1) return "Northbound";
+                            else return "Southbound";
+                            break;
+                        default:
+                            if (item.direction_id == 1) return "Eastbound";
+                            else return "Westbound";
+                            break;
+                    }
+                })();
+                var contentString = '<p>' + item.route_id + ' Line</p>' + '<p>'+ trainDirection + ' Train</p>' +
+                '<p>Train ID: ' + item.vehicle_id + '</p>';
                 var infowindow = new google.maps.InfoWindow({
                     content: contentString
                 });
