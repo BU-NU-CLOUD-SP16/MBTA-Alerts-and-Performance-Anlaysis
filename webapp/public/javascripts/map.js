@@ -11,14 +11,18 @@ function initMap(options) {
         // change this to local eventually
         map.data.loadGeoJson("https://raw.githubusercontent.com/BU-NU-CLOUD-SP16/MBTA-Alerts-and-Performance-Anlaysis/master/webapp/public/data/mbta_lines.json");
         map.data.setStyle(function(feature) {
-            if (feature.H.LINE) {
-                var color = get_color(feature.H.LINE);
+            for (var key in feature) {
+                if (feature[key]) {
+                    if (feature[key]["LINE"]) {
+                        var color = get_color(feature[key].LINE);
+                        return ({
+                            strokeColor: color,
+                            strokeWeight: 5,
+                            strokeOpacity: 0.75
+                        });
+                    }
+                }
             }
-            return ({
-                strokeColor: color,
-                strokeWeight: 5,
-                strokeOpacity: 0.75
-            });
         });
     }
 

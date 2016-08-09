@@ -11,7 +11,7 @@ function update_visual(line_color, options) {
     var cluster = [];
     selected_stops[line_color].forEach(function(stop, it) {
         var node = {};
-        node.dir = []
+        node.dir = [];
         node.dir[0] = (options.data[stop["stops"][0]] === undefined ? options.data[stop["stops"][1]] : options.data[stop["stops"][0]]);
         node.dir[1] = (options.data[stop["stops"][1]] === undefined ? options.data[stop["stops"][0]] : options.data[stop["stops"][1]]);
         node.cords = stop["cords"];
@@ -91,17 +91,20 @@ function create_visual(data) {
         .attr("cx", specs.w / 2)
         .attr("cy", specs.h / 2)
         .attr("r", specs.h / 2)
+
         .on("mouseover", function() {
             this.prevRadius = d3.select(this).attr("r");
             d3.select(this)
                 .transition()
                 .duration(200)
                 .attr("r", 15)
+                .style("cursor", "pointer")
         })
         .on("mouseout", function() {
             d3.select(this)
                 .transition()
                 .attr("r", specs.h / 2)
+                .style("cursor", "default")
         })
         .on("click", function(d, i) {
             $(".data-container").addClass("lengthen");
